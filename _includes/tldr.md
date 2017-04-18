@@ -16,7 +16,7 @@ We are going to release VT when basic gameplay features will be implemented, and
 
 If everything goes well, you can expect early alpha to be available *this year*.
 
-You can follow our progress on [Twitter](//twitter.com/VoxelTycoon){:.twitter} or [Facebook](//facebook.com/VoxelTycoon){:.facebook} (they're actually just mirrored, so you can choose one of them).
+You can follow our progress on [Twitter](//twitter.com/VoxelTycoon){:.twitter}, [Facebook](//facebook.com/VoxelTycoon){:.facebook} and [YouTube](//www.youtube.com/channel/UCXJT6wEmzWD-g-J_FUhJMFw){:.youtube}.
 
 For even more screenshots and gifs, you can follow our page on [VK](//vk.com/VoxelTycoon){:.vk}, but be aware that it's fully in Russian.
 
