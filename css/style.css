@@ -25,6 +25,7 @@ body {
     font-family: 'HansKendrick';
     padding: 0 20px;
     max-width: 1140px;
+    color: white;
 }
 
 h1 {
@@ -71,7 +72,7 @@ h1 {
 }
 
 #content a {
-    color: black;
+    color: white;
     text-decoration: none;
     padding-bottom: 1px;
     /*border-bottom: 4px solid #FF1E54;*/
@@ -114,4 +115,23 @@ h1 {
 
 img {
     border-radius: 6px;
+}
+
+.video-background {
+  background: #000;
+  position: fixed;
+  top: 0; right: 0; bottom: 0; left: 0;
+  z-index: -99;
+}
+
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  filter: grayscale(0%);
+  opacity: 0.7;
 }
