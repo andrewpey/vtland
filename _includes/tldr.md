@@ -12,7 +12,7 @@ Check out a bunch of [screenshots](#screenshots) and [gifs](#gifs).
 
 {% endcomment %}
 
-We are going to release **VT** when basic gameplay features will be implemented, and then constantly update with new content and improvements.
+We are going to release VT when basic gameplay features will be implemented, and then constantly update with new content and improvements.
 
 If everything goes well, you can expect early alpha to be available *this year*.
 
