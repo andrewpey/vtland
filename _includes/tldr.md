@@ -1,8 +1,8 @@
 # Hey!
 
-We are developing **Voxel Tycoon** — strategy game about *transportation*, *building factories*, and *mining* beautiful voxel landscapes.
+We are developing **Voxel Tycoon** — strategy game about *transportation*, *building&nbsp;factories*, and *mining* beautiful voxel landscapes.
 
-So, if you like games such as *OpenTTD*, *Factorio* or *Buildcraft*, you're in the right place.
+So, if you like games such as OpenTTD, Factorio or Buildcraft, you're in the right place.
 
 {% comment %}
 
@@ -16,8 +16,8 @@ We are going to release **VT** when basic gameplay features will be implemented,
 
 If everything goes well, you can expect early alpha to be available *this year*.
 
-You can follow our progress on [Twitter](//twitter.com/VoxelTycoon) or [Facebook](//facebook.com/VoxelTycoon) (they're actually just mirrored, so you can choose one of them).
+You can follow our progress on [Twitter](//twitter.com/VoxelTycoon){:.twitter} or [Facebook](//facebook.com/VoxelTycoon){:.facebook} (they're actually just mirrored, so you can choose one of them).
 
-For even more screenshots and gifs, you can follow our page on [VK](//vk.com/VoxelTycoon), but be aware that it's fully in Russian.
+For even more screenshots and gifs, you can follow our page on [VK](//vk.com/VoxelTycoon){:.vk}, but be aware that it's fully in Russian.
 
 Also, you may want to subscribe for our [newsletter](//) so never miss any important announcement, such as a release of an alpha version.
