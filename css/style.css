@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'HansKendrick';
+    src: url('../fonts/HansKendrick-Regular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'HansKendrick';
+    src: url('../fonts/HansKendrick-Medium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'HansKendrick';
+    src: url('../fonts/HansKendrick-Heavy.otf');
+    font-weight: 700;
+}
+
+body {
+    display: flex;
+    font-family: 'HansKendrick';
+    max-width: 1140px;
+    margin: 0 auto;
+    /*background: rebeccapurple;*/
+}
+
+h1 {
+    font-size: 28px;
+    margin-top: 3rem;
+    /*opacity: 0.7;*/
+}
+
+.logo {
+    font-family: 'Faster One';
+    color: #FF1E54;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+#header {
+    /*font-style: italic;*/
+    font-size: 64px;
+    color: dodgerblue;
+    font-family: 'Faster One';
+    margin-right: -100px;
+    margin-left: -13px;
+}
+
+#content {
+    flex: 2;
+    padding-right: 100px;
+}
+
+#content a {
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+#content a:hover {
+    text-decoration: none;
+    color: #FF1E54;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #FF1E54;
+     /*#fcbdcc;*/
+}
+
+#tldr p {
+    font-size: 24px;
+    line-height: 1.5em;
+    /*margin: 0.7em 0;*/
+}
+
+img {
+    border-radius: 6px;
+}
