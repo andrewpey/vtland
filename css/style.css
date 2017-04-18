@@ -30,11 +30,19 @@ h1 {
     /*opacity: 0.7;*/
 }
 
-.logo {
-    font-family: 'Faster One';
+#tldr {
+    margin-bottom: 4rem;
+}
+
+#tldr strong {
     color: #FF1E54;
-    font-weight: normal;
-    text-transform: uppercase;
+    text-transform: uppercase; 
+}
+
+#tldr em {
+    font-style: normal;
+    /*font-weight: bold;*/
+    color: dodgerblue;
 }
 
 #header {
@@ -52,8 +60,10 @@ h1 {
 }
 
 #content a {
-    color: dodgerblue;
+    color: black;
     text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 2px solid #FF1E54;    
 }
 
 #content a:hover {
@@ -62,6 +72,10 @@ h1 {
     padding-bottom: 1px;
     border-bottom: 2px solid #FF1E54;
      /*#fcbdcc;*/
+}
+
+#tldr {
+    margin-top: 5rem;
 }
 
 #tldr p {
