@@ -20,4 +20,4 @@ You can follow our progress on [Twitter](//twitter.com/VoxelTycoon){:.twitter}, 
 
 For even more screenshots and gifs, you can follow our page on [VK](//vk.com/VoxelTycoon){:.vk}, but be aware that it's fully in Russian.
 
-Also, you may want to subscribe for our [newsletter](//goo.gl/forms/2uB1EuoBpT8fYsCB2) so never miss any important announcement, such as a release of an alpha version.
+Also, you may want to subscribe for our [newsletter](//goo.gl/forms/2uB1EuoBpT8fYsCB2){:.newsletter} so never miss any important announcement, such as a release of an alpha version.
