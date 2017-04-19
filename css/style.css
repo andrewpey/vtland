@@ -27,6 +27,7 @@ body {
     max-width: 1140px;
     color: white;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+    margin-top: 80px;
 }
 
 h1 {
@@ -66,11 +67,6 @@ h1 {
     font-family: 'Faster One';
     margin-right: -100px;
     margin-left: -13px;
-}
-
-#content {
-    flex: 2;
-    padding-right: 100px;
 }
 
 #content a {
