@@ -26,6 +26,7 @@ body {
     padding: 0 20px;
     max-width: 1140px;
     color: white;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
 }
 
 h1 {
@@ -55,6 +56,7 @@ h1 {
     margin-right: 5px;
     padding: 3px 10px;
     box-shadow: #eab20e 5px 5px;
+    text-shadow: none;
 }
 
 #header {
@@ -111,7 +113,6 @@ h1 {
 #tldr a.youtube {
     color: #cd201f;
 }
-
 
 img {
     border-radius: 6px;
