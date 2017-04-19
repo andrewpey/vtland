@@ -1,6 +1,6 @@
 @keyframes fadein {
     from { opacity: 0; }
-    to   { opacity: 1; }
+    to { opacity: 1; }
 }
 
 @font-face {
@@ -32,7 +32,7 @@ body {
     margin-top: 70px;
     max-width: 1140px;
     color: white;
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
 }
 
 h1 {
