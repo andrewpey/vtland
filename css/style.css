@@ -95,8 +95,7 @@ h1 {
 
 #tldr p {
     font-size: 24px;
-    line-height: 1.5em;
-    /*margin: 0.7em 0;*/
+    line-height: 150%;
 }
 
 #tldr a.twitter {
