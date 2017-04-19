@@ -24,10 +24,10 @@ body {
 #content {
     font-family: 'HansKendrick';
     padding: 0 20px;
+    margin-top: 70px;
     max-width: 1140px;
     color: white;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.8);
-    margin-top: 80px;
 }
 
 h1 {
