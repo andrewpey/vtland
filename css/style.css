@@ -77,16 +77,15 @@ h1 {
 #content a {
     color: white;
     text-decoration: none;
-    padding-bottom: 1px;
-    /*border-bottom: 4px solid #FF1E54;*/
+    transition: all 0.5s ease;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.35);
     font-weight: bold;
 }
 
 #content a:hover {
     text-decoration: none;
-    padding-bottom: 1px;
+    padding-bottom: 2px;
     border-bottom: 4px solid #FF1E54;
-     /*#fcbdcc;*/
 }
 
 #tldr {
