@@ -135,3 +135,11 @@ img {
   filter: grayscale(0%);
   opacity: 0.7;
 }
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
