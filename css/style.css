@@ -5,11 +5,11 @@
 
 @keyframes colorchange
 {
-  0%   {background: red;}
-  25%  {background: yellow;}
-  50%  {background: blue;}
-  75%  {background: green;}
-  100% {background: red;}
+  0%   { color: #8BC34A;}
+  25%  { color: yellow;}
+  50%  { color: #28d6ff;}
+  75%  { color: #9C27B0;}
+  100% { color: #8BC34A;}
 }
 
 @font-face {
@@ -86,8 +86,8 @@ h1 {
 #content a {
     color: white;
     text-decoration: none;
-    transition: all 0.1s ease-out;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.35);
+    /*transition: all 0.1s ease-out;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.35);*/
     font-weight: bold;
 }
 
@@ -123,7 +123,7 @@ h1 {
 }
 
 #tldr a.newsletter {
-    animation: colorchange;
+    animation: colorchange 30s;
     animation-iteration-count:infinite;
 }
 
