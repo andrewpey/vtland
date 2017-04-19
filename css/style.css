@@ -21,10 +21,6 @@
     font-weight: 700;
 }
 
-html {
-    text-size-adjust: none;
-}
-
 body {
     display: flex;
     justify-content: center;
