@@ -139,7 +139,7 @@ img {
     height: 112%;
     pointer-events: none;
     filter: grayscale(0%);
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 .video-foreground video {
