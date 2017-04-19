@@ -3,6 +3,15 @@
     to { opacity: 1; }
 }
 
+@keyframes colorchange
+{
+  0%   {background: red;}
+  25%  {background: yellow;}
+  50%  {background: blue;}
+  75%  {background: green;}
+  100% {background: red;}
+}
+
 @font-face {
     font-family: 'HansKendrick';
     src: url('../fonts/HansKendrick-Regular.otf');
@@ -111,6 +120,11 @@ h1 {
 
 #tldr a.youtube {
     color: #cd201f;
+}
+
+#tldr a.newsletter {
+    animation: colorchange;
+    animation-iteration-count:infinite;
 }
 
 img {
