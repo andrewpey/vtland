@@ -137,3 +137,9 @@ img {
     filter: grayscale(0%);
     opacity: 0.7;
 }
+
+.video-foreground video {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
