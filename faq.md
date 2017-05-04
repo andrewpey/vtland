@@ -1,6 +1,14 @@
 ## What it's all about?
 
+Voxel Tycoon — strategy game about **transportation**, **building&nbsp;factories**, and **mining** beautiful voxel landscapes.
+
+So, if you like games such as OpenTTD, Factorio or playng modded Minecraft, you're in the right place.
+
 ## When it will be released?
+
+If everything goes well, you can expect early alpha to be available **this year**.
+
+There's no *final* release planned, as we commited to constantly update current version with new content and improvements.
 
 ## On what platform it will be released?
 
@@ -15,11 +23,15 @@ but
 ## Who is in charge?
 
 We are two developers with over 9 years of professional experience, very pationate about tycoons in particular and good games in common.
-Also, we love stylish, beautiful things. Also, there'are some community ambassadors which helping us to sort some thigns around.
+Also, we love stylish, beautiful things. Also, there'are some community ambassadors who helping us to sort some thigns around.
 
 ## How I can help?
 
-Indiegogo campaing
+We are going to run crowdfunding campaing later this year.
+
+If you do not want to miss this event and even receive some nice rewards, please subscribe to our [newsletter]() and .
+
+Also do not hesistate to tell about Voxel Tycoon to any train-tycoon-minecraft-voxel-lover you know.
 
 ## It's pure sandbox or it will have some kind of quest or campaing?
 
@@ -49,7 +61,7 @@ Co-op, VS
 
 We have plenty of different resouces on our maps. From forest etc to uranium deep undeground. Complex chains.
 
-## Will it has modding support?
+## Is there Will any modding support?
 
 Yap!
 
