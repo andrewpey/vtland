@@ -2,7 +2,7 @@
 
 We are developing **Voxel Tycoon** — strategy game about *transportation*, *building&nbsp;factories*, and *mining* beautiful voxel landscapes.
 
-So, if you like games such as OpenTTD, Factorio or playng modded Minecraft, you're in the right place.
+So, if you like games such as OpenTTD and Factorio, or playng modded Minecraft, you're in the right place.
 
 {% comment %}
 
