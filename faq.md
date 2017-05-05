@@ -29,7 +29,7 @@ Also, we love stylish, beautiful things. Also, there'are some community ambassad
 
 We are going to run crowdfunding campaing later this year.
 
-If you do not want to miss this event and even receive some nice rewards, please subscribe to our [newsletter]() and .
+If you do not want to miss this event and even receive some nice rewards, please subscribe to our [newsletter]({{site.newsletter_url}}).
 
 Also do not hesistate to tell about Voxel Tycoon to any train-tycoon-minecraft-voxel-lover you know.
 
