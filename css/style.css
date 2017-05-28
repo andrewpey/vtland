@@ -122,6 +122,10 @@ h1 {
     color: #cd201f;
 }
 
+#tldr a.greenlight {
+    color: #54b726;
+}
+
 #tldr a.newsletter {
     animation: colorchange 30s;
     animation-iteration-count:infinite;
