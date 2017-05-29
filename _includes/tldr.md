@@ -4,7 +4,7 @@ We are developing **Voxel Tycoon** — strategy game about *transportation*, *bu
 
 So, if you like games such as OpenTTD and Factorio, or playing modded Minecraft, you're in the right place.
 
-Please help us get on Steam by voting for VT on [Greenlight]({{site.greenlight_url}}){:.greenlight}.
+Please help us get on Steam by voting for VT on *[Steam Greenlight](/greenlight)*{:.greenlight}.
 
 {% comment %}
 
