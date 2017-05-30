@@ -125,11 +125,18 @@ h1 {
 #tldr .greenlight {
     background: #54b726;
     box-shadow: #458c21 5px 5px;
+    font-style: normal;
+    margin-right: 5px;
+    padding: 3px 10px;
+    text-shadow: none;
 }
 
 #tldr .greenlight:hover {
     background: #61d12e;
     box-shadow: #458c21 5px 5px;
+    text-decoration: none;
+    border: none;
+    padding: 3px 10px;
 }
 
 #tldr .greenlight a:hover {
