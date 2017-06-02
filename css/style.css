@@ -12,6 +12,12 @@
   100% { color: #8BC34A;}
 }
 
+@keyframes greenlight
+{
+  0% { box-shadow: #458c21 5px 5px; }
+  100% { box-shadow: #458c21 0px 0px; }
+}
+
 @font-face {
     font-family: 'HansKendrick';
     src: url('../fonts/HansKendrick-Regular.otf');
@@ -141,6 +147,8 @@ h1 {
     text-decoration: none;
     border-bottom: none;
     padding-bottom: 3px;
+    animation: greenlight 1s infinite alternate;
+    animation-timing-function: linear; 
 }
 
 #tldr a.newsletter {
