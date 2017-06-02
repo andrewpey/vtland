@@ -30,6 +30,10 @@
     font-weight: 700;
 }
 
+hr {
+    opacity: 0;
+}
+
 body {
     display: flex;
     justify-content: center;
