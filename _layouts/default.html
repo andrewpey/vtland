@@ -16,7 +16,11 @@
 
     <div class="video-background">
         <div class="video-foreground">
-            <video src="background.mp4" poster="background.jpg" autoplay loop muted />
+            {% if page.play_video %}
+            <video class="video-content" src="background.mp4" poster="background.jpg" autoplay loop muted />
+            {% else %}
+            <img class="video-content" src="background.jpg"/>
+            {% endif %}
         </div>
     </div>
 

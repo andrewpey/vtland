@@ -16,6 +16,6 @@ layout: default
 
 [dev@voxeltycoon.xyz](mailto:dev@voxeltycoon.xyz){:.email}
 
-[newsletter]({{site.newsletter_url}}){:.newsletter}
+[Newsletter]({{site.newsletter_url}}){:.newsletter}
 
 [Hey!](/)
