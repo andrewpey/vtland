@@ -10,7 +10,7 @@ layout: default
 
 [Facebook](//facebook.com/VoxelTycoon){:.facebook}
 
-[YouTube](//www.youtube.com/channel/UCXJT6wEmzWD-g-J_FUhJMFw){:.youtube}
+[YouTube](//www.youtube.com/c/voxeltycoongame){:.youtube}
 
 [VK](//vk.com/VoxelTycoon){:.vk}
 
