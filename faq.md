@@ -41,11 +41,7 @@ Yes, there will be co-op and versus miltiplayer.
 
 ## How big maps can be? Is there terraforming?
 
-Infini
-
-## If it's like TTD, is there's any cities?
-
-## What about signalling?
+The maps is infinite, so you literally will never run out of space. And not less important: lansdcape is not just
 
 ## What if I mess with signalling, will my trains broke?
 
