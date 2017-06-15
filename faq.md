@@ -26,20 +26,20 @@ Yes, and remember the terraforming part? If your train has carried some dangerou
 
 # What other features railways will have?
 
-Variety of trains, each with different characteristics and visuals
+• Variety of trains, each with different characteristics and visuals
 
-— Different types of railcars for different types of cargo
+• Different types of railcars for different types of cargo
 
-— Electrified railways
+• Electrified railways
 
-— Different kind of bridges
+• Different kind of bridges
 
-— Tunnels
+• Tunnels
 
 {% comment %}
-— Manual train control and coupling for more fun!
+• Manual train control and coupling for more fun!
 
-— [Multi-track drifting]()
+• [Multi-track drifting]()
 {% endcomment %}
 
 # What trains will carry? I mean, what about goods/resources?

@@ -18,4 +18,6 @@ Also, you may want to subscribe for our [newsletter]({{site.newsletter_url}}){:.
 
 ---
 
+[Faq](/contacts)
+
 [Contacts](/contacts)
