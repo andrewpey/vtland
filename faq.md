@@ -1,14 +1,14 @@
 # What it's all about?
 
-Voxel Tycoon — strategy game about **transportation**, **building&nbsp;factories**, and **mining** beautiful voxel landscapes.
+Voxel Tycoon — strategy game about *transportation*, *building&nbsp;factories*, and *mining* beautiful voxel landscapes.
 
 If you like games such as Transport Tycoon (OpenTTD) and Factorio, or playing modded Minecraft, you're in the right place.
 
 # When it will be released?
 
-If everything goes well, you can expect early alpha to be available at the end of **this year**.
+If everything goes well, you can expect early alpha to be available at the end of *this year*.
 
-There's no *final* release planned, as we committed to constantly update current version with new content and improvements.
+There's no final release planned, as we committed to constantly update current version with new content and improvements.
 
 If you can't follow our [social networks](/contacts) for some reason, but want to be sure not to miss the release of the game, you can subscribe to our [very-rare-newsletter]({{site.newsletter_url}}).
 
