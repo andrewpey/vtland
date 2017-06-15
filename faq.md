@@ -10,7 +10,7 @@ If everything goes well, you can expect early alpha to be available at the end o
 
 There's no *final* release planned, as we committed to constantly update current version with new content and improvements.
 
-If you can't to follow our [social networks](/contacts) for some reason, but want to be sure not to miss the release of the game, you can subscribe to our [very-rare-newsletter]({{site.newsletter_url}}).
+If you can't follow our [social networks](/contacts) for some reason, but want to be sure not to miss the release of the game, you can subscribe to our [very-rare-newsletter]({{site.newsletter_url}}).
 
 # It's pure sandbox or it will have some kind of quests or campaign?
 
