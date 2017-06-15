@@ -22,7 +22,9 @@ The maps are infinite, so you never will run out of space. And not less importan
 
 # What if I mess with signaling, will my trains broke? Or just pass through each other?
 
-Yes, and remember the terraforming part? If your train has carried some dangerous cargo, you can end up with some unwanted craters in your landscape (and say goodbye to buildings nearby).
+Yes, trains will collapse, resulting to money and reputation losses.
+
+By the way, remember the terraforming part? If your train has carried some dangerous cargo, you can end up with some unwanted craters in your landscape (and say goodbye to buildings nearby).
 
 # What other features railways will have?
 
