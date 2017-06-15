@@ -28,13 +28,18 @@ Yes, and remember the terraforming part? If your train has carried some dangerou
 
 Variety of trains, each with different characteristics and visuals
 
-Different types of railcars for different types of cargo
-Electrified railways
-Different kind of bridges
-Tunnels
+— Different types of railcars for different types of cargo
+
+— Electrified railways
+
+— Different kind of bridges
+
+— Tunnels
+
 {% comment %}
-Manual train control and coupling for more fun!
-[Multi-track drifting]()
+— Manual train control and coupling for more fun!
+
+— [Multi-track drifting]()
 {% endcomment %}
 
 # What trains will carry? I mean, what about goods/resources?
