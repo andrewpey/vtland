@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title | default: VOXEL TYCOON — MAKE TYCOON GAMES GREAT AGAIN }}</title>
+    <title>{{ page.title | default: "VOXEL TYCOON — MAKE TYCOON GAMES GREAT AGAIN" }}</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <meta name="theme-color" content="#226B54" />
     <meta property="og:image" content="http://voxeltycoon.xyz/icon.jpg">
 </head>
@@ -19,13 +20,13 @@
             {% if page.play_video %}
             <video class="video-content" src="background.mp4" poster="background.jpg" autoplay loop muted />
             {% else %}
-            <img class="video-content" src="background.jpg" style="opacity: 0.5">
+            <img class="video-content" src="background.jpg" style="opacity: 0.3">
             {% endif %}
         </div>
     </div>
 
     <section id="content">
-        <div id="tldr">
+        <div id="{{ page.wrapper }}">
             <h1>{{ page.header }}</h1>
             {{ content }}
         </div>
