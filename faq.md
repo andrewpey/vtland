@@ -91,12 +91,12 @@ Again, our engine supports a huge variety of platforms, but some of them require
 We are two developers with over 9 years of professional experience, very passionate about tycoons in particular and good games in common.
 Also, we love stylish, beautiful things.
 
-## I noticed you have done something wrong!
-
-Feel free to express your criticism in [any convenient way](/contacts), but please keep in mind that everything you see is very far from finished experience. We'are constantly working and improving the game.
-
 ## How I can help?
 
 First of all, do not hesitate to tell about Voxel Tycoon to any train-tycoon-minecraft-voxel-lover you know.
 
 For those who want to contribute to Voxel Tycoon, or prepare for modding the game before it will be released we will provide some sort of early authoring tools soon. Follow the news!
+
+## I think you have done something wrong!
+
+Feel free to express your criticism in [any convenient way](/contacts), but please keep in mind that everything you see is very far from finished experience. We'are constantly working and improving the game.
