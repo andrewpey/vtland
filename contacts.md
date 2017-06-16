@@ -1,8 +1,7 @@
 ---
 layout: default
+header: Contacts
 ---
-
-# Contacts
 
 [Steam Greenlight](/greenlight){:.greenlight}
 
