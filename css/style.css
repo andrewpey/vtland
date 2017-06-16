@@ -203,17 +203,17 @@ img {
 
 #faq h2 {
     margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 #faq-ru h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Roboto';
 }
 
 #faq p, #faq-ru p {
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 20px;
+    line-height: 1.8;
     font-family: 'Roboto';
 }
 
