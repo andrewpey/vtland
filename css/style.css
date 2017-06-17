@@ -81,8 +81,8 @@ h1 {
     margin-right: 150px;
     margin: 0 70px;
     flex-grow:9999;
-    flex-basis: 700px;
-    /*max-width: 700px;*/
+    /*flex-basis: 700px;*/
+    max-width: 700px;
 }
 
 .container a {
@@ -217,13 +217,12 @@ img {
 
 .sidebar {
     font-size: 24px;
-    margin-top: 96px;
-    margin: 0 70px 0px 70px;
+    margin: -36px 70px 0px 70px;
     flex-grow: 1;
 }
 
 .sidebar .logo {
-    margin-left: -6px;
+    margin: -6px;
 }
 
 .sidebar .logo:hover {
