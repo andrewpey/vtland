@@ -1,21 +1,7 @@
 We are developing **Voxel Tycoon** — strategy game about *transportation*, *building&nbsp;factories*, and *mining* beautiful voxel landscapes.
 
-So, if you like games such as OpenTTD and Factorio, or playing modded Minecraft, you're in the right place.
+<iframe width="680" height="425" src="https://www.youtube.com/embed/u1kRZKu3NAc" frameborder="0" allowfullscreen></iframe>
 
-We are going to release VT as basic gameplay features will be implemented, and then constantly update with new content and improvements. There Mod API and tools will be also present.
+Dig into our [FAQ](/faq){:.faqlink} to get answers on most frequently asked questions, or 
 
-By the way, Voxel Tycoon has been [Greenlit](/greenlight){:.greenlight} on Steam.
-
-If everything goes well, you can expect early alpha to be available *this year*
-
-You can follow our progress on [Twitter](//twitter.com/VoxelTycoon){:.twitter}, [Facebook](//facebook.com/VoxelTycoon){:.facebook} and [YouTube](//www.youtube.com/channel/UCXJT6wEmzWD-g-J_FUhJMFw){:.youtube}.
-
-For even more screenshots and gifs, you can follow our page on [VK](//vk.com/VoxelTycoon){:.vk}, but be aware that it's fully in Russian.
-
-Also, you may want to subscribe for our [newsletter]({{site.newsletter_url}}){:.newsletter} so never miss any important announcement, such as a release of an alpha version, or drop us a mail to [dev@voxeltycoon.xyz](mailto:dev@voxeltycoon.xyz){:.email}
-
----
-
-[FAQ](/faq)
-
-[Contacts](/contacts)
+BTW, Voxel Tyccoon has been [Greenlighted]({{ site.greenlight_url }}){:.greenlight} on Steam with more than 5,000 YES votes.

@@ -3,6 +3,9 @@ layout: default
 play_video: true
 header: Hey!
 wrapper: tldr
+redirect_from:
+    - "/contacts"
+    - "/greenlight"
 ---
 
 {% capture tldr %}{% include tldr.md %}{% endcapture %} {{ tldr | markdownify }}

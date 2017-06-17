@@ -48,32 +48,30 @@ body {
 #content {
     font-family: 'HansKendrick';
     padding: 0 20px;
-    max-width: 1140px;
+    /*max-width: 1140px;*/
     color: white;
-    margin-top: 70px;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 6rem -40px 4rem -40px;
 }
 
 h1 {
-    font-size: 28px;
-    margin-top: 3rem;
+    font-size: 3rem;
+    margin-top: 1rem;
     /*opacity: 0.7;*/
 }
 
-#content {
-    margin-bottom: 4rem;
+.tldr {
+    max-width: 700px;
 }
 
-#content h1 {
-    font-size: 3rem;
-}
-
-#tldr strong {
+.tldr strong {
     color: #00d657;
     text-transform: uppercase;
 }
 
-#tldr em, #faq em, #faq-ru em {
+.tldr em, .faq em, .faq-ru em {
     font-style: normal;
     /* font-weight: bold; */
     color: #795548;
@@ -84,55 +82,45 @@ h1 {
     text-shadow: none;
 }
 
-#header {
-    /*font-style: italic;*/
-    font-size: 64px;
-    color: dodgerblue;
-    font-family: 'Faster One';
-    margin-right: -100px;
-    margin-left: -13px;
+.page-content {
+    margin-right: 150px;
+    margin: 0 70px;
 }
 
-#content a {
+.container a {
     color: white;
     text-decoration: none;
-    /*transition: all 0.1s ease-out;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.35);*/
     font-weight: bold;
 }
 
-#tldr a:hover {
+.container a:hover {
     text-decoration: none;
     padding-bottom: 2px;
-    border-bottom: 4px solid #FF1E54;
+    border-bottom: 4px solid #fbe119;
 }
 
-#tldr {
-    margin-top: 5rem;
-}
-
-#tldr p {
+.tldr p {
     font-size: 24px;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 
-#tldr a.twitter {
+a.twitter {
     color: #1da1f2;
 }
 
-#tldr a.facebook {
+a.facebook {
     color: #3b5998;;
 }
 
-#tldr a.vk {
+a.vk {
     color: #6daefd;
 }
 
-#tldr a.youtube {
+a.youtube {
     color: #cd201f;
 }
 
-#tldr .greenlight {
+.greenlight {
     background: #54b726;
     box-shadow: #458c21 5px 5px;
     font-style: normal;
@@ -141,7 +129,8 @@ h1 {
     text-shadow: none;
 }
 
-#tldr .greenlight:hover {
+a.greenlight:hover {
+    border: none;
     background: #61d12e;
     box-shadow: #458c21 5px 5px;
     text-decoration: none;
@@ -151,7 +140,7 @@ h1 {
     animation-timing-function: linear; 
 }
 
-#tldr a.newsletter {
+a.faqlink {
     animation: colorchange 30s;
     animation-iteration-count:infinite;
 }
@@ -192,39 +181,53 @@ img {
     animation: fadein 5s;
 }
 
-#faq, #faq-ru {
+.faq, .faq-ru {
     text-shadow: none;
-    max-width: 900px;
+    max-width: 700px;
 }
 
-#faq-ru h1 {
+.faq-ru h1 {
     font-family: 'Roboto';
 }
 
-#faq h2 {
+.faq h2 {
     margin-top: 3rem;
     font-size: 2.5rem;
 }
 
-#faq-ru h2 {
+.faq-ru h2 {
     font-size: 2.5rem;
     font-family: 'Roboto';
 }
 
-#faq p, #faq-ru p {
+.faq p, .faq-ru p {
     font-size: 20px;
     line-height: 1.8;
     font-family: 'Roboto';
 }
 
-#faq a, #faq-ru a {
+.faq a, .faq-ru a {
     text-decoration: none;
     padding-bottom: 0px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.5);
 }
 
-#faq a:hover, #faq-ru a:hover {
+.faq a:hover, .faq-ru a:hover {
     text-decoration: none;
     padding-bottom: 0px;
     border-bottom: 2px solid #ffffff;
+}
+
+.sidebar {
+    font-size: 24px;
+    margin-top: 96px;
+    margin: 0 70px 0px 70px;
+}
+
+.sidebar .logo {
+    margin-left: -6px;
+}
+
+.sidebar .logo:hover {
+    border: none;
 }

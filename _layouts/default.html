@@ -24,12 +24,16 @@
             {% endif %}
         </div>
     </div>
-
-    <section id="content">
-        <div id="{{ page.wrapper }}">
+    <section id="content" class="container">
+        <div class="page-content {{ page.wrapper }}">
             <h1>{{ page.header }}</h1>
             {{ content }}
         </div>
+        {% unless page.hide_sidebar %}
+        <div class="sidebar">
+            {% capture sidebar %}{% include sidebar.md %}{% endcapture %} {{ sidebar | markdownify }}
+        </div>
+        {% endunless %}
     </section>
     
     <script>
