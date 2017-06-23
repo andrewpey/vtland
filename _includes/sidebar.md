@@ -6,13 +6,13 @@
 
 [Steam Greenlight]({{ site.greenlight_url }}){:.greenlight}
 
-[Twitter](//twitter.com/VoxelTycoon){:.twitter}
+[Twitter](//twitter.com/VoxelTycoon){:.twitter} <small>{{site.data.socials.tw}}</small>
 
-[Facebook](//facebook.com/VoxelTycoon){:.facebook}
+[Facebook](//facebook.com/VoxelTycoon){:.facebook} <small>{{site.data.socials.fb}} </small>
 
-[YouTube](//www.youtube.com/c/voxeltycoongame){:.youtube}
+[YouTube](//www.youtube.com/c/voxeltycoongame){:.youtube} <small>{{site.data.socials.yt}} </small>
 
-[VK](//vk.com/VoxelTycoon){:.vk} (in Russian)
+[VK](//vk.com/VoxelTycoon){:.vk} (in Russian) <small>{{site.data.socials.vk}}</small>
 
 [dev@voxeltycoon.xyz](mailto:dev@voxeltycoon.xyz){:.email}
 

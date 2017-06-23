@@ -228,3 +228,8 @@ img {
 .sidebar .logo:hover {
     border: none;
 }
+
+.sidebar small {
+    font-size: 15px;
+    vertical-align: top;
+}
