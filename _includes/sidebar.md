@@ -10,7 +10,9 @@
 
 [Facebook](//facebook.com/VoxelTycoon){:.facebook} <small>{{site.data.socials.fb}} </small>
 
-[YouTube](//www.youtube.com/c/voxeltycoongame){:.youtube} <small>{{site.data.socials.yt}} </small>
+[Reddit](//reddit.com/r/voxeltycoon){:.reddit} <small>{{site.data.socials.rd}} </small>
+
+[YouTube](//youtube.com/c/voxeltycoongame){:.youtube} <small>{{site.data.socials.yt}} </small>
 
 [VK](//vk.com/VoxelTycoon){:.vk} (in Russian) <small>{{site.data.socials.vk}}</small>
 
