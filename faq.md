@@ -57,6 +57,10 @@ We have plenty of different resources on our maps — from wood and easily obtai
 
 You can sell raw resources, but as cities grow, they will require goods crafted from different resources on complex factories which you should design and build.
 
+## I saw decoupled railway cars in [Greenlight Trailer](https://youtu.be/u1kRZKu3NAc?t=51). Is there will be coupling in the game?
+
+We definitely want to see railway coupling in the game, as well as shunting works, but we are still testing it for caveats.
+
 ## What about passenger transit?
 
 You bet!
