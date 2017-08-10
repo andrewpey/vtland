@@ -55,6 +55,10 @@ body {
     margin: 6rem -40px 4rem -40px;
 }
 
+.page-content img {
+    width: 100%;
+}
+
 h1 {
     font-size: 3rem;
     margin-top: 1rem;
@@ -236,4 +240,10 @@ img {
 .sidebar small {
     font-size: 14px;
     vertical-align: top;
+}
+
+code {
+    background: rgba(255, 255, 255, 0.3);
+    /* font-family: 'HansKendrick'; */
+    padding: 0 5px;
 }
