@@ -5,6 +5,12 @@ header: SDK
 wrapper: faq-ru
 ---
 
+## Что это?
+
+Инструмент для предпросмотра создаваемого контента (поездов, домиков или, например, деревьев) прямо в игровом мире, с возможностью настройки цветов.
+
+![](/assets/sdk/preview.gif)
+
 ## Загрузки
 
 ### Загрузить для [Windows](https://github.com/andrewpey/vtland/releases/download/test/VoxelTycoonSDK.zip)
