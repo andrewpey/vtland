@@ -6,8 +6,8 @@ wrapper: faq-ru
 
 ## Загрузки
 
-### [Windows](#)
-### [OS X](#)
+### Загрузить для [Windows](https://github.com/andrewpey/vtland/releases/download/test/VoxelTycoonSDK.zip)
+### Загрузить для [OS X](#) `скоро`
 
 ## Как этим пользоваться?
 
