@@ -257,3 +257,9 @@ code {
     /* font-family: 'HansKendrick'; */
     padding: 0 5px;
 }
+
+blockquote {
+    border-left: solid 4px rgba(255, 255, 255, 0.3);
+    margin-left: 0;
+    padding-left: 1em;
+}
