@@ -71,7 +71,7 @@ Trucks, ships, planes, with more to come later.
 
 ## Will modding of the game be supported?
 
-Absolutely! We will provide some sort of early authoring tools soon.
+Absolutely! Actually, some tools are [already available](/sdk).
 
 ## Is there going to be a multiplayer?
 
