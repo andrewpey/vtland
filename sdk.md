@@ -32,7 +32,7 @@ Ensure that `Selection only`, `Include UVs` and `Triangulate Faces` options are 
 
 ![](/assets/sdk/2-1.png)
 
- Now set the filename — in this example `MyModel.obj` — and save file to `VoxelTycoonSDK/Trains` (if you are creating something related to trains) или `VoxelTycoonSDK/Buildings` (for enything else, like buildings or trees):
+Set the filename — in this example `MyModel.obj` — and save file to `VoxelTycoonSDK/Trains` (if you are creating something related to trains) или `VoxelTycoonSDK/Buildings` (for enything else, like buildings or trees):
 
 ![](/assets/sdk/3.png)
 
