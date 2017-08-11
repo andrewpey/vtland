@@ -28,7 +28,11 @@ wrapper: faq-ru
 
 ![](/assets/sdk/2.png)
 
-Ставим галочку `Selection only`. Называем файл, например, `MyModel.obj` и сохраняем его в папку `VoxelTycoonSDK/Trains` (если это локомотив или вагон) или `VoxelTycoonSDK/Buldings` (для всего остального: зданий, деревьев и тд):
+Проверяем, что стоят галочки `Selection only`, `Include UVs` и `Triangulate Faces` 
+
+![](/assets/sdk/2-1.png)
+
+Называем файл, например, `MyModel.obj` и сохраняем его в папку `VoxelTycoonSDK/Trains` (если это локомотив или вагон) или `VoxelTycoonSDK/Buldings` (для всего остального — зданий, деревьев и тд):
 
 ![](/assets/sdk/3.png)
 

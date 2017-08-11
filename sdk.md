@@ -28,7 +28,11 @@ For the reference you can use models that came in the downloaded package.
 
 ![](/assets/sdk/2.png)
 
-Check `Selection only`, then set the filename, for example, `MyModel.obj`. Save it to `VoxelTycoonSDK/Trains` (if you creating something related to trains) или `VoxelTycoonSDK/Buildings` (for enything else, like buildings or trees):
+Ensure that `Selection only`, `Include UVs` and `Triangulate Faces` options are checked.
+
+![](/assets/sdk/2-1.png)
+
+ Now set the filename — in this example `MyModel.obj` — and save file to `VoxelTycoonSDK/Trains` (if you are creating something related to trains) или `VoxelTycoonSDK/Buildings` (for enything else, like buildings or trees):
 
 ![](/assets/sdk/3.png)
 
