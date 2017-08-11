@@ -62,4 +62,6 @@ Go back to VoxelTycoonSDK tool again. Click through different parts of the model
 
 ![](/assets/sdk/10.png)
 
+> **Pro Tip** You can pick colors from other parts of the  model by holding `ALT`.
+
 You've done! Feel free to share your work with us in the [social networks](/contacts) of your choice.
