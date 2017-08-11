@@ -28,7 +28,7 @@ For the reference you can use models that came in the downloaded package.
 
 ![](/assets/sdk/2.png)
 
-Ensure that `Selection only`, `Include UVs` and `Triangulate Faces` options are checked.
+Ensure that `Selection only`, `Include UVs` and `Triangulate Faces` options are checked:
 
 ![](/assets/sdk/2-1.png)
 

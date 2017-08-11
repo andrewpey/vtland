@@ -28,7 +28,7 @@ wrapper: faq-ru
 
 ![](/assets/sdk/2.png)
 
-Проверяем, что стоят галочки `Selection only`, `Include UVs` и `Triangulate Faces` 
+Проверяем, что стоят галочки `Selection only`, `Include UVs` и `Triangulate Faces`:
 
 ![](/assets/sdk/2-1.png)
 
