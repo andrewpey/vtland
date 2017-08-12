@@ -7,7 +7,7 @@ wrapper: faq
 
 ## What is it?
 
-Tool for preview and customize custom 3rd-party content (trains, buildings or even trees) in the actual game environment.
+It's a tool for preview and customize custom 3rd-party content (trains, buildings or even trees) in the actual game environment.
 
 ![](/assets/sdk/preview.gif)
 
