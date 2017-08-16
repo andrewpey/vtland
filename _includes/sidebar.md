@@ -16,6 +16,8 @@
 
 [Reddit](//reddit.com/r/voxeltycoon){:.reddit} <small>{{site.data.socials.rd}} </small>
 
+[Discord](//https://discord.gg/64KPWd5){:.discord} <small>{{site.data.socials.dd}} </small>
+
 [dev@voxeltycoon.xyz](mailto:dev@voxeltycoon.xyz){:.email}
 
 [newsletter]({{site.newsletter_url}})
