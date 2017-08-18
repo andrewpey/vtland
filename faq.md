@@ -57,6 +57,14 @@ We have plenty of different resources on our maps — from wood and easily obtai
 
 You can sell raw resources, but as cities grow, they will require goods crafted from different resources on complex factories which you should design and build.
 
+## Build factories? Is not they built already, like industries in Transport Tycoon?
+
+We have a different concept for industries. If you know Factorio or Buildcraft-like mods for Minecraft you'll find it familiar.
+
+The idea is you build separate devices, like a furnace or a pressing machine, which have inputs and outputs. Then you connect it with conveyors and get your own factory of your very own design. We think it makes gameplay a lot more deep.
+
+For those who want pure Transport Tycoon experience, we will have an option where factories already pre built on the map so it will be the basically the same workflow that you have in Transport Tycoon.
+
 ## I saw decoupled railway cars in [Greenlight Trailer](https://youtu.be/u1kRZKu3NAc?t=51). Is there will be coupling in the game?
 
 We definitely want to see railway coupling in the game, as well as shunting works, but we are still testing it for caveats.
