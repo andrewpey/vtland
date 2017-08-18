@@ -57,7 +57,7 @@ We have plenty of different resources on our maps — from wood and easily obtai
 
 You can sell raw resources, but as cities grow, they will require goods crafted from different resources on complex factories which you should design and build.
 
-## Build factories? Are not they built already, like industries in Transport Tycoon?
+## Build factories? Aren't they built already, like industries in Transport Tycoon?
 
 We have a different concept for industries. If you know Factorio or Buildcraft-like mods for Minecraft you'll find it familiar.
 
