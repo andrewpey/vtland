@@ -267,3 +267,9 @@ blockquote {
     margin-left: 0;
     padding-left: 1em;
 }
+
+div.fix-it {
+    opacity: 0.5;
+    margin-top: 50px;
+    max-width: 400px;
+}

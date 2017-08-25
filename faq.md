@@ -105,7 +105,7 @@ Also, we love stylish, beautiful things.
 
 ## How can I help?
 
-First of all, do not hesitate to tell about Voxel Tycoon to every train-tycoon-Minecraft-voxel-lover you know. Also, since English is not our native language, you can help us proofread our materials (like this FAQ) and [report](/contacts) any mistakes.
+First of all, do not hesitate to tell about Voxel Tycoon to every train-tycoon-Minecraft-voxel-lover you know. Also, since English is not our native language, you can help us proofread our materials (like this FAQ) and [report](/contacts) any mistakes, or even send a Pull Request on <a href="//github.com/andrewpey/vtland">GitHub</a>.
 
 For those who want to contribute to Voxel Tycoon, or prepare for modding the game before it will be released we will provide some sort of early authoring tools soon.
 

@@ -38,6 +38,12 @@
         <div class="page-content {{ page.wrapper }}">
             <h1>{{ page.header }}</h1>
             {{ content }}
+            <div class="fix-it">
+                <small>
+                    This site is hosted on <a href="//github.com/andrewpey/vtland">GitHub</a>,
+                    so feel free to open a Pull Request if you think something can be fixed, like a small typo or the whole sentences.
+                </small>
+            </div>
         </div>
         {% endunless %}
         {% unless page.hide_sidebar %}
