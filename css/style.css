@@ -12,10 +12,10 @@
   100% { color: #8BC34A;}
 }
 
-@keyframes greenlight
+@keyframes roadmap-pulsing
 {
-  0% { box-shadow: #458c21 5px 5px; }
-  100% { box-shadow: #458c21 0px 0px; }
+  0% { box-shadow: #217eb9 5px 5px; }
+  100% { box-shadow: #217eb9 0px 0px; }
 }
 
 @font-face {
@@ -130,23 +130,27 @@ a.discord {
     color: #6F60C1;
 }
 
-.greenlight {
-    background: #54b726;
-    box-shadow: #458c21 5px 5px;
+a.greenlight {
+    color: #77E344;
+}
+
+.roadmap {
+    background: #24a6eb;
+    box-shadow: #217eb9 5px 5px;
     font-style: normal;
     margin-right: 5px;
     padding: 3px 10px;
     text-shadow: none;
+    margin-left: -8px;
 }
 
-a.greenlight:hover {
+a.roadmap:hover {
     border: none;
-    background: #61d12e;
-    box-shadow: #458c21 5px 5px;
+    /* background: #69D4FB; */
     text-decoration: none;
     border-bottom: none;
     padding-bottom: 3px;
-    animation: greenlight 1s infinite alternate;
+    animation: roadmap-pulsing 1s infinite alternate;
     animation-timing-function: linear; 
 }
 
@@ -272,4 +276,13 @@ div.fix-it {
     opacity: 0.5;
     margin-top: 50px;
     max-width: 400px;
+}
+
+li {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#milestones em {
+    font-size: 22px;
 }
