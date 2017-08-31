@@ -5,23 +5,23 @@ header: FAQ
 wrapper: faq
 ---
 
-## What it's all about?
+## What is it all about?
 
-Voxel Tycoon — tycoon strategy game about *transportation*, *building&nbsp;factories*, and *mining* beautiful voxel landscapes.
+Voxel Tycoon — a tycoon strategy game about *transportation*, *building&nbsp;factories*, and *mining* beautiful voxel landscapes.
 
-If you like games such as Transport Tycoon (OpenTTD) and Factorio, or playing modded Minecraft, you're in the right place.
+If you like games such as Transport Tycoon (OpenTTD) and Factorio; or playing modded Minecraft, you're in the right place.
 
 ## When will it be released?
 
 If everything goes well, you can expect early alpha to be available at the end of *this year*.
 
-There's no final release planned, as we committed to constantly update current version with new content and improvements.
+There's no final release planned, as we're committed to constantly updating the game with new content and improvements.
 
-If you can't follow our [social networks](/contacts) for some reason, but want to be sure not to miss the release of the game, you can subscribe to our [very-rare-newsletter]({{site.newsletter_url}}). No spam guarantee.
+If you’re unable to follow our [social media](/contacts) for some reason, but don't want to miss the release of the game, you can subscribe to our [very-rare-newsletter]({{site.newsletter_url}}).
 
-## How big maps can be? Is there terraforming?
+## How big can maps be? Will there be terraforming?
 
-The game world is infinite, so you never will run out of space. Furthermore, the world is not just a surface — you can explore, dig or even blow every voxel down to the bedrock. Or, conversely, form a mountain from them. So yes, we have full featured terraforming here.
+The game world is infinite, so you'll never  run out of space. Furthermore, the world is not just a surface — you can explore, dig or even blow every voxel down to the bedrock. Or, conversely, form a mountain from them. So yes, we have full featured terraforming here.
 
 ## I saw you said Transport Tycoon. What features will railways have?
 
