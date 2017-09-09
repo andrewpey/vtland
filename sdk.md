@@ -7,7 +7,7 @@ wrapper: faq
 
 ## What is it?
 
-It's a tool for preview and customize custom 3rd-party content (trains, buildings or even trees) in the actual game environment.
+It's a tool for you to preview and customize any 3rd-party content (trains, buildings or even trees) in the actual game's environment.
 
 ![](/assets/sdk/preview.gif)
 
@@ -20,19 +20,19 @@ It's a tool for preview and customize custom 3rd-party content (trains, building
 
 First, create a model in your favorite modeling software. We use Blender ❤
 
-For the reference you can use models that came in the downloaded package.
+For the reference you can use models that came with the download.
 
 ![](/assets/sdk/1.png)
 
- After you've done with the modeling, select a model to ensure nothing unwanted will be exported, and hit Export as `OBJ`:
+ After you're done with the modeling, select a model to ensure nothing unwanted will be exported, and hit Export as `OBJ`:
 
 ![](/assets/sdk/2.png)
 
-Ensure that `Selection only`, `Include UVs` and `Triangulate Faces` options are checked:
+Ensure that the `Selection only`, `Include UVs` and `Triangulate Faces` options are checked:
 
 ![](/assets/sdk/2-1.png)
 
-Set the filename — in this example `MyModel.obj` — and save file to `VoxelTycoonSDK/Trains` (if you are creating something related to trains) или `VoxelTycoonSDK/Buildings` (for enything else, like buildings or trees):
+Set the filename — in this example we use `MyModel.obj` — and save file to `VoxelTycoonSDK/Trains` (if you are creating something related to trains) or `VoxelTycoonSDK/Buildings` (for enything else, like buildings or trees):
 
 ![](/assets/sdk/3.png)
 
@@ -40,15 +40,15 @@ Now go to the VoxelTycoonSDK tool and choose `Buildings` or `Trains` from the se
 
 ![](/assets/sdk/4.png)
 
-At this moment tool will generate palette texture `MyModel.png` in the same folder where your `MyModel.obj` file is stored. This palette will be used to to setup your model for coloring.
+The SDK will generate a palette texture called `MyModel.png` in the same folder where your `OBJ` file is stored. This palette will be used to to set the coloring for your model.
 
 ![](/assets/sdk/4-1.png)
 
-Go back to modeling software and open UV editing mode:
+Go back into the modeling software and open UV editing mode:
 
 ![](/assets/sdk/5.png)
 
-Load generated palette texture `MyModel.png` from the directory where you've placed your model (`VoxelTycoonSDK/Buildings` or `VoxelTycoondSDK/Trains`):
+Load the generated palette texture `MyModel.png` from the directory where you've placed your model (`VoxelTycoonSDK/Buildings` or `VoxelTycoondSDK/Trains`):
 
 ![](/assets/sdk/6.png)
 
@@ -56,16 +56,16 @@ Load generated palette texture `MyModel.png` from the directory where you've pla
 
 ![](/assets/sdk/8.png)
 
-Unwrap model using colors from palette. Colors in the palette are not important for now, we just need to map vertices' UVs to separate colors. You will set up actual colors at the VoxelTycoonSDK tool later.
+Unwrap the model using the colors from the palette. The colors in the palette are not important yet, we just need to map vertices' UVs to the separate colors. You will set up the actual colors in the VoxelTycoonSDK tool later.
 
 ![](/assets/sdk/9.png)
 
-After unwrapping has done, export model as `OBJ` again, rewriting `MyModel.obj`.
+After unwrapping has finished, export the model as an `OBJ` again, rewriting your previous `OBJ`.
 
-Go back to VoxelTycoonSDK tool again. Click through different parts of the model and choose colors in the color picker at the right bottom corner.
+Go back to the VoxelTycoonSDK tool again. Click through different parts of the model and choose the colors in the color picker on the right bottom corner.
 
 ![](/assets/sdk/10.png)
 
 > **Pro Tip** You can pick colors from other parts of the  model by holding `ALT`.
 
-You've done! Feel free to share your work with us in the [social networks](/contacts) of your choice.
+You're done! Feel free to share your work [with us](/contacts).
