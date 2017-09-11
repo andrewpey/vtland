@@ -26,7 +26,7 @@ If you familiar with **Patreon**, here you go:
     <img style="border-radius: 0" src="become_a_patron_button.png"/>
 </a>
 
-Otherwise, you can donate via **PayPal**:
+Or, you can make one-time donation via **PayPal**:
 
 {% include donate_btn.html %}
 
