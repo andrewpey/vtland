@@ -10,7 +10,7 @@ title: Donate // VOXEL TYCOON
 
 We want to be honest with you as possible, and that's the main reason why we are not accepting pre-orders — we want to make sure you'll pay for an actual game what you will love to play, not for promises.
 
-However, we are aware that some of you want to support us either way, so we can't resist anymore. Just keep in mind that **this is not a pre-order**: you will not receive a copy of the game, regardless how much will you donate.
+However, we are aware that some of you want to support us either way, so we can't refuse anymore. Just keep in mind that **this is not a pre-order**: you will not receive a copy of the game, regardless how much will you donate.
 
 By the way, any person who donate at least:
 
