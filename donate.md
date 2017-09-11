@@ -14,9 +14,9 @@ However, we are aware that some of you want to support us either way, so we can'
 
 By the way, any person who donate at least:
 
-<span class="money">$15</span> will receive a *supporter* badge on [Discord](//discord.gg/64KPWd5)
+<span class="money">$15</span> — will receive a *supporter* badge on [Discord](//discord.gg/64KPWd5)
 
-<span class="money">$30</span> will be *featured in the game credits* and receive a *supporter* badge on [Discord](//discord.gg/64KPWd5) 
+<span class="money">$30</span> — will be *featured in the game credits* and receive a *supporter* badge on [Discord](//discord.gg/64KPWd5) 
 
 If you familiar with **Patreon**, here you go:
 
