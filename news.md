@@ -1,7 +1,7 @@
 ---
 layout: default
 wrapper: tldr
-title: News
+title: News // VOXEL TYCOON
 ---
 
 {% include milestones.md %}

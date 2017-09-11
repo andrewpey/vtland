@@ -1,4 +1,4 @@
-# Milestones
+# [Milestones](/news)
 
 *31 Aug*
 

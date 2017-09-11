@@ -286,3 +286,15 @@ li {
 #milestones em {
     font-size: 22px;
 }
+
+.money {
+    font-style: normal;
+    /* font-weight: bold; */
+    color: #FFFFFF;
+    background: #1ba91c;
+    margin-right: 5px;
+    padding: 3px 10px;
+    box-shadow: #086707 5px 5px;
+    text-shadow: none;
+    font-weight: bold;
+}
