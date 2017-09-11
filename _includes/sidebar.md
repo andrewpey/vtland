@@ -23,3 +23,5 @@
 [dev@voxeltycoon.xyz](mailto:dev@voxeltycoon.xyz){:.email}
 
 [newsletter]({{site.newsletter_url}})
+
+[$ DONATE $](/donate){:.money}
