@@ -298,3 +298,9 @@ li {
     text-shadow: none;
     font-weight: bold;
 }
+
+a.money:hover {
+    border-color:#1ba91c;
+    border-bottom-width: 1px;
+    background: #24CB25;
+}
