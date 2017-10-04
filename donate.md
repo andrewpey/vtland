@@ -20,6 +20,8 @@ If you are familiar with **Patreon**, here you go:
     <img style="border-radius: 0" src="become_a_patron_button.png"/>
 </a>
 
-Or, you can make one-time donation via **PayPal**:
+Alternatively, you can make one-time donation via **PayPal**:
 
 {% include donate_btn.html %}
+
+Or even via [Yandex.Money](http://yasobe.ru/na/voxeltycoon).
