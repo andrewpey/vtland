@@ -75,7 +75,7 @@ Trucks, ships, planes, and more planned.
 
 There will no hard ties to the real epochs, so the player can unlock high-level technologies just basing on his progression in the game, not the exact year. In other words, it will be research-based.
 
-## Will the game feature **some random feature** and when?
+## Will the game feature `your favorite feature here` and when?
 
 Please check our detailed [Roadmap](https://trello.com/b/3susroHe/vt-roadmap) where you can see what features are planned and when you can expect them to appear.
 
