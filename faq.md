@@ -73,7 +73,7 @@ Trucks, ships, planes, and more planned.
 
 ## Will there be different eras like steam, diesel, electric, maglev etc? What is the year when the game starts?
 
-There will no hard ties to the real epochs, so the player can unlock high-level technologies just basing on his progression in the game, not the exact year. In other words, it will be research-based.
+There will be no hard ties to the real epochs, so the player can unlock high-level technologies just based on his progression in the game, not the exact year. In other words, it will be research-based.
 
 ## Will the game feature `your favorite feature here` and when?
 
