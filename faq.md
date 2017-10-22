@@ -113,3 +113,8 @@ For those who want to contribute to Voxel Tycoon, or prepare for modding the gam
 ## I think you’ve done something wrong!
 
 Feel free to express your criticism in [any convenient way](/contacts), but please keep in mind that everything you see is very far from a finished experience and we’re constantly working and improving on the game.
+
+<script>
+    $('h2').click(function() { $(this).nextUntil('h2', 'p').toggle(); });
+    $('h2').nextUntil('h2', 'p').toggle();
+</script>

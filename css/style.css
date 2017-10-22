@@ -205,12 +205,20 @@ img {
 
 .faq h2 {
     margin-top: 3rem;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    border-left: solid 4px rgba(255, 255, 255, 0.3);
+    margin-left: 0;
+    padding-left: 0.5em;
 }
 
 .faq-ru h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: 'Roboto';
+    cursor: pointer;
+    border-left: solid 4px rgba(255, 255, 255, 0.3);
+    margin-left: 0;
+    padding-left: 0.5em;
 }
 
 .faq h3 {
