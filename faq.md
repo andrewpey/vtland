@@ -67,6 +67,12 @@ We definitely want to see railway coupling in the game as well as shunting works
 
 You bet!
 
+## Should I buy trains in the game or they can be manufactured? 
+
+We plan that on early stages of the game you will rent them. As your finances will grow you could buy trains. And later, you can even manufacture them on your own factories.
+
+Мы планируем, что на начальных стадиях игры вам нужно будет арендовать поезда. С увеличением вашего капитала вы сможете их покупать, а затем, по мере развития, даже производить на собственных производствах.
+
 ## What other types of transport will there be in the game, besides trains?
 
 Trucks, ships, planes, and more planned.
