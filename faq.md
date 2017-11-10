@@ -13,7 +13,7 @@ If you like games such as Transport Tycoon (OpenTTD) and Factorio, or modded Min
 
 ## When is it going to be released?
 
-If everything goes well, you’ll be able to expect an early alpha at the end of *this year*.
+If everything goes well, you’ll be able to expect an early alpha to be released *Late&nbsp;2017&nbsp;—&nbsp;Early&nbsp;2018*.
 
 We have no final release planned as we’re committed to updating the game with new content and improvements as much as possible.
 
