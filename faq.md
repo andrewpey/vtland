@@ -2,7 +2,7 @@
 layout: default
 title: FAQ // VOXEL TYCOON
 header: FAQ
-wrapper: faq
+wrapper: faq collapse-regions
 ---
 
 ## What is the game going to be about?
