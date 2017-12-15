@@ -322,3 +322,7 @@ a.money:hover {
     border-bottom-width: 1px;
     background: #24CB25;
 }
+
+a.openvt {
+    color: #ffeb3b;
+}
