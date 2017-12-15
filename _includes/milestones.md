@@ -1,5 +1,9 @@
 # [Milestones](/news)
 
+*14 Dec*
+
+We've set up a GitHub repo called [Open Voxel Tycoon](https://github.com/andrewpey/open-voxel-tycoon) where you can discuss, suggest and form the future of Voxel Tycoon in a structured way.
+
 *31 Aug*
 
 We've published a detailed&nbsp;&nbsp;[Roadmap](https://trello.com/b/3susroHe/vt-roadmap){:.roadmap}
