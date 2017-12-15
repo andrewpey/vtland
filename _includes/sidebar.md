@@ -8,7 +8,7 @@
 
 [Roadmap](https://trello.com/b/3susroHe/vt-roadmap){:.roadmap}
 
-[Open VT](https://github.com/andrewpey/open-voxel-tycoon){:.openvt}
+[Discussion Group](https://github.com/andrewpey/open-voxel-tycoon){:.openvt}
 
 [Twitter](//twitter.com/VoxelTycoon){:.twitter} <small>{{site.data.socials.tw}}</small>
 
