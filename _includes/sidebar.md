@@ -4,6 +4,8 @@
 
 [FAQ](/faq){:.faqlink}
 
+[Gallery](/gallery){:.gallery}
+
 [Roadmap](https://trello.com/b/3susroHe/vt-roadmap){:.roadmap}
 
 [Open VT](https://github.com/andrewpey/open-voxel-tycoon){:.openvt}
