@@ -294,11 +294,13 @@ blockquote {
 div.fix-it {
     opacity: 0.5;
     margin-top: 50px;
+    margin-bottom: 50px;
     max-width: 400px;
 }
 
 li {
-    font-size: 24px;
+    font-size: 20px;
+    font-family: 'Roboto';
     margin: 10px 0;
 }
 
@@ -360,4 +362,8 @@ a.openvt {
 
 #gallery a.gif {
     flex-basis: 100%;
+}
+
+.bold-en {
+    font-family: 'HansKendrick';
 }

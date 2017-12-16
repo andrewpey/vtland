@@ -108,6 +108,12 @@ Again, our engine supports a huge variety of platforms, but some of them need sp
 We are two developers with over 9 years of professional experience, very passionate about tycoons in particular and good games in common.
 Also, we love stylish and beautiful things.
 
+## I saw some people have different colored labels on [Discord](//discord.gg/64KPWd5). What do they mean and how I can get some?
+
+* <b class="bold-en" style="color: #f1c40f">Supporters</b> are people who decided to support development [by donating](/donate)
+* <b class="bold-en" style="color: #3498db">Contributors</b> are people whose work has been added to the game
+* <b class="bold-en" style="color: #e67e22">Ambassadors</b> are people who help to spread the world and actively supports the community somehow
+
 ## How can I help?
 
 First, do not hesitate to tell every train-tycoon-Minecraft-voxel-lover you know about Voxel Tycoon. Also, because English isn’t our native language, you can help us proofread our materials (like this FAQ) and [report](/contacts) any mistakes, or even send a Pull Request on <a href="//github.com/andrewpey/vtland">GitHub</a>.
