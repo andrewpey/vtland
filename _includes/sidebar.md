@@ -4,7 +4,7 @@
 
 [FAQ](/faq){:.faqlink}
 
-[Gallery](/gallery){:.gallery}
+[Gallery](/gallery){:.gallery}:camera:
 
 [Roadmap](https://trello.com/b/3susroHe/vt-roadmap){:.roadmap}
 
