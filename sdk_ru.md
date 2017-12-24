@@ -16,6 +16,10 @@ wrapper: faq-ru
 ### Загрузить для [Windows](https://github.com/andrewpey/vtland/releases/download/test/VoxelTycoonSDK.zip)
 ### Загрузить для [macOS](https://github.com/andrewpey/vtland/releases/download/test/VoxelTycoonSDK_Mac.zip)
 
+## Туториалы от сообщества
+
+<iframe width="700" height="450" src="https://www.youtube.com/embed/wtP7zifr9dA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+
 ## Как этим пользоваться?
 
 Рисуем модель в любимом 3D-редакторе. Для нас это Blender ❤
