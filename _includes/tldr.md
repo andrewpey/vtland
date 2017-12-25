@@ -4,4 +4,4 @@ We are developing **Voxel Tycoon** — strategy game about *transportation*, *bu
 
 Dig into our [FAQ](/faq){:.faqlink} to read answers to the most frequently asked questions, check some [screenshots, gifs, and wallpapers](/gallery), and don't forget to follow our [social media](/contacts) for updates.
 
-Release date: `undefined` (yet)
+Release date: `2018`
