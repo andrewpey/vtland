@@ -6,6 +6,8 @@
 
 [Gallery](/gallery){:.gallery}
 
+[Wishlist on Steam](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
+
 [Roadmap](https://trello.com/b/3susroHe/vt-roadmap){:.roadmap}
 
 [SDK](/sdk)
@@ -23,8 +25,6 @@
 [Reddit](//reddit.com/r/voxeltycoon){:.reddit} <small>{{site.data.socials.rd}} </small>
 
 [Discord](//discord.gg/64KPWd5){:.discord} <small>{{site.data.socials.dd}} </small>
-
-[Steam Greenlight]({{ site.greenlight_url }}){:.greenlight}
 
 [dev@voxeltycoon.xyz](mailto:dev@voxeltycoon.xyz){:.email}
 
