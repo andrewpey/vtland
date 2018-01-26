@@ -85,7 +85,14 @@ Please check our detailed [Roadmap](https://trello.com/b/3susroHe/vt-roadmap) wh
 
 ## Will modding of the game be supported?
 
-Absolutely! Actually, some tools are [already available](/sdk).
+Absolutely! You can: 
+
+* Throw config files and models to just add new vehicles/buildings/items to the game
+* Write custom logic using our C# API
+* Gain even more control by accessing engine internals via usual C# .dll referencing
+
+Some tools are [already available](/sdk).
+
 
 ## Will there be multiplayer?
 
