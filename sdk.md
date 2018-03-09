@@ -16,10 +16,6 @@ It's a tool for you to preview and customize any 3rd-party content (trains, buil
 ### Download for [Windows](https://github.com/andrewpey/vtland/releases/download/test/VoxelTycoonSDK.zip)
 ### Download for [macOS](https://github.com/andrewpey/vtland/releases/download/test/VoxelTycoonSDK_Mac.zip)
 
-## Community tutorials
-
-<iframe width="700" height="450" src="https://www.youtube.com/embed/wtP7zifr9dA" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-
 ## Step-by-step tutorial
 
 First, create a model in your favorite modeling software. We use Blender ❤
