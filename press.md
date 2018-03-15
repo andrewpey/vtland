@@ -1,11 +1,10 @@
 ---
 layout: default
 title: Press Assets // VOXEL TYCOON
-header: Press Assets
 wrapper: press
 ---
 
-# Logo
+## Logo
 
 ![Logo](/assets/press/voxeltycoon.png)
 
