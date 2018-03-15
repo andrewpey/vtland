@@ -367,3 +367,7 @@ a.openvt {
 .bold-en {
     font-family: 'HansKendrick';
 }
+
+#press img {
+    width: auto;
+}
