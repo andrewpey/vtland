@@ -4,7 +4,7 @@ title: Press Assets // VOXEL TYCOON
 wrapper: press
 ---
 
-## Logo
+# Logo
 
 ![Logo](/assets/press/voxeltycoon.png)
 
