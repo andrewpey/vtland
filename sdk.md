@@ -18,6 +18,8 @@ It's a tool for you to preview and customize any 3rd-party content (trains, buil
 
 ## Step-by-step tutorial
 
+> Join [#modding](https://discord.gg/dXBmWRr) channel on our Discord Server where you can receive help and get answers on any related questions.
+
 First, create a model in your favorite modeling software. We use Blender ❤
 
 For the reference you can use models that came with the download.
