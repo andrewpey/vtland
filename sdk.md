@@ -33,3 +33,7 @@ This is a stripped version of the game that contains tools allowing you to custo
 > Detailed documentation will come later. You can help us by making your own tutorials. A little one can be found on [legacy page](/sdk_legacy).
 
 > You can always get help on our [#modding](https://discord.gg/dXBmWRr) channel at Discord.
+
+## Error reporting
+
+Please send log file that can be found at `%APPDATA%\..\LocalLow\Ehhou\VoxelTycoon\output_log.txt` to [dev@voxeltycoon.xyz](dev@voxeltycoon.xyz)
