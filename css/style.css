@@ -372,3 +372,7 @@ a.openvt {
     width: auto;
     margin: 0 auto;
 }
+
+a.clear, a.clear:hover {
+    border: none;
+}
