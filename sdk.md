@@ -21,7 +21,7 @@ This is a stripped version of the game that contains tools allowing you to custo
 * ~~macOS~~ `coming soon`
 * ~~Linux~~ `coming soon`
 
-## Sytem requirements
+## System requirements
 
 * Windows 64bit Vista SP1 or later
 * DX11-compatible video-card
