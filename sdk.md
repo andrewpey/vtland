@@ -44,4 +44,4 @@ Quick tips:
 
 ## Error reporting
 
-Please send log file that can be found at `%APPDATA%\..\LocalLow\Ehhou\VoxelTycoon\output_log.txt` to [dev@voxeltycoon.xyz](dev@voxeltycoon.xyz)
+If you encountered an error please send log file that can be found at `%APPDATA%\..\LocalLow\Ehhou\VoxelTycoon\output_log.txt` to [dev@voxeltycoon.xyz](dev@voxeltycoon.xyz)
