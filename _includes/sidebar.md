@@ -4,15 +4,15 @@
 
 [FAQ](/faq){:.faqlink}
 
-[Gallery](/gallery){:.gallery}
-
 [Wishlist on Steam](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
 
+[$ DONATE $](/donate){:.money}
+
+<a class="patreon" href="https://www.patreon.com/bePatron?u=7655118">
+    <img src="become_a_patron_button.png">
+</a>
+
 [Roadmap](https://trello.com/b/3susroHe/vt-roadmap){:.roadmap}
-
-[SDK](/sdk)
-
-[Discussion Group](https://github.com/andrewpey/open-voxel-tycoon){:.openvt}
 
 [Twitter](//twitter.com/VoxelTycoon){:.twitter} <small>{{site.data.socials.tw}}</small>
 
@@ -26,8 +26,10 @@
 
 [Discord](//discord.gg/64KPWd5){:.discord} <small>{{site.data.socials.dd}} </small>
 
+[SDK](/sdk)
+
+[Gallery](/gallery){:.gallery}
+
 [dev@voxeltycoon.xyz](mailto:dev@voxeltycoon.xyz){:.email}
 
 [newsletter]({{site.newsletter_url}})
-
-[$ DONATE $](/donate){:.money}

@@ -18,8 +18,8 @@ Any person who donates at least <span class="money">$1</span> will be *featured 
 
 If you are familiar with **Patreon**, here you go:
 
-<a style="display: block; margin: 0 0 0 0; width: 170px; height: 39px; overflow: hidden; border: none;" href="https://www.patreon.com/bePatron?u=7655118">
-    <img style="border-radius: 0" src="become_a_patron_button.png"/>
+<a class="patreon" href="https://www.patreon.com/bePatron?u=7655118">
+    <img src="become_a_patron_button.png">
 </a>
 
 Alternatively, you can make one-time donation via **PayPal**:

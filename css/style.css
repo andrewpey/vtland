@@ -18,6 +18,18 @@
   100% { box-shadow: #217eb9 0px 0px; }
 }
 
+@keyframes money-pulsing
+{
+  0% { box-shadow: #086707 5px 5px; }
+  100% { box-shadow: #086707 0px 0px; }
+}
+
+@keyframes patreon-pulsing
+{
+  0% { box-shadow: #b74e3f 5px 5px; }
+  100% { box-shadow: #b74e3f 0px 0px; }
+}
+
 @font-face {
     font-family: 'HansKendrick';
     src: url('../fonts/HansKendrick-Regular.otf');
@@ -309,21 +321,23 @@ li {
 }
 
 .money {
-    font-style: normal;
-    /* font-weight: bold; */
-    color: #FFFFFF;
     background: #1ba91c;
+    box-shadow: #086707 5px 5px;
+    font-style: normal;
     margin-right: 5px;
     padding: 3px 10px;
-    box-shadow: #086707 5px 5px;
     text-shadow: none;
-    font-weight: bold;
+    margin-left: -8px;
 }
 
 a.money:hover {
-    border-color:#1ba91c;
-    border-bottom-width: 1px;
+    border: none;
     background: #24CB25;
+    text-decoration: none;
+    border-bottom: none;
+    padding-bottom: 3px;
+    animation: money-pulsing 1s infinite alternate;
+    animation-timing-function: linear;
 }
 
 a.openvt {
@@ -375,4 +389,32 @@ a.openvt {
 
 a.clear, a.clear:hover {
     border: none;
+}
+
+a.patreon {
+    display: block;
+    margin: 0 0 0 0;
+    width: 160px;
+    height: 38px;
+    overflow: hidden;
+    border: none;
+    box-shadow: #b74e3f 5px 5px;
+    font-style: normal;
+    text-shadow: none;
+    margin-left: -8px;
+}
+
+a.patreon > img {
+    border-radius: 0;
+    width: 160px;
+}
+
+a.patreon:hover {
+    filter: brightness(1.25);
+    border: none;
+    text-decoration: none;
+    border-bottom: none;
+    padding-bottom: 0px;
+    animation: patreon-pulsing 1s infinite alternate;
+    animation-timing-function: linear;
 }

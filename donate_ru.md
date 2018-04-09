@@ -16,8 +16,8 @@ title: Поддержать рублем // VOXEL TYCOON
 
 Если вы знаете, что такое **Patreon**, то вам сюда:
 
-<a style="display: block; margin: 0 0 0 0; width: 170px; height: 39px; overflow: hidden; border: none;" href="https://www.patreon.com/bePatron?u=7655118">
-    <img style="border-radius: 0" src="become_a_patron_button.png"/>
+<a class="patreon" href="https://www.patreon.com/bePatron?u=7655118">
+    <img src="become_a_patron_button.png">
 </a>
 
 Также пожертвование можно сделать через [Яндекс.Деньги](http://yasobe.ru/na/voxeltycoon).
