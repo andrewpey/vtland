@@ -39,8 +39,8 @@ Quick tips:
 
 * If you have assets from legacy SDK, just put it into new folder in `Content` directory and **Asset Aditor** will convert them for you.
 * Root folders in `Content` directory are considered as different mod packs.
-* All **URI** has the following structure: `{pack_name}/{file_name}`. The actual path to the file inside the pack folder doesn't matter.
-* All **URI** should be lowercase.
+* All **URI** has the following structure: `{pack_name}/{file_name}`, eg. `your_first_pack/mesh.obj`. The actual path to the file inside the pack folder doesn't matter.
+* All **URI** should be lowercase. It's recommended to keep asset names in lowercase also to avoid possible caveats.
 
 ## Error reporting
 
