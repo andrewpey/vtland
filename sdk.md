@@ -41,6 +41,7 @@ Quick tips:
 * Root folders in `Content` directory are considered as different mod packs.
 * All **URI** has the following structure: `{pack_name}/{file_name}`, eg. `your_first_pack/mesh.obj`. The actual path to the file inside the pack folder doesn't matter.
 * All **URI** should be lowercase. It's recommended to keep asset names in lowercase also to avoid possible caveats.
+* Only `.obj` is supported for meshes at the moment.
 
 ## Error reporting
 
