@@ -5,15 +5,11 @@ header: SDK
 wrapper: faq
 ---
 
-<style>
-a
-</style>
-
 ## What is it?
 
 This is a stripped version of the game that contains tools allowing you to customize, preview and test any 3rd-party content in the actual game's environment.
 
-[![](/assets/sdk/sdk2.png)](/sdk#downloads){:.clear}
+<iframe width="680" height="382" src="https://www.youtube.com/embed/txoYrQ88GzM" frameborder="0" allowfullscreen></iframe>
 
 ## Downloads
 
