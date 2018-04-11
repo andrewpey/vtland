@@ -26,7 +26,7 @@
 
 [Discord](//discord.gg/64KPWd5){:.discord} <small>{{site.data.socials.dd}} </small>
 
-[SDK 2.0](/sdk){:.sdk}
+[Demo Scene + SDK](/sdk){:.sdk}
 
 [Gallery](/gallery){:.gallery}
 
