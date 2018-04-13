@@ -31,7 +31,7 @@ It will have everything you should expect from such games, including, but not li
 
 • A variety of locomotives, each with different characteristics and visuals
 
-• Different railcars for different cargo
+• Different railcars for different cargoes
 
 • Electrified railways
 
@@ -45,11 +45,11 @@ Trains will brutally crash, resulting in financial and reputation losses.
 
 And remember the terraforming part? If your train is carrying some dangerous cargo, you may end up with a few unwanted craters in your landscape (and say goodbye to buildings nearby).
 
-## What trains will carry? I mean, what about the goods and resources?
+## What will trains carry? I mean, what about the goods and resources?
 
-We’ll have plenty of different resources on our maps — from wood and easily obtainable ores such as coal to much rarer ones hiding deep underground.
+We’ll have plenty of different resources on our maps — from wood and easily obtainable ores such as coal, to much rarer ones hiding deep underground.
 
-You’ll be able to sell raw resources, but as cities grow, they’ll need goods assembled out of different resources on complex factories which you should design and build.
+You’ll be able to sell raw resources, but as cities grow, they’ll need goods assembled out of different resources produced in complex factories which you can design and build.
 
 ## Build factories? They won’t be already built, like the industries in Transport Tycoon?
 
@@ -57,19 +57,19 @@ We have a different concept for industries. If you’ve ever seen Factorio, or B
 
 The idea is you’ll build separate devices, such as a furnace or a press, which will have its inputs and outputs. Then you’ll connect them together with conveyor belts and you’ll have your own factory, of your very own design. We feel it keeps the gameplay a lot more interesting.
 
-For those who want a pure Transport Tycoon experience, you’ll have a choice for pre built factories already on the map, so it will be essentially the same workflow you see in Transport Tycoon.
+For those who want a pure Transport Tycoon experience, you’ll have a choice of pre built factories already on the map, so it will essentially be the same workflow you see in Transport Tycoon.
 
 ## I saw decoupled railway cars in [Greenlight Trailer](https://youtu.be/u1kRZKu3NAc?t=51). Will there be coupling in the game?
 
-We definitely want to see railway coupling in the game as well as shunting works, but we are still testing it for caveats.
+We definitely want to see railway coupling in the game as well as shunting, but we are still testing it for caveats.
 
 ## What about passenger transit?
 
 You bet!
 
-## Should I buy trains in the game or they can be manufactured? 
+## Can I only buy preassembled trains in the game or can they also be manufactured? 
 
-We plan that on early stages of the game you will rent them. As your finances will grow you could buy trains. And later, you can even manufacture them on your own factories.
+We plan that in the early stages of the game you will rent them. As your finances grow you can also buy trains. And later, you can even manufacture them in your own factories.
 
 ## What other types of transport will there be in the game, besides trains?
 
@@ -104,7 +104,7 @@ On launch, there will only be sandbox mode, maybe with some random events. But w
 
 ## On what platform will it be released?
 
-Thanks to the engine we chose (it’s Unity), the game should run flawlessly on Windows, Mac OS, and Linux. But we haven’t tested any Linux builds yet, so it’s just in theory for now.
+Thanks to the engine we chose (it’s Unity), the game should run flawlessly on Windows, Mac OS, and Linux. Though we haven’t tested any Linux builds yet, so that's just in theory for now.
 
 ## What about consoles/mobile platforms?
 
@@ -115,7 +115,7 @@ Again, our engine supports a huge variety of platforms, but some of them need sp
 We are two developers with over 9 years of professional experience, very passionate about tycoons in particular and good games in common.
 Also, we love stylish and beautiful things.
 
-## I saw some people have different colored labels on [Discord](//discord.gg/64KPWd5). What do they mean and how I can get some?
+## I saw that some people have different colored labels on [Discord](//discord.gg/64KPWd5). What do they mean and how can I get some?
 
 * <b class="bold-en" style="color: #f1c40f">Supporters</b> are people who decided to support development [by donating](/donate)
 * <b class="bold-en" style="color: #3498db">Contributors</b> are people whose work has been added to the game
