@@ -292,9 +292,11 @@ img, iframe {
 }
 
 code {
-    background: rgba(255, 255, 255, 0.3);
-    /* font-family: 'HansKendrick'; */
-    padding: 0 5px;
+    background: rgba(60, 60, 60, 0.6);
+    border-radius: 2px;
+    padding: 2px 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.7em;
 }
 
 blockquote {

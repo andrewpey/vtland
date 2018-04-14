@@ -14,18 +14,12 @@ This is a stripped version of the game that contains tools allowing you to custo
 ## Downloads
 
 * [Windows](https://github.com/andrewpey/vtland/releases/download/test/VoxelTycoon.zip)
-* ~~macOS~~ `coming soon`
-* ~~Linux~~ `coming soon`
+* [macOS](https://github.com/andrewpey/vtland/releases/download/test/VoxelTycoonMac.zip) (see [Known issues](#known-issues))
+* [Linux](https://github.com/andrewpey/vtland/releases/download/test/VoxelTycoonLinux.zip)
 
-## System requirements
-
-* Windows 64bit Vista SP1 or later
-* DX11-compatible video card
-* 2GB+ RAM
-* Curiosity
+[Release notes](#release-notes)
 
 ## Documentation
-
 
 > Detailed documentation will come later. You can help us by making your own tutorials. A little one can be found on [legacy page](/sdk_legacy).
 
@@ -39,6 +33,59 @@ Quick tips:
 * All **URI** should be lowercase. It's recommended to keep asset names in lowercase also to avoid possible caveats.
 * Only `.obj` is supported for meshes at the moment.
 
+## System requirements
+
+* 64bit Windows Vista SP1+ / Mac OS X 10.9+ / Ubuntu 12.04+
+* DX11 / OpenGL Core 4.1 / Metal compatible video card
+* 2GB+ RAM
+* Curiosity
+
+## Known issues
+
+### Loading can stuck at `Loading Assets` message on MacOS
+
+This probably caused by macOS sandbox. Run this command in Terminal to mark app as safe:
+
+`$ xattr -dr com.apple.quarantine PATH_TO_UNZIPPED_FOLDER` e.g.<br/>
+`$ xattr -dr com.apple.quarantine ~/Downloads/VoxelTycoonMac`
+
 ## Error reporting
 
-If you encountered an error please send log file that can be found at `%APPDATA%\..\LocalLow\Ehhou\VoxelTycoon\output_log.txt` to [dev@voxeltycoon.xyz](dev@voxeltycoon.xyz)
+You can report issues to https://github.com/andrewpey/open-voxel-tycoon/issues. Please ensure no such issue was reported earlier!
+
+Logs locations:
+
+* Windows: `%APPDATA%\..\LocalLow\VoxelTycoon\VoxelTycoon\output_log.txt`
+* macOS:	`~/Library/Logs/Unity/Player.log`
+* Linux:	`~/.config/unity3d/VoxelTycoon/VoxelTycoon/Player.log`
+
+## Release notes
+
+*4/15/18*
+
+UI
+
+* Edge pan (in fullscreen)
+* `WASD` and `←↑↓→` to pan (hold `Shift` to rotate)
+* Added persistent settings to toggle music and VSync
+* Vehicles moving/stopped state is also persistent
+
+API changes
+
+* More than one smoke per train unit now supported (thanks **TransCanadaLimited**!)
+
+Other
+
+* Added macOS and Linux versions
+* Added sample `steam.trainsound`
+* Fixed obj importer generates extra triangles (thanks **Alego22**!)
+* Fixed asset editor does not respect mesh bounds if it was hot-reloaded (thanks **Alego22**!)
+* Fixed wires do not want to explode (thanks **firestarspelt**!)
+
+*4/10/18*
+
+* Initial release of SDK 2.0
+
+*8/10/17*
+
+* Initial release of [Legacy SDK](/sdk_legacy)
