@@ -7,7 +7,7 @@ wrapper: faq
 
 ## What is it?
 
-This is a stripped version of the game that contains tools allowing you to customize, preview and test any 3rd-party content in the actual game's environment.
+This is a stripped version of the game that contains tools allowing you to customize, preview, and test any 3rd-party content in the actual game's environment.
 
 <iframe width="680" height="382" src="https://www.youtube.com/embed/txoYrQ88GzM" frameborder="0" allowfullscreen></iframe>
 
@@ -68,7 +68,7 @@ UI
 * Edge pan (in fullscreen)
 * `WASD` and `←↑↓→` to pan (hold `Shift` to rotate)
 * Added persistent settings to toggle music and VSync
-* Vehicles moving/stopped state is also persistent
+* Vehicles moving/stopped state is also persistent (thanks **Alego22**!)
 
 API changes
 
@@ -78,6 +78,7 @@ Other
 
 * Added macOS and Linux versions
 * Added sample `steam.trainsound`
+* If mesh has no normals they will be autocalculated
 * Fixed obj importer generates extra triangles (thanks **Alego22**!)
 * Fixed asset editor does not respect mesh bounds if it was hot-reloaded (thanks **Alego22**!)
 * Fixed wires do not want to explode (thanks **firestarspelt**!)
