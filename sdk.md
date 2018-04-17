@@ -53,8 +53,8 @@ You can notice that our models are:
 <img src="/assets/sdk/guidelines/20180417-141213-1.png" class="compare-item" />
 <img src="/assets/sdk/guidelines/20180417-141213.png" class="compare-item last" />
 
-<img src="/assets/sdk/guidelines/Layer3.png" class="compare-item last" />
-<img src="/assets/sdk/guidelines/Layer2.png" class="compare-item" />
+<img src="/assets/sdk/guidelines/Layer3.png" class="compare-item" />
+<img src="/assets/sdk/guidelines/Layer2.png" class="compare-item last" />
 
 Use vivid colors, but not too much:
 
