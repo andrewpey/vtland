@@ -42,11 +42,12 @@ Quick tips:
 
 ## Design guidelines
 
-Do not try to mimic real life representation, but rather try to get fancy nice-looking feel that fits the game overall style.
+Do not try to exatcly mimic real life representation, but rather try to get fancy nice-looking feel that fits the game overall style.
 
 You can notice that our models are:
 
 * Much shorter then their prototypes
+* Can have different count of axles
 * Not overdetailed but still recognizable
 * Vivid and toy-ish looking
 
