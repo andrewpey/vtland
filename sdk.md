@@ -62,9 +62,9 @@ You can notice that our models are:
 
 Use vivid colors instead of faded ones, but not too much:
 
-<img src="/assets/sdk/guidelines/3a-1.png" class="compare-item" />
-<img src="/assets/sdk/guidelines/3a.png" class="compare-item last" />
-<img src="/assets/sdk/guidelines/3b.png" />
+<img src="/assets/sdk/guidelines/3a-1.png" class="compare-item third" />
+<img src="/assets/sdk/guidelines/3a.png" class="compare-item third" />
+<img src="/assets/sdk/guidelines/3b.png"  class="compare-item third last" />
 
 Darker windows are looks better. Consider using predefined colors:
 

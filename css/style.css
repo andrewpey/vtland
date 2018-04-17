@@ -426,6 +426,10 @@ img.compare-item {
     margin-right: 5px;
 }
 
+img.compare-item.third {
+    width: 32.3%;
+}
+
 img.compare-item.last {
     margin-right: 0;
 }
