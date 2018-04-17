@@ -57,6 +57,9 @@ You can notice that our models are:
 <img src="/assets/sdk/guidelines/Layer3.png" class="compare-item" />
 <img src="/assets/sdk/guidelines/Layer2.png" class="compare-item last" />
 
+<img src="/assets/sdk/guidelines/dbv200.png" class="compare-item" />
+<img src="/assets/sdk/guidelines/dbv200-1.png" class="compare-item last" />
+
 Use vivid colors instead of faded ones, but not too much:
 
 <img src="/assets/sdk/guidelines/3a-1.png" class="compare-item" />
