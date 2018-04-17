@@ -19,6 +19,13 @@ This is a stripped version of the game that contains tools allowing you to custo
 
 [Release notes](#release-notes)
 
+## System requirements
+
+* 64bit Windows Vista SP1+ / Mac OS X 10.9+ / Ubuntu 12.04+
+* DX11 / OpenGL Core 4.1 / Metal compatible video card
+* 2GB+ RAM
+* Curiosity
+
 ## Documentation
 
 > Detailed documentation will come later. You can help us by making your own tutorials. A little one can be found on [legacy page](/sdk_legacy).
@@ -33,12 +40,45 @@ Quick tips:
 * All **URI** should be lowercase. It's recommended to keep asset names in lowercase also to avoid possible caveats.
 * Only `.obj` is supported for meshes at the moment.
 
-## System requirements
+## Design guidelines
 
-* 64bit Windows Vista SP1+ / Mac OS X 10.9+ / Ubuntu 12.04+
-* DX11 / OpenGL Core 4.1 / Metal compatible video card
-* 2GB+ RAM
-* Curiosity
+Do not try to mimic real life representation, but rather try to get fancy nice-looking feel that fits the game overall style.
+
+You can notice that our models are:
+
+* Much shorter then their prototypes
+* Not overdetailed but still recognizable
+* Vivid and toy-ish looking
+
+<img src="/assets/sdk/guidelines/20180417-141213-1.png" class="compare-item" />
+<img src="/assets/sdk/guidelines/20180417-141213.png" class="compare-item last" />
+
+<img src="/assets/sdk/guidelines/Layer3.png" class="compare-item last" />
+<img src="/assets/sdk/guidelines/Layer2.png" class="compare-item" />
+
+Use vivid colors, but not too much:
+
+<img src="/assets/sdk/guidelines/3a-1.png" class="compare-item" />
+<img src="/assets/sdk/guidelines/3a.png" class="compare-item last" />
+<img src="/assets/sdk/guidelines/3b.png" />
+
+Darker windows are looks better. Consider using predefined colors:
+
+<img src="/assets/sdk/guidelines/2a.png" class="compare-item" />
+<img src="/assets/sdk/guidelines/2b.png" class="compare-item last" />
+
+Consider some parts of the model to use smooth shading:
+
+<img src="/assets/sdk/guidelines/2.png" class="compare-item" />
+<img src="/assets/sdk/guidelines/1.png" class="compare-item last" />
+
+Another example:
+
+<img src="/assets/sdk/guidelines/1a.png" class="compare-item" />
+<img src="/assets/sdk/guidelines/1b.png" class="compare-item last" />
+
+
+All of that is just a recommendation and not hard rules. Be creative!
 
 ## Known issues
 

@@ -318,10 +318,6 @@ li {
     margin: 10px 0;
 }
 
-#milestones em {
-    font-size: 22px;
-}
-
 .money {
     background: #1ba91c;
     box-shadow: #086707 5px 5px;
@@ -419,4 +415,17 @@ a.patreon:hover {
     padding-bottom: 0px;
     animation: patreon-pulsing 1s infinite alternate;
     animation-timing-function: linear;
+}
+
+span.compare-filler {
+    width: 1%;
+}
+
+img.compare-item {
+    width: 49.2%;
+    margin-right: 5px;
+}
+
+img.compare-item.last {
+    margin-right: 0;
 }
