@@ -4,7 +4,7 @@
 
 [FAQ](/faq){:.faqlink}
 
-[Wishlist on Steam](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
+[WISHLIST ON STEAM](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
 
 [$ DONATE $](/donate){:.money}
 
@@ -26,10 +26,10 @@
 
 [Discord](//discord.gg/64KPWd5){:.discord} <small>{{site.data.socials.dd}} </small>
 
-[Demo Scene + SDK](/sdk){:.sdk}
+[SDK + Demo Scene](/sdk){:.sdk}
 
 [Gallery](/gallery){:.gallery}
 
-[dev@voxeltycoon.xyz](mailto:dev@voxeltycoon.xyz){:.email}
+[Email](mailto:dev@voxeltycoon.xyz){:.email}
 
-[newsletter]({{site.newsletter_url}})
+[Notify Me]({{site.newsletter_url}})
