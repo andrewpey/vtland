@@ -95,7 +95,7 @@ This probably caused by macOS sandbox. Run this command in Terminal to mark app 
 
 ## Error reporting
 
-You can report issues to https://github.com/andrewpey/open-voxel-tycoon/issues. Please ensure no such issue was reported earlier!
+You can report issues to [https://github.com/andrewpey/open-voxel-tycoon/issues](https://github.com/andrewpey/open-voxel-tycoon/issues). Please ensure no such issue was reported earlier!
 
 Logs locations:
 
