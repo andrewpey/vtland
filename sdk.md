@@ -105,6 +105,12 @@ Logs locations:
 
 ## Release notes
 
+*4/29/18*
+
+* Fixed multiple axles per bogie do not work (thanks **Golden Arrow**!)
+* Updated chme3 model
+* Fixed some UI issues
+
 *4/15/18*
 
 UI
