@@ -5,31 +5,32 @@ header: How to publish your mod
 wrapper: faq
 ---
 
-This step-by-step guide is supposed for mod creators who want to feature their creations on in-game mods gallery. Like this:
+This step-by-step guide is intended for mod creators who want to feature their creations on the in-game Mod Gallery. Like this:
 
 <img src="/assets/sdk/publish_your_mod/20180514-192535.png" />
 
-> **Disclaimer** Current implementation is temporary. After the release of the game on Steam, we will incorporate Steam Workshop support, so the publishing process may change.
+> **Note**: Current implementation is temporary. After the release of the game on Steam, we will incorporate Steam Workshop support, so the publishing process may change.
 
 ## Obtain credentials
 
-If you want to became an publisher, you should obtain credentials so our servers can identify you as the Author. We do not provide user interface for register at the moment, so please contact **@devs** on [Discord](//discord.gg/64KPWd5).
+If you want to become a publisher, you should obtain credentials so our servers can identify you as an Author. We do not have a user interface for registration at the moment, so please contact **@devs** on our [Discord server](//discord.gg/64KPWd5).
 
-You will receive `identity.json` file that is your key to publishing access. Put the key into the root of `Content` folder. Next time the game run it will know that you are an Author.
 
-> **Do not share identity file with anyone**, since any person that have this key can publish, update and remove your mods.
+You will receive an `identity.json` file - this is your key to publishing access. Put the file into the root of your `Content/` folder. Next time the game runs, it will know that you are an Author.
+
+> **Important:** Do not share identity file with anyone. If you do, any person that has it can publish, update or remove your mods in the Gallery.
 
 ## Prepare mod for publishing
 
-Actually, at this point your mod already can be published. But, probably, you want to add some final touches to it.
+Actually, at this point your mod already can be published. But you probably want to add some final touches to it first.
 
 ### Add preview image
 
-Put `preview.png` into the root of your mod folder. To be properly scaled its dimenstions should be `184х110`.
+Take a screenshot of your mod in action, and save it as `preview.png`. Drop the image into your mod's root folder. To be properly scaled in the Gallery, its dimensions should be `184х110` pixels.
 
 ### Set custom title and description
 
-Put `pack.json` into the root of your mod folder. Its contents should be like:
+Create a new `.txt` file, rename it to `pack.json`, and place it in your mod's root folder. Its contents should be set up as follows:
 
 ```json
 {
@@ -40,14 +41,14 @@ Put `pack.json` into the root of your mod folder. Its contents should be like:
 
 ## Publish, update and unpublish
 
-Just hit on your mod in **installed** tab and choose an appropriate action.
+Just click on your mod in the **Installed** tab, and choose the appropriate action.
 
 <img src="/assets/sdk/publish_your_mod/20180514-193710.png" style="width: auto"/>
 
-> You can publish only mods that are not tracked as **installed**, i.e. was not installed from the gallery but manually created by you.
+> You can publish only mods that are not tracked as **installed**, i.e. was not downloaded from the gallery but manually placed to `Content/` by you.
 
-If you are updating already published mod, other users that have this mod installed will be able to see at Mod Browser that  an update for this mod is available.
+If you are updating a mod that is already published, users that have it installed will see that an update is available for it.
 
 ## Limits
 
-To prevent our storages to overflow, we temporary restict how many packs you can publish. The limits can be seen at [https://voxeltycoon-mods.herokuapp.com/limits?uid=`your_secret_key`](https://voxeltycoon-mods.herokuapp.com/limits?uid=your_secret_key), where secret key is the one stored in `identity.json` file.
+To prevent our servers from being completely filled with content, we're temporarily restricting how many packs users can publish. Your limit can be seen at  [https://voxeltycoon-mods.herokuapp.com/limits?uid=`your_secret_key`](https://voxeltycoon-mods.herokuapp.com/limits?uid=your_secret_key), where "your_secret_key" is the one stored in your specific `identity.json` file.
