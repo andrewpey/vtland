@@ -244,11 +244,11 @@ img, iframe {
 }
 
 .faq h3 {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 
 .faq-ru h3 {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-family: 'Roboto';
 }
 
@@ -297,6 +297,16 @@ code {
     padding: 2px 5px;
     font-family: 'Roboto Mono', monospace;
     font-size: 0.7em;
+    color: #00e5ff;
+}
+
+.highlight {
+    border-radius: 5px;
+    padding: 1px 3px;
+}
+
+pre.highlight code {
+    background: none;
 }
 
 blockquote {
