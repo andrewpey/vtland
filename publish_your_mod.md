@@ -50,4 +50,4 @@ If you are updating already published mod, other users that have this mod instal
 
 ## Limits
 
-To prevent our storages to overflow, we temporaty restict how many packs you can publish. The limits can be seen at [https://voxeltycoon-mods.herokuapp.com/limits?uid=`your_secret_key`](https://voxeltycoon-mods.herokuapp.com/limits?uid=your_secret_key), where secret key is the one stored in `identity.json` file.
+To prevent our storages to overflow, we temporary restict how many packs you can publish. The limits can be seen at [https://voxeltycoon-mods.herokuapp.com/limits?uid=`your_secret_key`](https://voxeltycoon-mods.herokuapp.com/limits?uid=your_secret_key), where secret key is the one stored in `identity.json` file.
