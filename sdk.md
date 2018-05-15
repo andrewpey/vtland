@@ -105,6 +105,15 @@ Logs locations:
 
 ## Release notes
 
+*5/15/18*
+
+* Added in-game Mod Browser where you can browse for already published creations and manage installed mods:
+
+<img src="/assets/sdk/publish_your_mod/20180514-192535.png" style="margin-left: 40px; width: 600px;" />
+
+* If you are mod creator and want to feature your work in the gallery please check [this guide](/publish_your_mod)
+* Fixed meshes with more than 50 vertices per face failed to load (thanks **meinroman**!)
+
 *4/29/18*
 
 * Fixed multiple axles per bogie do not work (thanks **Golden Arrow**!)
