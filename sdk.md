@@ -108,7 +108,7 @@ Logs locations:
 
 *5/15/18*
 
-* Added in-game Mod Browser where you can browse for already published creations and manage installed mods:
+* Added in-game Mod Browser where you can browse for already published creations and manage installed mods (thanks **Alego22** and **meinroman** for help with bug hunting):
 
 <img src="/assets/sdk/publish_your_mod/20180514-192535.png" style="margin-left: 40px; width: 600px;" />
 
