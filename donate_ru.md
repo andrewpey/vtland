@@ -20,4 +20,6 @@ title: Поддержать рублем // VOXEL TYCOON
     <img src="become_a_patron_button.png">
 </a>
 
-Также пожертвование можно сделать через [Яндекс.Деньги](http://yasobe.ru/na/voxeltycoon).
+Также пожертвование можно сделать через [Сообщения сообщества](https://vk.com/im?sel=-117411610):
+
+![](/assets/20180901-215247.png)
