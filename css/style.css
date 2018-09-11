@@ -225,6 +225,10 @@ img, iframe {
     font-family: 'Roboto';
 }
 
+.faq .video-foreground {
+    opacity: 0.1;
+}
+
 .faq.collapse-regions h2 {
     margin-top: 3rem;
     font-size: 2rem;
