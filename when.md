@@ -6,9 +6,9 @@ wrapper: faq
 
 # The Voxel Tycoon State of Affairs
 
-`September 16, 2018`
-
 If you've been following the development of VT for some time, you may notice that our estimated release date has changed several times. It was never an exact date, but regardless, we didn't meet them. From that, a reasonable question arises - why is that? And what's taking so long?
+
+> **Disclaimer:** Planned release date is still 2018 at the moment.
 
 ## The bright side of Indie
 
@@ -80,3 +80,5 @@ Big thanks for your support, guys. Special appreciation goes to the kind folks w
 This is an incredible journey for us, and we hope we're making it fun enough for you as well.
 
 ![Meow](https://cdn.discordapp.com/attachments/394070514395774977/487723552917946369/IMG_20180624_213650.jpg)
+
+`Last modified: September 16, 2018`
