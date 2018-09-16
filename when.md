@@ -55,7 +55,7 @@ Everything that needed to make the game basically playable except listed above. 
 
 **Maxim** is improving the user experience of laying out roads, rails, and conveyors as we feel previous implementations were too hard to use without outbursts of rage.
 
-**Andrew** is working on the final implementation of the modular stations (or **hubs**) concept, which defines how stations, cities, storage facilities and factories interact with each other.
+**Andrew** is working on the final implementation of the modular stations (or **hubs**) concept, which defines how stations, cities, storage facilities, and factories interact with each other.
 
 If you haven't yet, we invite you to join our [Discord community](http://discord.gg/64KPWd5) where you can talk to us, or just see what we're up to.
 
