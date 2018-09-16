@@ -75,7 +75,7 @@ It's at that moment when we will probably post a final, solid release date.
 
 ## Thank you!
 
-Big thanks for your support, guys. Special appreciation goes to the kind folks who donate their money to us, not expecting anything in exchange. Especially our Patrons — you rock!
+Big thanks for your support, guys. Special appreciation goes to the kind folks who donate their money to us, not expecting anything in exchange. Especially our [Patrons](https://www.patreon.com/voxeltycoon) — you rock!
 
 This is an incredible journey for us, and we hope we're making it fun enough for you as well.
 
