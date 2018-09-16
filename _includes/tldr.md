@@ -8,4 +8,4 @@ We are developing <span class="title">Voxel Tycoon</span> — a strategy game ab
 
 Dig into our [FAQ](/faq){:.faqlink} to read answers to the most frequently asked questions, check some [screenshots, gifs, and wallpapers](/gallery), and don't forget to follow our [social media](/contacts) for updates.
 
-Release date: [`2018`](/2018)
+Release date: [`2018`](/when)
