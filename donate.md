@@ -26,4 +26,4 @@ Alternatively, you can make one-time donation via **PayPal**:
 
 {% include donate_btn.html %}
 
-Or even via [Yandex.Money](http://yasobe.ru/na/voxeltycoon).
+> There's also version of this page [in Russian](/donate_ru).
