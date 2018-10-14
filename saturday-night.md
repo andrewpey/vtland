@@ -59,7 +59,7 @@ One more important milestone here is that built-in assets have been completely r
 
 A bit of history: in the first year of development, we mostly focused on getting a playable prototype to work. Despite the fact we were committed to making the game's content moddable from day one, to make the prototype function, we used assets that relied on Unity's built-in system. It worked well, and we even coded a bunch of Unity Editor extensions to handle these assets.
 
-However, as the base game was established, it was oblivious that built-in assets have limitations that we should overcome to make modding as accessible and flexible as possible. So, we developed our own asset pipeline, released with [SDK 2.0](/sdk). Every new asset added since then was developed for the new system and, therefore, is moddable.
+However, as the base game was established, it was obvious that built-in assets have limitations that we should overcome to make modding as accessible and flexible as possible. So, we developed our own asset pipeline, released with [SDK 2.0](/sdk). Every new asset added since then was developed for the new system and, therefore, is moddable.
 
 Through development, there were a lot of existing old-fashioned assets using the base Unity system. However, every time we've touched stuff related to an asset, like when we need to add new data or behaviour to it, then we take the extra step to convert it to the new system. And today, finally, this process is finished!
 
