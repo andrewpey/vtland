@@ -2,9 +2,12 @@
   <img src="logo.png"/>
 </a>
 
-[FAQ](/faq){:.faqlink}
 
 [WISHLIST ON STEAM](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
+
+[Devlog](/devlog)
+
+[FAQ](/faq){:.faqlink}
 
 [$ DONATE $](/donate){:.money}
 
