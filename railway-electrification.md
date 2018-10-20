@@ -19,3 +19,7 @@ Vehicle physics produce fun effects here. Although electric trains will not cons
 The next area we are going to focus on regarding this is the need to power electrified rails by connecting them to an electrical grid, which in turn should be connected to a powerful enough energy source.
 
 Stay tuned for more information about the game! Please [follow our social networks](/contacts), and we encourage you to join our [Discord](http://discord.gg/64KPWd5) and share your thoughts with us or the community.
+
+<p style="text-align: center">
+    <img style="width: 140px;" src="/assets/pumpkin50.png"/>
+</p>
