@@ -9,9 +9,9 @@ wrapper: post halloween
 
 ## Happy Halloween🎃!
 
-Voxel Tycoon team is proudly presents to you - first ever in history - official release of the spin-off to unreleased game. Please welcome **Voxel Tycoon: Railroad to Hell 3**!
+Voxel Tycoon team proudly presents - first ever in history - an official release of the spin-off to an unreleased game. Please welcome **Voxel Tycoon: Railroad to Hell 3**!
 
-Defend the train on its road to redemption in the beautiful world that survived devastating war and now filled with monsters that have only one purpose: to kill!
+Defend the train on its road to redemption in the beautiful world that survived the devastating war and now filled with monsters that have only one purpose: to kill!
 
 ### <a href="https://github.com/andrewpey/vtland/releases/download/rth3/RailroadToHell3.zip">Download</a>
 
