@@ -5,7 +5,7 @@ redirect_from:
 wrapper: post halloween
 ---
 
-<img src="/assets/halloween/hero.png" style="margin-left:-40px;margin-top:-40px;width:120%"/>
+<img src="/assets/halloween/hero.png" style="margin-left:-40px;margin-top:-40px;margin-bottom:-80px;width:120%"/>
 
 ## Happy Halloween🎃!
 
