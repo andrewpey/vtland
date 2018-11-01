@@ -1,7 +1,5 @@
 ---
 layout: halloween
-redirect_from:
-    - "/halloween"
 wrapper: post halloween
 ---
 
