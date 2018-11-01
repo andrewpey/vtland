@@ -500,6 +500,14 @@ img.compare-item.last {
     border-bottom: 2px solid #ffffff;
 }
 
+.post ul {
+    margin-left: -20px;
+}
+
+.post li {
+    font-size: 19px;
+}
+
 .img-inline-left-container
 {
     float: left;
