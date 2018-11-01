@@ -11,11 +11,7 @@ wrapper: post post-ru halloween
 
 Встречайте **Voxel Tycoon: Railroad to Hell 3**! Защищайте поезд на его пути к искуплению в прекрасном мире, который пережил разрушительную войну и теперь заполнен монстрами, испытывающими только одно желание: убивать!
 
-### <a href="https://voxeltycoon.itch.io/voxel-tycoon-railroad-to-hell-3">Загрузить</a>
-
-<p style="margin-top:-10px"><del>1999р.</del> <b style="color: #49de00">Бесплатно!</b>*</p>
-
-<small>* Если вам понравилось, вы можете [поддержать](/donate) Voxel Tycoon. Спасибо!👻</small>
+<iframe frameborder="0" src="https://itch.io/embed/324650?linkback=true&amp;border_width=1&amp;bg_color=1e1728&amp;fg_color=ffffff&amp;link_color=b7278c&amp;border_color=4b4455" width="560" height="175"></iframe>
 
 <!--
 
