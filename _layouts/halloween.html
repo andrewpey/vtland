@@ -46,6 +46,9 @@
         {% endunless %}
         {% unless page.hide_sidebar %}
         <div class="sidebar">
+            <a class="logo" href="/">
+                <img src="assets/logo_halloween.gif"/>
+            </a>
             {% capture sidebar %}{% include sidebar.md %}{% endcapture %} {{ sidebar | markdownify }}
         </div>
         {% endunless %}

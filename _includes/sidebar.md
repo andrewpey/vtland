@@ -1,8 +1,3 @@
-<a class="logo" href="/">
-  <img src="logo.png"/>
-</a>
-
-
 [WISHLIST ON STEAM](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
 
 [Devlog](/devlog)
