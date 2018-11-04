@@ -20,7 +20,7 @@ wrapper: post post-ru halloween
     <li><b style="color: yellow">50</b> волн врагов</li>
     <li>Красивый разрушаемый мир</li>
     <li>Стильная графика и зубодробительный саундтрек</li>
-    <li>Единственная цель: виживать!</li>
+    <li>Единственная цель: выживать!</li>
 </ul>
 
 <iframe frameborder="0" src="https://itch.io/embed/324650?linkback=true&amp;border_width=1&amp;bg_color=1e1728&amp;fg_color=ffffff&amp;link_color=b7278c&amp;border_color=4b4455" width="560" height="175"></iframe>
