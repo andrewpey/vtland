@@ -1,14 +1,23 @@
 [WISHLIST ON STEAM](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
 
-[Devlog](/devlog)
-
-[FAQ](/faq){:.faqlink}
+<a class="patreon-navbar" href="https://www.patreon.com/bePatron?u=7655118">BECOME A PATRON</a>
 
 [$ DONATE $](/donate){:.money}
 
-<a class="patreon-navbar" href="https://www.patreon.com/bePatron?u=7655118">BECOME A PATRON</a>
+***
 
-[Roadmap](https://trello.com/b/3susroHe/vt-roadmap){:.roadmap}
+
+[Devlog](/devlog)
+
+[Roadmap](https://trello.com/b/3susroHe/vt-roadmap)
+
+[FAQ](/faq){:.faqlink}
+
+[SDK + Demo Scene](/sdk){:.sdk}
+
+<a href="/railroad-to-hell">Railroad to Hell <span style="color:red">3</span></a>
+
+***
 
 [Twitter](//twitter.com/VoxelTycoon){:.twitter} <small>{{site.data.socials.tw}}</small>
 
@@ -21,12 +30,6 @@
 [Reddit](//reddit.com/r/voxeltycoon){:.reddit} <small>{{site.data.socials.rd}} </small>
 
 [Discord](//discord.gg/64KPWd5){:.discord} <small>{{site.data.socials.dd}} </small>
-
-[SDK + Demo Scene](/sdk){:.sdk}
-
-<a href="/railroad-to-hell">Railroad to Hell <span style="color:red">3</span></a>
-
-[Gallery](/gallery){:.gallery}
 
 [Email](mailto:dev@voxeltycoon.xyz){:.email}
 
