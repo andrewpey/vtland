@@ -291,6 +291,9 @@ img, iframe {
 .sidebar .logo {
     margin: -6px;
 }
+.sidebar .logo img {
+    width: 250px;
+}
 
 .sidebar .logo:hover {
     border: none;
