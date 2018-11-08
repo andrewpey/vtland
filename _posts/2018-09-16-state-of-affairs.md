@@ -5,8 +5,6 @@ redirect_from:
     - "/when"
 ---
 
-# The Voxel Tycoon State of Affairs
-
 If you've been following the development of VT for some time, you may notice that our estimated release date has changed several times. It was never an exact date, but regardless, we didn't meet them. From that, a reasonable question arises - why is that? And what's taking so long?
 
 > An estimated alpha release date is 2018 at the moment.
