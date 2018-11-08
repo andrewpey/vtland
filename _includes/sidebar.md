@@ -7,7 +7,7 @@
 [$ DONATE $](/donate){:.money}
 
 <a class="patreon" href="https://www.patreon.com/bePatron?u=7655118">
-    <img src="become_a_patron_button.png">
+    <img src="/become_a_patron_button.png">
 </a>
 
 [Roadmap](https://trello.com/b/3susroHe/vt-roadmap){:.roadmap}

@@ -402,7 +402,7 @@ a.sdk {
     margin: 0 auto;
 }
 
-a.clear, a.clear:hover {
+a.clear, a.clear:hover, .post a.clear, .post-ru a.clear {
     border: none;
 }
 
@@ -548,4 +548,17 @@ img.compare-item.last {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.page-nav {
+    line-height: 150%;
+}
+
+.page-nav .prev {
+    float: left;
+}
+
+.page-nav .next {
+    float: right;
+    text-align: right;
 }

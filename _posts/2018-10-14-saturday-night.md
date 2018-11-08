@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: post
 title: Saturday Night with Voxel Tycoon
-wrapper: post
+redirect_from:
+    - "/saturday-night"
 ---
-
-# Saturday Night with Voxel Tycoon
 
 Around three weeks ago we posted a [State of Affairs](/when) message, where we disclosed the actual state of development and talked about things left to do before we can ship the alpha. Here's a quick reminder of that list, with some added notes on what's changed:
 
@@ -16,7 +15,7 @@ Building tools have greatly improved since last time. There are still some flaws
 
 This is done! Woo-hoo!
 
-![](assets/weekreport/20181013-152913.png)
+![](/assets/weekreport/20181013-152913.png)
 
 ### Finalized UI
 
@@ -44,7 +43,7 @@ For those who missed it, check out these 15+ minutes of raw footage, recorded fr
 
 Those who watched the video above may have noticed that the one piece was missing from our vehicle physics engine - taking load weights into account. Now, when a vehicle is running with more cargo aboard, it will require more power. This is especially noticeable when going uphill:
 
-![](assets\weekreport\phys2-0.gif)
+![](/assets/weekreport/phys2-0.gif)
 
 We are finally satisfied with the physics engine, and it can be considered final. We are not going to alter it again until after the first alpha.
 

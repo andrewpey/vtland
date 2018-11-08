@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>{{ page.title | default: "VOXEL TYCOON" }}</title>
+    <title>{{ page.title | default: "VOXEL TYCOON" }} // VOXEL TYCOON</title>
     <link rel="stylesheet" href="/css/style.css?z={{ site.time | date: "%s" }}">
     <link rel="stylesheet" href="/css/highlight.css?z={{ site.time | date: "%s" }}">
     <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
@@ -28,18 +28,31 @@
 
     <div class="video-background">
         <div class="video-foreground">
-            {% if page.play_video %}
-            <video class="video-content" src="/background.mp4" poster="/background.jpg" autoplay loop muted />
-            {% else %}
             <img class="video-content" src="/background.jpg" style="opacity: 0.5">
-            {% endif %}
         </div>
     </div>
     <section id="content" class="container">
-        {% unless page.is_contacts %}
-        <div class="page-content {{ page.wrapper }}">
-            <h1>{{ page.header }}</h1>
+        <div class="page-content post">
+            <h1>{{ page.title }}</h1>
             {{ content }}
+            <p style="text-align: center"><a href="/devlog" class="clear"><code>{{ page.date | date_to_long_string }}</code></a></p>
+            <div class="page-nav">
+                {% if page.previous.url %}
+                    <div class="prev">
+                        Previous post<br>
+                        <a href="{{page.previous.url}}">{{page.previous.title}}</a><br>
+                        <code>{{ page.previous.date | date_to_long_string }}</code>
+                    </div>
+                {% endif %}
+                {% if page.next.url %}
+                <div class="next">
+                    Next post<br>
+                    <a href="{{page.next.url}}">{{page.next.title}}</a><br>
+                    <code>{{ page.next.date | date_to_long_string }}</code>
+                </div>
+                {% endif %}
+            </div>
+            <div style="clear: both;"></div>
             <div class="fix-it">
                 <small>
                     This site is hosted on <a href="//github.com/andrewpey/vtland">GitHub</a>,
@@ -47,15 +60,12 @@
                 </small>
             </div>
         </div>
-        {% endunless %}
-        {% unless page.hide_sidebar %}
         <div class="sidebar">
             <a class="logo" href="/">
                 <img src="/logo.png"/>
             </a>
             {% capture sidebar %}{% include sidebar.md %}{% endcapture %} {{ sidebar | markdownify }}
         </div>
-        {% endunless %}
     </section>
 
 </body>
