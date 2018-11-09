@@ -287,10 +287,9 @@ img, iframe {
     line-height: 24px;
     display: flex;
     flex-direction: column;
-}
-
-.sidebar{
     will-change: min-height;
+    width: 30%;
+    position: relative;
 }
 
 .sidebar__inner{
