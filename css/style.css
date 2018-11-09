@@ -284,9 +284,8 @@ img, iframe {
     margin: -36px 70px 0px 70px;
     line-height: 24px;
     position: sticky;
-    height: 900px;
-    top: 20px; /*-110px;*/
     bottom: 0px;
+    height: 900px;
 }
 
 .sidebar .logo {
