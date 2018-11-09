@@ -15,7 +15,7 @@
 
 [SDK + Demo Scene](/sdk){:.sdk}
 
-<a href="/railroad-to-hell">Railroad to Hell <span style="color:red">3</span></a>
+<a class='sidebar__item' href="/railroad-to-hell">Railroad to Hell <span style="color:red">3</span></a>
 
 ***
 
