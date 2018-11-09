@@ -288,6 +288,16 @@ img, iframe {
     flex-direction: column;
 }
 
+.sidebar{
+    will-change: min-height;
+}
+
+.sidebar__inner{
+    transform: translate(0, 0); /* For browsers don't support translate3d. */
+    transform: translate3d(0, 0, 0);
+    will-change: position, transform;
+}
+
 .sidebar p {
     padding: 12px 0;
     height: 24px;
