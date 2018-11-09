@@ -284,12 +284,12 @@ img, iframe {
     font-size: 24px;
     margin: -36px 70px 0px 70px;
     line-height: 24px;
+    position: -webkit-sticky;
     position: sticky;
     display: flex;
     flex-direction: column;
     bottom: 0px;
     align-self: flex-end;
-    position: -webkit-sticky;
 }
 
 .sidebar p {
