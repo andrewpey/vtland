@@ -295,7 +295,7 @@ img, iframe {
 }
 
 .sidebar__item {
-    padding: 0 12px;
+    padding: 12px 0;
 }
 
 .sidebar .logo {
