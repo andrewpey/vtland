@@ -286,6 +286,7 @@ img, iframe {
     position: sticky;
     height: 900px;
     top: 20px; /*-110px;*/
+    bottom: 0px;
 }
 
 .sidebar .logo {
