@@ -289,8 +289,9 @@ img, iframe {
     line-height: 24px;
     position: sticky;
     display: flex;
+    flex-direction: column;
     bottom: 0px;
-    height: 900px;
+    height: auto;
 }
 
 .sidebar .logo {
