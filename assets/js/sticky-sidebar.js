@@ -735,7 +735,6 @@ const StickySidebar = (() => {
     return StickySidebar;
   })();
   
-  
   // Global
   // -------------------------
   window.StickySidebar = StickySidebar;
