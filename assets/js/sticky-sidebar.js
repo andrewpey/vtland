@@ -82,6 +82,8 @@ const StickySidebar = (() => {
           throw new Error("There is no specific sidebar element.");
   
         this.sidebarInner = false;
+        console.log(this.sidebar);
+        console.log(this.sidebar.parentElement);
         this.container = this.sidebar.parentElement;
   
         // Current Affix Type of sidebar element.
