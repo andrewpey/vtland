@@ -20,12 +20,21 @@
 
     ga('create', 'UA-37507673-2', 'auto');
     ga('send', 'pageview');
-    </script>    
+    </script>
+      
 </head>
 
 <body>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-
+    <script type="text/javascript" src="../_includes/sticky-sidebar.js"></script>  
+    <script type="text/javascript">
+        var sidebar = new StickySidebar('.sidebar', {
+          topSpacing: 20,
+          bottomSpacing: 20,
+          containerSelector: '.main-content',
+          innerWrapperSelector: '.sidebar__inner'
+        });
+      </script>
     <div class="video-background">
         <div class="video-foreground">
             {% if page.play_video %}
