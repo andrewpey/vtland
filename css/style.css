@@ -48,6 +48,10 @@
     font-weight: 700;
 }
 
+p {
+    margin: 0;
+}
+
 hr {
     opacity: 0;
 }
@@ -284,6 +288,7 @@ img, iframe {
     margin: -36px 70px 0px 70px;
     line-height: 24px;
     position: sticky;
+    display: flex;
     bottom: 0px;
     height: 900px;
 }
