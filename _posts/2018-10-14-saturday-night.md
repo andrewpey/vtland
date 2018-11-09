@@ -7,6 +7,8 @@ redirect_from:
 
 Around three weeks ago we posted a [State of Affairs](/when) message, where we disclosed the actual state of development and talked about things left to do before we can ship the alpha. Here's a quick reminder of that list, with some added notes on what's changed:
 
+<!--more-->
+
 ### Final tools
 
 Building tools have greatly improved since last time. There are still some flaws and bugs to work out - for example, you can't build road intersections at the moment. Not cool! But, we are almost there. Given the fact that they've been in the works for almost 6 months, this is great news!
