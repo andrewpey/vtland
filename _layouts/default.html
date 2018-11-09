@@ -28,7 +28,7 @@
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="/assets/js/sticky-sidebar.js"></script>
     <script type="text/javascript">
-        var sidebar = new StickySidebar('.sidebar', {
+        var sidebar = new StickySidebar('#sb', {
           topSpacing: 20,
           bottomSpacing: 20,
           containerSelector: '#content',
@@ -58,7 +58,7 @@
         </div>
         {% endunless %}
         {% unless page.hide_sidebar %}
-        <div class="sidebar">
+        <div id="sb" class="sidebar">
             <div class="sidebar__inner">
             <a class="logo" href="/">
                 <img src="/assets/press/voxeltycoon_text.png"/>
