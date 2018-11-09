@@ -7,13 +7,13 @@
 ***
 
 
-[Devlog](/devlog)
+[Devlog](/devlog){:.sidebar__item}
 
-[Roadmap](https://trello.com/b/3susroHe/vt-roadmap)
+[Roadmap](https://trello.com/b/3susroHe/vt-roadmap){:.sidebar__item}
 
 [FAQ](/faq){:.faqlink .sidebar__item}
 
-[SDK + Demo Scene](/sdk){:.sdk}
+[SDK + Demo Scene](/sdk){:.sdk .sidebar__item}
 
 <a class='sidebar__item' href="/railroad-to-hell">Railroad to Hell <span style="color:red">3</span></a>
 
@@ -33,7 +33,7 @@
 
 [Email](mailto:dev@voxeltycoon.xyz){:.email .sidebar__item}
 
-[Notify Me]({{site.newsletter_url}})
+[Notify Me]({{site.newsletter_url}}){:.sidebar__item}
 
 <div id="wishlist-modal">
   <div id="wishlist-modal-content">
