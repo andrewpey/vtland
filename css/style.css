@@ -294,6 +294,10 @@ img, iframe {
     height: auto;
 }
 
+.sidebar__item {
+    padding: 0 12px;
+}
+
 .sidebar .logo {
     margin: -6px;
 }
