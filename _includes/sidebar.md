@@ -1,8 +1,8 @@
-[WISHLIST ON STEAM](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
+[WISHLIST ON STEAM](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight .sidebar__item}
 
-<a class="patreon-navbar" href="https://www.patreon.com/bePatron?u=7655118">BECOME A PATRON</a>
+<a class="patreon-navbar sidebar__item" href="https://www.patreon.com/bePatron?u=7655118">BECOME A PATRON</a>
 
-[$ DONATE $](/donate){:.money}
+[$ DONATE $](/donate){:.money ..sidebar__item}
 
 ***
 
@@ -11,7 +11,7 @@
 
 [Roadmap](https://trello.com/b/3susroHe/vt-roadmap)
 
-[FAQ](/faq){:.faqlink}
+[FAQ](/faq){:.faqlink .sidebar__item}
 
 [SDK + Demo Scene](/sdk){:.sdk}
 
@@ -19,19 +19,19 @@
 
 ***
 
-[Twitter](//twitter.com/VoxelTycoon){:.twitter} <small>{{site.data.socials.tw}}</small>
+[Twitter](//twitter.com/VoxelTycoon){:.twitter .sidebar__item} <small>{{site.data.socials.tw}}</small>
 
-[Facebook](//facebook.com/VoxelTycoon){:.facebook} <small>{{site.data.socials.fb}} </small>
+[Facebook](//facebook.com/VoxelTycoon){:.facebook .sidebar__item} <small>{{site.data.socials.fb}} </small>
 
-[YouTube](//youtube.com/c/voxeltycoongame){:.youtube} <small>{{site.data.socials.yt}} </small>
+[YouTube](//youtube.com/c/voxeltycoongame){:.youtube .sidebar__item} <small>{{site.data.socials.yt}} </small>
 
-[VK](//vk.com/VoxelTycoon){:.vk} (in Russian) <small>{{site.data.socials.vk}}</small>
+[VK](//vk.com/VoxelTycoon){:.vk .sidebar__item} (in Russian) <small>{{site.data.socials.vk}}</small>
 
-[Reddit](//reddit.com/r/voxeltycoon){:.reddit} <small>{{site.data.socials.rd}} </small>
+[Reddit](//reddit.com/r/voxeltycoon){:.reddit .sidebar__item} <small>{{site.data.socials.rd}} </small>
 
-[Discord](//discord.gg/64KPWd5){:.discord} <small>{{site.data.socials.dd}} </small>
+[Discord](//discord.gg/64KPWd5){:.discord .sidebar__item} <small>{{site.data.socials.dd}} </small>
 
-[Email](mailto:dev@voxeltycoon.xyz){:.email}
+[Email](mailto:dev@voxeltycoon.xyz){:.email .sidebar__item}
 
 [Notify Me]({{site.newsletter_url}})
 
