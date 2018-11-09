@@ -6,6 +6,7 @@ excerpt: <p>Over the past week we have made a lot of progress on electrified rai
 
 redirect_from:
     - "/railway-electrification"
+    - "/2018/10/20/railway-electrification"
 ---
 
 ![](/assets/weekreport/25.gif)
