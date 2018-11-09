@@ -288,6 +288,7 @@ img, iframe {
     display: flex;
     flex-direction: column;
     bottom: 0px;
+    align-self: flex-end;
 }
 
 .sidebar p {
