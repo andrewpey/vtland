@@ -287,7 +287,6 @@ img, iframe {
     display: flex;
     flex-direction: column;
     bottom: 0px;
-    height: auto;
 }
 
 .sidebar p {
