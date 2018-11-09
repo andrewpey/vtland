@@ -292,6 +292,7 @@ img, iframe {
 
 .sidebar p {
     padding: 12px 0;
+    width: 24px;
  }
 
 .sidebar .logo {
