@@ -63,7 +63,8 @@ body {
     color: white;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    align-items: flex-start;
     margin: 6rem -40px 4rem -40px;
 }
 
@@ -100,7 +101,7 @@ h1 {
 .page-content {
     margin-right: 150px;
     margin: 0 70px;
-    flex-grow:9999;
+    width: 100%;
     /*flex-basis: 700px;*/
     max-width: 700px;
 }
