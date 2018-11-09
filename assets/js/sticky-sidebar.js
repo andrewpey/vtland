@@ -75,7 +75,6 @@ const StickySidebar = (() => {
        */
       constructor(sidebar, options = {}){
         this.options = StickySidebar.extend(DEFAULTS, options);
-        console.log(this.sidebar);
   
         // Sidebar element query if there's no one, throw error.
         this.sidebar = ('string' === typeof sidebar ) ? document.querySelector(sidebar) : sidebar;
@@ -83,8 +82,6 @@ const StickySidebar = (() => {
           throw new Error("There is no specific sidebar element.");
   
         this.sidebarInner = false;
-        console.log(this.sidebar);
-        console.log(this.sidebar.parentElement);
         this.container = this.sidebar.parentElement;
   
         // Current Affix Type of sidebar element.
