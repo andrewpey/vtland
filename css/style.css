@@ -294,9 +294,9 @@ img, iframe {
     height: auto;
 }
 
-.sidebar__item {
+.sidebar p {
     padding: 12px 0;
-}
+ }
 
 .sidebar .logo {
     margin: -6px;
