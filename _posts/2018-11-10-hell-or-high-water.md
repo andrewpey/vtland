@@ -5,11 +5,11 @@ category: devlog
 draft: true
 ---
 
-Halloween is behind now and we decided it's great time to do a little retrospective on how we celebrated it with our community in the past, and especially talk about this year and why it's important.
+Halloween is behind now and we decided it's a great time to do a little retrospective on how we celebrated it with our community in the past and especially talk about this year and why it's important.
 
 ## Tier 1
 
-It was those times when we were working on Voxel Tycoon in our spare time. Not so much afforts was put into the Halloween post - we just basically recolored some biomes and trees to get the spooky look. By the way, it was a moment when the famous Pumpkin was born:
+It was those times when we were working on Voxel Tycoon in our spare time. Not so much effort was put into the Halloween post - we just basically recolored some biomes and trees to get the spooky look. By the way, it was a moment when the famous Pumpkin was born:
 
 ![](/assets/hell-or-high-water/M7USjsCR0AU.jpg)
 
@@ -21,7 +21,7 @@ It was those times when we were working on Voxel Tycoon in our spare time. Not s
 
 Next year the celebration caught Voxel Tycoon far deeper in development. We already left our jobs to that moment, the first iteration of [SDK](/sdk) was released to the community, and even more important milestone was reached — the game was Greenlit on Steam (just days before the Greenlight system was retired, lol).
 
-This time we put a bit more into Halloween post, and made this annoying GIF that tests your patience. Of course, we added classic **WHAT WILL HAPPEN? WATCH TILL THE END TO FIND OUT!**  clickbait for more fun.
+This time we put a bit more into Halloween post and made this annoying GIF that tests your patience. Of course, we added classic **WHAT WILL HAPPEN? WATCH TILL THE END TO FIND OUT!**  clickbait for more fun.
 
 [](gif)
 <div>
@@ -32,7 +32,7 @@ This time we put a bit more into Halloween post, and made this annoying GIF that
 </div>
 
 **What we got from it**: 
-* Knoledge how to edit videos using Blender
+* Knowledge how to edit videos using Blender
 * More fun
 * Nice comments, like:
 
@@ -44,14 +44,14 @@ As some of you may already now, this year we went *a little* further:
 
 ![](/assets/hell-or-high-water/rth3_short.gif)
 
-Yes, this is an action game built on top on Voxel Tycoon in less then a week for this Halloween, called **Railroad to Hell 3**.
+Yes, this is an action game built on top on Voxel Tycoon in less than a week for this Halloween, called **Railroad to Hell 3**.
 
-While simple, it's absolutely complete: you have to break through dozens of waves of pumking that trying to kill you, using 3 completely different weapons, fine-tuned to give you unique experience and encourage you to use different tactics with each of them. Don't forget about an upgdade system for 5 stats, 3 tiers of... anyway, you can test it by yourself [right now](/railroad-to-hell).
+While simple, it's absolutely complete: you have to break through dozens of waves of pumpkins that trying to kill you, using 3 completely different weapons, fine-tuned to give you the unique experience and encourage you to use different tactics with each of them. Don't forget about an upgrade system for 5 stats, 3 tiers of... anyway, you can test it by yourself [right now](/railroad-to-hell).
 
 ### Wait a minute, what the *hell*? Isn't Voxel Tycoon an economy strategy about transportation and factories in a friendly voxel world?
-...you may be asking yourself at this point. And it's about that for sure! **Railroad to Hell 3** is completely independent project (we call it a *spin-off* just for fun). Which, hovewer, was intended to not just ententartain but to provide some important benefits to the development of Voxel Tycoon as well.
+...you may be asking yourself at this point. And it's about that for sure! **Railroad to Hell 3** is completely independent project (we call it a *spin-off* just for fun). Which, however, was intended to not just entertain but to provide some important benefits to the development of Voxel Tycoon as well.
 
-First of all, we chose completely different genre and setting for a reason. It allowed us to test the extensibility of the engine, i.e. how far mods can be pushed to add new functionaly, or change existant. While RTH3 is not true mod at the moment, eventually (some time after the VT alpha release) we want to convert it to complete example that demonstrates modding using both content and custom scripting ways.
+First of all, we chose completely different genre and setting for a reason. It allowed us to test the extensibility of the engine, i.e. how far mods can be pushed to add new functionality, or change existent. While RTH3 is not true mod at the moment, eventually (some time after the VT alpha release) we want to convert it to complete example that demonstrates modding using both content and custom scripting ways.
 
 > RTH3 uses the same save data as its big brother. This means that when VT will out you could shoot some pumpkins in your own worlds by providing saved games to RTH3.
 
@@ -59,12 +59,12 @@ First of all, we chose completely different genre and setting for a reason. It a
     <a class="clear" href="/assets/hell-or-high-water/20181110-205254.png">
         <img src="/assets/hell-or-high-water/20181110-205254.png" style="margin-bottom: 6px" />
     </a>
-    <span class="img-alt">This is how the level from RTH3 looks like when you playing it like strategy</span>
+    <span class="img-alt">This is how the level from RTH3 looks like when you play it like strategy</span>
 </div>
 
-Another area where RTH3 was beneficial is explosions. There are not so much of them happen during the normal life of tycoon, but no way you can avoid them in RTH3. We received some valuable intel while destoying enemies and evironments around.
+Another area where RTH3 was beneficial is explosions. There are not so much of them happen during the normal life of a tycoon, but no way you can avoid them in RTH3. We received some valuable intel while destroying  enemies and environments around.
 
-There was one more strong challenge - game design. We started to work on the RTH3 without any grand plan in mind, and through a series of quick, short interations come to pretty sutisfing result.
+There was one more strong challenge - game design. We started to work on the RTH3 without any grand plan in mind, and through a series of quick, short iterations come to pretty satisfying result.
 
 Finally, distributing the game via itch.io allowed us to setup and test an automated build system that will be in very active use when VT comes out.
 
