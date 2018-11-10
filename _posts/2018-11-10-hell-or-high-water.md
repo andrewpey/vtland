@@ -5,7 +5,7 @@ category: devlog
 draft: true
 ---
 
-Halloween is behind us and now we're back to Voxel Tycoon development. While we continue pushing the game to the closer-than-ever alpha release we invite you to read a little retrospective on how we celebrated this рoliday with our community in the past, and especially focus on this year and why it's important.
+Halloween is behind us and now we're back to Voxel Tycoon development. While we continue pushing the game to the closer-than-ever alpha release we invite you to read a little retrospective on how we celebrated this holiday with our community in the past, and especially focus on this year and why it's important.
 
 ## Tier 1
 
