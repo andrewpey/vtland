@@ -26,6 +26,7 @@
 <body>
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 
+    <!-- <div class="post-background"> -->
     <div class="video-background">
         <div class="video-foreground">
             <img class="video-content" src="/background.jpg" style="opacity: 0.5">
@@ -35,7 +36,9 @@
         <div class="page-content post">
             <h1>{{ page.title }}</h1>
             {{ content }}
+            {% if page.date %}
             <p style="text-align: center"><a href="/devlog" class="clear"><code>{{ page.date | date_to_long_string }}</code></a></p>
+            {% endif %}
             <div class="page-nav">
                 {% if page.previous.url %}
                     <div class="prev">

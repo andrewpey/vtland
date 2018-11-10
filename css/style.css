@@ -407,7 +407,7 @@ a.sdk {
     margin: 0 auto;
 }
 
-a.clear, a.clear:hover, .post a.clear, .post-ru a.clear {
+a.clear, a.clear:hover, .post a.clear, .post a.clear:hover, .post-ru a.clear, .post-ru a.clear:hover {
     border: none;
 }
 
@@ -585,4 +585,19 @@ a.patreon-navbar:hover {
     padding-bottom: 3px;
     animation: patreon-pulsing 1s infinite alternate;
     animation-timing-function: linear;
+}
+
+.post-background {
+    background: #1e2331;
+    position: fixed;
+    top: 0; 
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    z-index: -99;
+}
+
+.post video {
+    border-radius: 6px;
+    width: 100%;
 }
