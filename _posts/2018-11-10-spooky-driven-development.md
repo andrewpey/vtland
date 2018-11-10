@@ -39,7 +39,7 @@ This time we put a bit more into Halloween post and made this annoying GIF that 
 
 ## Tier 3
 
-As some of you may already now, this year we went *a little* further:
+As some of you may already know, this year we went *a little* further:
 
 ![](/assets/hell-or-high-water/rth3_short.gif)
 
