@@ -24,9 +24,7 @@ This time we put a bit more into Halloween post and made this annoying GIF that 
 
 [](gif)
 <div>
-    <video autoplay controls loop style="margin-bottom: 6px">
-        <source src="/assets/hell-or-high-water/9GnjS3Vqb6qrxWAolJWDUKl57O062iuWfFYNjy-H930.mp4" type="video/mp4">
-    </video>
+    <img src="/assets/hell-or-high-water/ezgif-5-0e079f2b4bbf.gif"/>
     <span class="img-alt">It actually resembles another <a href="https://media.giphy.com/media/Qq8P7OoPYKLXa/giphy.gif">cool GIF</a></span>
 </div>
 
