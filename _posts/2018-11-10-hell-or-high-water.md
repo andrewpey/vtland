@@ -5,7 +5,7 @@ category: devlog
 draft: true
 ---
 
-Halloween is behind now and we decided it's a great time to do a little retrospective on how we celebrated it with our community in the past and especially talk about this year and why it's important.
+While Halloween is behind us and we're back to Voxel Tycoon development we decided it's a great time to do a little retrospective on how we celebrated it with our community in the past, and especially talk about this year and why it's important.
 
 ## Tier 1
 
