@@ -289,6 +289,7 @@ img, iframe {
     flex-direction: column;
     will-change: min-height;
     width: 250px;
+    height: 100%;
 }
 
 .sidebar__inner{
