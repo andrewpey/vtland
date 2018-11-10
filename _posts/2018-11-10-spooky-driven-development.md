@@ -69,7 +69,7 @@ At the end, the switch to this completely different project cleaned our heads a 
 
 <div>
     <img src="/assets/hell-or-high-water/20181111-003250.png" style="margin-bottom: 6px" />
-    <span class="img-alt">The Pumpkin has not been left out and received a facelift. 0.00001% performance boost confirmed</span>
+    <span class="img-alt">The Pumpkin has not been left out and received a facelift, 0.00001% performance boost confirmed</span>
 </div>
 
 ## Play now!
