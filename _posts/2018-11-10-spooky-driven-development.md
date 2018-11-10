@@ -67,6 +67,11 @@ Finally, distributing the game via itch.io allowed us to setup and test an autom
 
 At the end, the switch to this completely different project cleaned our heads a bit before the final sprint to the alpha release of Voxel Tycoon.
 
+<div>
+    <img src="/assets/hell-or-high-water/20181111-003250.png" style="margin-bottom: 6px" />
+    <span class="img-alt">The Pumpkin has not been left out and received a facelift</span>
+</div>
+
 ## Play now!
 
 In case you didn't yet, we encourage you to go and play it right now while you are waiting for Voxel Tycoon. Of course, if this is your kind of game!
