@@ -50,7 +50,7 @@ While simple, it’s absolutely complete: you have to break through dozens of wa
 ### Wait a minute, what the *hell*? Isn't Voxel Tycoon an economy strategy about transportation and factories in a friendly voxel world?
 ...you may be asking yourself at this point. And it's about that for sure! **Railroad to Hell 3** is a completely independent project (we call it a *spin-off* just for fun). The spin-off, however, was intended to not just entertain but to provide some important benefits to the development of Voxel Tycoon as well.
 
-**What we got from it:**
+**What we got from it**
 
 First of all, we chose a completely different genre and setting for a reason. It allowed us to test the extensibility of the engine, i.e. how far mods can be pushed to add new functionality, or change existent. While RTH3 is not true mod at the moment, eventually (some time after the VT alpha release) we want to convert it to complete example that demonstrates modding using both content and custom scripting ways.
 
