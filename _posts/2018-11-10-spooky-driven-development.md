@@ -83,3 +83,7 @@ In case you haven't yet, we encourage you to go and play it right now while you 
 Keep in mind that all the money from sales go to support of development of Voxel Tycoon. Thank you, and see you in the next post, where we return to the gameplay mechanics of VT!
 
 Stay tuned for more information about the game! Please [follow our social networks](/contacts), and we encourage you to join our [Discord](http://discord.gg/64KPWd5) and share your thoughts with us and the community.
+
+<div style="text-align: center">
+    <img style="width: 80px;" src="/assets/outlined-33-shadow.png"/>
+</div>
