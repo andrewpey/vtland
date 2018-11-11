@@ -8,7 +8,7 @@ Halloween is behind us and now we're back to Voxel Tycoon development. While we 
 
 ## Tier 1
 
-This was back in the days when we were working on Voxel Tycoon in our spare time. Not so much effort was put into the Halloween post - we just basically recolored some biomes and trees to get the spooky look:
+This was back in the days when we were working on Voxel Tycoon in our spare time. Not so much effort was put into the Halloween post - we basically recolored some biomes and trees to get the spooky look:
 
 <div>
     <img src="/assets/hell-or-high-water/M7USjsCR0AU.jpg"/>
