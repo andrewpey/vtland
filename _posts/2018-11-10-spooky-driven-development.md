@@ -45,7 +45,7 @@ As some of you may already know, this year we went *a little* further:
 
 Yes, this is an action game built on top of Voxel Tycoon, called **Railroad to Hell 3**. It was developed in less than a week so that it was in time for Halloween 2018.
 
-While simple, it’s absolutely complete: you have to break through dozens of waves of pumpkins that are trying to kill you. You are equipped with 3 completely different weapons, fine-tuned to give you a unique experience and encourage you to use different tactics with each of them. Don’t forget about an upgrade system for 5 stats, 3 tiers of… anyway, you can test it by yourself  [right now](/railroad-to-hell).
+While simple, it’s absolutely complete: you have to break through dozens of waves of pumpkins that are trying to kill you. You are equipped with 3 completely different weapons, fine-tuned to give you a unique experience and encourage you to use different tactics with each of them. Don’t forget about an upgrade system for 6 stats, 3 tiers of… anyway, you can test it by yourself  [right now](/railroad-to-hell).
 
 ### Wait a minute, what the *hell*? Isn't Voxel Tycoon an economy strategy about transportation and factories in a friendly voxel world?
 ...you may be asking yourself at this point. And it's about that for sure! **Railroad to Hell 3** is a completely independent project (we call it a *spin-off* just for fun). The spin-off, however, was intended to not just entertain but to provide some important benefits to the development of Voxel Tycoon as well.
