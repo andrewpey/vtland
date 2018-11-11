@@ -1,61 +1,41 @@
-.post, .post-ru {
+.page-post {
     text-shadow: none;
+    & h1 {
+        padding-bottom: 40px;
+    }
+    & h2 {
+        margin-top: 3rem;
+        font-size: 2.5rem;
+    }
+    & h3 {
+        font-size: 1.7rem;
+        padding: 17px 0;
+    }
+    & a {
+        text-decoration: none;
+        padding-bottom: 0px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+        &:hover {
+            text-decoration: none;
+            padding-bottom: 0px;
+            border-bottom: 2px solid #ffffff;
+        }
+    }
+    & p {
+        font-size: 20px;
+        line-height: 1.8;
+        font-family: 'Roboto';
+        padding-bottom: 10px;
+    }
+    & ul {
+        list-style: disc;
+        padding-left: 20px;
+    }
+    & li {
+        font-size: 19px;
+    }
 }
-
-.post-ru h1 {
-    font-family: 'Roboto';
-}
-
-.post h2 {
-    margin-top: 3rem;
-    font-size: 2.5rem;
-}
-
-.post-ru h2 {
-    font-size: 2.5rem;
-    font-family: 'Roboto';
-}
-
 .post .video-foreground {
     opacity: 0.1;
 }
 
-.post h3 {
-    font-size: 1.7rem;
-}
-
-.post-ru h3 {
-    font-size: 1.7rem;
-    font-family: 'Roboto';
-}
-
-
-.post p, .post-ru p {
-    font-size: 20px;
-    line-height: 1.8;
-    font-family: 'Roboto';
-}
-
-.post a, .post-ru a {
-    text-decoration: none;
-    padding-bottom: 0px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-}
-
-.post a:hover, .post-ru a:hover {
-    text-decoration: none;
-    padding-bottom: 0px;
-    border-bottom: 2px solid #ffffff;
-}
-
-.post ul {
-    margin-left: -20px;
-}
-
-.post li {
-    font-size: 19px;
-}
-
-.post-ru h2 {
-    font-family: 'Robato';
-}

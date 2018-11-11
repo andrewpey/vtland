@@ -41,7 +41,6 @@ body, h1, h2, h3, h4, ul, ol, figure, p {
     padding: 0;
 }
 
-
 ul, ol {
     list-style: none;
 }
@@ -50,6 +49,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    font-size: 20px;
+    margin: 10px 0;
+}
 
 .page-grid {
     display: flex;
@@ -73,6 +76,9 @@ a {
         & a {
             transform: translateY(2px);
             margin: 0 2px;
+            &:hover {
+                border-color: white;
+            }
         }
     }
 }
@@ -135,4 +141,19 @@ img.compare-item.last {
 
 img, iframe {
     border-radius: 6px;
+}
+
+.widget {
+    &-steam {
+        height: 210px;
+        width: $content-width;
+    }
+    &-itchio {
+        height: 175px;
+        width: $content-width;
+    }
+    &-youtube {
+        height: 382px;
+        width: $content-width;
+    }
 }

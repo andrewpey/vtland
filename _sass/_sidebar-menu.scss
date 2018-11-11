@@ -28,6 +28,7 @@
     }
     & p {
         display: flex;
+        align-items: center;
     }
     &__item {
         margin: 6px 0px;
@@ -37,7 +38,7 @@
         font-size: 14px;
         display: flex;
         align-items: center;
-        padding: 12px 0;
+        padding: 12px 10px;
     }
     & hr {
         opacity: 0;

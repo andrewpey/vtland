@@ -36,8 +36,8 @@
 
 [Notify Me]({{site.newsletter_url}}){:.sidebar-menu__item}
 
-<div id="wishlist-modal">
-  <div id="wishlist-modal-content">
+<div class="wishlist-modal">
+  <div class="wishlist-modal-content">
     <iframe src="https://store.steampowered.com/widget/732050/" frameborder="0" width="646" height="190"></iframe>
   </div>
 </div>
@@ -45,11 +45,11 @@
 <script>
 $('.greenlight').click(function(event) {
     event.preventDefault()
-    $('#wishlist-modal').fadeIn(300)
+    $('.wishlist-modal').fadeIn(300)
 })
 
-$('#wishlist-modal').click(function(event) {
-    $('#wishlist-modal').fadeOut(200)
+$('.wishlist-modal').click(function(event) {
+    $('.wishlist-modal').fadeOut(200)
 })
 </script>
 

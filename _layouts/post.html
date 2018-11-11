@@ -1,35 +1,36 @@
 {% include head.html %}
 {% include background-video.html %}
-    <section id="content" class="container">
-        <div class="page-content post">
-            <h1>{{ page.title }}</h1>
-            {{ content }}
-            <p style="text-align: center"><a href="/devlog" class="clear"><code>{{ page.date | date_to_long_string }}</code></a></p>
-            <div class="page-nav">
-                {% if page.previous.url %}
+    <div class="page-grid__main">
+        <div class="page-content">
+            <div class="page-post">
+                <h1 class="page-content__title">{{ page.title }}</h1>
+                {{ content }}
+                <div class="page-nav">
+                        {% if page.previous.url %}
                     <div class="prev">
                         Previous post<br>
                         <a href="{{page.previous.url}}">{{page.previous.title}}</a><br>
                         <code>{{ page.previous.date | date_to_long_string }}</code>
                     </div>
-                {% endif %}
-                {% if page.next.url %}
-                <div class="next">
-                    Next post<br>
-                    <a href="{{page.next.url}}">{{page.next.title}}</a><br>
-                    <code>{{ page.next.date | date_to_long_string }}</code>
+                    {% endif %}
+                    {% if page.next.url %}
+                    <div class="next">
+                        Next post<br>
+                        <a href="{{page.next.url}}">{{page.next.title}}</a><br>
+                        <code>{{ page.next.date | date_to_long_string }}</code>
+                    </div>
+                    {% endif %}
                 </div>
-                {% endif %}
             </div>
-            <div style="clear: both;"></div>
-    
         </div>
-        <div class="sidebar">
-                <a class="logo" href="/">
-                    <img src="/assets/press/voxeltycoon_text.png"/>
-                </a>
-            {% capture sidebar %}{% include sidebar.md %}{% endcapture %} {{ sidebar | markdownify }}
+        {% unless page.hide_sidebar %}
+        <div class="page-sidebar">
+            <div class="sidebar-menu">
+                <div class="sidebar-menu__inner">
+                    {% capture sidebar %}{% include sidebar.md %}{% endcapture %} {{ sidebar | markdownify }}
+                </div>
+            </div>
         </div>
-    </section>
-    
+        {% endunless %}
+    </div>
 {% include footer.html %}
