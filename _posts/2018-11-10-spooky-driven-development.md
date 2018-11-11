@@ -8,9 +8,12 @@ Halloween is behind us and now we're back to Voxel Tycoon development. While we 
 
 ## Tier 1
 
-This was back in the days when we were working on Voxel Tycoon in our spare time. Not so much effort was put into the Halloween post - we just basically recolored some biomes and trees to get the spooky look. By the way, it was the moment when the famous Pumpkin was born:
+This was back in the days when we were working on Voxel Tycoon in our spare time. Not so much effort was put into the Halloween post - we just basically recolored some biomes and trees to get the spooky look:
 
-![](/assets/hell-or-high-water/M7USjsCR0AU.jpg)
+<div>
+    <img src="/assets/hell-or-high-water/M7USjsCR0AU.jpg"/>
+    <span class="img-alt">It was the moment when the famous Pumpkin was born</span>
+</div>
 
 **What we got from it**: 
 * Simple themed post
@@ -22,7 +25,6 @@ Next year the celebration caught Voxel Tycoon far deeper in development. We had 
 
 This time we put a bit more into the Halloween post and made this annoying GIF that tests your patience. Of course, we added a classic **WHAT WILL HAPPEN? WATCH TILL THE END TO FIND OUT!**  clickbait for more fun.
 
-[](gif)
 <div>
     <img src="/assets/hell-or-high-water/ezgif-5-0e079f2b4bbf.gif"/>
     <span class="img-alt">It actually resembles another <a href="https://media.giphy.com/media/Qq8P7OoPYKLXa/giphy.gif">cool GIF</a></span>
