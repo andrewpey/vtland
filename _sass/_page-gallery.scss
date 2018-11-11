@@ -1,0 +1,33 @@
+#gallery {
+    padding: 10px 0 20px 0;
+}
+
+#gallery .gallery-thumbs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#gallery a {
+    flex-basis: 48%;
+    cursor: pointer;
+    margin: 0 10px 10px 0;
+    line-height: 0;
+    /* max-width: 336px; */
+    height: 170px;
+    /* display: block; */
+}
+
+#gallery a:hover {
+    border: none;
+    padding: 0;
+}
+    
+#gallery img {
+    border-radius: 0;
+    max-height: 170px;
+    object-fit: cover;
+}
+
+#gallery a.gif {
+    flex-basis: 100%;
+}

@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'HansKendrick';
+    src: url('../fonts/HansKendrick-Regular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'HansKendrick';
+    src: url('../fonts/HansKendrick-Medium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'HansKendrick';
+    src: url('../fonts/HansKendrick-Heavy.otf');
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+    &:active, &:hover, &:focus {
+      outline: 0;
+    }
+  }
+  
+html {
+    height: 100%;
+    width: 100%;
+}
+  
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #eef0f2;
+    justify-content: center;
+    display: flex;
+}
+  
+body, h1, h2, h3, h4, ul, ol, figure, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul, ol {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+}
+
+
+.page-grid {
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+    &__main {
+        width: 100%;
+        display: flex;
+    }
+    &__footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'HansKendrick';
+        color: white;
+        font-size: 15px;
+        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+        width: 100%;
+        opacity: 0.5;
+        height: 100px;
+        & a {
+            transform: translateY(2px);
+            margin: 0 2px;
+        }
+    }
+}
+
+code {
+    background: rgba(60, 60, 60, 0.6);
+    border-radius: 2px;
+    padding: 2px 5px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.7em;
+    color: #00e5ff;
+}
+
+blockquote {
+    border-left: solid 4px rgba(255, 255, 255, 0.3);
+    margin-left: 0;
+    padding-left: 1em;
+}
+
+.highlight {
+    border-radius: 5px;
+    padding: 1px 3px;
+}
+
+pre.highlight code {
+    background: none;
+}
+
+.bold-en {
+    font-family: 'HansKendrick';
+}
+
+img.compare-item {
+    width: 49.2%;
+    margin-right: 5px;
+}
+
+img.compare-item.third {
+    width: 32.3%;
+}
+
+img.compare-item.last {
+    margin-right: 0;
+}
+
+.img-inline-left-container
+{
+    float: left;
+    width: 50%;
+    margin-right: 30px;
+    margin-top: 8px;
+}
+
+.img-alt {
+    font-size: 0.9em;
+    /* font-style: italic; */
+    color: #ffffff88;
+    padding-top: 5px;
+}
+
+img, iframe {
+    border-radius: 6px;
+}

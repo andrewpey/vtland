@@ -1,0 +1,31 @@
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes colorchange
+{
+  0%   { color: #8BC34A;}
+  25%  { color: yellow;}
+  50%  { color: #28d6ff;}
+  75%  { color: #9C27B0;}
+  100% { color: #8BC34A;}
+}
+
+@keyframes roadmap-pulsing
+{
+  0% { box-shadow: #217eb9 5px 5px; }
+  100% { box-shadow: #217eb9 0px 0px; }
+}
+
+@keyframes money-pulsing
+{
+  0% { box-shadow: #086707 5px 5px; }
+  100% { box-shadow: #086707 0px 0px; }
+}
+
+@keyframes patreon-pulsing
+{
+  0% { box-shadow: #b74e3f 5px 5px; }
+  100% { box-shadow: #b74e3f 0px 0px; }
+}
