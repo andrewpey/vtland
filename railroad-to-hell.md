@@ -1,6 +1,6 @@
 ---
 layout: halloween
-wrapper: post halloween
+wrapper: page-post page-halloween
 ---
 
 <script type="text/javascript">

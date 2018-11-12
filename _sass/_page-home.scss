@@ -1,0 +1,15 @@
+.page-home {
+    & .title {
+        color: #00d657;
+        text-transform: uppercase;
+    }
+    & em {
+        font-style: normal;
+        color: #795548;
+        background: #fbe119;
+        margin-right: 5px;
+        padding: 3px 10px;
+        box-shadow: #eab20e 5px 5px;
+        text-shadow: none;
+    }
+}

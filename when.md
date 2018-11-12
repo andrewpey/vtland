@@ -1,7 +1,7 @@
 ---
 layout: default
 title: State of Affairs // VOXEL TYCOON
-wrapper: faq
+wrapper: page-faq
 ---
 
 # The Voxel Tycoon State of Affairs

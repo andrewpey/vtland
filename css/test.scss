@@ -1,16 +1,21 @@
 ---
 ---
-$page-content-padding: 70px;
-$page-content-width: 840px;
-$content-width: $page-content-width - ($page-content-padding * 2);
 
-
+// Utils
+@import "variables";
 @import "base";
-@import "sidebar-menu";
-@import "background-video";
+@import "page-grid";
 @import "page-content";
-@import "whishlist-modal";
-@import "links";
 @import "effects";
-@import "page-faq";
+@import "background-video";
+
+// Elem
+@import "sidebar-menu";
+@import "links";
+@import "whishlist-modal";
+
+// Pages
+@import "page-home";
 @import "page-post";
+@import "page-faq";
+@import "page-donate";

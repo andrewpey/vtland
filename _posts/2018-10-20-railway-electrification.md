@@ -1,5 +1,6 @@
 ---
 layout: post
+wrapper: page-post
 title: Railway Electrification ⚡
 redirect_from:
     - "/railway-electrification"

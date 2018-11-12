@@ -1,6 +1,6 @@
 ---
 layout: halloween
-wrapper: post post-ru halloween
+wrapper: page-post post-ru page-halloween
 ---
 
 <img src="/assets/halloween/hero.png" style="margin-left:-40px;margin-top:-40px;margin-bottom:-80px;width:120%"/>

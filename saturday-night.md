@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Saturday Night with Voxel Tycoon
-wrapper: post
+wrapper: page-post
 ---
 
 # Saturday Night with Voxel Tycoon

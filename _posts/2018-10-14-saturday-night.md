@@ -1,5 +1,6 @@
 ---
 layout: post
+wrapper: page-post
 title: Saturday Night with Voxel Tycoon
 redirect_from:
     - "/saturday-night"

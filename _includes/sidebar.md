@@ -60,5 +60,6 @@ $('.wishlist-modal').click(function(event) {
     bottomSpacing: 10,
     containerSelector: '.page-sidebar',
     innerWrapperSelector: '.sidebar-menu__inner',
+    resizeSensor: true,
   });
 </script>

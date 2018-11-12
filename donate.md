@@ -1,11 +1,9 @@
 ---
 layout: default
-wrapper: faq
+wrapper: page-donate page-home
 title: Donate // VOXEL TYCOON
+header: Donate
 ---
-
-# Donate
-
 <!-- {% include donate_btn.html %} -->
 
 We want to be honest with you as possible, and that's the main reason why we are not accepting pre-orders — we want to make sure you'll pay for an actual game, that you actually enjoy playing, not just for promises.
