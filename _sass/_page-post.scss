@@ -1,16 +1,20 @@
 .page-post {
     text-shadow: none;
+    font-family: 'HansKendrick', 'roboto';
     & h1 {
         padding-bottom: 40px;
+        font-family: 'HansKendrick', 'roboto';
     }
     & h2 {
         font-size: 2.5rem;
         padding-top: 38px;
         padding-bottom: 23px;
+        font-family: 'HansKendrick', 'roboto';
     }
     & h3 {
         font-size: 1.7rem;
         padding: 17px 0;
+        font-family: 'HansKendrick', 'roboto';
     }
     & a {
         text-decoration: none;
@@ -42,6 +46,7 @@
 
 .page-nav {
     display: flex;
+    line-height: 150%;
     justify-content: space-between;
     &__prev {
         text-align: left;
@@ -49,4 +54,8 @@
     &__next {
         text-align: right;
     }
+}
+
+.page-content {
+    display: block;
 }

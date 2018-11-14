@@ -3,6 +3,7 @@ layout: default
 title: Частые Вопросы // VOXEL TYCOON
 header: Частые Вопросы
 wrapper: faq-ru collapse-regions
+permalink: faq/ru
 ---
 
 ## Что это вообще такое?

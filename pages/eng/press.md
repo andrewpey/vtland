@@ -2,6 +2,7 @@
 layout: default
 title: Press Assets // VOXEL TYCOON
 wrapper: page-press
+permalink: press
 ---
 
 # Logo

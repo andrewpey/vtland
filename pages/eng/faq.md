@@ -3,6 +3,7 @@ layout: default
 title: FAQ // VOXEL TYCOON
 header: FAQ
 wrapper: page-faq page-home collapse-regions
+permalink: faq
 ---
 
 ## What is the game going to be about?

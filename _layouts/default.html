@@ -1,13 +1,10 @@
 {% include head.html %}
 {% include background-video.html %}   
     <div class="page-grid__main">
-        {% unless page.is_contacts %}
         <div class="page-content {{ page.wrapper }}">
             <h1 class="page-content__title">{{ page.header }}</h1>
             {{ content }}
         </div>
-        {% endunless %}
-        {% unless page.hide_sidebar %}
         <div class="page-sidebar">
             <div class="sidebar-menu">
                 <div class="sidebar-menu__inner">
@@ -15,7 +12,6 @@
                 </div>
             </div>
         </div>
-        {% endunless %}
     </div>
 {% include footer.html %}
 

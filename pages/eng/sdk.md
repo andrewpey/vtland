@@ -2,7 +2,8 @@
 layout: default
 title: SDK // VOXEL TYCOON
 header: SDK
-wrapper: page-faq
+wrapper: page-post page-faq
+permalink: sdk
 ---
 
 ## What is it?

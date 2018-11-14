@@ -27,19 +27,6 @@
     }
 }
 
-.widget {
-    width: $content-width;
-    &-steam {
-        height: 210px;
-    }
-    &-itchio {
-        height: 175px;
-    }
-    &-youtube {
-        height: 382px;
-    }
-}
-
 code {
     background: rgba(60, 60, 60, 0.6);
     border-radius: 2px;

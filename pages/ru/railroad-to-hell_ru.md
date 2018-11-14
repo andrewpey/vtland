@@ -1,9 +1,10 @@
 ---
 layout: halloween
-wrapper: page-post post-ru page-halloween
+wrapper: page-post page-halloween
+permalink: railroad-to-hell/ru
 ---
 
-<img src="/assets/halloween/hero.png" style="margin-left:-40px;margin-top:-40px;margin-bottom:-80px;width:120%"/>
+<img src="/assets/halloween/hero.png" style="margin-left:-40px;margin-top:-90px;margin-bottom:-25px;width:120%"/>
 
 ## С Хэллоуином🎃!
 
@@ -23,4 +24,4 @@ wrapper: page-post post-ru page-halloween
     <li>Единственная цель: выживать!</li>
 </ul>
 
-<iframe frameborder="0" src="https://itch.io/embed/324650?linkback=true&amp;border_width=1&amp;bg_color=1e1728&amp;fg_color=ffffff&amp;link_color=b7278c&amp;border_color=4b4455" width="560" height="175"></iframe>
+<iframe class="widget-itchio_dark" frameborder="0" src="https://itch.io/embed/324650?linkback=true&amp;border_width=1&amp;bg_color=1e1728&amp;fg_color=ffffff&amp;link_color=b7278c&amp;border_color=4b4455"></iframe>

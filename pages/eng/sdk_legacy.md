@@ -3,6 +3,7 @@ layout: default
 title: SDK // VOXEL TYCOON
 header: Legacy SDK
 wrapper: page-faq
+permalink: sdk-legacy
 ---
 
 > This is legacy SDK page. The actual one can be found [here](/sdk).

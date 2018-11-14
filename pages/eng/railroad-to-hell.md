@@ -1,6 +1,7 @@
 ---
 layout: halloween
 wrapper: page-post page-halloween
+permalink: railroad-to-hell
 ---
 
 <script type="text/javascript">

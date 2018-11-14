@@ -1,17 +1,19 @@
 ---
 ---
 
-// Utils
+// Base
 @import "variables";
 @import "base";
 @import "page-grid";
 @import "page-content";
 @import "effects";
 @import "background-video";
+@import "highlight";
+@import "widgets";
 
 // Elem
 @import "sidebar-menu";
-@import "links";
+@import "buttons";
 @import "whishlist-modal";
 
 // Pages

@@ -2,7 +2,8 @@
 layout: default
 title: Publish your mod // VOXEL TYCOON
 header: How to publish your mod
-wrapper: page-faq
+wrapper: page-post page-faq
+permalink: publish-mod
 ---
 
 This step-by-step guide is intended for mod creators who want to feature their creations on the in-game Mod Gallery. Like this:

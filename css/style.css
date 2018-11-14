@@ -1,27 +1,10 @@
-
-
 .page-content.press img {
     width: auto;
     margin: 0 auto;
 }
 
-a.clear, a.clear:hover, .post a.clear, .post-ru a.clear {
-    border: none;
-}
 
 span.compare-filler {
     width: 1%;
 }
 
-.page-nav {
-    line-height: 150%;
-}
-
-.page-nav .prev {
-    float: left;
-}
-
-.page-nav .next {
-    float: right;
-    text-align: right;
-}
