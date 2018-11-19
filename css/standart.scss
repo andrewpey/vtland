@@ -1,16 +1,16 @@
 ---
 ---
 
-@import "variables";
 @import "base";
+@import "variables";
+@import "highlight";
+@import "effects";
+@import "buttons";
 @import "page-grid";
 @import "page-content";
 @import "background-video";
-@import "highlight";
 @import "widgets";
-
 @import "sidebar-menu";
-@import "buttons";
 @import "whishlist-modal";
 
 .page-content.press img {

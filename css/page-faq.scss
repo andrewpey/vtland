@@ -3,18 +3,25 @@
 
 .page-content {
     text-shadow: none;
+    & .video-foreground {
+        opacity: 0.1;
+    }
     & p {
         font-size: 20px;
         line-height: 1.8;
         font-family: 'Roboto';
+        padding-bottom: 10px;
     }
     & h2 {
-        font-size: 2.5rem;
-        padding-top: 38px;
-        padding-bottom: 23px;
+        font-size: 2rem;
+        font-family: 'HansKendrick', 'Roboto';
+        cursor: pointer;
+        border-left: solid 4px rgba(255, 255, 255, 0.3);
+        margin: 12px 0;
+        padding-left: 0.5em;
     }
-    & .video-foreground {
-        opacity: 0.1;
+    & h3 {
+        font-size: 1.7rem;
     }
     &.collapse-regions h2 {
         margin-top: 3rem;
@@ -27,9 +34,11 @@
     & ul {
         list-style: disc;
         padding-left: 40px;
+        font-family: 'roboto';
     }
     & li {
         font-size: 19px;
+        padding: 5px;
     }
     & a {
         text-decoration: none;
@@ -41,22 +50,21 @@
             border-bottom: 2px solid #ffffff;
         }
     }
+    & em {
+        font-style: normal;
+        color: #795548;
+        background: #fbe119;
+        margin-right: 5px;
+        padding: 3px 10px;
+        box-shadow: #eab20e 5px 5px;
+        text-shadow: none;
+    }
 }
 
 
 
-.faq-ru.collapse-regions h2 {
-    font-size: 2rem;
-    font-family: 'Roboto';
-    cursor: pointer;
-    border-left: solid 4px rgba(255, 255, 255, 0.3);
-    margin-left: 0;
-    padding-left: 0.5em;
-}
+.faq-ru
 
-.faq h3 {
-    font-size: 1.7rem;
-}
 
 .faq-ru h3 {
     font-size: 1.7rem;

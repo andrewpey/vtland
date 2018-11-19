@@ -1,6 +1,6 @@
 ---
 layout: default
-style: 
+style: sdk
 title: SDK // VOXEL TYCOON
 header: Legacy SDK
 permalink: sdk-legacy
