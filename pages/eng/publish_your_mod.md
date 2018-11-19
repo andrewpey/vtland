@@ -1,8 +1,8 @@
 ---
 layout: default
+style: 
 title: Publish your mod // VOXEL TYCOON
 header: How to publish your mod
-wrapper: page-post page-faq
 permalink: publish-mod
 ---
 

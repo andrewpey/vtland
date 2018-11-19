@@ -1,6 +1,10 @@
-.page-post {
+---
+---
+
+.page-content {
     text-shadow: none;
     font-family: 'HansKendrick', 'roboto';
+    display: block;
     & h1 {
         padding-bottom: 40px;
         font-family: 'HansKendrick', 'roboto';
@@ -35,9 +39,11 @@
     & ul {
         list-style: disc;
         padding-left: 20px;
+        font-family: 'roboto';
     }
     & li {
         font-size: 19px;
+        padding: 5px;
     }
     & .video-foreground {
         opacity: 0.1;

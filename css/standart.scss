@@ -1,23 +1,25 @@
 ---
 ---
 
-// Base
 @import "variables";
 @import "base";
 @import "page-grid";
 @import "page-content";
-@import "effects";
 @import "background-video";
 @import "highlight";
 @import "widgets";
 
-// Elem
 @import "sidebar-menu";
 @import "buttons";
 @import "whishlist-modal";
 
-// Pages
-@import "page-home";
-@import "page-post";
-@import "page-faq";
-@import "page-donate";
+.page-content.press img {
+    width: auto;
+    margin: 0 auto;
+}
+
+
+span.compare-filler {
+    width: 1%;
+}
+

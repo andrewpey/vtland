@@ -1,7 +1,7 @@
 ---
 layout: default
+style: 
 title: Press Assets // VOXEL TYCOON
-wrapper: page-press
 permalink: press
 ---
 

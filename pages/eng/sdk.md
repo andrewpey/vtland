@@ -1,8 +1,8 @@
 ---
 layout: default
+style: 
 title: SDK // VOXEL TYCOON
 header: SDK
-wrapper: page-post page-faq
 permalink: sdk
 ---
 

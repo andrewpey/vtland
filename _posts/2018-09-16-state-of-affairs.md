@@ -1,6 +1,6 @@
 ---
 layout: post
-wrapper: page-post
+style: post
 title: The Voxel Tycoon State of Affairs 
 redirect_from:
     - "/when"

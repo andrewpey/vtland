@@ -1,6 +1,6 @@
 ---
 layout: default
-wrapper: page-donate page-home
+style: donate
 title: Donate // VOXEL TYCOON
 header: Donate
 permalink: donate

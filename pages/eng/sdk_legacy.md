@@ -1,8 +1,8 @@
 ---
 layout: default
+style: 
 title: SDK // VOXEL TYCOON
 header: Legacy SDK
-wrapper: page-faq
 permalink: sdk-legacy
 ---
 

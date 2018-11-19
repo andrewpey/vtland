@@ -1,8 +1,8 @@
 ---
 layout: default
+style: faq
 title: FAQ // VOXEL TYCOON
 header: FAQ
-wrapper: page-faq page-home collapse-regions
 permalink: faq
 ---
 

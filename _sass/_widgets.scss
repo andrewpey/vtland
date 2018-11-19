@@ -1,15 +1,18 @@
 .widget {
-    width: $content-width;
     &-steam {
         height: 210px;
+        width: $content-width;
     }
     &-itchio {
         height: 175px;
+        width: $content-width;
         &_dark {
             height: 175px;
+            width: $content-width;
         }
     }
     &-youtube {
         height: 382px;
+        width: $content-width;
     }
 }

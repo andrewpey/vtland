@@ -1,6 +1,6 @@
 ---
 layout: post
-wrapper: page-post
+style: post
 title: Saturday Night with Voxel Tycoon
 redirect_from:
     - "/saturday-night"
@@ -38,7 +38,7 @@ These things are still untouched from last time. However, we are not expecting a
 
 For those who missed it, check out these 15+ minutes of raw footage, recorded from a recent build of the game.
 
-<iframe width="680" height="382" src="https://www.youtube.com/embed/eGKbHxh47Y4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe class="widget-youtube" src="https://www.youtube.com/embed/eGKbHxh47Y4?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## Vehicle physics in action
 

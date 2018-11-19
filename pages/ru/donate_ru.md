@@ -1,6 +1,6 @@
 ---
 layout: default
-wrapper: page-donate page-home
+style: donate
 title: Поддержать рублем // VOXEL TYCOON
 header: Поддержать рублем
 permalink: donate/ru

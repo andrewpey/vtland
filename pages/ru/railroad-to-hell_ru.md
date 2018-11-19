@@ -1,6 +1,6 @@
 ---
 layout: halloween
-wrapper: page-post page-halloween
+style: haloween
 permalink: railroad-to-hell/ru
 ---
 
