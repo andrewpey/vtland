@@ -1,5 +1,6 @@
 /_site
-/.sass-cache
+/.sass-cache/
+/.sass-cache/*
 Gemfile.*
 Gemfile
 /.vscode
