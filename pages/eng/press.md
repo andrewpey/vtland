@@ -3,9 +3,8 @@ layout: default
 style: 
 title: Press Assets // VOXEL TYCOON
 permalink: press
+header: logo
 ---
-
-# Logo
 
 ![Logo](/assets/press/voxeltycoon.png)
 

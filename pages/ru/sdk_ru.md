@@ -1,7 +1,7 @@
 ---
-layout: default
 title: SDK // VOXEL TYCOON
 header: SDK
+layout: default
 permalink: sdk/ru
 ---
 
