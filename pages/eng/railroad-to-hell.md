@@ -1,7 +1,7 @@
 ---
 layout: halloween
 style: 
-permalink: railroad-to-hell
+permalink: railroad_to_hell
 ---
 
 <script type="text/javascript">

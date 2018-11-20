@@ -3,6 +3,8 @@ title: SDK // VOXEL TYCOON
 header: SDK
 layout: default
 permalink: sdk/ru
+redirect_from:
+    - /sdk_ru
 ---
 
 > This is legacy SDK page. The actual one can be found [here](/sdk).

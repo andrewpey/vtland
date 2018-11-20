@@ -4,6 +4,8 @@ style: faq
 title: Частые Вопросы // VOXEL TYCOON
 header: Частые Вопросы
 permalink: faq/ru
+redirect_from:
+    - /faq_ru
 ---
 
 ## Что это вообще такое?

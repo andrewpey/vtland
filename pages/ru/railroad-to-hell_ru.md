@@ -1,7 +1,7 @@
 ---
 layout: halloween
 style: halloween
-permalink: railroad-to-hell/ru
+permalink: railroad_to_hell/ru
 ---
 
 <img src="/assets/halloween/hero.png" style="margin-left:-40px;margin-top:-90px;margin-bottom:-25px;width:120%"/>
