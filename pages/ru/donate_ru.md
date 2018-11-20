@@ -17,7 +17,7 @@ permalink: donate/ru
 Если вы знаете, что такое **Patreon**, то вам сюда:
 
 <a class="patreon" href="https://www.patreon.com/bePatron?u=7655118">
-    <img src="assets/others/become_a_patron_button.png">
+    <img src="../assets/others/become_a_patron_button.png">
 </a>
 
 Также пожертвование можно сделать через [Сообщения сообщества](https://vk.com/im?sel=-117411610):
