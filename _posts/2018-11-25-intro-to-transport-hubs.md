@@ -22,7 +22,7 @@ Fortunately, this can be easily fixed with trucks! Truck stations are much small
 
 Now, instead of selling goods directly from the station, we can unload them into trucks first and then deliver directly to customers to obtain maximum profit. And this is where *Transport Hubs* come into play.
 
-The Transport Hub is a group of buildings (*hub modules*), adjacent to each other, that can transfer goods between each other without any medium. To form a hub all that is needed is to build a truck station next to an existing train station.
+The Transport Hub is a group of adjacent buildings (*hub modules*) that can transfer goods between each other without any medium. To form a hub all that is needed is to build a truck station next to an existing train station.
 
 {% include img.html src="/assets/posts/20181125-162016.png" %}
 
