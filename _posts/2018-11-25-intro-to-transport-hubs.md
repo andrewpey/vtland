@@ -4,8 +4,6 @@ title: Intro to Transport Hubs
 category: devlog
 ---
 
-*Hello there! Hope you've hungry for a new post about Voxel Tycoon. Warning - this one is a bit long.*
-
 At the very beginning of the game, the path of a product between its origin (e.g. ore deposit) and a customer is pretty straightforward.
 
 {% include img.html src="/assets/posts/20181125-155056.png" %}
