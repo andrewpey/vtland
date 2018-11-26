@@ -12,7 +12,7 @@ At the very beginning of the game, the path of a product between its origin (e.g
 2. Load it onto the train and deliver it to a station near a city where a customer is located
 3. Sell the goods directly from a station to a customer
 
-However, this works well only for the simplest cases. The further the station location from a customer the less profit you will get from such a trade. If the target city is big enough, this will become an issue, as train stations are usually big and it's hard or even impossible to place them close enough to a customer.
+However, this works well only for the simplest cases. The farther the station location from a customer the less profit you will get from such a trade. If the target city is big enough, this will become an issue, as train stations are usually big and it's hard or even impossible to place them close enough to a customer.
 
 {% include img.html src="/assets/posts/20181125-160708.png" alt="Delivering copper ore to the house on the top will bring much less profit due huge distance from train station" %}
 
