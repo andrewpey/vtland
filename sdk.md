@@ -51,6 +51,7 @@ You can notice that our models are:
 * Can have different count of axles
 * Not overdetailed but still recognizable
 * Vivid and toy-ish looking
+* The biggest buildings have maximum size of `5x5x10`
 
 <img src="/assets/sdk/guidelines/20180417-141213-1.png" class="compare-item" />
 <img src="/assets/sdk/guidelines/20180417-141213.png" class="compare-item last" />
