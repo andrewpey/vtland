@@ -9,10 +9,6 @@ redirect_from:
 
 If you've been following the development of VT for some time, you may notice that our estimated release date has changed several times. It was never an exact date, but regardless, we didn't meet them. From that, a reasonable question arises - why is that? And what's taking so long?
 
-<!--more-->
-
-> An estimated alpha release date is 2018 at the moment.
-
 ## The bright side of Indie
 
 We are an independent developer. This means we are free to work on the game in the way we feel will be better for Voxel Tycoon and our future players. This also means we have no strict deadlines, and thus can continue polishing things without sacrificing quality. This exact method resulted in all the stuff we've done already and you found interesting when joining our ever-growing community.
