@@ -11,7 +11,7 @@
     }
     & h2 {
         font-size: 2.5rem;
-        padding-top: 20px;
+        padding-top: 32px;
         padding-bottom: 23px;
         font-family: 'HansKendrick', 'roboto';
     }
@@ -38,11 +38,13 @@
     }
     & ul {
         list-style: disc;
+        padding-top: 5px;
+        padding-bottom: 5px;
         padding-left: 40px;
         font-family: 'roboto';
     }
     & li {
-        font-size: 19px;
+        font-size: 20px;
         padding: 5px;
     }
     & .video-foreground {

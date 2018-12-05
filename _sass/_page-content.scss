@@ -13,6 +13,15 @@
         padding-bottom: 20px;
         font-family: 'HansKendrick', 'roboto';
     }
+    &__footer {
+        opacity: 0.5;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-right: auto;
+        max-width: 400px;
+        font-size: smaller;
+        line-height: 19px;
+    }
     & img {
         width: 100%;
     }

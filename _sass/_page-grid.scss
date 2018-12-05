@@ -6,24 +6,5 @@
         width: 100%;
         display: flex;
     }
-    &__footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: 'HansKendrick';
-        color: white;
-        font-size: 15px;
-        text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
-        width: 100%;
-        opacity: 0.5;
-        height: 100px;
-        & a {
-            transform: translateY(2px);
-            margin: 0 2px;
-            &:hover {
-                border-color: white;
-            }
-        }
-    }
 }
 

@@ -57,11 +57,11 @@ $('.wishlist-modal').click(function(event) {
 <script type="text/javascript">
   var stickySideBar = new StickySidebar('.sidebar-menu', {
     topSpacing: 10,
-    bottomSpacing: 10,
+    bottomSpacing: 0,
     containerSelector: '.page-sidebar',
     innerWrapperSelector: '.sidebar-menu__inner',
   });
-  setInterval (() => {
+  $(document).ready(function() {
     stickySideBar.updateSticky();
-  }, 1000)
+  });
 </script>
