@@ -2,6 +2,9 @@
 ---
 
 .page-content {
+    & p {
+        padding: 24px 0;
+    }
     & .title {
         color: #00d657;
         text-transform: uppercase;
