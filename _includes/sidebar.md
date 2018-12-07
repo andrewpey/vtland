@@ -66,7 +66,7 @@ $('.wishlist-modal').click(function(event) {
     containerSelector: '.page-sidebar',
     innerWrapperSelector: '.sidebar-menu__inner',
   });
-  $(document).ready(function() {
+  $(window).ready(function() {
     stickySideBar.updateSticky();
   });
 </script>
