@@ -68,5 +68,8 @@ $('.wishlist-modal').click(function(event) {
   });
   $(window).ready(function() {
     stickySideBar.updateSticky();
+    setTimeout(() => {
+      stickySideBar.updateSticky();
+    }, 1000)
   });
 </script>
