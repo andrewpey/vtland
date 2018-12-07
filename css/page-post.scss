@@ -48,6 +48,9 @@
     & .video-foreground {
         opacity: 0.1;
     }
+    &   a.clear, a.clear:hover, .post a.clear, .post-ru a.clear {
+        border: none;
+    }
 }
 
 .page-nav {

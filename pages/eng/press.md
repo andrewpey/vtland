@@ -1,14 +1,14 @@
 ---
 layout: default
-style: 
+style: press
 title: Press Assets // VOXEL TYCOON
 permalink: press
-header: logo
+header: Logo
 ---
 
-![Logo](/assets/press/voxeltycoon.png)
+![Logo](/assets/press/voxeltycoon.png){:.logo}
 
-![Logo](/assets/press/voxeltycoon_text.png)
+![Logo](/assets/press/voxeltycoon_text.png){:.logo_text}
 
 Other variants: [logos.zip](/assets/press/logos.zip)
 

@@ -1,4 +1,9 @@
+{% if page.style == 'halloween' %}
+[ ![Logo](/assets/logo_halloween.gif){:.sidebar-menu__logo_halloween} ](/){:.sidebar-menu__logo_halloween .sidebar-menu__item}
+{% else %}
 [ ![Logo](/assets/press/voxeltycoon_text.png){:.sidebar-menu__logo} ](/){:.sidebar-menu__logo .sidebar-menu__item}
+{% endif %}
+
 
 [WISHLIST ON STEAM](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
 

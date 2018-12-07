@@ -8,11 +8,17 @@
         width: 560px;
         &_dark {
             height: 175px;
-            width: $content-width;
+            width: 560px;
+            padding-top: 20px;
         }
     }
     &-youtube {
         height: 382px;
         width: $content-width;
+    }
+    &-paypal {
+        width: 147px;
+        height: 47px;
+        margin: 10px 0;
     }
 }

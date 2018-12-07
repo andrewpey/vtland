@@ -2,9 +2,12 @@
 layout: halloween
 style: halloween
 permalink: railroad_to_hell/ru
+redirect_from:
+    - /railroad-to-hell_ru
+    - /railroad-to-hell/ru
 ---
 
-<img src="/assets/halloween/hero.png" style="margin-left:-40px;margin-top:-90px;margin-bottom:-25px;width:120%"/>
+<img src="/assets/halloween/hero.png" style="margin-left: -50px;margin-top: -60px;margin-bottom: -80px;width: 120%;"/>
 
 ## С Хэллоуином🎃!
 

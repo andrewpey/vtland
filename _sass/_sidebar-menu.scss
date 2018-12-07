@@ -24,6 +24,12 @@
     &__logo {
         margin-left: -3px;
         width: 250px;
+        &_halloween {
+            width: 100px;
+            &:hover {
+                border-color: transparent;
+            }
+        }
         &:hover {
             border-color: transparent;
         }

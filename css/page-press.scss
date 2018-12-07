@@ -1,0 +1,18 @@
+---
+---
+
+.page-content {
+    & p {
+        font-size: 16px;
+        padding: 6px 0;
+        & .logo {
+            height: 370px;
+            width: auto;
+        }
+        & .logo_text {
+            height: 302px;
+            width: auto;
+        }
+    }
+}
+
