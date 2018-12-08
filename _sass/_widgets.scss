@@ -1,0 +1,25 @@
+.widget {
+    &-steam {
+        height: 210px;
+        width: $content-width;
+    }
+    &-itchio {
+        height: 175px;
+        width: 560px;
+        &_dark {
+            height: 175px;
+            width: 560px;
+            margin-top: 20px;
+        }
+    }
+    &-youtube {
+        height: 382px;
+        width: $content-width;
+        margin: 10px 0;
+    }
+    &-paypal {
+        width: 147px;
+        height: 47px;
+        margin: 10px 0;
+    }
+}

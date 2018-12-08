@@ -1,0 +1,16 @@
+---
+---
+@import "standart";
+
+.page-content {
+    & a {
+        text-decoration: none;
+        padding-bottom: 0px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+        &:hover {
+            text-decoration: none;
+            padding-bottom: 0px;
+            border-bottom: 2px solid #ffffff;
+        }
+    }
+}

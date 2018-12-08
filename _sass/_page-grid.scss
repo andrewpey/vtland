@@ -1,0 +1,10 @@
+.page-grid {
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+    &__main {
+        width: 100%;
+        display: flex;
+    }
+}
+

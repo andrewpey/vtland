@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'HansKendrick';
+    src: url('../fonts/HansKendrick-Regular.otf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'HansKendrick';
+    src: url('../fonts/HansKendrick-Medium.otf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'HansKendrick';
+    src: url('../fonts/HansKendrick-Heavy.otf');
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+    &:active, &:hover, &:focus {
+      outline: 0;
+    }
+  }
+  
+html {
+    height: 100%;
+    width: 100%;
+}
+  
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #1e1728;
+    justify-content: center;
+    display: flex;
+}
+  
+body, h1, h2, h3, h4, ul, ol, figure, p {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+  
+a {
+    text-decoration: none;
+}
+
+a.clear, a.clear:hover, .post a.clear, .post-ru a.clear {
+    border: none;
+}

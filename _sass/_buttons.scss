@@ -1,0 +1,101 @@
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 4px solid transparent;
+    transition-duration: 400ms;
+    &.twitter {
+        color: #1da1f2;
+    }
+    &.facebook {
+        color: #6f8ed0;
+    }
+    &.vk {
+        color: #6daefd;
+    }
+    &.youtube {
+        color: #cd201f;
+    }
+    &.reddit {
+        color: #FF4500;
+    }
+    &.discord {
+        color: #6F60C1;
+    }
+    &.greenlight {
+        color: #77E344;
+        padding-bottom: 2px;
+    }
+    &.sdk {
+        color: #ffeb3b;
+    }
+    &.faqlink {
+        animation: colorchange 30s;
+        animation-iteration-count: infinite;
+    }
+    
+    &.patreon {
+        display: block;
+        margin: 0 0 0 0;
+        width: 160px;
+        height: 38px;
+        overflow: hidden;
+        border: none;
+        box-shadow: #b74e3f 5px 5px;
+        font-style: normal;
+        text-shadow: none;
+        margin-left: -8px;
+        & > img {
+            border-radius: 0;
+            width: 160px;
+        }
+        &:hover{
+            border: none;
+            text-decoration: none;
+            border-bottom: none;
+            padding-bottom: 0px;
+            animation: patreon-pulsing 1s infinite alternate;
+            animation-timing-function: linear;
+        }
+    }
+
+    &.patreon-navbar {
+        background: #f96854;
+        box-shadow: #b74e3f 5px 5px;
+        font-style: normal;
+        margin-right: 5px;
+        padding: 5px 10px;
+        margin-top: 10px;
+        text-shadow: none;
+        border: none;
+        margin-left: -8px;
+        &:hover {
+            text-decoration: none;
+            border-bottom: none;
+            animation: patreon-pulsing 1s infinite alternate;
+            animation-timing-function: linear;
+        }
+    }
+
+    &.money {
+        background: #1ba91c;
+        box-shadow: #086707 5px 5px;
+        font-style: normal;
+        margin-right: 5px;
+        margin-top: 10px;
+        padding: 5px 10px;
+        text-shadow: none;
+        margin-left: -8px;
+        border: none;
+        &:hover {
+            animation: money-pulsing 1s infinite alternate;
+            animation-timing-function: linear;
+        }
+    }
+
+    &:hover {
+        border-color: #fbe119;
+    }
+}
+
+

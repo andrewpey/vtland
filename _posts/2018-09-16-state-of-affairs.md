@@ -1,5 +1,6 @@
 ---
 layout: post
+style: post
 title: The Voxel Tycoon State of Affairs
 category: devlog
 redirect_from:

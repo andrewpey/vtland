@@ -1,10 +1,11 @@
 ---
 layout: default
+style: home
 play_video: true
 header: Hey!
-wrapper: tldr
 redirect_from:
     - "/greenlight"
+    - "/contacts"
 ---
 
-{% capture tldr %}{% include tldr.md %}{% endcapture %} {{ tldr | markdownify }}
+{% capture home %}{% include home.md %}{% endcapture %}{{ home | markdownify }}

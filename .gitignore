@@ -1,1 +1,6 @@
-_site
+/_site
+/.sass-cache/
+/.sass-cache/*
+Gemfile.*
+Gemfile
+/.vscode

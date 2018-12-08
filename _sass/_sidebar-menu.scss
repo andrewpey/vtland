@@ -1,0 +1,55 @@
+.page-sidebar {
+    margin: 0px 70px 0px 70px;
+    width: 250px;
+    font-size: 24px;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-family: 'HansKendrick';
+    color: white;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
+    will-change: min-height;
+    margin-bottom: 150px;
+    &__inner {
+        width: 250px;
+        transform: translate(0, 0); /* For browsers don't support translate3d. */
+        transform: translate3d(0, 0, 0);
+        will-change: position, transform;
+    }
+}
+
+.sidebar-menu {
+    width: 250px;
+    &__logo {
+        margin-left: -3px;
+        width: 250px;
+        &_halloween {
+            width: 100px;
+            &:hover {
+                border-color: transparent;
+            }
+        }
+        &:hover {
+            border-color: transparent;
+        }
+    }
+    & p {
+        display: flex;
+        align-items: center;
+        width: 250px;
+    }
+    &__item {
+        margin: 6px 0px;
+        padding: 4px 0px;
+    }
+    & small {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        padding: 12px 10px;
+    }
+    & hr {
+        opacity: 0;
+    }
+}

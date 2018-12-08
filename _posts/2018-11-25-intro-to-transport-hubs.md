@@ -1,5 +1,6 @@
 ---
 layout: post
+style: post
 title: Intro to Transport Hubs
 category: devlog
 ---

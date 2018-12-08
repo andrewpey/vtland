@@ -1,0 +1,22 @@
+@import "base";
+@import "variables";
+@import "highlight";
+@import "effects";
+@import "buttons";
+@import "page-grid";
+@import "page-content";
+@import "background-video";
+@import "widgets";
+@import "sidebar-menu";
+@import "whishlist-modal";
+
+.page-content.press img {
+    width: auto;
+    margin: 0 auto;
+}
+
+
+span.compare-filler {
+    width: 1%;
+}
+
