@@ -2,6 +2,8 @@
 layout: halloween
 style: 
 permalink: railroad_to_hell
+redirect_from:
+    - /railroad-to-hell
 ---
 
 <script type="text/javascript">
