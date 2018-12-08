@@ -1,0 +1,69 @@
+---
+---
+@import "standart";
+
+.page-content {
+    text-shadow: none;
+    font-family: 'HansKendrick', 'roboto';
+    & h1 {
+        padding-bottom: $header1-padding-bottom;
+    }
+    & h2 {
+        font-size: 2.5rem;
+        padding-top: 38px;
+        padding-bottom: 23px;
+    }
+    & h3 {
+        font-size: 1.7rem;
+        padding: 17px 0;
+    }
+    & a {
+        text-decoration: none;
+        padding-bottom: 0px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+        &:hover {
+            padding-bottom: 0px;
+            border-bottom: 2px solid #ffffff;
+        }
+        &.patreon {
+            border-bottom: none;
+        }
+    }
+    & p {
+        font-size: 20px;
+        line-height: 1.8;
+        font-family: 'Roboto';
+        padding-bottom: 10px;
+    }
+    & ul {
+        list-style: disc;
+        padding-left: 20px;
+    }
+    & li {
+        font-size: 19px;
+    }
+    & .video-foreground {
+        opacity: 0.1;
+    }
+    & .money {
+        background: #1ba91c;
+        box-shadow: #086707 5px 5px;
+        font-style: normal;
+        margin-right: 5px;
+        margin-top: 10px;
+        padding: 5px 10px;
+        text-shadow: none;
+        margin-left: -8px;
+        border: none;
+    }
+    & em {
+        font-style: normal;
+        color: #795548;
+        background: #fbe119;
+        margin-right: 5px;
+        padding: 3px 10px;
+        box-shadow: #eab20e 5px 5px;
+        text-shadow: none;
+    }
+}
+

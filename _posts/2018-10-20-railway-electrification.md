@@ -1,5 +1,6 @@
 ---
 layout: post
+style: post
 title: Railway Electrification ⚡
 category: devlog
 excerpt: <p>Over the past week we have made a lot of progress on electrified rails. Actually, we went from no implementation at all to working poles distribution and wires rendering. You can even choose on what side the poles should be placed!</p>
@@ -7,7 +8,6 @@ excerpt: <p>Over the past week we have made a lot of progress on electrified rai
 redirect_from:
     - "/railway-electrification"
     - "/2018/10/20/railway-electrification"
----
 
 ![](/assets/weekreport/25.gif)
 
