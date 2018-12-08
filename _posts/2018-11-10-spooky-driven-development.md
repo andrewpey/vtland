@@ -1,5 +1,6 @@
 ---
 layout: post
+style: post
 title: Spooky-driven development
 category: devlog
 ---
