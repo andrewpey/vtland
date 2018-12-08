@@ -2,7 +2,10 @@
 layout: post
 style: post
 title: Railway Electrification ⚡
-permalink: /devlog/railway-electrification
+category: devlog
+redirect_from:
+    - "/railway-electrification"
+    - "/2018/10/20/railway-electrification"
 ---
 
 ![](/assets/weekreport/25.gif)

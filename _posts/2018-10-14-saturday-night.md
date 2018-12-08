@@ -2,10 +2,15 @@
 layout: post
 style: post
 title: Saturday Night with Voxel Tycoon
-permalink: /devlog/saturday-night
+category: devlog
+redirect_from:
+    - "/saturday-night"
+    - "/2018/10/14/saturday-night"
 ---
 
 Around three weeks ago we posted a [State of Affairs](/when) message, where we disclosed the actual state of development and talked about things left to do before we can ship the alpha. Here's a quick reminder of that list, with some added notes on what's changed:
+
+<!--more-->
 
 ### Final tools
 
