@@ -1,22 +1,21 @@
 ---
 ---
+@import "standart";
 
 .page-content {
     text-shadow: none;
+    font-family: 'HansKendrick', 'roboto';
     & h1 {
-        padding-bottom: 40px;
-        font-family: 'HansKendrick', 'roboto';
+        padding-bottom: $header1-padding-bottom;
     }
     & h2 {
         font-size: 2.5rem;
         padding-top: 38px;
         padding-bottom: 23px;
-        font-family: 'HansKendrick', 'roboto';
     }
     & h3 {
         font-size: 1.7rem;
         padding: 17px 0;
-        font-family: 'HansKendrick', 'roboto';
     }
     & a {
         text-decoration: none;
@@ -65,9 +64,6 @@
         padding: 3px 10px;
         box-shadow: #eab20e 5px 5px;
         text-shadow: none;
-    }
-    & blockquote {
-        
     }
 }
 
