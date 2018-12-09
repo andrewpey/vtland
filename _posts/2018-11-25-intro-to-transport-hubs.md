@@ -9,9 +9,9 @@ At the very beginning of the game, the path of a product between its origin (e.g
 
 {% include img.html src="/assets/posts/20181125-155056.png" %}
 
-1. Extract ore from the deposit using a Mine facility
-2. Load it onto the train and deliver it to a station near a city where a customer is located
-3. Sell the goods directly from a station to a customer
+**1.** Extract ore from the deposit using a Mine facility<br>
+**2.** Load it onto the train and deliver it to a station near a city where a customer is located<br>
+**3.** Sell the goods directly from a station to a customer<br>
 
 However, this works well only for the simplest cases. The farther the station location from a customer the less profit you will get from such a trade. If the target city is big enough, this will become an issue, as train stations are usually big and it's hard or even impossible to place them close enough to a customer.
 
