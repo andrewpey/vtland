@@ -34,6 +34,10 @@
             padding: 0;
         }
     }
+    @media (max-width: #{1230 - 0.1px}) {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
 
 code {
