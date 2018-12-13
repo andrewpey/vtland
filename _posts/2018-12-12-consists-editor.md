@@ -11,7 +11,7 @@ We believe that you can get an overall idea of how deep the transport game is ju
 
 *img*
 
-This is the window you'll use to buy new vehicles or reconfigure already owned ones. Let's go through some features it provides.
+This is the window you'll use to buy new vehicles or reconfigure already owned ones. Let's go through some features it provides, besides allowing the player to take a glimpse at some summary information of the vehicle.
 
 ### Adding units
 
@@ -48,6 +48,8 @@ This is called Editor for a reason, right? So, you can select some of units and 
 You can remove, flip, duplicate, or replace selected units, or you can insert a new unit before a selected one.
 
 Also, you can change the purpose for carriages using the little picker above each of them.
+
+And, of course, it allows you to change the vehicle name.
 
 ### Advanced MU
 
