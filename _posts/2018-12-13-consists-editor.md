@@ -76,7 +76,7 @@ Hope you'll like this way of handling vehicle consists. At least, it's a far cry
 
 You may suspect that the release is not going to happen this year. Although, to give you a clue how close it is, we want to announce that the preparation for the first wave of closed pre-alpha roll-out has started. It's a very exciting time as the game finally gets to be played by more than a few people.
 
-If you are interested in participating in the next beta testing waves please fill [this form](). Be advised: playing the pre-alpha version of the Early Access game means a very unfinished experience that most likely will ruin the first impression of the game. So, you should apply only if you really want to spoil all the things and get deep into testing.
+If you are interested in participating in the next beta testing waves please fill out [this form](). Be advised: playing the pre-alpha version of the Early Access game means a very unfinished experience that most likely will ruin the first impression of the game. So, you should apply only if you really want to spoil all the things and get deep into testing.
 
 Bearing in mind approaching release and all the work that should be done before that, we have no free time to prepare you any holiday presents this Christmas. However, we bet the best gift possible is VT coming into Early Access, albeit a bit late. So, let us wish you Merry Christmas and Happy New Year in advance, while we keep working on getting the game to you.
 
