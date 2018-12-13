@@ -5,6 +5,9 @@
     &__main {
         width: 100%;
         display: flex;
+        @media (max-width: #{1230 - 0.1px}) {
+            flex-direction: column;
+        }
     }
 }
 
