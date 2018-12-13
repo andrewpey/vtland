@@ -1,3 +1,8 @@
+<script>
+  var wishlistModal = " <div class=\"wishlist-modal\"><div class=\"wishlist-modal-content\"><iframe src=\"https://store.steampowered.com/widget/732050/\" frameborder=\"0\" width=\"646\" height=\"190\"></iframe></div></div>";
+  $('.page-sidebar').prepend(wishlistModal);
+</script>
+
 {% if page.style == 'halloween' %}
 [ ![Logo](/assets/logo_halloween.gif){:.sidebar-menu__logo_halloween} ](/){:.sidebar-menu__logo_halloween .sidebar-menu__item}
 {% else %}
@@ -40,12 +45,6 @@
 [Email](mailto:dev@voxeltycoon.xyz){:.email .sidebar-menu__item}
 
 [Notify Me]({{site.newsletter_url}}){:.sidebar-menu__item}
-
-<div class="wishlist-modal">
-  <div class="wishlist-modal-content">
-    <iframe src="https://store.steampowered.com/widget/732050/" frameborder="0" width="646" height="190"></iframe>
-  </div>
-</div>
 
 <script>
 $('.greenlight').click(function(event) {
