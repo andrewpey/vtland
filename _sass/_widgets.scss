@@ -2,10 +2,6 @@
     &-steam {
         height: 210px;
         width: 100%;
-        @include tablet {
-            height: 210px;
-            width: 100%;
-        }
     }
     &-itchio {
         height: 175px;
@@ -19,20 +15,19 @@
     &-youtube {
         display: block;
         height: 382px;
-        margin: 10px 0;
+        width: 100%;
+        margin: 0.7142857142857143rem 0;
         @include tablet {
             height: 30rem;
         }
         @include mobile {
             height: 25rem;
         }
-        @include xs-mobile {
-            height: 20rem;
-        }
+        
     }
     &-paypal {
         max-width: 147px;
         height: 47px;
-        margin: 10px 0;
+        margin: 0.7142857142857143rem 0;
     }
 }

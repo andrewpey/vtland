@@ -15,7 +15,7 @@
         padding-bottom: 23px;
     }
     & h3 {
-        font-size: 1.7rem;
+        font-size: 1.95rem;
         padding: 17px 0;
     }
     & a {
@@ -29,7 +29,7 @@
         }
     }
     & p {
-        font-size: 20px;
+        font-size: 1.4285714285714286rem;
         line-height: 1.8;
         font-family: 'Roboto';
         padding-bottom: 10px;
@@ -45,7 +45,7 @@
     //     font-family: 'Roboto';
     // }
     & li {
-        font-size: 19px;
+        font-size: 1.3571428571428572rem;
         padding: 5px;
     }
     & .video-foreground {
@@ -60,6 +60,7 @@
     display: flex;
     line-height: 150%;
     justify-content: space-between;
+    font-size:  1.1428571428571428rem;
     &__prev {
         text-align: left;
     }

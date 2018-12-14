@@ -2,7 +2,7 @@
     max-width: $page-content-width;
     font-family: 'HansKendrick';
     padding: 0 $page-content-padding;
-    padding-top: 50px;
+    padding-top: 3.5714285714285716rem;
     color: white;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
     display: flex;
@@ -11,31 +11,30 @@
         padding-right: 0;
     }
     @include tablet {
-        padding: 0 10px;
+        padding: 1.7857142857142858rem;
     }
     @include mobile {
-        padding: 0 5px;
+        padding: 1.5rem;
     }
     &__title {
-        font-size: 3rem;
-        padding-bottom: 20px;
+        font-size: 3.4rem;
+        padding-bottom: 1.4285714285714286rem;
         font-family: 'HansKendrick', 'roboto';
     }
     &__footer {
         opacity: 0.5;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 3.5714285714285716rem;
+        margin-bottom: 3.5714285714285716rem;
         margin-right: auto;
         max-width: 400px;
-        font-size: smaller;
         line-height: 19px;
     }
     & img {
         width: 100%;
     }
     & p {
-        padding: 12px 0;
-        font-size: 24px;
+        padding: 0.8571428571428571rem 0;
+        font-size: 1.7142857142857142rem;
         line-height: 1.7;
     }
     & blockquote {
@@ -48,21 +47,32 @@
 code {
     background: rgba(60, 60, 60, 0.6);
     border-radius: 2px;
-    padding: 2px 5px;
+    padding: 0.14285714285714285rem 0.35714285714285715rem;
     font-family: 'Roboto Mono', monospace;
     font-size: 0.7em;
     color: #00e5ff;
+    white-space: pre;
+}
+
+date {
+    background: rgba(60, 60, 60, 0.6);
+    border-radius: 2px;
+    padding: 0.14285714285714285rem 0.35714285714285715rem;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.7em;
+    color: #00e5ff;
+    white-space: pre;
 }
 
 blockquote {
     border-left: solid 4px rgba(255, 255, 255, 0.3);
     padding-left: 1em;
-    margin: 10px 0;
+    margin: 0.7142857142857143rem 0;
 }
 
 .highlight {
     border-radius: 5px;
-    padding: 1px 3px;
+    padding: 0.07142857142857142rem 0.21428571428571427rem;
 }
 
 pre.highlight code {
