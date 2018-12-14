@@ -16,6 +16,10 @@
     font-weight: 700;
 }
 
+.noscroll {
+    overflow: hidden;
+}
+
 * {
     box-sizing: border-box;
     &:active, &:hover, &:focus {

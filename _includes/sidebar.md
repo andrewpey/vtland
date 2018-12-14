@@ -1,6 +1,9 @@
 <script>
-  var wishlistModal = " <div class=\"wishlist-modal\"><div class=\"wishlist-modal-content\"><iframe src=\"https://store.steampowered.com/widget/732050/\" frameborder=\"0\" width=\"646\" height=\"190\"></iframe></div></div>";
+  let wishlistModal = " <div class=\"wishlist-modal\"><div class=\"wishlist-modal-content\"><iframe src=\"https://store.steampowered.com/widget/732050/\" frameborder=\"0\" width=\"646\" height=\"190\"></iframe></div></div>";
   $('.page-sidebar').prepend(wishlistModal);
+
+  let burgerIco = "<div class=\"burgerMenu\"><div class=\"burgerMenu__bar1\"></div><div class=\"burgerMenu__bar2\"></div><div class=\"burgerMenu__bar3\"></div></div>";
+  $('body').prepend(burgerIco);
 </script>
 
 {% if page.style == 'halloween' %}
@@ -55,6 +58,26 @@ $('.greenlight').click(function(event) {
 $('.wishlist-modal').click(function(event) {
     $('.wishlist-modal').fadeOut(200)
 })
+
+let burgerStatus = true;
+$('.burgerMenu').click(() => {
+  if(burgerStatus){
+    $('.burgerMenu__bar1').addClass('burgerMenu__bar1_transform');
+    $('.burgerMenu__bar2').addClass('burgerMenu__bar2_transform');
+    $('.burgerMenu__bar3').addClass('burgerMenu__bar3_transform');
+    $('.page-sidebar').addClass('page-sidebar_modal');
+    $('body').addClass('noscroll');
+    burgerStatus = false;
+  } else {
+    $('.burgerMenu__bar1').removeClass('burgerMenu__bar1_transform');
+    $('.burgerMenu__bar2').removeClass('burgerMenu__bar2_transform');
+    $('.burgerMenu__bar3').removeClass('burgerMenu__bar3_transform');
+    $('.page-sidebar').removeClass('page-sidebar_modal');
+    $('body').removeClass('noscroll');
+    burgerStatus = true;
+  }
+})
+
 </script>
 
 <script type="text/javascript" src="/assets/js/sticky-sidebar.js"></script>

@@ -1,5 +1,5 @@
 .page-content {
-    width: $page-content-width;
+    max-width: $page-content-width;
     font-family: 'HansKendrick';
     padding: 0 $page-content-padding;
     padding-top: 50px;
@@ -7,6 +7,12 @@
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
+    @include tablet {
+        padding: 0 10px;
+    }
+    @include mobile {
+        padding: 0 5px;
+    }
     &__title {
         font-size: 3rem;
         padding-bottom: 20px;
