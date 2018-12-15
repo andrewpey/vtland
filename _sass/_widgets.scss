@@ -2,6 +2,12 @@
     &-steam {
         height: 210px;
         width: 100%;
+        &_modal {
+            height: 210px;
+            max-width: 646px;
+            width: 100vw;
+            margin: 10px;
+        }
     }
     &-itchio {
         height: 175px;
@@ -21,6 +27,9 @@
             height: 30rem;
         }
         @include mobile {
+            height: 40rem;
+        }
+        @include xs-mobile {
             height: 25rem;
         }
         

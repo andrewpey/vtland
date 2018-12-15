@@ -1,5 +1,5 @@
 <script>
-  let wishlistModal = " <div class=\"wishlist-modal\"><div class=\"wishlist-modal-content\"><iframe src=\"https://store.steampowered.com/widget/732050/\" frameborder=\"0\" width=\"646\" height=\"190\"></iframe></div></div>";
+  let wishlistModal = " <div class=\"wishlist-modal\"><div class=\"wishlist-modal-content\"><iframe src=\"https://store.steampowered.com/widget/732050/\"frameborder=\"0\"class=\"widget-steam_modal\"</iframe></div></div>";
   $('.page-sidebar').prepend(wishlistModal);
 
   let burgerIco = "<div class=\"burgerMenu\"><div class=\"burgerMenu__bar1\"></div><div class=\"burgerMenu__bar2\"></div><div class=\"burgerMenu__bar3\"></div></div>";

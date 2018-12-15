@@ -45,13 +45,21 @@
 }
 
 code {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
     background: rgba(60, 60, 60, 0.6);
     border-radius: 2px;
     padding: 0.14285714285714285rem 0.35714285714285715rem;
     font-family: 'Roboto Mono', monospace;
     font-size: 0.7em;
     color: #00e5ff;
-    white-space: pre;
 }
 
 date {
@@ -84,16 +92,24 @@ pre.highlight code {
 }
 
 img.compare-item {
-    width: 49.2%;
-    margin-right: 5px;
+    min-width: 50px;
+    width: 48%;
+    padding: 0 2px;
+    @include xs-mobile {
+        width: 100%;
+    }
 }
 
 img.compare-item.third {
-    width: 32.3%;
+    @include xs-mobile {
+        width: 100%;
+    }
 }
 
 img.compare-item.last {
-    margin-right: 0;
+    @include xs-mobile {
+        width: 100%;
+    }
 }
 
 .img-inline-left-container

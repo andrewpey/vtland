@@ -1,9 +1,15 @@
+{% if include.style == "sdkReleaseNote" %}
+<div style="padding-left: 40px">
+    <img src="{{include.src}}" style="width: 100%; margin: 5px;"/>
+</div>
+{% else %}
 <div>
     <a class="clear" href="{{include.src}}">
         <img src="{{include.src}}" style="margin-bottom: 6px" />
     </a>
-    {% if include.alt %}
     <span class="img-alt">{{include.alt}}</span>
-    {% endif %}
 </div>
+{% endif %}
+
+
 
