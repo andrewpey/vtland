@@ -11,10 +11,7 @@ Halloween is behind us and now we're back to Voxel Tycoon development. While we 
 
 This was back in the days when we were working on Voxel Tycoon in our spare time. Not so much effort was put into the Halloween post - we basically recolored some biomes and trees to get the spooky look:
 
-<div>
-    <img src="/assets/hell-or-high-water/M7USjsCR0AU.jpg"/>
-    <span class="img-alt">It was the moment when the famous Pumpkin was born</span>
-</div>
+{% include img.html src="/assets/hell-or-high-water/M7USjsCR0AU.jpg" alt="It was the moment when the famous Pumpkin was born" %}
 
 **What we got from it**: 
 * Simple themed post
@@ -26,23 +23,20 @@ Next year the celebration caught Voxel Tycoon far deeper in development. We had 
 
 This time we put a bit more into the Halloween post and made this annoying GIF that tests your patience. Of course, we added a classic **WHAT WILL HAPPEN? WATCH TILL THE END TO FIND OUT!**  clickbait for more fun.
 
-<div>
-    <img src="/assets/hell-or-high-water/ezgif-5-0e079f2b4bbf.gif"/>
-    <span class="img-alt">It actually resembles another <a href="https://media.giphy.com/media/Qq8P7OoPYKLXa/giphy.gif">cool GIF</a></span>
-</div>
+{% include img.html src="/assets/hell-or-high-water/ezgif-5-0e079f2b4bbf.gif" alt="It actually resembles another <a href=\"https://media.giphy.com/media/Qq8P7OoPYKLXa/giphy.gif\">cool GIF</a>" %}
 
 **What we got from it**: 
 * Knowledge how to edit videos using Blender
 * More fun
 * Nice comments, like:
 
-![](/assets/hell-or-high-water/comments.png)
+{% include img.html src="/assets/hell-or-high-water/comments.png" %}
 
 ## Tier 3
 
 As some of you may already know, this year we went *a little* further:
 
-![](/assets/hell-or-high-water/rth3_short.gif)
+{% include img.html src="/assets/hell-or-high-water/rth3_short.gif" %}
 
 Yes, this is an action game built on top of Voxel Tycoon, called **Railroad to Hell 3**. It was developed in less than a week so that it was in time for Halloween 2018.
 
@@ -57,12 +51,7 @@ First of all, we chose a completely different genre and setting for a reason. It
 
 > RTH3 uses the same save data as its big brother. This means that when VT will out you could shoot some pumpkins in your own worlds by providing saved games to RTH3.
 
-<div>
-    <a class="clear" href="/assets/hell-or-high-water/20181110-205254.png">
-        <img src="/assets/hell-or-high-water/20181110-205254.png" style="margin-bottom: 6px" />
-    </a>
-    <span class="img-alt">This is how the level from RTH3 looks like when you play it like a strategy game</span>
-</div>
+{% include img.html src="/assets/hell-or-high-water/20181110-205254.png" alt="This is how the level from RTH3 looks like when you play it like a strategy game" %}
 
 Another area where RTH3 was beneficial is explosions. There are not so many of them that happen during the normal life of a tycoon, but in no way can you avoid them in RTH3. We received some valuable intel while destroying enemies and the surrounding environment.
 
@@ -72,10 +61,8 @@ Finally, distributing the game via itch.io allowed us to setup and test an autom
 
 At the end, the switch to this completely different project cleaned our heads a bit before the final sprint to the alpha release of Voxel Tycoon.
 
-<div>
-    <img src="/assets/hell-or-high-water/20181111-003250.png" style="margin-bottom: 6px" />
-    <span class="img-alt">The Pumpkin has not been left out and received a facelift, 0.00001% performance boost confirmed</span>
-</div>
+
+{% include img.html src="/assets/hell-or-high-water/20181111-003250.png" alt="The Pumpkin has not been left out and received a facelift, 0.00001% performance boost confirmed" %}
 
 ## Play now!
 

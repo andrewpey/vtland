@@ -158,9 +158,6 @@ img, iframe {
             
     }
 }
-img {
-    width: 100%;
-}
 .two-img {
     display: flex;
     align-items: flex-start;
@@ -182,4 +179,8 @@ img {
             }
         }
     }
+}
+
+img {
+    width: 100%;
 }

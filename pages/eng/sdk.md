@@ -54,32 +54,32 @@ You can notice that our models are:
 * Vivid and toy-ish looking
 * The biggest buildings have maximum size of `5x5x10`
 
-{% include img.html style="twoImg" src="/assets/sdk/guidelines/20180417-141213-1.png"
+{% include img.html src="/assets/sdk/guidelines/20180417-141213-1.png"
 src2="/assets/sdk/guidelines/20180417-141213.png" %}
 
-{% include img.html style="twoImg" src="/assets/sdk/guidelines/Layer3.png"
+{% include img.html src="/assets/sdk/guidelines/Layer3.png"
 src2="/assets/sdk/guidelines/Layer2.png" %}
 
-{% include img.html style="twoImg" src="/assets/sdk/guidelines/dbv200.png"
+{% include img.html src="/assets/sdk/guidelines/dbv200.png"
 src2="/assets/sdk/guidelines/dbv200-1.png" %}
 
 Use vivid colors instead of faded ones, but not too much:
 
-{% include img.html style="threeImg" src="/assets/sdk/guidelines/3a-1.png" src2="/assets/sdk/guidelines/3a.png" src3="/assets/sdk/guidelines/3b.png" %}
+{% include img.html src="/assets/sdk/guidelines/3a-1.png" src2="/assets/sdk/guidelines/3a.png" src3="/assets/sdk/guidelines/3b.png" %}
 
 Darker windows look better. Consider using predefined colors:
 
-{% include img.html style="twoImg" src="/assets/sdk/guidelines/2a.png"
+{% include img.html src="/assets/sdk/guidelines/2a.png"
 src2="/assets/sdk/guidelines/2b.png" %}
 
 Consider some parts of the model to use smooth shading:
 
-{% include img.html style="twoImg" src="/assets/sdk/guidelines/2.png"
+{% include img.html src="/assets/sdk/guidelines/2.png"
 src2="/assets/sdk/guidelines/1.png" %}
 
 Another example:
 
-{% include img.html style="twoImg" src="/assets/sdk/guidelines/1a.png"
+{% include img.html src="/assets/sdk/guidelines/1a.png"
 src2="/assets/sdk/guidelines/1b.png" %}
 
 All of that is just a recommendation and not hard rules. Be creative!
@@ -109,7 +109,7 @@ Logs locations:
 
 * Added in-game Mod Browser where you can browse for already published creations and manage installed mods (thanks **Alego22** and **meinroman** for help with bug hunting):
 
-{% include images.html style="sdkReleaseNote" src="/assets/sdk/publish_your_mod/20180514-192535.png" %}
+{% include img.html style="sdkReleaseNote" src="/assets/sdk/publish_your_mod/20180514-192535.png" %}
 
 * If you are mod creator and want to feature your work in the gallery please check [this guide](/publish_your_mod)
 * Fixed meshes with more than 50 vertices per face failed to load (thanks **meinroman**!)

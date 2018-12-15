@@ -1,42 +1,31 @@
-{% if include.style == "sdkReleaseNote" %}
+{% if include.style %}
+    {% if include.style == "sdkReleaseNote" %}
+    <div style="padding-left: 40px">
+        <img src="{{include.src}}" style="width: 100%; margin: 5px;"/>
+    </div>
+    {% endif %}
 
-<div style="padding-left: 40px">
-    <img src="{{include.src}}" style="width: 100%; margin: 5px;"/>
-</div>
-
-{% else %}
-{% endif %}
-{% if include.style == "threeImg" %}
-
+{% elsif include.src and include.src2 and include.src3 %}
 <div class="three-img">
     <img src="{{include.src}}" class="three-img_item">
     <img src="{{include.src2}}" class="three-img_item">
     <img src="{{include.src3}}" class="three-img_item">
 </div>
-
-{% else %}
-{% endif %}
-{% if include.style == "twoImg" %}
-
+        
+{% elsif include.src and include.src2 %}
 <div class="two-img">
     <img src="{{include.src}}" class="two-img_item">
     <img src="{{include.src2}}" class="two-img_item">
 </div>
 
 {% else %}
-{% endif %}
-{% if include.style == 'null' %}
-
 <div>
     <a class="clear" href="{{include.src}}">
         <img src="{{include.src}}" style="margin-bottom: 6px" />
     </a>
+    {% if include.alt %}
     <span class="img-alt">{{include.alt}}</span>
+    {% endif %}
 </div>
 
-{% else %}
 {% endif %}
-
-
-
-
