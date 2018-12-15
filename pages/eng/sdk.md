@@ -54,36 +54,33 @@ You can notice that our models are:
 * Vivid and toy-ish looking
 * The biggest buildings have maximum size of `5x5x10`
 
-<img src="/assets/sdk/guidelines/20180417-141213-1.png" class="compare-item" />
-<img src="/assets/sdk/guidelines/20180417-141213.png" class="compare-item last" />
+{% include img.html style="twoImg" src="/assets/sdk/guidelines/20180417-141213-1.png"
+src2="/assets/sdk/guidelines/20180417-141213.png" %}
 
-<img src="/assets/sdk/guidelines/Layer3.png" class="compare-item" />
-<img src="/assets/sdk/guidelines/Layer2.png" class="compare-item last" />
+{% include img.html style="twoImg" src="/assets/sdk/guidelines/Layer3.png"
+src2="/assets/sdk/guidelines/Layer2.png" %}
 
-<img src="/assets/sdk/guidelines/dbv200.png" class="compare-item" />
-<img src="/assets/sdk/guidelines/dbv200-1.png" class="compare-item last" />
+{% include img.html style="twoImg" src="/assets/sdk/guidelines/dbv200.png"
+src2="/assets/sdk/guidelines/dbv200-1.png" %}
 
 Use vivid colors instead of faded ones, but not too much:
 
-<img src="/assets/sdk/guidelines/3a-1.png" class="compare-item third" />
-<img src="/assets/sdk/guidelines/3a.png" class="compare-item third" />
-<img src="/assets/sdk/guidelines/3b.png"  class="compare-item third last" />
+{% include img.html style="threeImg" src="/assets/sdk/guidelines/3a-1.png" src2="/assets/sdk/guidelines/3a.png" src3="/assets/sdk/guidelines/3b.png" %}
 
 Darker windows look better. Consider using predefined colors:
 
-<img src="/assets/sdk/guidelines/2a.png" class="compare-item" />
-<img src="/assets/sdk/guidelines/2b.png" class="compare-item last" />
+{% include img.html style="twoImg" src="/assets/sdk/guidelines/2a.png"
+src2="/assets/sdk/guidelines/2b.png" %}
 
 Consider some parts of the model to use smooth shading:
 
-<img src="/assets/sdk/guidelines/2.png" class="compare-item" />
-<img src="/assets/sdk/guidelines/1.png" class="compare-item last" />
+{% include img.html style="twoImg" src="/assets/sdk/guidelines/2.png"
+src2="/assets/sdk/guidelines/1.png" %}
 
 Another example:
 
-<img src="/assets/sdk/guidelines/1a.png" class="compare-item" />
-<img src="/assets/sdk/guidelines/1b.png" class="compare-item last" />
-
+{% include img.html style="twoImg" src="/assets/sdk/guidelines/1a.png"
+src2="/assets/sdk/guidelines/1b.png" %}
 
 All of that is just a recommendation and not hard rules. Be creative!
 

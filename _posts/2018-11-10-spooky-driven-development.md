@@ -81,7 +81,7 @@ At the end, the switch to this completely different project cleaned our heads a 
 
 In case you haven't yet, we encourage you to go and play it right now while you are waiting for Voxel Tycoon. Of course, if this is your kind of game!
 
-<iframe frameborder="0" src="https://itch.io/embed/324650?linkback=true&amp;border_width=1&amp;bg_color=1e1728&amp;fg_color=ffffff&amp;link_color=b7278c&amp;border_color=4b4455" width="560" height="175"></iframe>
+<iframe class="widget-itchio_dark" frameborder="0" src="https://itch.io/embed/324650?linkback=true&amp;border_width=1&amp;bg_color=1e1728&amp;fg_color=ffffff&amp;link_color=b7278c&amp;border_color=4b4455"></iframe>
 
 Keep in mind that all the money from sales go to support of development of Voxel Tycoon. Thank you, and see you in the next post, where we return to the gameplay mechanics of VT!
 

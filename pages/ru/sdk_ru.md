@@ -2,7 +2,7 @@
 title: SDK // VOXEL TYCOON
 header: SDK
 layout: default
-permalink: sdk/ru
+permalink: /sdk/ru
 redirect_from:
     - /sdk_ru
 ---

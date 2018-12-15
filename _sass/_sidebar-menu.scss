@@ -77,8 +77,8 @@
         right: 0; top: 10px;
         cursor: pointer;
         background-color: rgba(0, 0, 0, 0.589);
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -90,11 +90,12 @@
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         &__bar1, &__bar2, &__bar3  {
-            width: 60px;
-            height: 7px;
-            background-color: white;
+            width: 40px;
+            height: 5px;
+            background-color: #B3B4B4;
             margin: 4px 0;
             transition: 0.4s;
+            border-radius: 5px;
         }
         &__bar1_transform {
             -webkit-transform: rotate(-45deg) translate(-9px, 9px);
