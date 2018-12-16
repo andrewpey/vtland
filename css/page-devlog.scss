@@ -13,4 +13,13 @@
             border-bottom: 2px solid #ffffff;
         }
     }
+    & a.clear, a.clear:hover{
+        border: none;
+    }
+    & br.mobile {
+        display: none;
+        @include mobile {
+            display: block;
+        }
+    }
 }
