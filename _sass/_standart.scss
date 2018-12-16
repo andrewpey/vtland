@@ -1,6 +1,6 @@
-@import "base";
 @import "variables";
 @import "mixins";
+@import "base";
 @import "highlight";
 @import "effects";
 @import "buttons";
@@ -10,14 +10,4 @@
 @import "widgets";
 @import "sidebar-menu";
 @import "whishlist-modal";
-
-.page-content.press img {
-    width: auto;
-    margin: 0 auto;
-}
-
-
-span.compare-filler {
-    width: 1%;
-}
 

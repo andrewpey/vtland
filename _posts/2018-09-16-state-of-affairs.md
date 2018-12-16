@@ -22,7 +22,8 @@ In the end, we are just balancing these aspects — quality, and release.
 
 ## A few words about the team
 
-![Office](https://pp.userapi.com/c840323/v840323836/80276/VTqhfby5Xj4.jpg)
+{% include img.html src="https://images-ext-2.discordapp.net/external/8nvYtWvaY_vvroI_597pbMzPETtEGo3JA5qFkQiGSlY/https/pp.userapi.com/c840323/v840323836/80276/VTqhfby5Xj4.jpg?width=1192&height=671" %}
+
 
 As some of you may know, there are just two guys working on the game, full time, 7 days per week without holidays. At the beginning, we worked remotely, but in April we gathered our equipment in one room where we set up an improvised office.
 
@@ -51,7 +52,7 @@ Everything that needed to make the game basically playable except listed above. 
 
 ## What's in development right now?
 
-![Office](https://media.discordapp.net/attachments/394070514395774977/451064735572426753/unknown.png?width=1152&height=648)
+{% include img.html src="https://media.discordapp.net/attachments/394070514395774977/451064735572426753/unknown.png?width=1152&height=648" %}
 
 **Maxim** is improving the user experience of laying out roads, rails, and conveyors as we feel previous implementations were too hard to use without outbursts of rage.
 
@@ -79,4 +80,4 @@ Big thanks for your support, guys. Special appreciation goes to the kind folks w
 
 This is an incredible journey for us, and we hope we're making it fun enough for you as well.
 
-![Meow](https://cdn.discordapp.com/attachments/394070514395774977/487723552917946369/IMG_20180624_213650.jpg)
+{% include img.html src="https://cdn.discordapp.com/attachments/394070514395774977/487723552917946369/IMG_20180624_213650.jpg" %}
