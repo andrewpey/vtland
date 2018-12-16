@@ -2,6 +2,7 @@
 layout: post
 style: post
 title: Saturday Night with Voxel Tycoon
+ico: pumpkin
 category: devlog
 redirect_from:
     - "/saturday-night"
@@ -10,7 +11,6 @@ redirect_from:
 
 Around three weeks ago we posted a [State of Affairs](/when) message, where we disclosed the actual state of development and talked about things left to do before we can ship the alpha. Here's a quick reminder of that list, with some added notes on what's changed:
 
-<!--more-->
 
 ### Final tools
 
@@ -20,7 +20,7 @@ Building tools have greatly improved since last time. There are still some flaws
 
 This is done! Woo-hoo!
 
-![](/assets/weekreport/20181013-152913.png)
+{% include img.html src="/assets/weekreport/20181013-152913.png" %}
 
 ### Finalized UI
 
@@ -48,13 +48,14 @@ For those who missed it, check out these 15+ minutes of raw footage, recorded fr
 
 Those who watched the video above may have noticed that the one piece was missing from our vehicle physics engine - taking load weights into account. Now, when a vehicle is running with more cargo aboard, it will require more power. This is especially noticeable when going uphill:
 
-![](/assets/weekreport/phys2-0.gif)
+{% include img.html src="/assets/weekreport/phys2-0.gif" %}
 
 We are finally satisfied with the physics engine, and it can be considered final. We are not going to alter it again until after the first alpha.
 
 ## Assets are dead. Long live mods!
 
 One more important milestone here is that built-in assets have been completely replaced with moddable ones!
+
 
 <div class="img-inline-left-container">
     <img src="/assets/weekreport/image_2018-10-11_22-02-48.png" style="margin-bottom: 6px" />
@@ -76,7 +77,3 @@ On one hand, you guys are right - the more we work on the game, the more polishe
 Long story short, our goal is to release the game in a few months. Thank you for believing in us, we're doing our best not to fail you.
 
 As usual, we encourage you to join our [Discord](http://discord.gg/64KPWd5) and share your thoughts with us or the community.
-
-<p style="text-align: center">
-    <img style="width: 140px;" src="/assets/pumpkin50.png"/>
-</p>

@@ -48,7 +48,3 @@ The basic factory requires two warehouses - one to take source materials from an
 Of course, this is not all that hubs are capable of doing, but this post is already too huge. Thanks for reading this far, and see you next time!
 
 Stay tuned for more information about the game! Please [follow our social networks](/contacts), and we encourage you to join our [Discord](http://discord.gg/64KPWd5) and share your thoughts with us and the community.
-
-<div style="text-align: center">
-    <img style="width: 80px;" src="/assets/outlined-33-shadow.png"/>
-</div>

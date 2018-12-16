@@ -5,21 +5,28 @@
             <h1 class="page-content__title">{{ page.title }}</h1>
             {{ content }}
             {% if page.date %}
-                <p style="text-align: center"><a href="/devlog" class="clear"><code>{{ page.date | date_to_long_string }}</code></a></p>
+                <p style="text-align: center">
+                    {% if page.ico == "pumpkin" %}
+                    <img style="width: 140px;" src="/assets/pumpkin50.png"/>
+                    {% else %}
+                    <img style="width: 80px;" src="/assets/outlined-33-shadow.png"/>
+                    {% endif %}
+                </p>
+                <p style="text-align: center"><a href="/devlog" class="clear"><date>{{ page.date | date_to_long_string }}</date></a></p>
             {% endif %}
             <div class="page-nav">   
                 <div class="page-nav__prev">
                     {% if page.previous.url %}
                         Previous post<br>
                         <a href="{{page.previous.url}}">{{page.previous.title}}</a><br>
-                        <code>{{ page.previous.date | date_to_long_string }}</code>
+                        <date>{{ page.previous.date | date_to_long_string }}</date>
                     {% endif %}
                 </div>
                 <div class="page-nav__next">
                     {% if page.next.url %}
                         Next post<br>
                         <a href="{{page.next.url}}">{{page.next.title}}</a><br>
-                        <code>{{ page.next.date | date_to_long_string }}</code>
+                        <date>{{ page.next.date | date_to_long_string }}</date>
                     {% endif %}
                 </div>
             </div>

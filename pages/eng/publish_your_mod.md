@@ -3,12 +3,14 @@ layout: default
 style: 
 title: Publish your mod // VOXEL TYCOON
 header: How to publish your mod
-permalink: publish_your_mod
+permalink: /publish_your_mod
+redirect_from:
+    - /publish-your-mod
 ---
 
 This step-by-step guide is intended for mod creators who want to feature their creations on the in-game Mod Gallery. Like this:
 
-<img src="/assets/sdk/publish_your_mod/20180514-192535.png" />
+{% include img.html src="/assets/sdk/publish_your_mod/20180514-192535.png" %}
 
 > **Note**: Current implementation is temporary. After the release of the game on Steam, we will incorporate Steam Workshop support, so the publishing process may change.
 
@@ -44,7 +46,7 @@ Create a new `.txt` file, rename it to `pack.json`, and place it in your mod's r
 
 Just click on your mod in the **Installed** tab, and choose the appropriate action.
 
-<img src="/assets/sdk/publish_your_mod/20180514-193710.png" style="width: auto"/>
+{% include img.html src="/assets/sdk/publish_your_mod/20180514-193710.png" %}
 
 > You can publish only mods that are not tracked as **installed**, i.e. was not downloaded from the gallery but manually placed to `Content/` by you.
 

@@ -1,21 +1,24 @@
-
 .page-sidebar {
     margin: 0px 70px 0px 70px;
     width: 250px;
     font-size: 24px;
     line-height: 24px;
     display: flex;
-    // @include tablet {
-    //     background-color: rgba(0, 0, 0, 0.8);
-    //     position: absolute;
-    //     width: 100vw;
-    //     height: auto;
-    //     margin: 0;
-    //     left: 0;
-    //     top: 0;
-    //     flex-direction: column;
-    //     align-items: center;
-    // }
+    @include tablet {
+        display: none;
+        &_modal {
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.8);
+            position: fixed; 
+            width: 100vw;
+            padding: 30px 0;
+            flex-direction: column;
+            align-items: center;
+            overflow-y: scroll;
+            top: 0; left: 0; bottom: 0; right: 0;
+            margin: 0;
+        }
+    }
     flex-direction: column;
     flex-grow: 1;
     font-family: 'HansKendrick';
@@ -63,5 +66,70 @@
     }
     & hr {
         opacity: 0;
+    }
+}
+
+.burgerMenu {
+    display: none;
+    z-index: 9999;
+    @include tablet {
+        position: fixed;
+        right: 0; top: 10px;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.589);
+        width: 60px;
+        height: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        -webkit-border-top-left-radius: 10px;
+        -webkit-border-bottom-left-radius: 10px;
+        -moz-border-radius-topleft: 10px;
+        -moz-border-radius-bottomleft: 10px;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        &__bar1, &__bar2, &__bar3  {
+            width: 40px;
+            height: 5px;
+            background-color: #B3B4B4;
+            margin: 4px 0;
+            transition: 0.4s;
+            border-radius: 5px;
+        }
+        &__bar1_transform {
+            -webkit-transform: rotate(-45deg) translate(-9px, 9px);
+            transform: rotate(-45deg) translate(-9px, 9px);
+        }
+        &__bar2_transform {
+            opacity: 0;
+        }
+        &__bar3_transform {
+            -webkit-transform: rotate(45deg) translate(-9px, -9px);
+            transform: rotate(45deg) translate(-9px, -9px);
+        }
+    }
+    @include mobile {
+        width: 60px;
+        height: 60px;
+        &__bar1, &__bar2, &__bar3  {
+            width: 40px;
+            height: 5px;
+            background-color: #B3B4B4;
+            margin: 4px 0;
+            transition: 0.4s;
+            border-radius: 5px;
+        }
+        &__bar1_transform {
+            -webkit-transform: rotate(-45deg) translate(-9px, 9px);
+            transform: rotate(-45deg) translate(-9px, 9px);
+        }
+        &__bar2_transform {
+            opacity: 0;
+        }
+        &__bar3_transform {
+            -webkit-transform: rotate(45deg) translate(-9px, -9px);
+            transform: rotate(45deg) translate(-9px, -9px);
+        }
     }
 }

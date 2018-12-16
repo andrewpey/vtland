@@ -1,25 +1,41 @@
 .widget {
     &-steam {
         height: 210px;
-        width: $content-width;
+        width: 100%;
+        &_modal {
+            height: 210px;
+            width: 100%;
+        }
     }
     &-itchio {
         height: 175px;
-        width: 560px;
+        max-width: 560px;
         &_dark {
             height: 175px;
-            width: 560px;
+            max-width: 560px;
             margin-top: 20px;
+            width: 100%;
         }
     }
     &-youtube {
+        display: block;
         height: 382px;
-        width: $content-width;
-        margin: 10px 0;
+        width: 100%;
+        margin: 0.7142857142857143rem 0;
+        @include tablet {
+            height: 30rem;
+        }
+        @include mobile {
+            height: 40rem;
+        }
+        @include xs-mobile {
+            height: 25rem;
+        }
+        
     }
     &-paypal {
-        width: 147px;
+        max-width: 147px;
         height: 47px;
-        margin: 10px 0;
+        margin: 0.7142857142857143rem 0;
     }
 }
