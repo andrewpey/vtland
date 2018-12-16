@@ -26,6 +26,12 @@
         font-size: 1.7rem;
         padding: 17px 0;
     }
+    & p {
+        font-size: 1.4285714285714286rem;
+        line-height: 1.8;
+        font-family: 'Roboto';
+        padding-bottom: 10px;
+    }
     & a {
         text-decoration: none;
         padding-bottom: 0px;
@@ -35,12 +41,6 @@
             padding-bottom: 0px;
             border-bottom: 2px solid #ffffff;
         }
-    }
-    & p {
-        font-size: 1.4285714285714286rem;
-        line-height: 1.8;
-        font-family: 'Roboto';
-        padding-bottom: 10px;
     }
     & ul {
         list-style: disc;

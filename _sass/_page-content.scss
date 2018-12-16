@@ -88,26 +88,6 @@ pre.highlight code {
     font-family: 'HansKendrick';
 }
 
-img.compare-item {
-    min-width: 50px;
-    width: 48%;
-    padding: 0 2px;
-    @include xs-mobile {
-        width: 100%;
-    }
-}
-
-img.compare-item.third {
-    @include xs-mobile {
-        width: 100%;
-    }
-}
-
-img.compare-item.last {
-    @include xs-mobile {
-        width: 100%;
-    }
-}
 
 .img-inline-left-container
 {
@@ -117,15 +97,16 @@ img.compare-item.last {
     margin-top: 8px;
 }
 
+
+img, iframe {
+    border-radius: 6px;
+}
+
 .img-alt {
     font-size: 0.9em;
     /* font-style: italic; */
     color: #ffffff88;
     padding-top: 5px;
-}
-
-img, iframe {
-    border-radius: 6px;
 }
 
 .three-img {

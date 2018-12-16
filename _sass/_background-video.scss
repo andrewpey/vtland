@@ -17,13 +17,12 @@
     pointer-events: none;
     filter: grayscale(0%);
     opacity: 0.4;
-}
-
-.video-foreground .video-content {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: 50% 50%;
+    & .video-content{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 50% 50%;
+    }
 }
 
 .video-foreground video.video-content {

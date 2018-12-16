@@ -5,9 +5,6 @@
 .page-content {
     text-shadow: none;
     font-family: 'HansKendrick', 'Roboto';
-    & .video-foreground {
-        opacity: 0.1;
-    }
     & p {
         font-size: 1.4285714285714286rem;
         line-height: 1.8;
@@ -60,29 +57,4 @@
         box-shadow: #eab20e 5px 5px;
         text-shadow: none;
     }
-}
-
-
-.faq-ru h3 {
-    font-size: 1.7rem;
-    font-family: 'Roboto';
-}
-
-
-.faq p, .faq-ru p {
-    font-size: 1.4285714285714286rem;
-    line-height: 1.8;
-    font-family: 'Roboto';
-}
-
-.faq a, .faq-ru a {
-    text-decoration: none;
-    padding-bottom: 0px;
-    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-}
-
-.faq a:hover, .faq-ru a:hover {
-    text-decoration: none;
-    padding-bottom: 0px;
-    border-bottom: 2px solid #ffffff;
 }
