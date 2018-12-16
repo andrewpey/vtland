@@ -2,6 +2,7 @@
 layout: post
 style: post
 title: Saturday Night with Voxel Tycoon
+ico: pumpkin
 category: devlog
 redirect_from:
     - "/saturday-night"
@@ -76,7 +77,3 @@ On one hand, you guys are right - the more we work on the game, the more polishe
 Long story short, our goal is to release the game in a few months. Thank you for believing in us, we're doing our best not to fail you.
 
 As usual, we encourage you to join our [Discord](http://discord.gg/64KPWd5) and share your thoughts with us or the community.
-
-<p style="text-align: center">
-    <img style="width: 140px;" src="/assets/pumpkin50.png"/>
-</p>

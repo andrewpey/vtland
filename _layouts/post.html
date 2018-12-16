@@ -5,6 +5,13 @@
             <h1 class="page-content__title">{{ page.title }}</h1>
             {{ content }}
             {% if page.date %}
+                <p style="text-align: center">
+                    {% if page.ico == "pumpkin" %}
+                    <img style="width: 140px;" src="/assets/pumpkin50.png"/>
+                    {% else %}
+                    <img style="width: 80px;" src="/assets/outlined-33-shadow.png"/>
+                    {% endif %}
+                </p>
                 <p style="text-align: center"><a href="/devlog" class="clear"><date>{{ page.date | date_to_long_string }}</date></a></p>
             {% endif %}
             <div class="page-nav">   
