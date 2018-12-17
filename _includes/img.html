@@ -1,9 +1,29 @@
 {% if include.style %}
-    {% if include.style == "sdkReleaseNote" %}
-    <div style="padding-left: 40px">
-        <img src="{{include.src}}" style="width: 100%; margin: 5px;"/>
-    </div>
+{% if include.style == "inline-left" %}
+<div class="img-inline-left-container">
+    <img src="{{include.src}}" style="margin-bottom: 6px" />
+    {% if include.alt %}
+    <span class="img-alt">{{include.alt}}</span>
     {% endif %}
+</div>
+
+{% elsif include.style == "inline-right" %}
+<div class="img-inline-right-container">
+    <img src="{{include.src}}" style="margin-bottom: 6px" />
+    {% if include.alt %}
+    <span class="img-alt">{{include.alt}}</span>
+    {% endif %}
+</div>
+
+    {% elsif include.style == "sdk" %}
+    <a class="clear" href="{{include.src}}">
+        <img src="{{include.src}}" style="margin-bottom: 6px" />
+    </a>
+    {% if include.alt %}
+    <span class="img-alt">{{include.alt}}</span>
+    {% endif %}
+
+{% endif %} 
 
 {% elsif include.src and include.src2 and include.src3 %}
 <div class="three-img">
@@ -11,7 +31,7 @@
     <img src="{{include.src2}}" class="three-img_item">
     <img src="{{include.src3}}" class="three-img_item">
 </div>
-        
+
 {% elsif include.src and include.src2 %}
 <div class="two-img">
     <img src="{{include.src}}" class="two-img_item">
