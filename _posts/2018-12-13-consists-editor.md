@@ -90,7 +90,3 @@ Stay tuned for more information about the game! Please [follow our social networ
 {% include img.html src="/assets/consists-editor/pic12.png" %}
 
 {% include img.html src="/assets/consists-editor/pic6.png" %}
-
-<div style="text-align: center">
-    <img style="width: 80px;" src="/assets/outlined-33-shadow.png"/>
-</div>
