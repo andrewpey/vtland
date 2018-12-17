@@ -109,7 +109,7 @@ Logs locations:
 
 * Added in-game Mod Browser where you can browse for already published creations and manage installed mods (thanks **Alego22** and **meinroman** for help with bug hunting):
 
-{% include img.html style="sdkReleaseNote" src="/assets/sdk/publish_your_mod/20180514-192535.png" %}
+{% include img.html style="sdk" src="/assets/sdk/publish_your_mod/20180514-192535.png" %}
 
 * If you are mod creator and want to feature your work in the gallery please check [this guide](/publish_your_mod)
 * Fixed meshes with more than 50 vertices per face failed to load (thanks **meinroman**!)

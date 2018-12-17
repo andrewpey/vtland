@@ -56,11 +56,7 @@ We are finally satisfied with the physics engine, and it can be considered final
 
 One more important milestone here is that built-in assets have been completely replaced with moddable ones!
 
-
-<div class="img-inline-left-container">
-    <img src="/assets/weekreport/image_2018-10-11_22-02-48.png" style="margin-bottom: 6px" />
-    <span class="img-alt">An example of Unity editor extension authored by us to edit built-in assets palette</span>
-</div>
+{% include img.html style="inline-left" src="/assets/weekreport/image_2018-10-11_22-02-48.png" alt="An example of Unity editor extension authored by us to edit built-in assets palette" %}
 
 A bit of history: in the first year of development, we mostly focused on getting a playable prototype to work. Despite the fact we were committed to making the game's content moddable from day one, to make the prototype function, we used assets that relied on Unity's built-in system. It worked well, and we even coded a bunch of Unity Editor extensions to handle these assets.
 
