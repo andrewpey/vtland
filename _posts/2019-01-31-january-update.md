@@ -5,7 +5,7 @@ title: January Update
 category: devlog
 ---
 
-Quite a lot of stuff has happened since our last post. Here's quick recap of recent events.
+Quite a lot of stuff has happened since our last post. Here's a quick recap of recent events.
 
 ## Pre-alpha is real!
 
