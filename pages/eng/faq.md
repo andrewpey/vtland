@@ -120,7 +120,7 @@ Also, we love stylish and beautiful things.
 
 * <b class="bold-en" style="color: #f1c40f">Supporters</b> are people who decided to support development [by donating](/donate)
 * <b class="bold-en" style="color: #3498db">Contributors</b> are people whose work has been added to the game
-* <b class="bold-en" style="color: #e67e22">Ambassadors</b> are people who help to spread the world and actively support the community somehow
+* <b class="bold-en" style="color: #e67e22">Ambassadors</b> are people who help to spread the word and actively support the community somehow
 
 ## How can I help?
 
