@@ -11,7 +11,7 @@ However, we are aware that some of you would like to support us either way by ma
 
 Any person who donates at least <span class="money">$1</span>
 
-• receives a <span style="color: #ffe200; font-weight: bold">supporter</span> role on [Discord](//discord.gg/64KPWd5)<br>
+• receives <span style="color: #ffe200; font-weight: bold">supporter</span> role on [Discord](//discord.gg/64KPWd5)<br>
 • will be **featured in the game credits**<br>
 • receives a chance to **appear in-game** as vehicle driver or even town mayor!
 
