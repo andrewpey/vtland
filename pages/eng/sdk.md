@@ -44,11 +44,11 @@ Quick tips:
 
 ## Design guidelines
 
-Do not try to exatcly mimic real life representation, but rather try to get fancy nice-looking feel that fits the game overall style.
+Do not try to exactly mimic real life representation, but rather try to get fancy nice-looking feel that fits the game overall style.
 
 You can notice that our models are:
 
-* Much shorter then their prototypes
+* Much shorter than their prototypes
 * Can have different count of axles
 * Not overdetailed but still recognizable
 * Vivid and toy-ish looking
@@ -88,7 +88,7 @@ All of that is just a recommendation and not hard rules. Be creative!
 
 ### Loading can stuck at `Loading Assets` message on MacOS
 
-This probably caused by macOS sandbox. Run this command in Terminal to mark app as safe:
+This is probably caused by macOS sandboxing. Run this command in Terminal to mark the app as safe:
 
 `$ xattr -dr com.apple.quarantine PATH_TO_UNZIPPED_FOLDER` e.g.<br/>
 `$ xattr -dr com.apple.quarantine ~/Downloads/VoxelTycoonMac`
