@@ -9,11 +9,11 @@ We want to be honest with you as possible, and that's the main reason why we are
 
 However, we are aware that some of you would like to support us either way by making donations, so we can't ignore it anymore.
 
-Any person who donates at least <span class="money">$1</span>:
+Any person who donates at least <span class="money">$1</span>
 
 • receives a <span style="color: #ffe200; font-weight: bold">supporter</span> role on [Discord](//discord.gg/64KPWd5)<br>
 • will be **featured in the game credits**<br>
-• had a chance to **appear in-game** as vehicle driver or even town mayor!
+• receives a chance to **appear in-game** as vehicle driver or even town mayor!
 
 > **Important!** Please add the name you want to see in the credits and other in-game places as a note to payment or [contact us](mailto:dev@voxeltycoon.xyz) after making a donation.
 
