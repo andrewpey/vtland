@@ -29,6 +29,6 @@ Alternatively, you can make one-time donation via **PayPal**:
 
 > There's also version of this page [in Russian](/donate_ru).
 
-<h2>Hall of fame💜</h2>
+<h2>Hall of Fame💜</h2>
 
 {% include hall_of_fame.md %}
