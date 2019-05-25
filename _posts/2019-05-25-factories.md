@@ -1,7 +1,7 @@
 ---
 layout: post
 style: post
-title: Factories!
+title: Factories! 🏭
 category: devlog
 ---
 
