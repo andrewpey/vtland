@@ -2,6 +2,7 @@ plugins:
   - jekyll-redirect-from
   - jemoji
   - jekyll-sass-converter
+  - jekyll-feed
 
 permalink: "/:categories/:title"
 
@@ -16,4 +17,3 @@ js: { integrity: true }
 sass:
   style: compressed
   sass_dir: _sass
-
