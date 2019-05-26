@@ -37,7 +37,7 @@ When building machines, you'll see that they have a number of conveyor connectio
 
 Most machines have more than two conveyer connections, for example the Furnace which has three. One input should be used for fuel (coal), and the other for ore.
 
-{% include img.html src="/assets/devlog/factories/image_2019-05-24_18-54-02.png" alt="Furnaces" %}
+{% include img.html src="/assets/devlog/factories/image_2019-05-24_18-54-02.png" alt="Smelting plant" %}
 
 Lastly, let's talk about modding possibilities. You can add custom raw materials, machines, and even recipes - not just for your own machines, but also base game and even other mods'! You can also add other related technologies for production, but we will expand on that another time.
 
