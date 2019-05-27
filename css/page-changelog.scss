@@ -1,0 +1,57 @@
+---
+---
+@import "standart";
+
+.page-content {
+    .changelog {
+        p {
+            font-family: 'Roboto';
+            font-size: 1.4285714285714286rem;
+            padding: 0.4rem;
+        }
+        .item {
+            margin: 1rem 0 3rem;
+            .header {
+                .date {
+                    font-size: 2rem;
+                    padding-bottom: 0;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                .version {
+                    border-radius: 2px;
+                    font-size: 1rem;
+                    padding: 2px 4px;
+                    font-weight: bold;
+                    border: solid 1px #fff8;
+                    color: #fff;
+                }
+            }
+            .group-header {
+                margin: 1rem 0 0.5rem 0;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #fffc;
+            }
+        }
+    }
+    & a {
+        text-decoration: none;
+        padding-bottom: 0px;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+        &:hover {
+            text-decoration: none;
+            padding-bottom: 0px;
+            border-bottom: 2px solid #ffffff;
+        }
+    }
+    & a.clear, a.clear:hover{
+        border: none;
+    }
+    & br.mobile {
+        display: none;
+        @include mobile {
+            display: block;
+        }
+    }
+}

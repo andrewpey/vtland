@@ -1,0 +1,46 @@
+items:
+  - version: 0.59
+    date: 2019-5-27
+    groups:
+    - name: gameplay
+      items:
+        - 3 times slower mining
+        - Demand limit and demand level progressions slightly tuned
+    - name: fixes
+      items:
+        - Possible fix for missing demand indicators
+  - version: 0.58
+    date: 2019-5-26
+    groups:
+    - name: gameplay
+      items:
+      - Added notifications on settlement status changes
+      - Decreased chance that small buildings will replace huge one on city grow
+      - Higher tier resource deposits are now guaranteed to spawn
+      - Higher tier regions can have higher tier demands from the start
+    - name: improvements
+      items:
+      - Builder window appearance tuned and supports autoresize
+    - name: fixes
+      items:
+      - text: Fixed train previews bugged in depot window for flipped units
+        issue: 34
+  - version: 0.57
+    date: 2019-5-24
+    groups:
+    - name: gameplay
+      items:
+        - Cities now can climb and descent hills
+        - Mining research split to a few sub-researches
+        - Added research difficulty setting, allowing to start with all research completed by default
+    - name: improvements
+      items:
+      - Continue building rails, roads, and conveyors from the previous segment without additional clicks
+      - Game language now autodetected by default
+      - Added some missing localizations
+      - Buildings palette windows now automatically close after building completion
+    - name: fixes
+      items:
+      - Fixed double minus in money formatting
+      - Fixed window tabs have weird colors when picking stations
+      - Fixed some visual issues on UI scales greater than 125%

@@ -1,0 +1,33 @@
+---
+layout: post
+style: changelog
+title: Changelog
+permalink: changelog
+---
+
+<div class="changelog">
+
+{% for item in site.data.changelog.items %}
+<div class="item" id="{{ item.version }}">
+    <p class="header">
+        <span class="date">{{ item.date | date: "%b %d, %Y" }}</span><br/>
+        <span class="version">{{ item.version }}</span>
+        </p>
+    {% for group in item.groups %}
+    <p class="group-header">{{ group.name }}</p>
+        {% for item2 in group.items %}
+        {% if item2.issue %}
+            {% capture item3 %}
+• [{{ item2.text }}](https://github.com/voxeltycoon/bug-tracker/issues/{{ item2.issue }})
+            {% endcapture %}
+{{ item3 | markdownify }}
+        {% else %}
+            {% assign item3 = '• ' | append: item2 %}
+{{ item3 | markdownify }}
+{% endif %}
+        {% endfor %}
+    {% endfor %}
+</div>
+{% endfor %}
+
+</div>
