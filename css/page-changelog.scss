@@ -34,6 +34,7 @@
                     padding-bottom: 0;
                     font-weight: bold;
                     text-transform: uppercase;
+                    color: #fffd;
                 }
                 .version {
                     border-radius: 2px;
@@ -43,6 +44,9 @@
                     border: solid 1px #fff8;
                     color: #fff8;
                 }
+            }
+            .text {
+                margin-top: 1rem;
             }
             .group-header {
                 margin: 1rem 0 0.5rem 0;

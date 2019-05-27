@@ -54,6 +54,7 @@ items:
       - Fixed some visual issues on UI scales greater than 125%
   - version: 0.56
     date: 2019-5-21
+    text: Due to major internal changes saves are wiped.
     groups:
     - name: researching
       color: 4cff38
@@ -72,7 +73,7 @@ items:
       items:
       - Stations, depots, and devices can be built over or attach to existing rails, roads, and conveyors
       - Stations, depots, and devices now always built with proper end caps automatically
-      - Added Strong tilt-shift option for beautiful screenshots
+      - Added <b>Strong Tilt-Shift</b> option for beautiful screenshots
     - name: fixes
       color: d03131
       items:

@@ -14,6 +14,9 @@ theme: 18182d
         <span class="date">{{ item.date | date: "%b %d, %Y" }}</span><br/>
         <span class="version">{{ item.version }}</span>
     </p>
+    {% if item.text %}
+        <p class="text">{{ item.text }}</p>
+    {% endif %}
     {% for group in item.groups %}
         {% capture color %}#{{group.color | default: 'fff'}}{% endcapture %}
         <p class="group-header" style="color: {{ color }}">{{ group.name }}</p>
