@@ -170,5 +170,7 @@ img, iframe {
 }
 
 img {
-    width: 100%;
+    &:not(.emoji) {
+        width: 100%;
+    }
 }

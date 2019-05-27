@@ -12,22 +12,27 @@ permalink: changelog
     <p class="header">
         <span class="date">{{ item.date | date: "%b %d, %Y" }}</span><br/>
         <span class="version">{{ item.version }}</span>
-        </p>
+    </p>
     {% for group in item.groups %}
-    <p class="group-header">{{ group.name }}</p>
-        {% for item2 in group.items %}
-        {% if item2.issue %}
-            {% capture item3 %}
-• [{{ item2.text }}](https://github.com/voxeltycoon/bug-tracker/issues/{{ item2.issue }})
-            {% endcapture %}
-{{ item3 | markdownify }}
-        {% else %}
-            {% assign item3 = '• ' | append: item2 %}
-{{ item3 | markdownify }}
-{% endif %}
-        {% endfor %}
+        {% capture color %}#{{group.color | default: 'fff'}}{% endcapture %}
+        <p class="group-header" style="color: {{ color }}">{{ group.name }}</p>
+        <ul class="log-items">
+            {% for item2 in group.items %}
+                <li class="log-item">
+                    {% if item2.issue %}
+                        <a href="https://github.com/voxeltycoon/bug-tracker/issues/{{ item2.issue }}">{{ item2.text }}</a>
+                    {% else %}
+                        {{ item2 }}
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
     {% endfor %}
+    {% unless forloop.last %}
+    <hr/>
+    {% endunless %}
 </div>
+
 {% endfor %}
 
 </div>
