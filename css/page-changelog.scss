@@ -29,12 +29,18 @@
         }
         .item {
             .header {
+                cursor: pointer;
                 .date {
                     font-size: 1.8rem;
                     padding-bottom: 0;
                     font-weight: bold;
                     text-transform: uppercase;
                     color: #fffd;
+                }
+                .placeholder {
+                    color: #fff8;
+                    display: none;
+                    margin-bottom: -1.2rem;
                 }
                 .tag {
                     border-radius: 2px;

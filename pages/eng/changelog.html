@@ -10,34 +10,39 @@ theme: 18182d
 
 {% for item in site.data.changelog.items %}
 <div class="item" id="{{ item.version }}">
-    <p class="header">
-        <span class="date">{{ item.date | date: "%b %d, %Y" }}</span><br/>
-        <span class="tag version">{{ item.version }}</span>
-        {% for tag in item.tags %}
-            <span class="tag {{tag}}">{{ tag }}</span>
-        {% endfor %}
-    </p>
-    {% if item.text %}
-        <p class="text">{{ item.text }}</p>
-    {% endif %}
-    {% for group in item.groups %}
-        {% assign hex = group.color | default: site.data.changelog.group-colors[group.name] | default: 'fff' %}
-        {% capture color %}#{{ hex }}{% endcapture %}
-        <p class="group-header" style="color: {{ color }}">{{ group.name }}</p>
-        <ul class="log-items">
-            {% for logitem in group.items %}
-                <li class="log-item">
-                    <div>
-                        {% if logitem.issue %}
-                            <a href="https://github.com/voxeltycoon/bug-tracker/issues/{{ logitem.issue }}">{{ logitem.text }}</a>
-                        {% else %}
-                            {{ logitem }}
-                        {% endif %}
-                    </div>
-                </li>
+    <div class="header">
+        <p>
+            <span class="date">{{ item.date | date: "%b %d, %Y" }}</span><br/>
+            <span class="tag version">{{ item.version }}</span>
+            {% for tag in item.tags %}
+                <span class="tag {{tag}}">{{ tag }}</span>
             {% endfor %}
-        </ul>
-    {% endfor %}
+            <p class="placeholder">Click to expand</p>
+        </p>
+    </div>
+    <div class="item-content">
+        {% if item.text %}
+            <p class="text">{{ item.text }}</p>
+        {% endif %}
+        {% for group in item.groups %}
+            {% assign hex = group.color | default: site.data.changelog.group-colors[group.name] | default: 'fff' %}
+            {% capture color %}#{{ hex }}{% endcapture %}
+            <p class="group-header" style="color: {{ color }}">{{ group.name }}</p>
+            <ul class="log-items">
+                {% for logitem in group.items %}
+                    <li class="log-item">
+                        <div>
+                            {% if logitem.issue %}
+                                <a href="https://github.com/voxeltycoon/bug-tracker/issues/{{ logitem.issue }}">{{ logitem.text }}</a>
+                            {% else %}
+                                {{ logitem }}
+                            {% endif %}
+                        </div>
+                    </li>
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
     {% unless forloop.last %}
     <hr/>
     {% endunless %}
@@ -46,3 +51,12 @@ theme: 18182d
 {% endfor %}
 
 </div>
+
+<script>
+    function toggle(header) {
+        header.next().toggle();
+        header.find(".placeholder").toggle();
+    }
+    $('.header').click(function() { toggle($(this)); });
+    // toggle($('.header:gt(4)'));
+</script>
