@@ -81,9 +81,8 @@ items:
     date: 2019-5-13
     groups:
     - name: important
-      color: fff
       items:
-      - Since this version, we use compression for save files. It showed pretty good results, but we haven't tested it on MacOS and Linux yet. So, if you're on one of these platforms, please let us know how it performs there.
+      - <b>Since this version, we use compression for save files.</b> It showed pretty good results, but we haven't tested it on MacOS and Linux yet. So, if you're on one of these platforms, please let us know how it performs there.
     - name: gameplay
       items:
       - Preventing business from closing cost now depends on how close it to bankruptcy
@@ -191,3 +190,30 @@ items:
         - If you want to use automatic vehicle price and running costs calculation for your vehicle, set <code>Price</code>, and <code>Running Costs</code>, fields to null
         - Exposed Demand and DemandMultiplier properties to <code>.citydemandrecipe</code>, assets
         - <code>.rail</code>, <code>.conveyor</code>,, and <code>.pipe</code>, Meshes property format changed
+  - version: 0.49
+    date: 2019-4-17
+    groups:
+    - name: important
+      items:
+      - We have upgraded the game to the latest Unity version. As a side effect, we found that very noticeable screen tearing may appear when VSync is disabled. If you experience it or any other new issues, please let us know. To workaround it, enable VSync.
+    - name: gameplay
+      items:
+      - 2X more resources in deposits
+      - Added <b>Allow trains turn around</b> new game setting
+      - Slightly reduced demand volume
+      - TNT tool now available only with cheats enabled (blame <b>@Alego22</b>)
+    - name: improvements
+      items:
+      - Show all required resources on research cards
+      - Building rails tool automatically removes invalid signals
+      - Visibility settings button now indicates that <b>ALT</b> mode is active
+      - Do not close region details window after region unlock
+      - Close notification log on <b>ESC</b>
+      - Improved models for road intersections and turns
+      - VSync is enabled by default
+      - Added description for Gasoline Engine 2 research
+      - Added some missing localizations
+    - name: fixes
+      items:
+      - Fixed trains do not turn around to find a new path
+      - Fixed some issues related to indicators 
