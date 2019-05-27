@@ -76,3 +76,21 @@ items:
       items:
       - Added new <code>.currency</code> asset
       - Slightly updated <code>.railstation</code> , <code>.raildepot</code> , <code>.roaddepot</code> , and <code>.device</code>  asset formats
+  - version: 0.55
+    date: 2019-5-13
+    groups:
+    - name: important
+      color: fff
+      items:
+      - Since this version, we use compression for save files. It showed pretty good results, but we haven't tested it on MacOS and Linux yet. So, if you're on one of these platforms, please let us know how it performs there.
+    - name: gameplay
+      items:
+      - Preventing business from closing cost now depends on how close it to bankruptcy
+    - name: improvements
+      items:
+      - Average save size drastically reduced (3x or more times, blame <b>@Alego22</b> as usual)
+      - Added coins sound when funding city grow or helping businesses
+      - Updated appearance of Prevent business from closing button
+    - name: fixes
+      items:
+      - Fixed game icon on Linux
