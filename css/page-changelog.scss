@@ -12,6 +12,13 @@
 .page-content {
     text-shadow: none;
     .changelog {
+        kbd {
+            border-radius: 4px;
+            background: #131313;
+            padding: 0.3rem;
+            font-family: 'Roboto Mono';
+            font-size: 1.1rem;
+        }
         code {
             color: #997fff;
             background: #8768ff17;
