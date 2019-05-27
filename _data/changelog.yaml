@@ -51,6 +51,7 @@ items:
       - Fixed some visual issues on UI scales greater than 125%
   - version: 0.56
     date: 2019-5-21
+    tags: [ wipe ]
     text: Due to major internal changes saves are wiped.
     groups:
     - name: researching
@@ -94,3 +95,34 @@ items:
     - name: fixes
       items:
       - Fixed game icon on Linux
+  - version: 0.54
+    date: 2019-5-11
+    groups:
+      - name: gameplay
+        items:
+        - Brand new City and Demand windows, with a lot of information exposed to let you know what is happening under the hood
+        - Possibility to fund new buildings in cities
+        - Possibility to help businesses with money to temporary prevent them from closing
+        - Updated city grow mechanics
+        - Added mayors and business owners
+  - version: 0.53
+    date: 2019-5-01
+    groups:
+      - name: localization
+        items:
+        - In this update, almost all of the UI is localized! If you notice any missing translations, or wrong texts, please let us know.
+        - Also, we've <a href="https://docs.google.com/spreadsheets/d/1N_6uXWcgzh4acD5__1mGP0QTRFyaka2CT9CHoA4rKTQ"> set up a localization spreadsheet</a>.
+          If you can help to translate the game to your language, please feel free to contact us.
+      - name: gameplay
+        items:
+        - Some tools now require researches to be unlocked
+        - Tools that are not intended to be available in pre-alpha now locked
+      - name: improvements
+        items:
+        - Tuned white mode appearance to make object details more distinguishable
+        - Added Share action for game saves that compresses required files and reveals the archive in explorer
+      - name: fixes
+        items:
+        - Fixed progress circle at vehicle window header is rendered with artifacts on non-100% UI scale
+        - text: Fixed zooming and scrolling is inverted on Linux
+          issue: 6

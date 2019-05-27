@@ -12,7 +12,10 @@ theme: 18182d
 <div class="item" id="{{ item.version }}">
     <p class="header">
         <span class="date">{{ item.date | date: "%b %d, %Y" }}</span><br/>
-        <span class="version">{{ item.version }}</span>
+        <span class="tag version">{{ item.version }}</span>
+        {% for tag in item.tags %}
+            <span class="tag {{tag}}">{{ tag }}</span>
+        {% endfor %}
     </p>
     {% if item.text %}
         <p class="text">{{ item.text }}</p>

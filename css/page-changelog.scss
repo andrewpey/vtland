@@ -36,13 +36,19 @@
                     text-transform: uppercase;
                     color: #fffd;
                 }
-                .version {
+                .tag {
                     border-radius: 2px;
                     font-size: 1rem;
                     padding: 2px 4px;
                     font-weight: bold;
-                    border: solid 1px #fffa;
                     color: #fffa;
+                    text-transform: uppercase;
+                    border: solid 1px #fffa;
+                }
+                .tag.wipe {
+                    color: #ff9b00;
+                    border-color: #ff9b00;
+                    background: #ff9b001f;
                 }
             }
             .text {
