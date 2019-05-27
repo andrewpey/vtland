@@ -206,9 +206,9 @@ items:
       items:
       - Show all required resources on research cards
       - Building rails tool automatically removes invalid signals
-      - Visibility settings button now indicates that <kbd>ALT</kbd> mode is active
+      - Visibility settings button now indicates that <kbd>Alt</kbd> mode is active
       - Do not close region details window after region unlock
-      - Close notification log on <kbd>ESC</kbd>
+      - Close notification log on <kbd>Esc</kbd>
       - Improved models for road intersections and turns
       - VSync is enabled by default
       - Added description for Gasoline Engine 2 research
