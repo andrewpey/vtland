@@ -1,32 +1,32 @@
+group-colors:
+  gameplay: e4c10b
+  improvements: 3da4ff
+  fixes: d03131
+  modding: 8768ff
 items:
   - version: 0.59
     date: 2019-5-27
     groups:
     - name: gameplay
-      color: e4c10b
       items:
         - 3 times slower mining
         - Demand limit and demand level progressions slightly tuned
     - name: fixes
-      color: d03131
       items:
         - Possible fix for missing demand indicators
   - version: 0.58
     date: 2019-5-26
     groups:
     - name: gameplay
-      color: e4c10b
       items:
       - Added notifications on settlement status changes
       - Decreased chance that small buildings will replace huge one on city grow
       - Higher tier resource deposits are now guaranteed to spawn
       - Higher tier regions can have higher tier demands from the start
     - name: improvements
-      color: 3da4ff
       items:
       - Builder window appearance tuned and supports autoresize
     - name: fixes
-      color: d03131
       items:
       - text: Fixed train previews bugged in depot window for flipped units
         issue: 34
@@ -34,20 +34,17 @@ items:
     date: 2019-5-24
     groups:
     - name: gameplay
-      color: e4c10b
       items:
         - Cities now can climb and descent hills
         - Mining research split to a few sub-researches
         - Added research difficulty setting, allowing to start with all research completed by default
     - name: improvements
-      color: 3da4ff
       items:
       - Continue building rails, roads, and conveyors from the previous segment without additional clicks
       - Game language now autodetected by default
       - Added some missing localizations
       - Buildings palette windows now automatically close after building completion
     - name: fixes
-      color: d03131
       items:
       - Fixed double minus in money formatting
       - Fixed window tabs have weird colors when picking stations
@@ -64,22 +61,18 @@ items:
       - Added Lab window where you can see available and required resources for exact lab
       - Research Management redesigned to show all labs and their research progress
     - name: gameplay
-      color: e4c10b
       items:
       - "Added :gb:<b>GBP</b> :eu:<b>EUR</b> :jp:<b>JPY</b> currencies"
       - Maximum city grow rate slightly decreased
     - name: improvements
-      color: 3da4ff
       items:
       - Stations, depots, and devices can be built over or attach to existing rails, roads, and conveyors
       - Stations, depots, and devices now always built with proper end caps automatically
       - Added <b>Strong Tilt-Shift</b> option for beautiful screenshots
     - name: fixes
-      color: d03131
       items:
       - Fixed removing end caps costs money
     - name: modding
-      color: 8768ff
       items:
       - Added new <code>.currency</code> asset
       - Slightly updated <code>.railstation</code> , <code>.raildepot</code> , <code>.roaddepot</code> , and <code>.device</code>  asset formats

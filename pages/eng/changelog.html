@@ -18,7 +18,12 @@ theme: 18182d
         <p class="text">{{ item.text }}</p>
     {% endif %}
     {% for group in item.groups %}
-        {% capture color %}#{{group.color | default: 'fff'}}{% endcapture %}
+        {% if group.color %}
+            {% assign hex = group.color %}
+        {% else %}
+            {% assign hex = site.data.changelog.group-colors[group.name] | default: 'fff' %}
+        {% endif %}
+        {% capture color %}#{{ hex }}{% endcapture %}
         <p class="group-header" style="color: {{ color }}">{{ group.name }}</p>
         <ul class="log-items">
             {% for item2 in group.items %}
