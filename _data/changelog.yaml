@@ -63,7 +63,7 @@ items:
       - Research Management redesigned to show all labs and their research progress
     - name: gameplay
       items:
-      - "Added :gb:<b>GBP</b> :eu:<b>EUR</b> :jp:<b>JPY</b> currencies"
+      - 'Added :gb:<b>GBP</b> :eu:<b>EUR</b> :jp:<b>JPY</b> currencies'
       - Maximum city grow rate slightly decreased
     - name: improvements
       items:
@@ -126,3 +126,68 @@ items:
         - Fixed progress circle at vehicle window header is rendered with artifacts on non-100% UI scale
         - text: Fixed zooming and scrolling is inverted on Linux
           issue: 6
+  - version: 0.52
+    date: 2019-4-24
+    groups:
+      - name: gameplay
+        items:
+        - Demand base price slightly increased
+      - name: improvements
+        items:
+        - Added direction indication on conveyors
+        - Improved stats tab at vehicle window
+        - Added vehicle driver info (with a little twist)
+        - Added missing supporters to credits
+      - name: modding
+        items:
+        - Added new (mandatory) properties to <code>.names</code> asset
+  - version: 0.51
+    date: 2019-4-23
+    groups:
+      - name: gameplay
+        items:
+        - Truck power, prices and capacities tuned
+        - Added flatbed semi trailer
+        - Demand volume slightly decreased and randomized
+        - Item weights tuned
+      - name: improvements
+        items:
+        - Added basic vehicle lifetime stats (like money earned) to Vehicle Window
+        - Added setting to toggle music
+      - name: fixes
+        items:
+        - Cities now can grow through truck terminals
+        - Trucks don't use caps to avoid traffic jams
+        - Fixed looped chain signal invalid color
+        - Truck trains can't be built anymore
+  - version: '0.50'
+    date: 2019-4-20
+    groups:
+      - name: gameplay
+        items:
+        - Demands now have limited storages and can't be oversupplied infinitely anymore
+        - Businesses growth is now dependent on city population
+        - Cargo flow now evenly distributed between storages when loading from and unloading to vehicles
+        - Reduced researches costs
+        - Demand spawn probability now takes into account what deposits are currently available to the player
+        - Decreased initial volume of city demands
+        - More consistent vehicle prices and running costs
+        - Slightly decreased deposit capacities
+        - Moved some demands from early to mid-game
+        - Reduced capacities of tier 1 wagons
+      - name: improvements
+        items:
+        - Added length indication to Rail, Road, Conveyor and Pipe Builder tools
+        - Updated loading screens layout
+      - name: fixes
+        items:
+        - Fixed sound hell when you are close to many circular saws
+        - Fixed lighting is disabled by default in asset editor
+        - Fixed cheat indicator can't be clicked through
+        - Fixed pink tint does not reset if copy vehicle tool was closed on ESC
+        - Fixed main menu can spawn in weird locations which make it unusable (like on white snow or in mountains)
+      - name: modding
+        items:
+        - If you want to use automatic vehicle price and running costs calculation for your vehicle, set <code>Price</code>, and <code>Running Costs</code>, fields to null
+        - Exposed Demand and DemandMultiplier properties to <code>.citydemandrecipe</code>, assets
+        - <code>.rail</code>, <code>.conveyor</code>,, and <code>.pipe</code>, Meshes property format changed
