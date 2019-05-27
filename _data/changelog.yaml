@@ -189,7 +189,7 @@ items:
         items:
         - If you want to use automatic vehicle price and running costs calculation for your vehicle, set <code>Price</code>, and <code>Running Costs</code>, fields to null
         - Exposed Demand and DemandMultiplier properties to <code>.citydemandrecipe</code>, assets
-        - <code>.rail</code>, <code>.conveyor</code>,, and <code>.pipe</code> <code>Meshes</code> property format changed
+        - Changed <code>Meshes</code> property  format of <code>.rail</code>, <code>.conveyor</code>, and <code>.pipe</code> assets
   - version: 0.49
     date: 2019-4-17
     groups:
