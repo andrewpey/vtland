@@ -53,17 +53,16 @@
             .log-items {
                 list-style: none;
                 .log-item {
+                    display: flex;
                     font-size: 1.3rem;
                     font-family: 'Roboto';
                     padding: 0.4rem 0;
-                    // text-indent: -0.75em;
                     &:before {
                         content: '—';
                         display: inline-block;
                         color: #fff4;
                         font-weight: bold;
-                        padding-right: 10px;
-                        width: 14px;
+                        padding-right: 1rem;
                     }
                 }
             }

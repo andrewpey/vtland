@@ -3,6 +3,7 @@ layout: post
 style: changelog
 title: Changelog
 permalink: changelog
+theme: 18182d
 ---
 
 <div class="changelog">
@@ -19,11 +20,13 @@ permalink: changelog
         <ul class="log-items">
             {% for item2 in group.items %}
                 <li class="log-item">
-                    {% if item2.issue %}
-                        <a href="https://github.com/voxeltycoon/bug-tracker/issues/{{ item2.issue }}">{{ item2.text }}</a>
-                    {% else %}
-                        {{ item2 }}
-                    {% endif %}
+                    <div>
+                        {% if item2.issue %}
+                            <a href="https://github.com/voxeltycoon/bug-tracker/issues/{{ item2.issue }}">{{ item2.text }}</a>
+                        {% else %}
+                            {{ item2 }}
+                        {% endif %}
+                    </div>
                 </li>
             {% endfor %}
         </ul>
