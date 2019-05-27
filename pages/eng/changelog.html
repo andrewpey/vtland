@@ -22,13 +22,13 @@ theme: 18182d
         {% capture color %}#{{ hex }}{% endcapture %}
         <p class="group-header" style="color: {{ color }}">{{ group.name }}</p>
         <ul class="log-items">
-            {% for item2 in group.items %}
+            {% for logitem in group.items %}
                 <li class="log-item">
                     <div>
-                        {% if item2.issue %}
-                            <a href="https://github.com/voxeltycoon/bug-tracker/issues/{{ item2.issue }}">{{ item2.text }}</a>
+                        {% if logitem.issue %}
+                            <a href="https://github.com/voxeltycoon/bug-tracker/issues/{{ item2.issue }}">{{ logitem.text }}</a>
                         {% else %}
-                            {{ item2 }}
+                            {{ logitem }}
                         {% endif %}
                     </div>
                 </li>

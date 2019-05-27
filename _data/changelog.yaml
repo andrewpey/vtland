@@ -9,8 +9,8 @@ items:
     groups:
     - name: gameplay
       items:
-        - 3 times slower mining
-        - Demand limit and demand level progressions slightly tuned
+        - Mining now takes 3x more time
+        - Demand limit and demand level progression slightly tuned
     - name: fixes
       items:
         - Possible fix for missing demand indicators
