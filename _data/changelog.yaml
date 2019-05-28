@@ -7,7 +7,7 @@ items:
         - Truck prices, power and capacities adjusted
     - name: improvements
       items:
-        - text: Added visibility setting for profit popus that shown when a vehicle sells goods
+        - text: Added visibility setting for profit popups that shown when a vehicle sells goods
           issue: 8
     - name: fixes
       items:
