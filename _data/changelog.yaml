@@ -208,7 +208,7 @@ items:
         - Fixed main menu can spawn in weird locations which make it unusable (like on white snow or in mountains)
       - name: modding
         items:
-        - If you want to use automatic vehicle price and running costs calculation for your vehicle, set <code>Price</code>, and <code>Running Costs</code>, fields to null
+        - If you want to use automatic vehicle price and running costs calculation for your vehicle, set <code>Price</code> and <code>Running Costs</code> fields to <code>null</code>
         - Exposed Demand and DemandMultiplier properties to <code>.citydemandrecipe</code>, assets
         - Changed <code>Meshes</code> property  format of <code>.rail</code>, <code>.conveyor</code>, and <code>.pipe</code> assets
 
