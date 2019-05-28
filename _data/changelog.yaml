@@ -9,6 +9,9 @@ items:
     - name: fixes
       items:
         - Possible fix for missing demand indicators
+    - name: known issues
+      items:
+        - Profit popups that used to show when a vehicle sells goods are missing
   - version: 0.58
     date: 2019-5-26
     groups:
