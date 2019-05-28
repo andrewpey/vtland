@@ -71,7 +71,19 @@
                 margin: 1rem 0 0.5rem 0;
                 text-transform: uppercase;
                 font-weight: bold;
-                color: #fffc;
+                color: #fff;
+            }
+            .group-header.gameplay {
+                color: #e4c10b;
+            }
+            .group-header.improvements {
+                color: #3da4ff;
+            }
+            .group-header.fixes {
+                color: #d03131;
+            }
+            .group-header.modding {
+                color: #8768ff;
             }
             .log-items {
                 list-style: none;

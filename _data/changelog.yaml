@@ -1,8 +1,3 @@
-group-colors:
-  gameplay: e4c10b
-  improvements: 3da4ff
-  fixes: d03131
-  modding: 8768ff
 items:
   - version: 0.59
     date: 2019-5-27

@@ -25,9 +25,15 @@ theme: 18182d
             <p class="text">{{ item.text }}</p>
         {% endif %}
         {% for group in item.groups %}
-            {% assign hex = group.color | default: site.data.changelog.group-colors[group.name] | default: 'fff' %}
+            {% assign groupClass = group.name | slugify: 'latin' %}
+            {% assign groupStyle = group.color | '' %}
             {% capture color %}#{{ hex }}{% endcapture %}
-            <p class="group-header" style="color: {{ color }}">{{ group.name }}</p>
+            <p class="group-header {{ groupClass }}"
+                {% if group.color %}
+                {% capture color %}#{{ group.color }}{% endcapture %}
+                style="color: {{ color }}"
+                {% endif %}
+            >{{ group.name }}</p>
             <ul class="log-items">
                 {% for logitem in group.items %}
                     <li class="log-item">
