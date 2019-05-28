@@ -59,9 +59,14 @@ theme: 18182d
 
 <script>
     function toggle(header, showOnly) {
-        if (!showOnly || !header.next().is(":visible")) {
-            header.next().toggle()
-            header.find(".placeholder").toggle()
+        if (header.is(".collapsed")) {
+            header.removeClass('collapsed')
+            header.next().show()
+            header.find(".placeholder").hide()
+        } else if (!showOnly) {
+            header.addClass('collapsed')
+            header.next().hide()
+            header.find(".placeholder").show()
         }
     }
 
@@ -74,11 +79,12 @@ theme: 18182d
     }
 
     $('.header').click(function() {
-        toggle($(this));
-    });
+         toggle($(this))
+    })
+
+    toggle($('.header:gt(0)'))
 
     $(function() {
-        toggle($('.header:gt(0)'))
         if (location.hash) 
             toggleFromHash()
     })
