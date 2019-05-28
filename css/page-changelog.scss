@@ -36,6 +36,7 @@
         }
         .item {
             .header {
+                transition: 0.3s;
                 cursor: pointer;
                 .date {
                     font-size: 1.8rem;
@@ -63,6 +64,9 @@
                     border-color: #ff9b00;
                     background: #ff9b001f;
                 }
+            }
+            .header.collapsed:hover {
+                opacity: 1;
             }
             .header.collapsed {
                 opacity: 0.3;
