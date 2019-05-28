@@ -26,7 +26,6 @@ theme: 18182d
         {% endif %}
         {% for group in item.groups %}
             {% assign groupClass = group.name | slugify: 'latin' %}
-            {% assign groupStyle = group.color | '' %}
             {% capture color %}#{{ hex }}{% endcapture %}
             <p class="group-header {{ groupClass }}"
                 {% if group.color %}
@@ -64,5 +63,5 @@ theme: 18182d
         header.find(".placeholder").toggle();
     }
     $('.header').click(function() { toggle($(this)); });
-    // toggle($('.header:gt(4)'));
+    toggle($('.header:gt(0)'));
 </script>
