@@ -1,4 +1,18 @@
 items:
+  - version: '0.60'
+    date: 2019-5-28
+    groups:
+    - name: gameplay
+      items:
+        - Truck prices, power and capacities adjusted
+    - name: improvements
+      items:
+        - text: Added visibility setting for profit popus that shown when a vehicle sells goods
+          issue: 8
+    - name: fixes
+      items:
+        - Fixed regression where profit popups were missing
+
   - version: 0.59
     date: 2019-5-27
     groups:
@@ -12,6 +26,7 @@ items:
     - name: known issues
       items:
         - Profit popups that used to show when a vehicle sells goods are missing
+
   - version: 0.58
     date: 2019-5-26
     groups:
@@ -28,6 +43,7 @@ items:
       items:
       - text: Fixed train previews bugged in depot window for flipped units
         issue: 34
+
   - version: 0.57
     date: 2019-5-24
     groups:
@@ -47,6 +63,7 @@ items:
       - Fixed double minus in money formatting
       - Fixed window tabs have weird colors when picking stations
       - Fixed some visual issues on UI scales greater than 125%
+
   - version: 0.56
     date: 2019-5-21
     tags: [ wipe ]
@@ -75,6 +92,7 @@ items:
       items:
       - Added new <code>.currency</code> asset
       - Slightly updated <code>.railstation</code> , <code>.raildepot</code> , <code>.roaddepot</code> , and <code>.device</code>  asset formats
+
   - version: 0.55
     date: 2019-5-13
     groups:
@@ -92,6 +110,7 @@ items:
     - name: fixes
       items:
       - Fixed game icon on Linux
+
   - version: 0.54
     date: 2019-5-11
     groups:
@@ -102,6 +121,7 @@ items:
         - Possibility to help businesses with money to temporary prevent them from closing
         - Updated city grow mechanics
         - Added mayors and business owners
+
   - version: 0.53
     date: 2019-5-01
     groups:
@@ -123,6 +143,7 @@ items:
         - Fixed progress circle at vehicle window header is rendered with artifacts on non-100% UI scale
         - text: Fixed zooming and scrolling is inverted on Linux
           issue: 6
+
   - version: 0.52
     date: 2019-4-24
     groups:
@@ -138,6 +159,7 @@ items:
       - name: modding
         items:
         - Added new (mandatory) properties to <code>.names</code> asset
+
   - version: 0.51
     date: 2019-4-23
     groups:
@@ -157,6 +179,7 @@ items:
         - Trucks don't use caps to avoid traffic jams
         - Fixed looped chain signal invalid color
         - Truck trains can't be built anymore
+
   - version: '0.50'
     date: 2019-4-20
     groups:
@@ -188,6 +211,7 @@ items:
         - If you want to use automatic vehicle price and running costs calculation for your vehicle, set <code>Price</code>, and <code>Running Costs</code>, fields to null
         - Exposed Demand and DemandMultiplier properties to <code>.citydemandrecipe</code>, assets
         - Changed <code>Meshes</code> property  format of <code>.rail</code>, <code>.conveyor</code>, and <code>.pipe</code> assets
+
   - version: 0.49
     date: 2019-4-17
     groups:
