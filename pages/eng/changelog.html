@@ -9,7 +9,7 @@ theme: 18182d
 <div class="changelog">
 
 {% for item in site.data.changelog.items %}
-<div class="item" id="{{ item.version }}">
+<div class="item" id="version-{{ item.version }}">
     <div class="header">
         <p>
             <span class="date">{{ item.date | date: "%b %d, %Y" }}</span><br/>
@@ -58,10 +58,32 @@ theme: 18182d
 </div>
 
 <script>
-    function toggle(header) {
-        header.next().toggle();
-        header.find(".placeholder").toggle();
+    function toggle(header, showOnly) {
+        if (!showOnly || !header.next().is(":visible")) {
+            header.next().toggle()
+            header.find(".placeholder").toggle()
+        }
     }
-    $('.header').click(function() { toggle($(this)); });
-    toggle($('.header:gt(0)'));
+
+    function toggleFromHash() {
+        const item = $('#version-' + location.hash.substr(1).replace('.', '\\.'))
+        setTimeout(function() {
+            toggle(item.find('.header'), true)
+            scrollTo({ top: item.offset().top, behavior: 'smooth' })
+        }, 200)
+    }
+
+    $('.header').click(function() {
+        toggle($(this));
+    });
+
+    $(function() {
+        toggle($('.header:gt(0)'))
+        if (location.hash) 
+            toggleFromHash()
+    })
+
+    $(window).on('hashchange', function(){ 
+        toggleFromHash()
+    });
 </script>
