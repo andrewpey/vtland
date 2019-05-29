@@ -257,3 +257,19 @@ items:
       items:
       - Fixed trains do not turn around to find a new path
       - Fixed some issues related to indicators 
+
+  - version: 0.48
+    date: 2019-4-15
+    groups:
+    - name: gameplay
+      items:    
+      - 'Added new truck tier: Gasoline Engine 2'
+      - Added new L 10 truck with all variations
+    - name: improvements
+      items:
+      - Setting world seed is fully implemented. You can now create identical worlds with same seed values
+      - Game settings window is localized
+      - Added <b>Release All</b> and <b>Sell All</b> action buttons to depot window
+    - name: fixes
+      items:
+      - Eliminated few memory leaks
