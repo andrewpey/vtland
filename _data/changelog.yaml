@@ -1,4 +1,22 @@
 items:
+  - version: 0.61
+    date: 2019-5-29
+    groups:
+    - name: gameplay
+      items:
+      - Copper moved to Tier 1
+      - Trucks now can horn
+      - You can use horn in Ride Your Vehicle™ mode by hitting <kbd>Space</kbd>
+    - name: improvements
+      items:
+      - Updated depot window look and feel
+      - Vehicle units in Vehicle Unit Picker are now sorted by price
+      - Added controls cheat sheet for Ride Your Vehicle™ mode
+    - name: modding
+      items:
+      - Added <code>Horn</code> property to <code>.carunit</code> assets (same as in <code>.trainunit</code> assets)
+      - Added sample <code>palette.png</code> to <code>content/your_first_pack</code> directory
+
   - version: '0.60'
     date: 2019-5-28
     groups:
