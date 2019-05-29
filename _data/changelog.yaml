@@ -273,3 +273,93 @@ items:
     - name: fixes
       items:
       - Eliminated few memory leaks
+
+  - version: 0.47
+    date: 2019-4-13
+    groups:
+    - name: gameplay
+      items:    
+      - Added variations of L 8000 truck
+      - Deposits and cities sizes now depend on how far they are from home region
+      - Reduced initial deposit capacities
+      - Added seed setting (WIP)
+    - name: improvements
+      items:
+      - Deposit capacities shown on indicators now round to K or M
+      - Time controls no more changing width on pause
+    - name: fixes
+      items:
+      - Fixed various cargo handling issues related to vehicle reconfigure feature
+
+  - version: 0.46
+    date: 2019-4-12
+    tags: [ wipe ]
+    groups:
+    - name: important
+      items:
+        - Saves are wiped due to critical changes in world generation (see below)
+    - name: gameplay
+      items:    
+      - Now you always start with all resources required for an early game
+      - All Tier 0 deposits guaranteed to spawn at home region
+      - Added variations of LP-1620 for all cargoes
+      - Added L 8000 dump truck
+    - name: improvements
+      items:
+      - Reworked world generation
+      - Enhanced lakes and mountains appearance
+      - Improved cities and deposits distribution
+      - Optimized times required to unlock new regions in some cases
+      - No more randomly mixed biomes inside one region
+      - Added possibility to reconfigure vehicles in depot
+      - Added possibility to sell vehicles from depots
+      - Vehicles now can't be removed by bulldozer tool
+      - Wrecked vehicles can be removed from Vehicle Window
+      - Show the cost of selected units in Buy/Edit Vehicle Window
+      - Added release toggle to vehicle cards in Depot Window
+      - Vehicles in depot now can be put in release queue without a necessity to release them one by one
+      - Added tooltips to Go To Depot tool
+      - Added labels for depots
+      - Demand indicators now enabled in both ALT and default visibility modes
+      - Added button to show region info to City Window
+      - Region details windows are not modal anymore
+      - Vehicle windows do not open anymore after buy
+    - name: fixes
+      items:
+      - Fixed inconsistency in assets with no fields <i>(Great @Alego22 null asset problem)</i>. The game will now also throw an error if such assets found
+      - Fixed creating new game may stuck at world generation
+      - Fixed holes in landscape
+
+  - version: 0.45
+    date: 2019-4-8
+    groups:
+    - name: important
+      items:
+        - We are working on region generation improvements, so everything related may be a bit broken in this build. (like creating a new game may throw an error randomly). Just ignore that for now.
+    - name: gameplay
+      items:    
+      - Added 3 new steam engines (based on Queensland C17 class, USRA Light Mikado and Southern Pacific GS-4) All steam engines planned for the pre-alpha are done
+      - Added Tier 1 electric engine (based on GMD GF6C)
+      - Added variations of Tier 1 truck for different kinds of cargo
+      - Added brand new Tier 2 truck (based on Mercedes-Benz LP-1620)
+      - Diesel trucks now locked by default
+    - name: improvements
+      items:
+      - Hit <kbd>Space</kbd> to pause game (old keybinding is still there)
+      - Added experimental option to enable controlling toolbar with numeric keys. When this option is enabled, you can control time scale with <kbd>-</kbd> and <kbd>+</kbd> hotkeys
+      - Toolbar second row now hides on ESC if no windows focused
+      - Price of configurable sets shown on cards in unit picker now prepended with From to indicate that it's the minimal price
+      - You can now teleport vehicles to depots
+      - You can now release vehicles from depot even if tracks are occupied by enabling Ignore Signals mode
+      - Updated time controls to more clearly indicate paused state
+      - Added detailed popup for vehicle recipes in research picker window
+      - Follow vehicle button will show depot if the vehicle is inside one
+      - Make settings window larger and adapt to screen height so more options can be visible without scrolling
+      - Disabled writing of backup files for saves to reduce disk usage as there's autosave functionality for that purpose
+    - name: fixes
+      items:
+      - Fixed price of configurable sets shown on cards in unit picker is not the absolute minimal price
+      - Added some missing localizations
+    - name: modding
+      items:
+      - Added <code>.uribindings</code> asset that can be used to properly migrate your mods in case of rename (see <code>base/base.uridindings</code> as an example)
