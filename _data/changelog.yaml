@@ -697,60 +697,60 @@
   date: 2019-02-11
   groups:
   - release notes:
-  - Added support for custom station name suffixes to .names asset
-  - Increased trucks weight and capacities
+    - Added support for custom station name suffixes to .names asset
+    - Increased trucks weight and capacities
 
 - version: 0.15
   date: 2019-02-11
   groups:
   - release notes:
-  - You can now research new tech in updated Researches window (instantly and for money only yet)
-  - Added cheat buttons to Researches window to lock and unlock all the researches (useful for old saves)
-  - Added window to setup a new game. Only few options available yet (like company color), with more to come
-  - Added support for custom city names packs (.cities assets replaced with new .names assets)
-  - Added Russian city names pack (provided by @Yury)  
+    - You can now research new tech in updated Researches window (instantly and for money only yet)
+    - Added cheat buttons to Researches window to lock and unlock all the researches (useful for old saves)
+    - Added window to setup a new game. Only few options available yet (like company color), with more to come
+    - Added support for custom city names packs (.cities assets replaced with new .names assets)
+    - Added Russian city names pack (provided by @Yury)  
 
 - version: 0.14
   date: 2019-02-09
   groups:
   - release notes:
-  - Added notification log with unread count indicator when collapsed
-  - Added notification sound
-  - Added new window to explore the tech tree consisting from 60 researches (still WIP)
-  - Remapped selling % so when a consumer is red you get 50% of profit instead of 0%
-  - Fixed game may start with loan interest already charged-off
-  - Dismiss notifications without triggering an action by right click
+    - Added notification log with unread count indicator when collapsed
+    - Added notification sound
+    - Added new window to explore the tech tree consisting from 60 researches (still WIP)
+    - Remapped selling % so when a consumer is red you get 50% of profit instead of 0%
+    - Fixed game may start with loan interest already charged-off
+    - Dismiss notifications without triggering an action by right click
 
   
 - version: 0.13
   date: 2019-02-04
   groups:
   - release notes:
-  - Fixed cities in locked regions grow on region unlock
-  - Fixed resize controls at rail station builder tool were time scale dependent
+    - Fixed cities in locked regions grow on region unlock
+    - Fixed resize controls at rail station builder tool were time scale dependent
 
 - version: 0.12
   date: 2019-02-04
   groups:
   - release notes:
-  - 'Added UI notifications for some in-game events: vehicle wreckage, new demands spawn, lost vehicles and vehicles missing power (event log is coming)'
-  - Added resource-specific mines (with old graphics yet). Saves might be corrupted.
-  - Warehouses moved into its own submenu
-  - Swapped depot and stations buttons in toolbar
+    - 'Added UI notifications for some in-game events: vehicle wreckage, new demands spawn, lost vehicles and vehicles missing power (event log is coming)'
+    - Added resource-specific mines (with old graphics yet). Saves might be corrupted.
+    - Warehouses moved into its own submenu
+    - Swapped depot and stations buttons in toolbar
 
 - version: 0.11
   date: 2019-02-02
   groups:
   - release notes:
-  - Fixed <kdb>WASD</kbd>  controls not working when the game is paused
+    - Fixed <kdb>WASD</kbd>  controls not working when the game is paused
 
 - version: '0.10'
   date: 2019-02-02
   groups:
   - release notes:
-  - Use <kdb>WASD</kbd> to move camera, <kdb>Ctrl</kdb>+<kbd>WASD</kbd> to rotate, <kbd>QE</kbd> to zoom
-  - Remapped other hotkeys
-  - Few more minor fixes
+    - Use <kdb>WASD</kbd> to move camera, <kdb>Ctrl</kdb>+<kbd>WASD</kbd> to rotate, <kbd>QE</kbd> to zoom
+    - Remapped other hotkeys
+    - Few more minor fixes
 
 
 - version: 0.9
