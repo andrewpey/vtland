@@ -439,6 +439,7 @@
 - version: 0.38
   date: 2019-03-23
   groups:
+  - release notes:
     - Added research history tab to Research Management window
     - Added one more warning before business will close
     - Tuned how fast demand requirements increase
@@ -742,13 +743,13 @@
   date: 2019-02-02
   groups:
   - release notes:
-    - Fixed <kdb>WASD</kbd>  controls not working when the game is paused
+    - Fixed <kbd>WASD</kbd>  controls not working when the game is paused
 
 - version: '0.10'
   date: 2019-02-02
   groups:
   - release notes:
-    - Use <kdb>WASD</kbd> to move camera, <kdb>Ctrl</kdb>+<kbd>WASD</kbd> to rotate, <kbd>QE</kbd> to zoom
+    - Use <kbd>WASD</kbd> to move camera, <kbd>Ctrl</kbd>+<kbd>WASD</kbd> to rotate, <kbd>QE</kbd> to zoom
     - Remapped other hotkeys
     - Few more minor fixes
 
@@ -842,7 +843,7 @@
 
 - version: 0.4
   date: 2019-01-25
-  text: <b>Caution:</b> If you changed some settings on Misc tab please delete %appdata%/../locallow/voxeltycoon/voxeltycoon/DebugSettings.json before running the game.
+  text: <b>Caution:</b> If you changed some settings on Misc tab please delete <code>%appdata%/../locallow/voxeltycoon/voxeltycoon/DebugSettings.json</code> before running the game.
   groups:
   - release notes:
     - Fixed save loading issues reported by @Felix
