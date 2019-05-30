@@ -9,8 +9,7 @@
     - Updated depot window look and feel
     - Vehicle units in Vehicle Unit Picker are now sorted by price
     - Added controls cheat sheet for Ride Your Vehicle™ mode
-  - name: modding
-    items:
+  - modding:
     - Added <code>Horn</code> property to <code>.carunit</code> assets (same as in <code>.trainunit</code> assets)
     - Added sample <code>palette.png</code> to <code>content/your_first_pack</code> directory
 
@@ -33,8 +32,7 @@
       - Demand limit and demand level progression slightly tuned
   - fixes:
       - Possible fix for missing demand indicators
-  - name: known issues
-    items:
+  - known issues:
       - Profit popups that used to show when a vehicle sells goods are missing
 
 - version: 0.58
@@ -89,8 +87,7 @@
     - Added <b>Strong Tilt-Shift</b> option for beautiful screenshots
   - fixes:
     - Fixed removing end caps costs money
-  - name: modding
-    items:
+  - modding:
     - Added new <code>.currency</code> asset
     - Slightly updated <code>.railstation</code> , <code>.raildepot</code> , <code>.roaddepot</code> , and <code>.device</code>  asset formats
 
@@ -111,103 +108,88 @@
 - version: 0.54
   date: 2019-5-11
   groups:
-    - name: gameplay
-      items:
-      - Brand new City and Demand windows, with a lot of information exposed to let you know what is happening under the hood
-      - Possibility to fund new buildings in cities
-      - Possibility to help businesses with money to temporary prevent them from closing
-      - Updated city grow mechanics
-      - Added mayors and business owners
+  - gameplay:
+    - Brand new City and Demand windows, with a lot of information exposed to let you know what is happening under the hood
+    - Possibility to fund new buildings in cities
+    - Possibility to help businesses with money to temporary prevent them from closing
+    - Updated city grow mechanics
+    - Added mayors and business owners
 
 - version: 0.53
   date: 2019-5-01
   groups:
-    - name: localization
-      items:
-      - In this update, almost all of the UI is localized! If you notice any missing translations, or wrong texts, please let us know.
-      - Also, we've <a href="https://docs.google.com/spreadsheets/d/1N_6uXWcgzh4acD5__1mGP0QTRFyaka2CT9CHoA4rKTQ"> set up a localization spreadsheet</a>.
-        If you can help to translate the game to your language, please feel free to contact us.
-    - name: gameplay
-      items:
-      - Some tools now require researches to be unlocked
-      - Tools that are not intended to be available in pre-alpha now locked
-    - name: improvements
-      items:
-      - Tuned white mode appearance to make object details more distinguishable
-      - Added Share action for game saves that compresses required files and reveals the archive in explorer
-    - name: fixes
-      items:
-      - Fixed progress circle at vehicle window header is rendered with artifacts on non-100% UI scale
-      - text: Fixed zooming and scrolling is inverted on Linux
-        issue: 6
+  - localization:
+    - In this update, almost all of the UI is localized! If you notice any missing translations, or wrong texts, please let us know.
+    - Also, we've <a href="https://docs.google.com/spreadsheets/d/1N_6uXWcgzh4acD5__1mGP0QTRFyaka2CT9CHoA4rKTQ"> set up a localization spreadsheet</a>.
+      If you can help to translate the game to your language, please feel free to contact us.
+  - gameplay:
+    - Some tools now require researches to be unlocked
+    - Tools that are not intended to be available in pre-alpha now locked
+  - improvements:
+    - Tuned white mode appearance to make object details more distinguishable
+    - Added Share action for game saves that compresses required files and reveals the archive in explorer
+  - fixes:
+    - Fixed progress circle at vehicle window header is rendered with artifacts on non-100% UI scale
+    - text: Fixed zooming and scrolling is inverted on Linux
+      issue: 6
 
 - version: 0.52
   date: 2019-4-24
   groups:
-    - name: gameplay
-      items:
-      - Demand base price slightly increased
-    - name: improvements
-      items:
-      - Added direction indication on conveyors
-      - Improved stats tab at vehicle window
-      - Added vehicle driver info (with a little twist)
-      - Added missing supporters to credits
-    - name: modding
-      items:
-      - Added new (mandatory) properties to <code>.names</code> asset
+  - gameplay:
+    - Demand base price slightly increased
+  - improvements:
+    - Added direction indication on conveyors
+    - Improved stats tab at vehicle window
+    - Added vehicle driver info (with a little twist)
+    - Added missing supporters to credits
+  - modding:
+    - Added new (mandatory) properties to <code>.names</code> asset
 
 - version: 0.51
   date: 2019-4-23
   groups:
-    - name: gameplay
-      items:
-      - Truck power, prices and capacities tuned
-      - Added flatbed semi trailer
-      - Demand volume slightly decreased and randomized
-      - Item weights tuned
-    - name: improvements
-      items:
-      - Added basic vehicle lifetime stats (like money earned) to Vehicle Window
-      - Added setting to toggle music
-    - name: fixes
-      items:
-      - Cities now can grow through truck terminals
-      - Trucks don't use caps to avoid traffic jams
-      - Fixed looped chain signal invalid color
-      - Truck trains can't be built anymore
+  - gameplay:
+    - Truck power, prices and capacities tuned
+    - Added flatbed semi trailer
+    - Demand volume slightly decreased and randomized
+    - Item weights tuned
+  - improvements:
+    - Added basic vehicle lifetime stats (like money earned) to Vehicle Window
+    - Added setting to toggle music
+  - fixes:
+    - Cities now can grow through truck terminals
+    - Trucks don't use caps to avoid traffic jams
+    - Fixed looped chain signal invalid color
+    - Truck trains can't be built anymore
 
 - version: '0.50'
   date: 2019-4-20
   groups:
-    - name: gameplay
-      items:
-      - Demands now have limited storages and can't be oversupplied infinitely anymore
-      - Businesses growth is now dependent on city population
-      - Cargo flow now evenly distributed between storages when loading from and unloading to vehicles
-      - Reduced researches costs
-      - Demand spawn probability now takes into account what deposits are currently available to the player
-      - Decreased initial volume of city demands
-      - More consistent vehicle prices and running costs
-      - Slightly decreased deposit capacities
-      - Moved some demands from early to mid-game
-      - Reduced capacities of tier 1 wagons
-    - name: improvements
-      items:
-      - Added length indication to Rail, Road, Conveyor and Pipe Builder tools
-      - Updated loading screens layout
-    - name: fixes
-      items:
-      - Fixed sound hell when you are close to many circular saws
-      - Fixed lighting is disabled by default in asset editor
-      - Fixed cheat indicator can't be clicked through
-      - Fixed pink tint does not reset if copy vehicle tool was closed on ESC
-      - Fixed main menu can spawn in weird locations which make it unusable (like on white snow or in mountains)
-    - name: modding
-      items:
-      - If you want to use automatic vehicle price and running costs calculation for your vehicle, set <code>Price</code> and <code>Running Costs</code> fields to <code>null</code>
-      - Exposed Demand and DemandMultiplier properties to <code>.citydemandrecipe</code>, assets
-      - Changed <code>Meshes</code> property  format of <code>.rail</code>, <code>.conveyor</code>, and <code>.pipe</code> assets
+  - gameplay:
+    - Demands now have limited storages and can't be oversupplied infinitely anymore
+    - Businesses growth is now dependent on city population
+    - Cargo flow now evenly distributed between storages when loading from and unloading to vehicles
+    - Reduced researches costs
+    - Demand spawn probability now takes into account what deposits are currently available to the player
+    - Decreased initial volume of city demands
+    - More consistent vehicle prices and running costs
+    - Slightly decreased deposit capacities
+    - Moved some demands from early to mid-game
+    - Reduced capacities of tier 1 wagons
+  - improvements:
+    - Added length indication to Rail, Road, Conveyor and Pipe Builder tools
+    - Updated loading screens layout
+  - fixes:
+    - Fixed sound hell when you are close to many circular saws
+    - Fixed lighting is disabled by default in asset editor
+    - Fixed cheat indicator can't be clicked through
+    - Fixed pink tint does not reset if copy vehicle tool was closed on ESC
+    - Fixed main menu can spawn in weird locations which make it unusable (like on white snow or in mountains)
+  - modding:
+    - If you want to use automatic vehicle price and running costs calculation for your vehicle, set <code>Price</code> and <code>Running Costs</code> fields to <code>null</code>
+    - Exposed Demand and DemandMultiplier properties to <code>.citydemandrecipe</code>, assets
+    - Changed <code>Meshes</code> property  format of <code>.rail</code>, <code>.conveyor</code>, and <code>.pipe</code> assets
 
 - version: 0.49
   date: 2019-4-17
@@ -231,13 +213,12 @@
     - Added some missing localizations
   - fixes:
     - Fixed trains do not turn around to find a new path
-    - Fixed some issues related to indicators 
+    - Fixed some issues related to indicators
 
 - version: 0.48
   date: 2019-4-15
   groups:
-  - name: gameplay
-    items:    
+  - gameplay:
     - 'Added new truck tier: Gasoline Engine 2'
     - Added new L 10 truck with all variations
   - improvements:
@@ -250,8 +231,7 @@
 - version: 0.47
   date: 2019-4-13
   groups:
-  - name: gameplay
-    items:    
+  - gameplay:
     - Added variations of L 8000 truck
     - Deposits and cities sizes now depend on how far they are from home region
     - Reduced initial deposit capacities
@@ -268,8 +248,7 @@
   groups:
   - important:
       - Saves are wiped due to critical changes in world generation (see below)
-  - name: gameplay
-    items:    
+  - gameplay:
     - Now you always start with all resources required for an early game
     - All Tier 0 deposits guaranteed to spawn at home region
     - Added variations of LP-1620 for all cargoes
@@ -303,8 +282,7 @@
   groups:
   - important:
       - We are working on region generation improvements, so everything related may be a bit broken in this build. (like creating a new game may throw an error randomly). Just ignore that for now.
-  - name: gameplay
-    items:    
+  - gameplay:
     - Added 3 new steam engines (based on Queensland C17 class, USRA Light Mikado and Southern Pacific GS-4) All steam engines planned for the pre-alpha are done
     - Added Tier 1 electric engine (based on GMD GF6C)
     - Added variations of Tier 1 truck for different kinds of cargo
@@ -325,8 +303,7 @@
   - fixes:
     - Fixed price of configurable sets shown on cards in unit picker is not the absolute minimal price
     - Added some missing localizations
-  - name: modding
-    items:
+  - modding:
     - Added <code>.uribindings</code> asset that can be used to properly migrate your mods in case of rename (see <code>base/base.uridindings</code> as an example)
 
 - version: 0.44
@@ -363,8 +340,7 @@
   - fixes:
     - Fixed copying a vehicle also copies its cargo
     - Fixed some missing or wrong localizations
-  - name: modding
-    items:
+  - modding:
     - We automatically remap old researches, but you probably should check if your content relies on correct researches now
 
 - version: 0.42
@@ -449,7 +425,7 @@
     - Tuned notification button appearance
     - Hide all UI on <kbd>F1</kbd>
     - Planting and removing trees costs money
-  
+
 - version: 0.37
   date: 2019-03-21
   tags: [wipe]
@@ -466,7 +442,7 @@
     - You can't spawn trains without powered units anymore
     - Added smokes for all base locomotives (thanks to @Alex_BY as well)
     - Show game time instead of '{N minutes of realtime} ago' on notifications
-  
+
 - version: 0.36
   date: 2019-03-18
   groups:
@@ -483,7 +459,7 @@
     - Researches now consume money and items per research period (1 day by default) instead of doing it immediately
     - Cities now spawn on the same grid, resulting into seamless merge
   - improvements:
-    - Various improvements in Research Browser 
+    - Various improvements in Research Browser
     - Hold <kbd>Shift</kbd> when picking vehicle unit capacity to apply it for all units of the same type
   - fixes:
     - Fixed colored dot on demand indicator do not properly invalidate
@@ -691,7 +667,7 @@
     - Fixed you can couple any vehicle units while holding <kbd>Shift</kbd>
     - Fixed cost tooltip freezes on game pause
     - Builder tool now closing when other tools is activating
-    - Fixed vehicle unit picker may show incorrect capacity values when filtering by cargo 
+    - Fixed vehicle unit picker may show incorrect capacity values when filtering by cargo
     - 'Pick terminal track tool: clicking in the world does not cancel picking anymore'
 
 - version: 0.16
@@ -709,7 +685,7 @@
     - Added cheat buttons to Researches window to lock and unlock all the researches (useful for old saves)
     - Added window to setup a new game. Only few options available yet (like company color), with more to come
     - Added support for custom city names packs (.cities assets replaced with new .names assets)
-    - Added Russian city names pack (provided by @Yury)  
+    - Added Russian city names pack (provided by @Yury)
 
 - version: 0.14
   date: 2019-02-09
@@ -722,7 +698,7 @@
     - Fixed game may start with loan interest already charged-off
     - Dismiss notifications without triggering an action by right click
 
-  
+
 - version: 0.13
   date: 2019-02-04
   groups:
@@ -784,7 +760,7 @@
     - All items now transportable
     - Items weights slightly tuned
     - Updated builder window flow to be more 'tool-like'
-    - Building rail station now costs money 
+    - Building rail station now costs money
     - Fixed velocity units at vehicle window do not respect settings
     - Vehicle window localized
     - Attempted to reduce effect of audio may sound misplaced on extreme lean camera angles
