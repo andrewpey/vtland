@@ -25,21 +25,12 @@ theme: 18182d
             <p class="text">{{ item.text }}</p>
         {% endif %}
         {% for group in item.groups %}
-            {% if group.name %}
-                {% assign groupName = group.name %}
-                {% assign groupItems =  group.items %}        
-            {% else %}
-                {% for group_hash in group %}
-                    {% assign groupName = group_hash[0] %}
-                    {% assign groupItems =  group_hash[1] %}
-                {% endfor %}
-            {% endif %}
-        
+            {% assign groupName = group[0] %}
+            {% assign groupItems = group[1].items | default: group[1] %}
             {% assign groupClass = groupName | slugify: 'latin' %}
-            {% capture color %}#{{ hex }}{% endcapture %}
             <p class="group-header {{ groupClass }}"
-                {% if group.color %}
-                {% capture color %}#{{ group.color }}{% endcapture %}
+                {% if group[1].color %}
+                {% capture color %}#{{ group[1].color }}{% endcapture %}
                 style="color: {{ color }}"
                 {% endif %}
             >{{ groupName }}</p>

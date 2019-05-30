@@ -1,67 +1,67 @@
 - version: 0.61
   date: 2019-5-29
   groups:
-  - gameplay:
+    gameplay:
     - Copper moved to Tier 1
     - Trucks now can horn
     - You can use horn in Ride Your Vehicle™ mode by hitting <kbd>Space</kbd>
-  - improvements:
+    improvements:
     - Updated depot window look and feel
     - Vehicle units in Vehicle Unit Picker are now sorted by price
     - Added controls cheat sheet for Ride Your Vehicle™ mode
-  - modding:
+    modding:
     - Added <code>Horn</code> property to <code>.carunit</code> assets (same as in <code>.trainunit</code> assets)
     - Added sample <code>palette.png</code> to <code>content/your_first_pack</code> directory
 
 - version: '0.60'
   date: 2019-5-28
   groups:
-  - gameplay:
+    gameplay:
       - Truck prices, power, and capacities adjusted
-  - improvements:
+    improvements:
       - text: Added visibility setting for profit popups that shown when a vehicle sells goods
         issue: 8
-  - fixes:
+    fixes:
       - Fixed regression where profit popups were missing
 
 - version: 0.59
   date: 2019-5-27
   groups:
-  - gameplay:
+    gameplay:
       - Mining now takes 3x more time
       - Demand limit and demand level progression slightly tuned
-  - fixes:
+    fixes:
       - Possible fix for missing demand indicators
-  - known issues:
+    known issues:
       - Profit popups that used to show when a vehicle sells goods are missing
 
 - version: 0.58
   date: 2019-5-26
   groups:
-  - gameplay:
+    gameplay:
     - Added notifications on settlement status changes
     - Decreased chance that small buildings will replace huge one on city grow
     - Higher tier resource deposits are now guaranteed to spawn
     - Higher tier regions can have higher tier demands from the start
-  - improvements:
+    improvements:
     - Builder window appearance tuned and supports autoresize
-  - fixes:
+    fixes:
     - text: Fixed train previews bugged in depot window for flipped units
       issue: 34
 
 - version: 0.57
   date: 2019-5-24
   groups:
-  - gameplay:
+    gameplay:
       - Cities now can climb and descent hills
       - Mining research split to a few sub-researches
       - Added research difficulty setting, allowing to start with all research completed by default
-  - improvements:
+    improvements:
     - Continue building rails, roads, and conveyors from the previous segment without additional clicks
     - Game language now autodetected by default
     - Added some missing localizations
     - Buildings palette windows now automatically close after building completion
-  - fixes:
+    fixes:
     - Fixed double minus in money formatting
     - Fixed window tabs have weird colors when picking stations
     - Fixed some visual issues on UI scales greater than 125%
@@ -71,44 +71,44 @@
   tags: [ wipe ]
   text: Due to major internal changes saves are wiped.
   groups:
-  - name: researching
-    color: 4cff38
-    items:
-    - You can run more than one research at a time
-    - Researching now can be paused
-    - Added Lab window where you can see available and required resources for exact lab
-    - Research Management redesigned to show all labs and their research progress
-  - gameplay:
+    researching:
+      color: 4cff38
+      items:
+      - You can run more than one research at a time
+      - Researching now can be paused
+      - Added Lab window where you can see available and required resources for exact lab
+      - Research Management redesigned to show all labs and their research progress
+    gameplay:
     - 'Added :gb:<b>GBP</b> :eu:<b>EUR</b> :jp:<b>JPY</b> currencies'
     - Maximum city grow rate slightly decreased
-  - improvements:
+    improvements:
     - Stations, depots, and devices can be built over or attach to existing rails, roads, and conveyors
     - Stations, depots, and devices now always built with proper end caps automatically
     - Added <b>Strong Tilt-Shift</b> option for beautiful screenshots
-  - fixes:
+    fixes:
     - Fixed removing end caps costs money
-  - modding:
+    modding:
     - Added new <code>.currency</code> asset
     - Slightly updated <code>.railstation</code> , <code>.raildepot</code> , <code>.roaddepot</code> , and <code>.device</code>  asset formats
 
 - version: 0.55
   date: 2019-5-13
   groups:
-  - important:
+    important:
     - <b>Since this version, we use compression for save files.</b> It showed pretty good results, but we haven't tested it on MacOS and Linux yet. So, if you're on one of these platforms, please let us know how it performs there.
-  - gameplay:
+    gameplay:
     - Preventing business from closing cost now depends on how close it to bankruptcy
-  - improvements:
+    improvements:
     - Average save size drastically reduced (3x or more times, blame <b>@Alego22</b> as usual)
     - Added coins sound when funding city grow or helping businesses
     - Updated appearance of Prevent business from closing button
-  - fixes:
+    fixes:
     - Fixed game icon on Linux
 
 - version: 0.54
   date: 2019-5-11
   groups:
-  - gameplay:
+    gameplay:
     - Brand new City and Demand windows, with a lot of information exposed to let you know what is happening under the hood
     - Possibility to fund new buildings in cities
     - Possibility to help businesses with money to temporary prevent them from closing
@@ -118,17 +118,17 @@
 - version: 0.53
   date: 2019-5-01
   groups:
-  - localization:
+    localization:
     - In this update, almost all of the UI is localized! If you notice any missing translations, or wrong texts, please let us know.
     - Also, we've <a href="https://docs.google.com/spreadsheets/d/1N_6uXWcgzh4acD5__1mGP0QTRFyaka2CT9CHoA4rKTQ"> set up a localization spreadsheet</a>.
       If you can help to translate the game to your language, please feel free to contact us.
-  - gameplay:
+    gameplay:
     - Some tools now require researches to be unlocked
     - Tools that are not intended to be available in pre-alpha now locked
-  - improvements:
+    improvements:
     - Tuned white mode appearance to make object details more distinguishable
     - Added Share action for game saves that compresses required files and reveals the archive in explorer
-  - fixes:
+    fixes:
     - Fixed progress circle at vehicle window header is rendered with artifacts on non-100% UI scale
     - text: Fixed zooming and scrolling is inverted on Linux
       issue: 6
@@ -136,28 +136,28 @@
 - version: 0.52
   date: 2019-4-24
   groups:
-  - gameplay:
+    gameplay:
     - Demand base price slightly increased
-  - improvements:
+    improvements:
     - Added direction indication on conveyors
     - Improved stats tab at vehicle window
     - Added vehicle driver info (with a little twist)
     - Added missing supporters to credits
-  - modding:
+    modding:
     - Added new (mandatory) properties to <code>.names</code> asset
 
 - version: 0.51
   date: 2019-4-23
   groups:
-  - gameplay:
+    gameplay:
     - Truck power, prices and capacities tuned
     - Added flatbed semi trailer
     - Demand volume slightly decreased and randomized
     - Item weights tuned
-  - improvements:
+    improvements:
     - Added basic vehicle lifetime stats (like money earned) to Vehicle Window
     - Added setting to toggle music
-  - fixes:
+    fixes:
     - Cities now can grow through truck terminals
     - Trucks don't use caps to avoid traffic jams
     - Fixed looped chain signal invalid color
@@ -166,7 +166,7 @@
 - version: '0.50'
   date: 2019-4-20
   groups:
-  - gameplay:
+    gameplay:
     - Demands now have limited storages and can't be oversupplied infinitely anymore
     - Businesses growth is now dependent on city population
     - Cargo flow now evenly distributed between storages when loading from and unloading to vehicles
@@ -177,16 +177,16 @@
     - Slightly decreased deposit capacities
     - Moved some demands from early to mid-game
     - Reduced capacities of tier 1 wagons
-  - improvements:
+    improvements:
     - Added length indication to Rail, Road, Conveyor and Pipe Builder tools
     - Updated loading screens layout
-  - fixes:
+    fixes:
     - Fixed sound hell when you are close to many circular saws
     - Fixed lighting is disabled by default in asset editor
     - Fixed cheat indicator can't be clicked through
     - Fixed pink tint does not reset if copy vehicle tool was closed on ESC
     - Fixed main menu can spawn in weird locations which make it unusable (like on white snow or in mountains)
-  - modding:
+    modding:
     - If you want to use automatic vehicle price and running costs calculation for your vehicle, set <code>Price</code> and <code>Running Costs</code> fields to <code>null</code>
     - Exposed Demand and DemandMultiplier properties to <code>.citydemandrecipe</code>, assets
     - Changed <code>Meshes</code> property  format of <code>.rail</code>, <code>.conveyor</code>, and <code>.pipe</code> assets
@@ -194,14 +194,14 @@
 - version: 0.49
   date: 2019-4-17
   groups:
-  - important:
+    important:
     - We have upgraded the game to the latest Unity version. As a side effect, we found that very noticeable screen tearing may appear when VSync is disabled. If you experience it or any other new issues, please let us know. To workaround it, enable VSync.
-  - gameplay:
+    gameplay:
     - 2X more resources in deposits
     - Added <b>Allow trains turn around</b> new game setting
     - Slightly reduced demand volume
     - TNT tool now available only with cheats enabled (blame <b>@Alego22</b>)
-  - improvements:
+    improvements:
     - Show all required resources on research cards
     - Building rails tool automatically removes invalid signals
     - Visibility settings button now indicates that <kbd>Alt</kbd> mode is active
@@ -211,49 +211,49 @@
     - VSync is enabled by default
     - Added description for Gasoline Engine 2 research
     - Added some missing localizations
-  - fixes:
+    fixes:
     - Fixed trains do not turn around to find a new path
     - Fixed some issues related to indicators
 
 - version: 0.48
   date: 2019-4-15
   groups:
-  - gameplay:
+    gameplay:
     - 'Added new truck tier: Gasoline Engine 2'
     - Added new L 10 truck with all variations
-  - improvements:
+    improvements:
     - Setting world seed is fully implemented. You can now create identical worlds with same seed values
     - Game settings window is localized
     - Added <b>Release All</b> and <b>Sell All</b> action buttons to depot window
-  - fixes:
+    fixes:
     - Eliminated few memory leaks
 
 - version: 0.47
   date: 2019-4-13
   groups:
-  - gameplay:
+    gameplay:
     - Added variations of L 8000 truck
     - Deposits and cities sizes now depend on how far they are from home region
     - Reduced initial deposit capacities
     - Added seed setting (WIP)
-  - improvements:
+    improvements:
     - Deposit capacities shown on indicators now round to K or M
     - Time controls no more changing width on pause
-  - fixes:
+    fixes:
     - Fixed various cargo handling issues related to vehicle reconfigure feature
 
 - version: 0.46
   date: 2019-4-12
   tags: [ wipe ]
   groups:
-  - important:
+    important:
       - Saves are wiped due to critical changes in world generation (see below)
-  - gameplay:
+    gameplay:
     - Now you always start with all resources required for an early game
     - All Tier 0 deposits guaranteed to spawn at home region
     - Added variations of LP-1620 for all cargoes
     - Added L 8000 dump truck
-  - improvements:
+    improvements:
     - Reworked world generation
     - Enhanced lakes and mountains appearance
     - Improved cities and deposits distribution
@@ -272,7 +272,7 @@
     - Added button to show region info to City Window
     - Region details windows are not modal anymore
     - Vehicle windows do not open anymore after buy
-  - fixes:
+    fixes:
     - Fixed inconsistency in assets with no fields <i>(Great @Alego22 null asset problem)</i>. The game will now also throw an error if such assets found
     - Fixed creating new game may stuck at world generation
     - Fixed holes in landscape
@@ -280,15 +280,15 @@
 - version: 0.45
   date: 2019-4-8
   groups:
-  - important:
+    important:
       - We are working on region generation improvements, so everything related may be a bit broken in this build. (like creating a new game may throw an error randomly). Just ignore that for now.
-  - gameplay:
+    gameplay:
     - Added 3 new steam engines (based on Queensland C17 class, USRA Light Mikado and Southern Pacific GS-4) All steam engines planned for the pre-alpha are done
     - Added Tier 1 electric engine (based on GMD GF6C)
     - Added variations of Tier 1 truck for different kinds of cargo
     - Added brand new Tier 2 truck (based on Mercedes-Benz LP-1620)
     - Diesel trucks now locked by default
-  - improvements:
+    improvements:
     - Hit <kbd>Space</kbd> to pause game (old keybinding is still there)
     - Added experimental option to enable controlling toolbar with numeric keys. When this option is enabled, you can control time scale with <kbd>-</kbd> and <kbd>+</kbd> hotkeys
     - Toolbar second row now hides on ESC if no windows focused
@@ -300,26 +300,26 @@
     - Follow vehicle button will show depot if the vehicle is inside one
     - Make settings window larger and adapt to screen height so more options can be visible without scrolling
     - Disabled writing of backup files for saves to reduce disk usage as there's autosave functionality for that purpose
-  - fixes:
+    fixes:
     - Fixed price of configurable sets shown on cards in unit picker is not the absolute minimal price
     - Added some missing localizations
-  - modding:
+    modding:
     - Added <code>.uribindings</code> asset that can be used to properly migrate your mods in case of rename (see <code>base/base.uridindings</code> as an example)
 
 - version: 0.44
   date: 2019-4-3
   groups:
-  - gameplay:
+    gameplay:
     - Added tier 2 locomotive (based on USRA Light Mikado)
     - Added tier 1 truck (based on GAZ-AA)
     - Enabling cheats now tracked in saves
     - Increased running costs
-  - improvements:
+    improvements:
     - Added possibility to load game from asset editor besides creating new world
     - Added custom texts for some dialogs
     - The game offers to safely reload the game immediately when changing game language
     - Added icons for in-game menu and visibility settings menu
-  - fixes:
+    fixes:
       - Fixed going to game from asset editor creates world with old game settings and seed
 
 - version: 0.43
@@ -327,33 +327,33 @@
   tags: [wipe]
   text: <b>Saves wiped!</b> We added <code>slow</code> beta branch to Steam, which will be updated only on major changes, so you can play without constant fear of wiping your saves (until next major update, ofc).
   groups:
-  - gameplay:
+    gameplay:
     - Added tier 1 wagons for all cargoes
     - Maximum speed of vehicle is now limited by its slowest until
     - Unpowered units now can have maximu-m speed too
     - Reorganized research branch related to vehicles, added some descriptions
-  - improvements:
+    improvements:
     - Current running costs shown as % instead of multiplier in Vehicle Window
     - Locked researches now hidden from Research Picker sidebar
     - Added cheat menu to fill wagons with cargo (useful for testing new capacities)
     - Removed in-game screenshot tool since there's already Steam one
-  - fixes:
+    fixes:
     - Fixed copying a vehicle also copies its cargo
     - Fixed some missing or wrong localizations
-  - modding:
+    modding:
     - We automatically remap old researches, but you probably should check if your content relies on correct researches now
 
 - version: 0.42
   date: 2019-3-31
   text: We enabled automatic detection of graphic API in this build, so if you notice any problems with it, please report.
   groups:
-  - gameplay:
+    gameplay:
     - Added a few new German-based trains
-  - improvements:
+    improvements:
     - Updated Vehicle Window and Buy Vehicle Window to reflect estimated maximum velocity of fully loaded vehicle. Warning will be shown if it's lower than maximum for this vehicle.
     - Add close confirmation to Buy Vehicle Window
     - Slightly optimized pathfinding in some situations
-  - fixes:
+    fixes:
     - Fixed vehicle window can't be closed after vehicle wreckage
     - Fixed highlight of vehicles and stations does not reset on <kbd>Esc</kbd> when picking routes
     - Fixed Z-fighting on OpenGL
@@ -364,47 +364,47 @@
   date: 2019-03-29
   text: Since this build we have native support for macOS and Linux!
   groups:
-  - gameplay:
+    gameplay:
     - Added new low-end steam locomotive by @Alex_BY (based on O)
     - Added new hi-end hydrogen(!) train by @Alex_BY (based on original concept TG HyRT)
     - Removing no more refunds money
     - Removing city buildings costs money
-  - improvements:
+    improvements:
     - 'All bulldozer tools merged into one super tool (hotkey: /)'
     - Hold <kbd>Shift</kbd> to copy vehicles multiple times
     - "Added tooltips explaining why building or road can't be removed"
-  - fixes:
+    fixes:
     - Added some missing sounds when buying and copying vehicles
     - Fixed you can earn unlimited money by trying to remove roads occupied by vehicles
 
 - version: '0.40'
   date: 2019-03-26
   groups:
-  - gameplay:
+    gameplay:
     - Reduced count of simultaneously spawned demands
     - Added new locomotive by @Alex_BY (based on EU07)
-  - improvements:
+    improvements:
     - 'Reworked Overview tab of Research Management window: it now shows what resources are available to labs'
     - Copy any vehicle by picking it from the world or any depot window
     - Suggest readable route names if possible
     - Order of capacities in pickers is preserved between sessions
-  - fixes:
+    fixes:
     - Fixed some missing localizations
 
 - version: 0.39
   date: 2019-03-25
   groups:
-  - gameplay:
+    gameplay:
     - Maximum amount of demands of the same tier per city reduced to 2
     - Added new locomotive by @Alex_BY (based on Class 55)
-  - improvements:
+    improvements:
     - Resource deposits now visible in white mode (new games only)
     - Notifications indicator now properly reflect actual unread count
     - Dismiss all unread messages with right click on notification indicator
     - Autosave timer now resets on game save or load
     - Added dialog for displaying loading errors (hold <kbd>Shift</kbd> to retry loading instead of going back)
     - Added localization for several confirmation dialogs
-  - fixes:
+    fixes:
     - Fixed regression where <code>.heapcapacity</code> and <code>.stackcapacity</code> not rendering for warehouses
     - Fixed an issue where closing depot window while buying vehicle will break the game
     - Fixed region window may show when clicking on buildings or vehicles
@@ -415,7 +415,7 @@
 - version: 0.38
   date: 2019-03-23
   groups:
-  - release notes:
+    release notes:
     - Added research history tab to Research Management window
     - Added one more warning before business will close
     - Tuned how fast demand requirements increase
@@ -431,7 +431,7 @@
   tags: [wipe]
   text: There are some important gameplay changes, so saves are wiped. Please give updated mechanics a try and let us know what you think!
   groups:
-  - release notes:
+    release notes:
     - "Introducing the Depot Window (WIP as usual)! Now bought trains stored inside depots and should be manually released on tracks (disclaimer: you can't put them back yet)"
     - Updated researches to require items where supposed
     - Businesses now may close if not supplied for a long time
@@ -446,7 +446,7 @@
 - version: 0.36
   date: 2019-03-18
   groups:
-  - ui/ux:
+    ui/ux:
     - Tuned research cards appearance at Research Browser
     - Add research progressbar to Research Department window
     - HUD research button now blinks on research completion
@@ -454,56 +454,56 @@
 - version: 0.35
   date: 2019-03-17
   groups:
-  - gameplay:
+    gameplay:
     - Researches now may require items to perform, although assets not properly updated yet (except Manufacturing). .research assets format updated!
     - Researches now consume money and items per research period (1 day by default) instead of doing it immediately
     - Cities now spawn on the same grid, resulting into seamless merge
-  - improvements:
+    improvements:
     - Various improvements in Research Browser
     - Hold <kbd>Shift</kbd> when picking vehicle unit capacity to apply it for all units of the same type
-  - fixes:
+    fixes:
     - Fixed colored dot on demand indicator do not properly invalidate
     - Fixed fake zero prices of some units
     - Fixed freight station has incorrect height
     - Fixed autosave may be triggered while game is still loading
-  - modding:
+    modding:
     - Station height must be specified in <code>.railstation</code> assets
 
 - version: 0.34
   date: 2019-03-14
   groups:
-  - gameplay:
+    gameplay:
     - Volume of demand now can expand and shrink
     - More predictable demand prices fluctuation
 
 - version: 0.33
   date: 2019-03-13
   groups:
-  - ui/ux:
+    ui/ux:
     - Routes ordered by name
     - Show only routes for current vehicle type
     - Mines and vehicles unload to closest warehouses first
     - Swapped increase/decrease tools hotkeys
-  - fixes:
+    fixes:
     - Fixed device sounds ignore volume settings
     - Fixed vehicle window does not update properly while game is on pause
 
 - version: 0.32
   date: 2019-03-12
   groups:
-  - gameplay:
+    gameplay:
     - Added inflation
     - All property (rails, roads etc) now have running costs
     - Added a few new locos and wagons, courtesy of @meinroman and @Alex_BY
-  - ui/ux:
+    ui/ux:
     - Added brand new region window
-  - modding:
+    modding:
     - Added support for relative face indices in OBJ files (3ds Max <i>Relative numbers</i> export flag), suggested by @Alex_BY
 
 - version: 0.31
   date: 2019-03-10
   groups:
-  - release notes:
+    release notes:
     - Selling goods now distributed between all customers that require goods of the same type (thanks @Golden Arrow)
     - Conveyors now cost money
     - 'Wording updates: MAXIMUM/MINIMUM DEMAND -> VERY HIGH/LOW DEMAND, ton -> t'
@@ -511,14 +511,14 @@
 - version: '0.30'
   date: 2019-03-10
   groups:
-  - release notes:
+    release notes:
     - Vehicles pathfinding slightly optimized
     - Added popup with demand information when hovering over demand circle indicator for some time
 
 - version: 0.29
   date: 2019-03-08
   groups:
-  - release notes:
+    release notes:
     - Added dots to demand indicators to indicate demand value
     - Added tooltips that display profit cuts when building stations
     - Ikarus-based bus model reworked
@@ -531,19 +531,19 @@
 - version: 0.28
   date: 2019-03-07
   groups:
-  - gameplay:
+    gameplay:
     - Starting money decreased to $500,000
     - Added new locomotive (based on South Wales 82 class)
     - Added first bus (based on Ikarus), although it has no application yet
     - Deposits capacity increased
-  - ui/ux:
+    ui/ux:
     - City Window localized
     - Save dialog now suggests more meaningful default save names (capital name of current region is used)
     - Removed restrictions on what save names can be
     - Autosave slot have slightly different appearance
     - Autosaves moved to the bottom of Load Window
     - Enabled cycling between 3 autosave slots
-  - fixes:
+    fixes:
     - Fixed regression where some actions at vehicle editor window were broken (reported by @meinroman)
 
 - version: 0.27
@@ -551,13 +551,13 @@
   text: Major gameplay changes!
   tags: [wipe]
   groups:
-  - gameplay:
+    gameplay:
     - Introducing the first iteration of city demands progression
     - Demands now should be properly supplied (not under or over supplied)
     - Higher tier demands now spawn, including crafted items
     - 'Demands now have dynamic prices :dollar:'
     - City window updated to reflect changes
-  - improvements:
+    improvements:
     - Revamped Routes UI
     - Warehouse capacity increased
     - Saves are wiped (oops)
@@ -565,7 +565,7 @@
 - version: 0.26
   date: 2019-03-04
   groups:
-  - release notes:
+    release notes:
     - Please welcome the new City Window (WIP)
     - Introducing Shared Schedules AKA Lines (UI is WIP)
     - Added support for zero-sized vehicle recipe sections
@@ -575,14 +575,14 @@
 - version: 0.25
   date: 2019-03-03
   groups:
-  - release notes:
+    release notes:
     - Alt visibility mode now togglable, no need to hold <kbd>Alt</kbd> key
 
 - version: 0.24
   date: 2019-03-03
   tags: [wipe]
   groups:
-  - release notes:
+    release notes:
     - You can now toggle vehicle units per task. As a result, it's now possible to partially (un)load consists
     - Fixed units with one bogie may explode on spawn (reported by @Golden Arrow)
     - Saves are wiped in preparation to Demands Update
@@ -590,7 +590,7 @@
 - version: 0.23
   date: 2019-03-02
   groups:
-  - release notes:
+    release notes:
     - Added debug setting to visualize vehicle attempts to rebuild path
     - <i>Platform is too short</i> warning indicator with explaining tooltip added to Vehicle Window
     - You can now change company name and color from the game by clicking on the company button in the lower left corner
@@ -600,7 +600,7 @@
 - version: 0.22
   date: 2019-03-01
   groups:
-  - release notes:
+    release notes:
     - Added penalty to loading/unloading speed if train exceeds station length
     - HUD researches button now has progress indicator
     - Plant tool doesn't removing other plants anymore
@@ -608,7 +608,7 @@
 - version: 0.21
   date: 2019-02-28
   groups:
-  - release notes:
+    release notes:
     - Fixed chain signals do not repeat yellow signal
     - Fixed trains freezing reported by @meinroman
     - U-turns at intersections disabled by default (can be enabled back in settings)
@@ -616,13 +616,13 @@
 - version: '0.20'
   date: 2019-02-27
   groups:
-  - release notes:
+    release notes:
     - Chain signals fixed
 
 - version: 0.19
   date: 2019-02-26
   groups:
-  - release notes:
+    release notes:
     - Added connection range visualization for stations, minesб and warehouses. Stations also have range of sell visualization.
     - Added trees generation on wood resource deposits (still WIP)
     - Fixed missing station length hint regression
@@ -636,19 +636,19 @@
   tags: [wipe]
   text: Major gameplay changes incoming! Please give it a try and let us know what you think.
   groups:
-  - terminals update:
+    terminals update:
     - Terminals are terminated! All buildings in range now connect automatically
     - Therefore, saves are terminated too
     - Sell and unload tasks are merged; vehicle will unload to storages in range, and sell to customers in range
     - Tools for buildings now have consisting behavior
     - You can use <kbd>Shift</kbd> to build multiple instances of all buildings
     - Please note that UI for new system is WIP
-  - improvements:
+    improvements:
     - Made labels semitransparent and non-interactive while tools are active
     - Increased item prices
     - Demand indicators are now shown on mouse hover
     - Research window now opens on research completed notification click
-  - fixes:
+    fixes:
     - Fixed you can't zoom though labels
     - Fixed some typos
     - Increased item prices
@@ -659,7 +659,7 @@
 - version: 0.17
   date: 2019-02-16
   groups:
-  - release notes:
+    release notes:
     - You should build labs to do research
     - Researching now takes time
     - Labels (such as city or terminal ones) are clickable now
@@ -673,14 +673,14 @@
 - version: 0.16
   date: 2019-02-11
   groups:
-  - release notes:
+    release notes:
     - Added support for custom station name suffixes to .names asset
     - Increased trucks weight and capacities
 
 - version: 0.15
   date: 2019-02-11
   groups:
-  - release notes:
+    release notes:
     - You can now research new tech in updated Researches window (instantly and for money only yet)
     - Added cheat buttons to Researches window to lock and unlock all the researches (useful for old saves)
     - Added window to setup a new game. Only few options available yet (like company color), with more to come
@@ -690,7 +690,7 @@
 - version: 0.14
   date: 2019-02-09
   groups:
-  - release notes:
+    release notes:
     - Added notification log with unread count indicator when collapsed
     - Added notification sound
     - Added new window to explore the tech tree consisting from 60 researches (still WIP)
@@ -702,14 +702,14 @@
 - version: 0.13
   date: 2019-02-04
   groups:
-  - release notes:
+    release notes:
     - Fixed cities in locked regions grow on region unlock
     - Fixed resize controls at rail station builder tool were time scale dependent
 
 - version: 0.12
   date: 2019-02-04
   groups:
-  - release notes:
+    release notes:
     - 'Added UI notifications for some in-game events: vehicle wreckage, new demands spawn, lost vehicles and vehicles missing power (event log is coming)'
     - Added resource-specific mines (with old graphics yet). Saves might be corrupted.
     - Warehouses moved into its own submenu
@@ -718,13 +718,13 @@
 - version: 0.11
   date: 2019-02-02
   groups:
-  - release notes:
+    release notes:
     - Fixed <kbd>WASD</kbd>  controls not working when the game is paused
 
 - version: '0.10'
   date: 2019-02-02
   groups:
-  - release notes:
+    release notes:
     - Use <kbd>WASD</kbd> to move camera, <kbd>Ctrl</kbd>+<kbd>WASD</kbd> to rotate, <kbd>QE</kbd> to zoom
     - Remapped other hotkeys
     - Few more minor fixes
@@ -734,7 +734,7 @@
   date: 2019-02-01
   tags: [wipe]
   groups:
-  - release notes:
+    release notes:
     - <b>Important:</b> All saves are wiped due to major infrastructural changes
     - Added label colors for all items
     - Added some missing localizations
@@ -751,7 +751,7 @@
   date: 2019-01-29
   tags: [wipe]
   groups:
-  - release notes:
+    release notes:
     - <b>Important:</b> <code>*.capacity</code>, <code>*.heapcapacity</code>, and <code>*.stackcapacity</code> assets replaced with brand new <code>*.capacities</code>,  <code>*.heapcapacities</code> and <code>*.stackcapacities</code> assets for better usability
     - Added optional automatic capacity calculating basing on MaxWeight property
     - <b>Important:</b> All saves are wiped (blame @Alego22)
@@ -772,7 +772,7 @@
 - version: 0.7
   date: 2019-01-28
   groups:
-  - release notes:
+    release notes:
     - Added localizable description for vehicle units and recipes (requested by @TransCanadaLimited)
     - Added red tint to rail electrification tool on de-electrification
     - Added custom rails support to *.railstation asset
@@ -787,7 +787,7 @@
 - version: 0.6
   date: 2019-01-27
   groups:
-  - release notes:
+    release notes:
     - Added support for custom rail assets (press Q to toggle between them) requested by @meinroman
     - Added some missing UI sounds here and there
     - Added hotkeys information for the most of the tools
@@ -806,7 +806,7 @@
 - version: 0.5
   date: 2019-01-27
   groups:
-  - release notes:
+    release notes:
     - Fixed game may start from not the first day of the year
     - Added build version to settings window at the bottom of Game tab
     - Fixed some issues related to building outside of unlocked regions
@@ -821,7 +821,7 @@
   date: 2019-01-25
   text: <b>Caution:</b> If you changed some settings on Misc tab please delete <code>%appdata%/../locallow/voxeltycoon/voxeltycoon/DebugSettings.json</code> before running the game.
   groups:
-  - release notes:
+    release notes:
     - Fixed save loading issues reported by @Felix
     - Fixed save loading issues reported by @Alego22
     - Attempted to minimize memory leaks on multiple save-load operations
@@ -839,14 +839,14 @@
 - version: 0.3
   date: 2019-01-24
   groups:
-  - release notes:
+    release notes:
     - Fixed memory leak related to the White Mode
     - Trucks now automatically turn around in depots
 
 - version: 0.2
   date: 2019-01-24
   groups:
-  - release notes:
+    release notes:
     - Fixed some animations stopped working (for example on mines and vehicles)
     - Fixed edge scroll keep working when the game is not focused
     - Restricted building outside of unlocked regions
@@ -859,5 +859,5 @@
 - version: 0.1
   date: 2019-01-24
   groups:
-  - release notes:
+    release notes:
     - Start of closed pre-alpha testing program
