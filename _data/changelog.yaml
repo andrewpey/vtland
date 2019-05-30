@@ -410,16 +410,13 @@
   date: 2019-3-31
   text: We enabled automatic detection of graphic API in this build, so if you notice any problems with it, please report.
   groups:
-  - name: gameplay
-    items:
+  - gameplay:
     - Added a few new German-based trains
-  - name: improvements
-    items:
+  - improvements:
     - Updated Vehicle Window and Buy Vehicle Window to reflect estimated maximum velocity of fully loaded vehicle. Warning will be shown if it's lower than maximum for this vehicle.
     - Add close confirmation to Buy Vehicle Window
     - Slightly optimized pathfinding in some situations
-  - name: fixes
-    items:
+  - fixes:
     - Fixed vehicle window can't be closed after vehicle wreckage
     - Fixed highlight of vehicles and stations does not reset on <kbd>Esc</kbd> when picking routes
     - Fixed Z-fighting on OpenGL

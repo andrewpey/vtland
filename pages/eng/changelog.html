@@ -25,16 +25,26 @@ theme: 18182d
             <p class="text">{{ item.text }}</p>
         {% endif %}
         {% for group in item.groups %}
-            {% assign groupClass = group.name | slugify: 'latin' %}
+            {% if group.name %}
+                {% assign groupName = group.name %}
+                {% assign groupItems =  group.items %}        
+            {% else %}
+                {% for group_hash in group %}
+                    {% assign groupName = group_hash[0] %}
+                    {% assign groupItems =  group_hash[1] %}
+                {% endfor %}
+            {% endif %}
+        
+            {% assign groupClass = groupName | slugify: 'latin' %}
             {% capture color %}#{{ hex }}{% endcapture %}
             <p class="group-header {{ groupClass }}"
                 {% if group.color %}
                 {% capture color %}#{{ group.color }}{% endcapture %}
                 style="color: {{ color }}"
                 {% endif %}
-            >{{ group.name }}</p>
+            >{{ groupName }}</p>
             <ul class="log-items">
-                {% for logitem in group.items %}
+                {% for logitem in groupItems %}
                     <li class="log-item">
                         <div>
                             {% if logitem.issue %}
