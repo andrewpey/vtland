@@ -447,7 +447,7 @@
     - New routes can be copied from existing ones
     - Default rail station length increased to 100m
     - Tuned notification button appearance
-    - Hide all UI on F1
+    - Hide all UI on <kbd>F1</kbd>
     - Planting and removing trees costs money
   
 - version: 0.37
