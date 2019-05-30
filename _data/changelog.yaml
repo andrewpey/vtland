@@ -579,7 +579,7 @@
     - Introducing the first iteration of city demands progression
     - Demands now should be properly supplied (not under or over supplied)
     - Higher tier demands now spawn, including crafted items
-    - Demands now have dynamic prices :dollar: 
+    - 'Demands now have dynamic prices :dollar:'
     - City window updated to reflect changes
   - improvements:
     - Revamped Routes UI
