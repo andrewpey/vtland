@@ -1,3 +1,16 @@
+- version: 0.62
+  date: 2019-5-31
+  groups:
+    gameplay:
+    - Added new notification when business was successfully saved from bankruptcy
+    - Made TG HYRT explosive (since it hydrogen)
+    fixes:
+    - Fixed missing text on Fund Business button on non-100% UI scale
+    - Fixed game may stuck if demand building was removed while station builder tool is active
+    - Fixed game stuck in Ride Your Vehicle™ mode if a wrecked vehicle was removed while player riding it
+    - Fixed any unit with <i>Tank</i> in name explodes on collision
+    modding:
+    - Added <code>Explosive</code> and <code>ExplosionForce</code> properties to <code>.*unit</code> and <code>.*capacities</code> assets to control if and how explosive cargo or unit is
 - version: 0.61
   date: 2019-5-29
   groups:
