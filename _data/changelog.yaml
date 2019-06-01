@@ -2,7 +2,7 @@
   date: 2019-6-1
   groups:
     gameplay:
-    - Added experimental <b>Free Camera</b> which also features WIP animation functionality, toggled with <kbd>F10</kbd>
+    - Added experimental <b>Free Camera</b> which also features WIP animation functionality, toggle with <kbd>F10</kbd>
     improvements:
     - A new way to collect unused memory that should result in a smoother frame rate
     - Better performance when building rails and huge stations
