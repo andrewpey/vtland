@@ -1,3 +1,14 @@
+- version: 0.63
+  date: 2019-6-1
+  groups:
+    gameplay:
+    - Added experimental <b>Free Camera</b> which also features WIP animation functionality, toggled with <kbd>F10</kbd>
+    improvements:
+    - A new way to collect unused memory that should result in a smoother frame rate
+    - Better performance when building rails and huge stations
+    fixes:
+    - Fixed missing scrollbar at Research Department window
+
 - version: 0.62
   date: 2019-5-31
   groups:
