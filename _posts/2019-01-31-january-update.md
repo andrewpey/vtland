@@ -15,6 +15,8 @@ These are completely untested builds of the game, filled with issues and very li
 
 As a result, we've uncovered lots of things to update, fix and improve. We push at least one new build almost every day to our testers.
 
+> **UPDATE 1 JUN 2019:** You can read info about each game update and changes on the [special secret page](/changelog).
+
 {% include img.html src="/assets/january-update/20190130-205749.png" alt="Sneak peak of build changelogs" %}
 
 There really is a lot of work we still have to do, but once we're done with pre-alpha, we're going to start the next wave of full alpha tests. If you're interested, stay tuned — we'll announce that officially a bit later!
