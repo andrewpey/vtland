@@ -1,3 +1,28 @@
+- version: 0.64
+  date: 2019-6-6
+  text: In this update, we've reworked rail, road, and conveyors laying tools. This should fix a lot of issues, but if you notice some new ones, please let us know via the issue tracker.
+  groups:
+    gameplay:
+    - Added HUD button to toggle Free Camera mode
+    - Added simple UI for Free Camera animation editor
+    improvements:
+    - Paused state is now restored on game load
+    fixes:
+    - text: Fixed conveyor placement near devices is sketchy
+      issue: 16
+    - text: Fixed editing a road segment will wreck any vehicles present on it
+      issue: 15
+    - text: Fixed conveyors can be build inside each other
+      issue: 14
+    - text: Fixed road bulldozing all over the place
+      issue: 13
+    - text: Fixed wrong conveyor connector side connect
+      issue: 10
+    - text: Fixed conveyor belt can be connected from above
+      issue: 4
+    - text: Fixed elevated rail not considered when collision checking
+      issue: 1
+
 - version: 0.63
   date: 2019-6-1
   groups:
