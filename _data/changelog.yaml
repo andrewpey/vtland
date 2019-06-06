@@ -6,6 +6,7 @@
     - Added HUD button to toggle Free Camera mode
     - Added simple UI for Free Camera animation editor
     improvements:
+    - Double-click to complete tracks building
     - Paused state is now restored on game load
     fixes:
     - text: Fixed conveyor placement near devices is sketchy
