@@ -1,0 +1,72 @@
+---
+---
+@import "standart";
+
+@keyframes countdown-colorchange
+{
+  0% { color: #ff4444;}
+  12% { color: #ec44ff;}
+  25% { color: #7444ff;}
+  37% { color: #44c1ff;}
+  50% { color: #44ff4b;}
+  62% { color: #beff44;}
+  87% { color: #fffb44;}
+  100% { color: #ff4444;}
+}
+
+.background-video {
+    background: #18182d;
+    .video-foreground {
+        opacity: 0;
+    }
+}
+
+.page-content {
+    text-shadow: none;
+    .countdown {
+        text-align: center;
+        p {
+            font-family: 'Roboto';
+            font-size: 1.4rem;
+            padding: 0.4rem 0;
+            color: #7653b9;
+        }
+        p.header {
+            font-size: 3rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        p.sub-header {
+            font-size: 1.5rem;
+            opacity: 0.5;
+        }
+        p.sub-sub-header {
+            font-size: 1rem;
+            opacity: 0.5;
+        }
+        #countdown-text {
+            font-size: 5rem;
+            animation: countdown-colorchange 30s;
+            animation-iteration-count: infinite;
+        }
+        & a {
+            text-decoration: none;
+            padding-bottom: 0px;
+            border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+            &:hover {
+                text-decoration: none;
+                padding-bottom: 0px;
+                border-bottom: 2px solid #ffffff;
+            }
+        }
+        & a.clear, a.clear:hover{
+            border: none;
+        }
+        & br.mobile {
+            display: none;
+            @include mobile {
+                display: block;
+            }
+        }
+    }
+}

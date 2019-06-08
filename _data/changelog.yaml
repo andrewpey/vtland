@@ -1,3 +1,11 @@
+---
+layout: post
+style: changelog
+title: Changelog
+permalink: changelog
+theme: 18182d
+---
+
 - version: 0.65
   date: 2019-6-8
   groups:
