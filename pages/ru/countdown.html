@@ -1,0 +1,53 @@
+---
+style: countdown
+permalink: countdown_ru
+theme: 18182d
+---
+
+{% include head.html %}
+
+
+<div class="page-content">
+    
+    <div class="countdown">
+
+        <img style="width: 123px; opacity: 1" src="/assets/outlined-33-shadow.png"/>
+
+        <p class="header">Свершилось!</p>
+
+        <p class="sub-header">Анонс даты начала публичного пре-альфа тестирования через:</p>
+
+        <p id="countdown-text"></p>
+
+        <p class="sub-sub-header">* Вам не показалось, это анонс даты анонса даты</p>
+
+    </div>
+</div>
+
+{% include footer.html %}
+
+<script>
+var countDownDate = Date.parse("Jun 15, 2019 19:00:00 GMT");
+
+var updateCountdown = function() {
+  var now = new Date().getTime();
+  var distance = countDownDate - now;
+
+  distance = Math.max(0, distance);
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("countdown-text").innerHTML = `${days}д ${hours}ч ${minutes}м ${seconds}с`;
+
+//   if (distance < 0) {
+//     clearInterval(x);
+//     document.getElementById("demo").innerHTML = "SOON™";
+//   }
+}
+
+updateCountdown();
+var x = setInterval(updateCountdown, 1000);
+</script>
