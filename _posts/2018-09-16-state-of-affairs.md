@@ -4,7 +4,6 @@ style: post
 title: The Voxel Tycoon State of Affairs
 category: devlog
 redirect_from:
-    - "/when"
     - "2018/09/16/state-of-affairs"
 ---
 
