@@ -42,10 +42,13 @@ var updateCountdown = function() {
 
   document.getElementById("countdown-text").innerHTML = `${days}д ${hours}ч ${minutes}м ${seconds}с`;
 
-//   if (distance < 0) {
-//     clearInterval(x);
-//     document.getElementById("demo").innerHTML = "SOON™";
-//   }
+  if (distance == 0) {
+    clearInterval(x);
+    document.getElementById("countdown-text").innerHTML = "SOON™";
+    setInterval(function() {
+      window.location.replace("/when_ru");
+    }, 1000);
+  }
 }
 
 updateCountdown();
