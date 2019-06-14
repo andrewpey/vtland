@@ -42,10 +42,10 @@ var updateCountdown = function() {
 
   document.getElementById("countdown-text").innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 
-//   if (distance < 0) {
-//     clearInterval(x);
-//     document.getElementById("demo").innerHTML = "SOON™";
-//   }
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("countdown-text").innerHTML = "SOON™";
+  }
 }
 
 updateCountdown();
