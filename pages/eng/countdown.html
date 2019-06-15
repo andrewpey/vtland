@@ -46,11 +46,11 @@ var updateCountdown = function() {
     clearInterval(x);
     document.getElementById("countdown-text").innerHTML = "SOON™";
     setInterval(function() {
-      window.location.replace("/when");
+      window.location.replace("/soon");
     }, 1000);
   }
 }
 
 updateCountdown();
-var x = setInterval(updateCountdown, 1000);
+var x = setInterval(updateCountdown, 1500);
 </script>
