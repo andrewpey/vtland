@@ -1,3 +1,22 @@
+- version: 0.66
+  date: 2019-6-16
+  groups:
+    gameplay:
+    - Added 2 road bridges
+    - Added conveyor bridge
+    - Rail, road, and conveyor bridge building reworked and integrated into usual track laying experience
+    - Building bridges now costs money
+    - Next-tier bridges now should be unlocked by research
+    - Rail electrification now should be unlocked by research
+    - Passenger vehicles temporary hidden
+    improvements:
+    - Added brand new social networks panel at the main menu
+    fixes:
+    - Fixed you can't do free removals if you have negative money balance
+    - Fixed game loading error reporting dialog rendered with wrong corners
+    modding:
+    - Dramatically increased maximum amount of <code>.obj</code> assets that can be loaded in game
+
 - version: 0.65
   date: 2019-6-8
   groups:
