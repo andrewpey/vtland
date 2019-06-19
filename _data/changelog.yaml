@@ -1,3 +1,23 @@
+- version: 0.67
+  date: 2019-6-19
+  groups:
+    gameplay:
+    - Rail, road, and conveyor tunnel building reworked and integrated into usual track laying experience
+    - Added road and conveyor tunnels, in addition to rail one
+    - Building tunnels now costs money
+    - Added separate research for freight cars
+    - Rails II and Rails III researches now require stone instead of gravel
+    - Increased costs of roads, rails, and conveyor building
+    - Increased cost of building mines
+    - Increased vehicle running costs
+    improvements:
+    - Added missing second-level toolbar icons
+    - Conveyor related tools moved to separate first-level toolbar button
+    - Localized social networks panel
+    fixes:
+    - Fixed meshes with some of UVs set exactly to <code>1.0</code> failed to load or loaded incorrectly
+    - Fixed social networks panel doesn't get hidden when going to credits
+
 - version: 0.66
   date: 2019-6-16
   groups:
