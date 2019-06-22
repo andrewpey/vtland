@@ -1,3 +1,17 @@
+- version: 0.68
+  date: 2019-6-19
+  groups:
+    gameplay:
+    - Added more diversity to demand prices
+    - 2x increase of loan interest
+    - Inflation slightly increased
+    - Locomotive prices slightly decreased
+    - Vehicle running costs increased
+    - Mines, depots, stations, and devices prices increased
+    fixes:
+    - Fixed issues with bridges removal
+    - Fixed an issue where running costs not applied after game load
+
 - version: 0.67
   date: 2019-6-19
   groups:
