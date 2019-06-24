@@ -1,3 +1,15 @@
+- version: 0.69
+  date: 2019-6-24
+  groups:
+    gameplay:
+    - Greatly simplified research organization and progression
+    - Vehicles can be renamed now
+    improvements:
+    - Moved cargo filter at vehicle unit picker window from sidebar to window top to make it more noticable
+    - Added tooltip that shows full list of capacities when you hover mouse above shortened capacities list at vehicle unit picker
+    fixes:
+    - Fixed profit popups visible in Ride Your Vehicle™ mode
+
 - version: 0.68
   date: 2019-6-19
   groups:
