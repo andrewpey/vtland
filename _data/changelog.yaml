@@ -1,3 +1,14 @@
+- version: '0.71'
+  date: 2019-6-26
+  groups:
+    gameplay:
+    - Vehicle stations can be renamed now
+    - Base demand prices slightly increased
+    - Added German cities and names
+    - German localization is hidden by default since it not properly tested yet
+    modding:
+    - Added <code>Hidden</code> property for <code>.locale</code> assets
+
 - version: '0.70'
   date: 2019-6-25
   groups:
