@@ -25,8 +25,6 @@
 
 [Roadmap](https://trello.com/b/3susroHe/vt-roadmap){:.sidebar-menu__item}
 
-[FAQ](/faq){:.faqlink .sidebar-menu__item}
-
 [SDK + Demo Scene](/sdk){:.sdk .sidebar-menu__item}
 
 [Railroad to Hell <span style="color:red">3</span>](/railroad-to-hell){:.sidebar-menu__item}
