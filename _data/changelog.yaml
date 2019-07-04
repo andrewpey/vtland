@@ -1,3 +1,37 @@
+- version: '0.72'
+  date: 2019-7-4
+  groups:
+    gameplay:
+    - Added various difficulty settings to make the life a bit easier for you (or harder)
+    - Previous level of difficulty can be obtained by playing on <b>Hard</b>
+    - Added refunds for demolishing your buildings
+    - Manufacturing research is now locked by default in a new game
+    - Conveyor price and maintenance costs increased
+    - You can no longer demolish businesses
+    - Added Czech, French, Dutch, Polish, Portuguese languages (experimental)
+    improvements:
+    - Conveyor connectors moved into its own toolbar button
+    - Added confirmation when you trying to demolish important buildings or structures
+    - Improved game performance on 4x-8x speed
+    - Maximum UI scale values raised up to 200%
+    - Disabled Numpad keys by default
+    - Game now always asks if you really want to quit to desktop from the in-game menu
+    - Pause toggle now more responsible
+    - Added green fill to Research Management button to indicate research progress
+    - Added confirmation when going to Asset Editor from the in-game menu
+    - Driver and Engineer now have separate localizations
+    - Add orange company color
+    - You can see the percent of localization completeness for experimental languages
+    fixes:
+    - Fixed game may stuck when changing vehicle destination
+    - Fixed you can sell to businesses after they were bankrupt
+    - Fixed save/load window fails to show if one of save metadata files was corrupted
+    - Occupied vehicle station or depot can't be removed anymore
+    - Rail depot now disallows inside signal placing
+    - Fixed some text may disappear on non-100% UI scale values
+    - Fixed signal prices weren't affected by inflation
+    - Fixed missing display name for German city names
+
 - version: '0.71'
   date: 2019-6-26
   groups:
