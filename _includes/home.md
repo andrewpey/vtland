@@ -2,7 +2,7 @@ We are developing <span class="title">Voxel Tycoon</span> — a strategy game ab
 
 <!-- <iframe class="widget-youtube" src="https://www.youtube.com/embed/Ngo9-fsT4P4" frameborder="0" allowfullscreen></iframe> -->
 
-<iframe frameborder="0" src="https://itch.io/embed/434404?linkback=true&amp;border_width=0&amp;bg_color=32A094&amp;fg_color=ffffff&amp;link_color=20ff92&amp;border_color=4bb9ad" width="550" height="165"></iframe>
+<iframe frameborder="0" src="https://itch.io/embed/434404?linkback=true&amp;border_width=0&amp;bg_color=32A094&amp;fg_color=ffffff&amp;link_color=20ff92&amp;border_color=4bb9ad" class="widget-itchio"></iframe>
  <!-- <iframe class="widget-itchio" frameborder="0" src="https://itch.io/embed/434404?linkback=true&amp;border_width=1&amp;bg_color=16372e&amp;fg_color=ffffff&amp;link_color=de9a07&amp;border_color=164237"></iframe>  -->
 
 <!-- **Try a little glimpse of the game world, atmosphere, and modding with [SDK](/sdk){:.sdk} (demo scene included)!**
