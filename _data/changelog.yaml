@@ -1,3 +1,36 @@
+- version: '0.73'
+  date: 2019-7-11
+  groups:
+    gameplay:
+    - Added Pro Tips! You can access them by clicking the new button in the top right corner. They are also shown on loading screens
+    - Added indicators for signals that show the direction (one-way, two way) of the track and the current state of the signal
+    - Added signal builder tool window where you can visually pick which type of signal to build
+    - Added Português-Brasil and Turkish languages
+    - Added UAH, KZT currencies
+    - Added Ukraine city names
+    improvements:
+    - 'Updated picker of units to which load/unload task should apply: now it shows all units including locomotives and indexes of units'
+    - Route and unit pickers now scrollable if they do not fit the screen
+    - Added option to rename route (you can find under the three dots button in vehicle window while there's no route management window yet)
+    - Added setting to disable edge pan
+    - Added setting to enable Ambient Occlusion (experimental)
+    - Added setting to disable cloud shadows (useful when recording GIFs)
+    - Added setting to invert scrolling and zoom direction
+    - Conveyor mesh slightly simplified
+    fixes:
+    - Fixed rare "Null reference" error preventing loading saved games
+    - Fixed signals inside truss bridges or tunnels can't be removed
+    - Fixed poles not placed on bridges when electrifying rails
+    - Fixed vehicle reconfigure window shows an incorrect vehicle name
+    - Fixed money text can disappear on non-100% UI scales
+    - Conveyor buffer removed as outdated and will be replaced with proper conveyor devices in the future
+    - Fixed dialogs and opened windows sometimes may spawn not in front but behind other windows
+    - Fixed huge explosions can break things (<i>Black Column</i> case)
+    modding:
+    - Signals now have Display Names
+    - Signals now may be unlocked by research
+    - WireHeight property is now working
+
 - version: '0.72'
   date: 2019-7-4
   groups:
