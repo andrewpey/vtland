@@ -18,7 +18,7 @@
     - Added setting to invert scrolling and zoom direction
     - Conveyor mesh slightly simplified
     fixes:
-    - Fixed rare "Null reference" error preventing loading saved games
+    - Fixed rare "Object reference not set..." error preventing loading saved games
     - Fixed signals inside truss bridges or tunnels can't be removed
     - Fixed poles not placed on bridges when electrifying rails
     - Fixed vehicle reconfigure window shows an incorrect vehicle name
