@@ -1,3 +1,28 @@
+- version: '0.74'
+  date: 2019-7-19
+  groups:
+    gameplay:
+    - 'New task type added: you can now refit vehicles on stations to transport different cargo types with one vehicle'
+    - Added Spanish language
+    - Added Czech, Spanish, Italian, Turkish, and Argentinas city names
+    - Added TRY and ARS currencies
+    improvements:
+    - Last chosen company name and color now preserved in new game window
+    - Added option to enable playing game audio when the game is in background
+    - Added Discord Rich Presence support
+    - Added option to turn off landscape shadows separately from global shadows
+    - Minor conveyor rendering performance improvement
+    - Minor loading time decrease on slow hard drives
+    fixes:
+    - Fixed weird road overlapping on intersections
+    - Fixed vehicles may start loading cargo before reaching a destination if this destination was changed by player
+    - Fixed cities trying to build disconnected roads
+    - Fixed vehicles keep produce sounds on pause
+    - Fixed game assets may become corrupted if the game was closed during loading
+    modding:
+    - Asymmetrical tunnels now supported
+    - Added support for CSV localization assets
+
 - version: '0.73'
   date: 2019-7-11
   groups:
