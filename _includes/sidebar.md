@@ -25,6 +25,8 @@
 
 [Devlog](/devlog){:.sidebar-menu__item}
 
+[Wiki](https://voxeltycoon.gamepedia.com){:.wiki .sidebar-menu__item}
+
 <!-- [Roadmap](https://trello.com/b/3susroHe/vt-roadmap){:.sidebar-menu__item} -->
 
 [SDK + Demo Scene](/sdk){:.sdk .sidebar-menu__item}
