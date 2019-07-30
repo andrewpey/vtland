@@ -45,7 +45,7 @@
 
 [Reddit](//reddit.com/r/voxeltycoon){:.reddit .sidebar-menu__item} <small>{{site.data.socials.rd}} </small>
 
-[Discord](//discord.gg/64KPWd5){:.discord .sidebar-menu__item} <small>{{site.data.socials.dd}} </small>
+[Discord](//discord.gg/voxeltycoon){:.discord .sidebar-menu__item} <small>{{site.data.socials.dd}} </small>
 
 [Email](mailto:dev@voxeltycoon.xyz){:.email .sidebar-menu__item}
 
