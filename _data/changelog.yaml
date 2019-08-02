@@ -1,3 +1,35 @@
+- version: '0.75'
+  date: 2019-8-2
+  text: In this update, we have significantly optimized the pathfinding system. Beside performance gain, this should fix annoying issues where vehicles randomly get lost without obvious reasons. If you notice something odd with how vehicles behave now please let us know!
+  groups:
+    gameplay:
+    - Added brand new Station Window where you can see businesses and buildings in range, as well as vehicles arriving there
+    - Refit duration now depends on the number of wagons to refit
+    - Refit duration increases if a vehicle is significantly longer than the station platform
+    - Added the Italian, Korean, and Serbian languages
+    - Added the KRW and RSD currencies
+    - Added Polish city names
+    improvements:
+    - Up to 40x faster pathfinding compared to the previous version of the game
+    - Trucks now dynamically recalculate their path to better avoid traffic jams
+    - Reduced CPU usage while the game is paused
+    - Demand indicators now clickable
+    - Windows can be closed with a middle mouse button click
+    - UI scale is now autodetected based on screen DPI
+    - Added icon to Pro Tip window
+    - Capacity picker is no more shown when clicking on mines and sawmills
+    fixes:
+    - Removed mistery signals that could be found underground or underwater
+    - Fixed buildings can be removed in locked regions
+    - Fixed regression where go to depot task not showing progress
+    - Fixed vehicles names can hide reconfigure button in the depot window
+    - Fixed notification dates disappear on non-100% UI scale
+    - Fixed configure vehicle window stays open if a vehicle was sold
+    - Fixed rare internal error on city grow
+    - Fixed vehicle unit picker placeholder missing localization
+    modding:
+    - Stations can be unlocked by research
+
 - version: '0.74'
   date: 2019-7-19
   groups:
