@@ -5,7 +5,7 @@
     gameplay:
     - Vehicle stations can be replaced after removing while preserving existing schedules
     - New Turn Around task can be added to the schedule to force the train to turn around on station instead of moving forward and take a longer path
-    - Added Japanise, Chinese, and Bulgarian languages
+    - Added Japanese, Chinese, and Bulgarian languages
     - Added Japanese (Romaji) and Bulgarian city names
     - Added CNY and BGN currencies
     improvements:
