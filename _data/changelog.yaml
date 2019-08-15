@@ -1,3 +1,26 @@
+- version: '0.76'
+  date: 2019-8-15
+  text:
+  groups:
+    gameplay:
+    - Vehicle stations can be replaced after removing while preserving existing schedules
+    - New Turn Around task can be added to the schedule to force the train to turn around on station instead of moving forward and take a longer path
+    - Added Japanise, Chinese, and Bulgarian languages
+    - Added Japanese (Romaji) and Bulgarian city names
+    - Added CNY and BGN currencies
+    improvements:
+    - Added option to choose the colorblind friendly color scheme
+    - Added option to disable lowering music on pause
+    - When clicking on a vehicle in the station window it will be automatically followed
+    fixes:
+    - Fixed unexpected error while replacing trucks and trains in the depot
+    - Fixed highlight error when picking routes under certain circumstances
+    - Fixed vehicle can't be sent to a depot on pause
+    - Fixed an error can block all vehicles from moving in some cases
+    - Fixed camera can't focus objects while following vehicles
+    modding:
+    - Added <code>.theme</code> asset to allow theming of some game colors (more colors will be added later)
+
 - version: '0.75'
   date: 2019-8-2
   text: In this update, we have significantly optimized the pathfinding system. Beside performance gain, this should fix annoying issues where vehicles randomly get lost without obvious reasons. If you notice something odd with how vehicles behave now please let us know!
