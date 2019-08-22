@@ -6,6 +6,8 @@ header: SDK
 permalink: sdk
 ---
 
+> This SDK version is pretty obsolete. You should use the one bundled with the game to produce valid mods.
+
 ## What is it?
 
 This is a stripped version of the game that contains tools allowing you to customize, preview, and test any 3rd-party content in the actual game's environment.

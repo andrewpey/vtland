@@ -7,7 +7,7 @@ redirect_from:
     - /sdk_ru
 ---
 
-> This is legacy SDK page. The actual one can be found [here](/sdk).
+> Это устаревшая версия SDK.
 
 ## Что это?
 

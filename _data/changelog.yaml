@@ -42,7 +42,7 @@
     - Added icon to Pro Tip window
     - Capacity picker is no more shown when clicking on mines and sawmills
     fixes:
-    - Removed mistery signals that could be found underground or underwater
+    - Removed mystical signals that could be found underground or underwater
     - Fixed buildings can be removed in locked regions
     - Fixed regression where progress ring not shown when a vehicle is moving to depot
     - Fixed long vehicle names can hide reconfigure button in the depot window
