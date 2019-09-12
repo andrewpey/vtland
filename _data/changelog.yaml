@@ -1,6 +1,29 @@
+- version: '0.77'
+  date: 2019-9-12
+  text: Due to significant internal changes in preparation for passenger transportation, this build may contain more bugs than usual. Please report any occasion to us!
+  groups:
+    gameplay:
+    - Added more new game settings allowing to set up some properties of world generation, like regions size or terrain flatness
+    - Congratulations window added with some stats that are shown when the final research is completed
+    improvements:
+    - Coal and iron mines placeholder models replaced with unique appearances
+    - Deposits now visually depleting (new games only)
+    - Labels of completely depleted deposits now disappear (new games only)
+    - You can now choose what mods will be enabled when starting a new game
+    - The game now tracks list of mods per save and shows an informative message if some of the mods are missing
+    fixes:
+    - Fixed detached indicators flying around
+    - Fixed error when sending a vehicle to the depot after the game was loaded on pause
+    - Fixed demand window opens on the right click
+    modding:
+    - Added possibility to modify other mod assets (including base game) with the brand new <code>.patch</code> asset (<a href="https://github.com/voxeltycoon/docs/wiki/.patch-asset">documentation</a>)
+    - <code>pack.json</code> is now mandatory for a mod to appear in-game
+    localization:
+    - Added Thai and Slovak languages
+    - Added THB currency
+
 - version: '0.76'
   date: 2019-8-15
-  text:
   groups:
     gameplay:
     - Vehicle stations can be replaced after removing while preserving existing schedules
