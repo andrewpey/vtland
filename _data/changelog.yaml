@@ -18,6 +18,7 @@
     modding:
     - Added possibility to modify other mod assets (including base game) with the brand new <code>.patch</code> asset (<a href="https://github.com/voxeltycoon/docs/wiki/.patch-asset">documentation</a>)
     - <code>pack.json</code> is now mandatory for a mod to appear in-game
+    - Added <code>Goal</code> property to <code>.research</code> asset indicating that congratulations window should be triggered
     localization:
     - Added Thai and Slovak languages
     - Added THB currency
