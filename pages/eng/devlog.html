@@ -13,7 +13,8 @@ permalink: devlog
         <p><a href="{{ item.url }}">{{ item.title }}</a><br class="mobile"> <date>{{ item.date | date_to_long_string }}</date></p>
         {% else %}
         <p><a href="/changelog#{{ item.version }}">
-            v{{ item.version }} is available!
+            {% assign title = site.new_version_available_texts | sample %}
+            {{ title | replace: "$1", item.version }}
         </a><br class="mobile"> <date>{{ item.date | date_to_long_string }}</date></p>
         {% endif %}
     {% endunless %}

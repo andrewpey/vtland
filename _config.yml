@@ -17,3 +17,8 @@ js: { integrity: true }
 sass:
   style: compressed
   sass_dir: _sass
+
+new_version_available_texts:
+  - "v$1 has arrived!"
+  - "v$1 is available!"
+  - "v$1 is here!"
