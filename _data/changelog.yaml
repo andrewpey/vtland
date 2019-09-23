@@ -1,5 +1,5 @@
 - version: '0.77'
-  date: 2019-9-12
+  date: 2019-9-12 00:00:00 +0300
   text: Due to significant internal changes in preparation for passenger transportation, this build may contain more bugs than usual. Please report any occasion to us!
   groups:
     gameplay:
@@ -24,7 +24,7 @@
     - Added THB currency
 
 - version: '0.76'
-  date: 2019-8-15
+  date: 2019-8-15 00:00:00 +0300
   groups:
     gameplay:
     - Vehicle stations can be replaced after removing while preserving existing schedules
@@ -46,7 +46,7 @@
     - Added <code>.theme</code> asset to allow theming of some game colors (more colors will be added later)
 
 - version: '0.75'
-  date: 2019-8-2
+  date: 2019-8-2 00:00:00 +0300
   text: In this update, we have significantly optimized the pathfinding system. Beside performance gain, this should fix annoying issues where vehicles randomly get lost without obvious reasons. If you notice something odd with how vehicles behave now please let us know!
   groups:
     gameplay:
@@ -78,7 +78,7 @@
     - Stations can be unlocked by research
 
 - version: '0.74'
-  date: 2019-7-19
+  date: 2019-7-19 00:00:00 +0300
   groups:
     gameplay:
     - 'New task type added: you can now refit vehicles on stations to transport different cargo types with one vehicle'
@@ -103,7 +103,7 @@
     - Added support for CSV localization assets
 
 - version: '0.73'
-  date: 2019-7-11
+  date: 2019-7-11 00:00:00 +0300
   groups:
     gameplay:
     - Added Pro Tips! You can access them by clicking the new button in the top right corner. They are also shown on loading screens
@@ -136,7 +136,7 @@
     - WireHeight property is now working
 
 - version: '0.72'
-  date: 2019-7-4
+  date: 2019-7-4 00:00:00 +0300
   groups:
     gameplay:
     - Added various difficulty settings to make the life a bit easier for you (or harder)
@@ -170,7 +170,7 @@
     - Fixed missing display name for German city names
 
 - version: '0.71'
-  date: 2019-6-26
+  date: 2019-6-26 00:00:00 +0300
   groups:
     gameplay:
     - Vehicle stations can be renamed now
@@ -181,7 +181,7 @@
     - Added <code>Hidden</code> property for <code>.locale</code> assets
 
 - version: '0.70'
-  date: 2019-6-25
+  date: 2019-6-25 00:00:00 +0300
   groups:
     gameplay:
     - Conveyor belt maximum length is now limited
@@ -196,7 +196,7 @@
     - Fixed terraforming price was not affected by inflation
 
 - version: '0.69'
-  date: 2019-6-24
+  date: 2019-6-24 00:00:00 +0300
   groups:
     gameplay:
     - Greatly simplified research organization and progression
@@ -208,7 +208,7 @@
     - Fixed profit popups visible in Ride Your Vehicle™ mode
 
 - version: '0.68'
-  date: 2019-6-19
+  date: 2019-6-19 00:00:00 +0300
   groups:
     gameplay:
     - Added more diversity to demand prices
@@ -222,7 +222,7 @@
     - Fixed an issue where running costs not applied after game load
 
 - version: '0.67'
-  date: 2019-6-19
+  date: 2019-6-19 00:00:00 +0300
   groups:
     gameplay:
     - Rail, road, and conveyor tunnel building reworked and integrated into usual track laying experience
@@ -242,7 +242,7 @@
     - Fixed social networks panel doesn't get hidden when going to credits
 
 - version: '0.66'
-  date: 2019-6-16
+  date: 2019-6-16 00:00:00 +0300
   groups:
     gameplay:
     - Added 2 road bridges
@@ -261,7 +261,7 @@
     - Dramatically increased maximum amount of <code>.obj</code> assets that can be loaded in game
 
 - version: '0.65'
-  date: 2019-6-8
+  date: 2019-6-8 00:00:00 +0300
   groups:
     gameplay:
     - Added notifications on 50%, 75% and 100% deposit development
@@ -278,7 +278,7 @@
     - Added <code>Beta</code> and <code>DisplayName</code> properties to <code>*.locale</code> asset. Beta locales do not participate in auto language detection
 
 - version: '0.64'
-  date: 2019-6-6
+  date: 2019-6-6 00:00:00 +0300
   text: In this update, we've reworked rail, road, and conveyors laying tools. This should fix a lot of issues, but if you notice some new ones, please let us know via the issue tracker.
   groups:
     gameplay:
@@ -304,7 +304,7 @@
       issue: 1
 
 - version: '0.63'
-  date: 2019-6-1
+  date: 2019-6-1 00:00:00 +0300
   groups:
     gameplay:
     - Added experimental <b>Free Camera</b> which also features WIP animation functionality, toggle with <kbd>F10</kbd>
@@ -315,7 +315,7 @@
     - Fixed missing scrollbar at Research Department window
 
 - version: '0.62'
-  date: 2019-5-31
+  date: 2019-5-31 00:00:00 +0300
   groups:
     gameplay:
     - Added new notification when business was successfully saved from bankruptcy
@@ -328,7 +328,7 @@
     modding:
     - Added <code>Explosive</code> and <code>ExplosionForce</code> properties to <code>.*unit</code> and <code>.*capacities</code> assets to control if and how explosive cargo or unit is
 - version: '0.61'
-  date: 2019-5-29
+  date: 2019-5-29 00:00:00 +0300
   groups:
     gameplay:
     - Copper moved to Tier 1
@@ -343,7 +343,7 @@
     - Added sample <code>palette.png</code> to <code>content/your_first_pack</code> directory
 
 - version: '0.60'
-  date: 2019-5-28
+  date: 2019-5-28 00:00:00 +0300
   groups:
     gameplay:
       - Truck prices, power, and capacities adjusted
@@ -354,7 +354,7 @@
       - Fixed regression where profit popups were missing
 
 - version: '0.59'
-  date: 2019-5-27
+  date: 2019-5-27 00:00:00 +0300
   groups:
     gameplay:
       - Mining now takes 3x more time
@@ -365,7 +365,7 @@
       - Profit popups that used to show when a vehicle sells goods are missing
 
 - version: '0.58'
-  date: 2019-5-26
+  date: 2019-5-26 00:00:00 +0300
   groups:
     gameplay:
     - Added notifications on settlement status changes
@@ -379,7 +379,7 @@
       issue: 34
 
 - version: '0.57'
-  date: 2019-5-24
+  date: 2019-5-24 00:00:00 +0300
   groups:
     gameplay:
     - Cities now can climb and descent hills
@@ -396,7 +396,7 @@
     - Fixed some visual issues on UI scales greater than 125%
 
 - version: '0.56'
-  date: 2019-5-21
+  date: 2019-5-21 00:00:00 +0300
   tags: [ wipe ]
   text: Due to major internal changes saves are wiped.
   groups:
@@ -421,7 +421,7 @@
     - Slightly updated <code>.railstation</code> , <code>.raildepot</code> , <code>.roaddepot</code> , and <code>.device</code>  asset formats
 
 - version: '0.55'
-  date: 2019-5-13
+  date: 2019-5-13 00:00:00 +0300
   groups:
     important:
     - <b>Since this version, we use compression for save files.</b> It showed pretty good results, but we haven't tested it on MacOS and Linux yet. So, if you're on one of these platforms, please let us know how it performs there.
@@ -435,7 +435,7 @@
     - Fixed game icon on Linux
 
 - version: '0.54'
-  date: 2019-5-11
+  date: 2019-5-11 00:00:00 +0300
   groups:
     gameplay:
     - Brand new City and Demand windows, with a lot of information exposed to let you know what is happening under the hood
@@ -445,7 +445,7 @@
     - Added mayors and business owners
 
 - version: '0.53'
-  date: 2019-5-01
+  date: 2019-5-01 00:00:00 +0300
   groups:
     localization:
     - In this update, almost all of the UI is localized! If you notice any missing translations, or wrong texts, please let us know.
@@ -463,7 +463,7 @@
       issue: 6
 
 - version: '0.52'
-  date: 2019-4-24
+  date: 2019-4-24 00:00:00 +0300
   groups:
     gameplay:
     - Demand base price slightly increased
@@ -476,7 +476,7 @@
     - Added new (mandatory) properties to <code>.names</code> asset
 
 - version: '0.51'
-  date: 2019-4-23
+  date: 2019-4-23 00:00:00 +0300
   groups:
     gameplay:
     - Truck power, prices and capacities tuned
@@ -493,7 +493,7 @@
     - Truck trains can't be built anymore
 
 - version: '0.50'
-  date: 2019-4-20
+  date: 2019-4-20 00:00:00 +0300
   groups:
     gameplay:
     - Demands now have limited storages and can't be oversupplied infinitely anymore
@@ -521,7 +521,7 @@
     - Changed <code>Meshes</code> property  format of <code>.rail</code>, <code>.conveyor</code>, and <code>.pipe</code> assets
 
 - version: '0.49'
-  date: 2019-4-17
+  date: 2019-4-17 00:00:00 +0300
   groups:
     important:
     - We have upgraded the game to the latest Unity version. As a side effect, we found that very noticeable screen tearing may appear when VSync is disabled. If you experience it or any other new issues, please let us know. To workaround it, enable VSync.
@@ -545,7 +545,7 @@
     - Fixed some issues related to indicators
 
 - version: '0.48'
-  date: 2019-4-15
+  date: 2019-4-15 00:00:00 +0300
   groups:
     gameplay:
     - 'Added new truck tier: Gasoline Engine 2'
@@ -558,7 +558,7 @@
     - Eliminated few memory leaks
 
 - version: '0.47'
-  date: 2019-4-13
+  date: 2019-4-13 00:00:00 +0300
   groups:
     gameplay:
     - Added variations of L 8000 truck
@@ -572,7 +572,7 @@
     - Fixed various cargo handling issues related to vehicle reconfigure feature
 
 - version: '0.46'
-  date: 2019-4-12
+  date: 2019-4-12 00:00:00 +0300
   tags: [ wipe ]
   groups:
     important:
@@ -607,7 +607,7 @@
     - Fixed holes in landscape
 
 - version: '0.45'
-  date: 2019-4-8
+  date: 2019-4-8 00:00:00 +0300
   groups:
     important:
       - We are working on region generation improvements, so everything related may be a bit broken in this build. (like creating a new game may throw an error randomly). Just ignore that for now.
@@ -636,7 +636,7 @@
     - Added <code>.uribindings</code> asset that can be used to properly migrate your mods in case of rename (see <code>base/base.uridindings</code> as an example)
 
 - version: '0.44'
-  date: 2019-4-3
+  date: 2019-4-3 00:00:00 +0300
   groups:
     gameplay:
     - Added tier 2 locomotive (based on USRA Light Mikado)
@@ -652,7 +652,7 @@
       - Fixed going to game from asset editor creates world with old game settings and seed
 
 - version: '0.43'
-  date: 2019-4-2
+  date: 2019-4-2 00:00:00 +0300
   tags: [wipe]
   text: <b>Saves wiped!</b> We added <code>slow</code> beta branch to Steam, which will be updated only on major changes, so you can play without constant fear of wiping your saves (until next major update, ofc).
   groups:
@@ -673,7 +673,7 @@
     - We automatically remap old researches, but you probably should check if your content relies on correct researches now
 
 - version: '0.42'
-  date: 2019-3-31
+  date: 2019-3-31 00:00:00 +0300
   text: We enabled automatic detection of graphic API in this build, so if you notice any problems with it, please report.
   groups:
     gameplay:
@@ -690,7 +690,7 @@
     - Fixed shader compilation error on Metal
 
 - version: '0.41'
-  date: 2019-03-29
+  date: 2019-03-29 00:00:00 +0300
   text: Since this build we have native support for macOS and Linux!
   groups:
     gameplay:
@@ -707,7 +707,7 @@
     - Fixed you can earn unlimited money by trying to remove roads occupied by vehicles
 
 - version: '0.40'
-  date: 2019-03-26
+  date: 2019-03-26 00:00:00 +0300
   groups:
     gameplay:
     - Reduced count of simultaneously spawned demands
@@ -721,7 +721,7 @@
     - Fixed some missing localizations
 
 - version: '0.39'
-  date: 2019-03-25
+  date: 2019-03-25 00:00:00 +0300
   groups:
     gameplay:
     - Maximum amount of demands of the same tier per city reduced to 2
@@ -742,7 +742,7 @@
     - Fixed some issues in vehicle unit picker
 
 - version: '0.38'
-  date: 2019-03-23
+  date: 2019-03-23 00:00:00 +0300
   groups:
     release notes:
     - Added research history tab to Research Management window
@@ -756,7 +756,7 @@
     - Planting and removing trees costs money
 
 - version: '0.37'
-  date: 2019-03-21
+  date: 2019-03-21 00:00:00 +0300
   tags: [wipe]
   text: There are some important gameplay changes, so saves are wiped. Please give updated mechanics a try and let us know what you think!
   groups:
@@ -773,7 +773,7 @@
     - Show game time instead of '{N minutes of realtime} ago' on notifications
 
 - version: '0.36'
-  date: 2019-03-18
+  date: 2019-03-18 00:00:00 +0300
   groups:
     ui/ux:
     - Tuned research cards appearance at Research Browser
@@ -781,7 +781,7 @@
     - HUD research button now blinks on research completion
 
 - version: '0.35'
-  date: 2019-03-17
+  date: 2019-03-17 00:00:00 +0300
   groups:
     gameplay:
     - Researches now may require items to perform, although assets not properly updated yet (except Manufacturing). .research assets format updated!
@@ -799,14 +799,14 @@
     - Station height must be specified in <code>.railstation</code> assets
 
 - version: '0.34'
-  date: 2019-03-14
+  date: 2019-03-14 00:00:00 +0300
   groups:
     gameplay:
     - Volume of demand now can expand and shrink
     - More predictable demand prices fluctuation
 
 - version: '0.33'
-  date: 2019-03-13
+  date: 2019-03-13 00:00:00 +0300
   groups:
     ui/ux:
     - Routes ordered by name
@@ -818,7 +818,7 @@
     - Fixed vehicle window does not update properly while game is on pause
 
 - version: '0.32'
-  date: 2019-03-12
+  date: 2019-03-12 00:00:00 +0300
   groups:
     gameplay:
     - Added inflation
@@ -830,7 +830,7 @@
     - Added support for relative face indices in OBJ files (3ds Max <i>Relative numbers</i> export flag), suggested by @Alex_BY
 
 - version: '0.31'
-  date: 2019-03-10
+  date: 2019-03-10 00:00:00 +0300
   groups:
     release notes:
     - Selling goods now distributed between all customers that require goods of the same type (thanks @Golden Arrow)
@@ -838,14 +838,14 @@
     - 'Wording updates: MAXIMUM/MINIMUM DEMAND -> VERY HIGH/LOW DEMAND, ton -> t'
 
 - version: '0.30'
-  date: 2019-03-10
+  date: 2019-03-10 00:00:00 +0300
   groups:
     release notes:
     - Vehicles pathfinding slightly optimized
     - Added popup with demand information when hovering over demand circle indicator for some time
 
 - version: '0.29'
-  date: 2019-03-08
+  date: 2019-03-08 00:00:00 +0300
   groups:
     release notes:
     - Added dots to demand indicators to indicate demand value
@@ -858,7 +858,7 @@
 
 
 - version: '0.28'
-  date: 2019-03-07
+  date: 2019-03-07 00:00:00 +0300
   groups:
     gameplay:
     - Starting money decreased to $500,000
@@ -876,7 +876,7 @@
     - Fixed regression where some actions at vehicle editor window were broken (reported by @meinroman)
 
 - version: '0.27'
-  date: 2019-03-06
+  date: 2019-03-06 00:00:00 +0300
   text: Major gameplay changes!
   tags: [wipe]
   groups:
@@ -892,7 +892,7 @@
     - Saves are wiped (oops)
 
 - version: '0.26'
-  date: 2019-03-04
+  date: 2019-03-04 00:00:00 +0300
   groups:
     release notes:
     - Please welcome the new City Window (WIP)
@@ -902,13 +902,13 @@
 
 
 - version: '0.25'
-  date: 2019-03-03
+  date: 2019-03-03 00:00:00 +0300
   groups:
     release notes:
     - Alt visibility mode now togglable, no need to hold <kbd>Alt</kbd> key
 
 - version: '0.24'
-  date: 2019-03-03
+  date: 2019-03-03 00:00:00 +0300
   tags: [wipe]
   groups:
     release notes:
@@ -917,7 +917,7 @@
     - Saves are wiped in preparation to Demands Update
 
 - version: '0.23'
-  date: 2019-03-02
+  date: 2019-03-02 00:00:00 +0300
   groups:
     release notes:
     - Added debug setting to visualize vehicle attempts to rebuild path
@@ -927,7 +927,7 @@
     - More localization coverage for Vehicle Window and related tools
 
 - version: '0.22'
-  date: 2019-03-01
+  date: 2019-03-01 00:00:00 +0300
   groups:
     release notes:
     - Added penalty to loading/unloading speed if train exceeds station length
@@ -935,7 +935,7 @@
     - Plant tool doesn't removing other plants anymore
 
 - version: '0.21'
-  date: 2019-02-28
+  date: 2019-02-28 00:00:00 +0300
   groups:
     release notes:
     - Fixed chain signals do not repeat yellow signal
@@ -943,13 +943,13 @@
     - U-turns at intersections disabled by default (can be enabled back in settings)
 
 - version: '0.20'
-  date: 2019-02-27
+  date: 2019-02-27 00:00:00 +0300
   groups:
     release notes:
     - Chain signals fixed
 
 - version: '0.19'
-  date: 2019-02-26
+  date: 2019-02-26 00:00:00 +0300
   groups:
     release notes:
     - Added connection range visualization for stations, minesб and warehouses. Stations also have range of sell visualization.
@@ -961,7 +961,7 @@
     - Max loan increased to $1,250,000
 
 - version: '0.18'
-  date: 2019-02-22
+  date: 2019-02-22 00:00:00 +0300
   tags: [wipe]
   text: Major gameplay changes incoming! Please give it a try and let us know what you think.
   groups:
@@ -986,7 +986,7 @@
 
 
 - version: '0.17'
-  date: 2019-02-16
+  date: 2019-02-16 00:00:00 +0300
   groups:
     release notes:
     - You should build labs to do research
@@ -1000,14 +1000,14 @@
     - 'Pick terminal track tool: clicking in the world does not cancel picking anymore'
 
 - version: '0.16'
-  date: 2019-02-11
+  date: 2019-02-11 00:00:00 +0300
   groups:
     release notes:
     - Added support for custom station name suffixes to .names asset
     - Increased trucks weight and capacities
 
 - version: '0.15'
-  date: 2019-02-11
+  date: 2019-02-11 00:00:00 +0300
   groups:
     release notes:
     - You can now research new tech in updated Researches window (instantly and for money only yet)
@@ -1017,7 +1017,7 @@
     - Added Russian city names pack (provided by @Yury)
 
 - version: '0.14'
-  date: 2019-02-09
+  date: 2019-02-09 00:00:00 +0300
   groups:
     release notes:
     - Added notification log with unread count indicator when collapsed
@@ -1029,14 +1029,14 @@
 
 
 - version: '0.13'
-  date: 2019-02-04
+  date: 2019-02-04 00:00:00 +0300
   groups:
     release notes:
     - Fixed cities in locked regions grow on region unlock
     - Fixed resize controls at rail station builder tool were time scale dependent
 
 - version: '0.12'
-  date: 2019-02-04
+  date: 2019-02-04 00:00:00 +0300
   groups:
     release notes:
     - 'Added UI notifications for some in-game events: vehicle wreckage, new demands spawn, lost vehicles and vehicles missing power (event log is coming)'
@@ -1045,13 +1045,13 @@
     - Swapped depot and stations buttons in toolbar
 
 - version: '0.11'
-  date: 2019-02-02
+  date: 2019-02-02 00:00:00 +0300
   groups:
     release notes:
     - Fixed <kbd>WASD</kbd>  controls not working when the game is paused
 
 - version: '0.10'
-  date: 2019-02-02
+  date: 2019-02-02 00:00:00 +0300
   groups:
     release notes:
     - Use <kbd>WASD</kbd> to move camera, <kbd>Ctrl</kbd>+<kbd>WASD</kbd> to rotate, <kbd>QE</kbd> to zoom
@@ -1060,7 +1060,7 @@
 
 
 - version: '0.9'
-  date: 2019-02-01
+  date: 2019-02-01 00:00:00 +0300
   tags: [wipe]
   groups:
     release notes:
@@ -1077,7 +1077,7 @@
 
 
 - version: '0.8'
-  date: 2019-01-29
+  date: 2019-01-29 00:00:00 +0300
   tags: [wipe]
   groups:
     release notes:
@@ -1099,7 +1099,7 @@
 
 
 - version: '0.7'
-  date: 2019-01-28
+  date: 2019-01-28 00:00:00 +0300
   groups:
     release notes:
     - Added localizable description for vehicle units and recipes (requested by @TransCanadaLimited)
@@ -1114,7 +1114,7 @@
 
 
 - version: '0.6'
-  date: 2019-01-27
+  date: 2019-01-27 00:00:00 +0300
   groups:
     release notes:
     - Added support for custom rail assets (press Q to toggle between them) requested by @meinroman
@@ -1133,7 +1133,7 @@
 
 
 - version: '0.5'
-  date: 2019-01-27
+  date: 2019-01-27 00:00:00 +0300
   groups:
     release notes:
     - Fixed game may start from not the first day of the year
@@ -1147,7 +1147,7 @@
     - Hubs now aware of new demands spawning nearby
 
 - version: '0.4'
-  date: 2019-01-25
+  date: 2019-01-25 00:00:00 +0300
   text: <b>Caution:</b> If you changed some settings on Misc tab please delete <code>%appdata%/../locallow/voxeltycoon/voxeltycoon/DebugSettings.json</code> before running the game.
   groups:
     release notes:
@@ -1166,14 +1166,14 @@
     - Replaced fake icons with temporary placeholders
 
 - version: '0.3'
-  date: 2019-01-24
+  date: 2019-01-24 00:00:00 +0300
   groups:
     release notes:
     - Fixed memory leak related to the White Mode
     - Trucks now automatically turn around in depots
 
 - version: '0.2'
-  date: 2019-01-24
+  date: 2019-01-24 00:00:00 +0300
   groups:
     release notes:
     - Fixed some animations stopped working (for example on mines and vehicles)
@@ -1186,7 +1186,7 @@
     - Credits updated
 
 - version: '0.1'
-  date: 2019-01-23
+  date: 2019-01-23 00:00:00 +0300
   groups:
     release notes:
     - Start of closed pre-alpha testing program
