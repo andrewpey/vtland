@@ -19,6 +19,9 @@ theme: 18182d
             {% for tag in item.tags %}
                 <span class="tag {{tag}}">{{ tag }}</span>
             {% endfor %}
+            {% if item.title %}
+            <p class="title">{{ item.title }}</p>
+            {% endif %}
             <p class="placeholder">Click to expand</p>
         </p>
     </div>

@@ -1,5 +1,6 @@
 - version: '0.77'
   date: 2019-9-12 00:00:00 +0300
+  title: 'World generator settings, win game screen, new modding capabilities, languages, and more!'
   text: Due to significant internal changes in preparation for passenger transportation, this build may contain more bugs than usual. Please report any occasion to us!
   groups:
     gameplay:
@@ -25,6 +26,7 @@
 
 - version: '0.76'
   date: 2019-8-15 00:00:00 +0300
+  title: 'Vehicle stations replacement, new train Turn Around task, new languages, and more!'
   groups:
     gameplay:
     - Vehicle stations can be replaced after removing while preserving existing schedules
@@ -47,6 +49,7 @@
 
 - version: '0.75'
   date: 2019-8-2 00:00:00 +0300
+  title: 'Brand new Station Window, up to 40x pathfinding performance improvement, new languages, and more!'
   text: In this update, we have significantly optimized the pathfinding system. Beside performance gain, this should fix annoying issues where vehicles randomly get lost without obvious reasons. If you notice something odd with how vehicles behave now please let us know!
   groups:
     gameplay:
@@ -79,6 +82,7 @@
 
 - version: '0.74'
   date: 2019-7-19 00:00:00 +0300
+  title: 'Refit task, more languages, bug fixes, and many more!'
   groups:
     gameplay:
     - 'New task type added: you can now refit vehicles on stations to transport different cargo types with one vehicle'
@@ -104,6 +108,7 @@
 
 - version: '0.73'
   date: 2019-7-11 00:00:00 +0300
+  title: 'Signals indication, pro tips, bug fixes, and many more!'
   groups:
     gameplay:
     - Added Pro Tips! You can access them by clicking the new button in the top right corner. They are also shown on loading screens
@@ -137,6 +142,7 @@
 
 - version: '0.72'
   date: 2019-7-4 00:00:00 +0300
+  title: 'Difficulty settings, UX improvements, bug fixes, and more!'
   groups:
     gameplay:
     - Added various difficulty settings to make the life a bit easier for you (or harder)
