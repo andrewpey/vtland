@@ -3,6 +3,7 @@ layout: post
 style: post
 title: Meet the New Roadmap!
 category: devlog
+thumb: /assets/posts/roadmap.png
 ---
 
 {% include img.html src="/assets/posts/roadmap.png" %}

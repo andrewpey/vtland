@@ -3,6 +3,7 @@ layout: post
 style: post
 title: January Update
 category: devlog
+thumb: /assets/january-update/items.png
 ---
 
 Quite a lot of stuff has happened since our last post. Here's a quick recap of recent events.

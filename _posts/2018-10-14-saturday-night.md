@@ -4,6 +4,7 @@ style: post
 title: Saturday Night with Voxel Tycoon
 ico: pumpkin
 category: devlog
+thumb: /assets/weekreport/20181013-152913.png
 redirect_from:
     - "/saturday-night"
     - "/2018/10/14/saturday-night"

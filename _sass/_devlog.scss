@@ -9,6 +9,23 @@
         $tag-new-release: #43e857;
         margin: 1.5rem 0;
         padding: 0;
+        .thumb {
+            float: left;
+            width: 100px;
+            height: 100px;
+            margin-right: 24px;
+            margin-top: 8px;
+            margin-bottom: 24px;
+            overflow: hidden;
+            border-radius: 6px;
+            img {
+                display: block;
+                border-radius: 0;
+                margin: 0 -38.885%;
+                width: 177.777%;
+                min-height: 100%;
+            }
+        }
         .date {
             font-size: 1rem;
         }
@@ -31,5 +48,6 @@
             border-color:  $tag-new-release;
             background: rgba($tag-new-release, 0.12);
         }
+        clear: both;
     }
 }

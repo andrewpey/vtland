@@ -3,6 +3,7 @@ layout: post
 style: post
 title: The Voxel Tycoon State of Affairs
 category: devlog
+thumb: https://images-ext-2.discordapp.net/external/8nvYtWvaY_vvroI_597pbMzPETtEGo3JA5qFkQiGSlY/https/pp.userapi.com/c840323/v840323836/80276/VTqhfby5Xj4.jpg?width=1192&height=671
 redirect_from:
     - "2018/09/16/state-of-affairs"
 ---

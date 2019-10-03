@@ -3,6 +3,7 @@ layout: post
 style: post
 title: Spooky-driven Development
 category: devlog
+thumb: /assets/hell-or-high-water/20181111-003250.png
 ---
 
 Halloween is behind us and now we're back to Voxel Tycoon development. While we continue pushing the game toward a closer-than-ever alpha release we invite you to read a little retrospective on how we celebrated this holiday with our community in the past, and especially focus on this year and why it's important.

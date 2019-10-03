@@ -3,6 +3,7 @@ layout: post
 style: post
 title: Intro to Transport Hubs
 category: devlog
+thumb: /assets/posts/20181125-163723.png
 ---
 
 At the very beginning of the game, the path of a product between its origin (e.g. ore deposit) and a customer is pretty straightforward.

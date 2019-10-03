@@ -3,6 +3,7 @@ layout: post
 style: post
 title: Consists Editor and Thoughts on Release
 category: devlog
+thumb: /assets/consists-editor/pic1.png
 ---
 
 We believe that you can get an overall idea of how deep the transport game is just by looking at how the process of buying transport is implemented. Let's take a look at the implementation that we've prepared for the first release of Voxel Tycoon.

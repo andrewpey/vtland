@@ -3,6 +3,7 @@ layout: post
 style: post
 title: Factories! 🏭
 category: devlog
+thumb: /assets/devlog/factories/conveyor3.gif
 ---
 
 {% include img.html src="/assets/devlog/factories/conveyor3.gif" %}

@@ -4,6 +4,7 @@ style: post
 title: Railway Electrification ⚡
 ico: pumpkin
 category: devlog
+thumb: /assets/weekreport/25.gif
 redirect_from:
     - "/railway-electrification"
     - "/2018/10/20/railway-electrification"
