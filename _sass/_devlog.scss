@@ -9,6 +9,12 @@
         $tag-new-release: #43e857;
         margin: 1.5rem 0;
         padding: 0;
+        a {
+            border-bottom: 4px solid transparent;
+        }
+        a:hover {
+            border-bottom-color: #fbe119;
+        }
         .thumb {
             float: left;
             width: 100px;
