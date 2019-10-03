@@ -1,0 +1,27 @@
+<ul id="devlog">
+    {% assign posts = site.posts | where: "category", "devlog" %}
+    {% assign items = posts | concat: site.data.changelog | sort: "date" | reverse %}
+    {% for item in items limit: include.limit %}
+        {% unless item.draft %}
+        <li>
+            {% if item.url %}
+            <span class="date">{{ item.date | date: "%b %d, %Y" }}</span>
+            <span class="tag post">blog post</span>
+            <br/>
+            <a href="{{ item.url }}">{{ item.title }}</a>
+            {% else %}
+            <span class="date">{{ item.date | date: "%b %d, %Y" }}</span>
+            <span class="tag new-release">new release</span>
+            <br/>
+            <a href="/changelog#{{ item.version }}">
+                {% assign title = site.new_version_available_texts | sample %}
+                {{ title | replace: "$1", item.version }} {% if item.title %} {{ item.title }} {% endif %}
+            </a>
+            {% endif %}
+        </li>
+        {% endunless %}
+    {% endfor %}
+    {% if include.limit %}
+    <li><a href="/devlog">more...</a></li>
+    {% endif %}
+</ul>

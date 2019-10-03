@@ -1,0 +1,35 @@
+#devlog {
+    font-family: 'Roboto';
+    line-height: 2rem;
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 0;
+    li {
+        $tag-post: #fff93f;
+        $tag-new-release: #43e857;
+        margin: 1.5rem 0;
+        padding: 0;
+        .date {
+            font-size: 1rem;
+        }
+        .tag {
+            border-radius: 2px;
+            font-size: 1rem;
+            padding: 2px 4px;
+            font-weight: bold;
+            color: #fffa;
+            text-transform: uppercase;
+            border: solid 1px #fffa;
+        }
+        .tag.post {
+            color:  $tag-post;
+            border-color:  $tag-post;
+            background: rgba($tag-post, 0.12);
+        }
+        .tag.new-release {
+            color:  $tag-new-release;
+            border-color:  $tag-new-release;
+            background: rgba($tag-new-release, 0.12);
+        }
+    }
+}

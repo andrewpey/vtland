@@ -8,15 +8,7 @@ We are developing <span class="title">Voxel Tycoon</span> — a strategy game ab
 
 <h1><a href="/changelog">RECENT UPDATES</a></h1>
 
-<ul id="recent-updates">
-{% for item in site.data.changelog limit: 5 %}
-<li>
-    <span class="date">{{ item.date | date: "%b %d, %Y" }}</span><br/>
-    <a href="/changelog#{{item.version}}">Version {{item.version}}</a>
-</li>
-{% endfor %}
-<li><a href="/changelog">more...</a></li>
-</ul>
+{% include devlog.html limit=5 %}
 
  <!-- <iframe class="widget-itchio" frameborder="0" src="https://itch.io/embed/434404?linkback=true&amp;border_width=1&amp;bg_color=16372e&amp;fg_color=ffffff&amp;link_color=de9a07&amp;border_color=164237"></iframe>  -->
 
