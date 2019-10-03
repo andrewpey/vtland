@@ -27,6 +27,8 @@
 
 [Roadmap](https://trello.com/b/wHz5JHqH/voxel-tycoon-roadmap){:.sidebar-menu__item}
 
+[Changelog](/changelog){:.changelog .sidebar-menu__item}
+
 [Wiki](https://voxeltycoon.gamepedia.com){:.wiki .sidebar-menu__item}
 
 [SDK + Demo Scene](/sdk){:.sdk .sidebar-menu__item}
