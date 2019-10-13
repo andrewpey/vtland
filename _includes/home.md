@@ -6,7 +6,7 @@ We are developing <span class="title">Voxel Tycoon</span> — a strategy game ab
 
 <div style="height:2.2rem">&nbsp;</div>
 
-<h1><a href="/changelog">RECENT UPDATES</a></h1>
+<h1><a href="/devlog">RECENT UPDATES</a></h1>
 
 {% include devlog.html limit=5 %}
 
