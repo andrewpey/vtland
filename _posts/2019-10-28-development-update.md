@@ -13,7 +13,7 @@ You may have noticed that the pace of updates has declined recently. Just after 
 
 For example, we are currently working on passenger transportation and mass vehicle management. Of course, the larger the update, the more time it takes to prepare it.
 
-Initially, we planned to release a new update with mass vehicle management at the end of this month. But, unfortunately, the plan did not work - one of the developers seriously injured his hand and therefore underwent surgery. He is already recovering, but the update release had to be postponed.
+Initially, we planned to release a new update with mass vehicle management at the end of this month. But, unfortunately, the plan did not work - one of the developers seriously injured his arm and therefore underwent surgery. He is already recovering, but the update release had to be postponed.
 
 {% include img.html src="/assets/posts/bone.png" alt="It hurts ☠️" %}
 
