@@ -20,3 +20,5 @@ Initially, we planned to release a new update with mass vehicle management at th
 But don’t worry! This is a temporary hitch that will not interfere with our long-term development plans for Voxel Tycoon.
 
 Sadly, we had no time to prepare something special for this Halloween. Anyways, please [take a look at how we celebrated it in previous years](/devlog/spooky-driven-development) — especially 2018, where we've introduced the official spinoff to Voxel Tycoon, which is available to play now! 🎃
+
+<iframe class="widget-itchio_dark" frameborder="0" src="https://itch.io/embed/324650?linkback=true&amp;border_width=1&amp;bg_color=1e1728&amp;fg_color=ffffff&amp;link_color=b7278c&amp;border_color=4b4455"></iframe>
