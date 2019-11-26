@@ -35,6 +35,8 @@
 
 [Railroad to Hell <span style="color:red">3</span>](/railroad-to-hell){:.sidebar-menu__item}
 
+[For Press](/press){:.sidebar-menu__item}
+
 ***
 
 [Twitter](//twitter.com/VoxelTycoon){:.twitter .sidebar-menu__item} <small>{{site.data.socials.tw}}</small>
