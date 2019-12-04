@@ -1,3 +1,38 @@
+- version: '0.78'
+  date: 2019-12-4 12:00:00 +0300
+  title: Mass vehicle management is finally here! Also, there's a new biome, and more!
+  groups:
+    gameplay:
+    - Added brand new Fleet Window! Finally you can see all your vehicles at a glance, massevely send them to depots and assign routes
+    - 'Added new biome: Deciduous Forest'
+    - Updated appearance of buildings in Arctic biome
+    improvements:
+    - Double click on vehicle in Station Window to automatically follow it
+    - Decorations palette window no more automatically close after decoration was placed
+    - Cargo filter picker at Buy Vehicle Window now has 'Any cargo' item allowing to reset filter
+    - If the game was in background while loading then taskbar icon will flash after the loading is completed (Windows only)
+    - Also, taskbar icon will flash on important in-game events, such as vehicle collisions or research completed if the game was in background at that moment (Windows only)
+    - Tuned Pro Tips popup appearance, added explicit close button
+    fixes:
+    - Fixed error appearing when vehicle was set to arrive to specific tracks on a station and then that station has been replaced by one with fewer tracks
+    - Fixed regression where vehicles keep produce sounds on pause
+    - Fixed some tools may stay active after player trying to untoggle them by clicking first-level toolba
+    - Fixed camera might fail to follow vehicle if it was in depot and instead it would fly to random position
+    - Fixed task type picker stays visible after vehicle window was closed by ESC and might cause game errors if clicked
+    - Fixed Pro Tips on loading screens do not fit the screen on low resolutions or high UI scale values
+    - Fixed regression where Pro Tips missing on loading screens
+    - Fixed dialogs with three or more buttons rendered incorrectly
+    modding:
+    - Added <code>Biomes</code> property to <code>.citydemandrecipe</code> asset that allows to restrict spawning of demands to specific biomes
+    - Added <code>Biomes</code> property to <code>.citybuildingspawninfo</code> asset that allows to restrict spawning of city buildings to specific biomes
+    - Added <code>SpecificBuildingsOnly</code> property to <code>.biome</code> asset that allows to prohibit spawning of demands and city buildings that are now explicitly tied to this biome
+    - Added <code>Hidden</code> property to <code>.biome</code> asset that allows to exclude biome from world generation
+    - Added <code>Optional</code> property to <code>.patch</code> asset. If set, it will skip patch command without failing if target asset is not present
+    - If asset ids collide for some reason (for example, asset with the same name located in the same pack), the game will show error message detailing what assets are causing problem and where they are located on disk
+    localization:
+    - Added Norwegian language
+    - Added NOK currency
+
 - version: '0.77'
   date: 2019-9-12 00:00:00 +0300
   title: 'World generator settings, win game screen, new modding capabilities, languages, and more!'
