@@ -16,7 +16,7 @@
     fixes:
     - Fixed error appearing when vehicle was set to arrive to specific tracks on a station and then that station has been replaced by one with fewer tracks
     - Fixed regression where vehicles keep produce sounds on pause
-    - Fixed some tools may stay active after player trying to untoggle them by clicking first-level toolba
+    - Fixed some tools may stay active after player trying to untoggle them by clicking first-level toolbar
     - Fixed camera might fail to follow vehicle if it was in depot and instead it would fly to random position
     - Fixed task type picker stays visible after vehicle window was closed by ESC and might cause game errors if clicked
     - Fixed Pro Tips on loading screens do not fit the screen on low resolutions or high UI scale values
