@@ -3,7 +3,7 @@
   title: Mass vehicle management is finally here! Also, there's a new biome, and more!
   groups:
     gameplay:
-    - Added brand new Fleet Window! Finally you can see all your vehicles at a glance, mass send them to depots and assign routes
+    - Added brand new Fleet Window! Finally you can see all your vehicles at a glance, massively send them to depots and assign routes
     - 'Added new biome: Deciduous Forest'
     - Updated appearance of buildings in Arctic biome
     improvements:
@@ -25,7 +25,7 @@
     modding:
     - Added <code>Biomes</code> property to <code>.citydemandrecipe</code> asset that allows to restrict spawning of demands to specific biomes
     - Added <code>Biomes</code> property to <code>.citybuildingspawninfo</code> asset that allows to restrict spawning of city buildings to specific biomes
-    - Added <code>SpecificBuildingsOnly</code> property to <code>.biome</code> asset that allows to prohibit spawning of demands and city buildings that are now explicitly tied to this biome
+    - Added <code>SpecificBuildingsOnly</code> property to <code>.biome</code> asset that allows to prohibit spawning of demands and city buildings that are not explicitly tied to this biome
     - Added <code>Hidden</code> property to <code>.biome</code> asset that allows to exclude biome from world generation
     - Added <code>Optional</code> property to <code>.patch</code> asset. If set, it will skip patch command without failing if target asset is not present
     - If asset ids collide for some reason (for example, asset with the same name located in the same pack), the game will show error message detailing what assets are causing problem and where they are located on disk
