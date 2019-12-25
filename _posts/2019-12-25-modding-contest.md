@@ -18,6 +18,6 @@ Though it might sound big, it's actually very simple, since we are just testing 
 * Upload it to the mod gallery
 * And let the world (and us) know in the `#modding` channel on our [Discord](//discord.gg/voxeltycoon)
 
-In a few days, we'll choose the winner. As a prize, your decorations will be featured right in the game!
+We'll choose the winner on **December 31st**. As a prize, your decorations will be featured right in the game!
 
 Cheers! 🎅
