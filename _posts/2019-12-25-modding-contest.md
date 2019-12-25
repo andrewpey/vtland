@@ -16,7 +16,7 @@ Though it might sound big, it's actually very simple, since we are just testing 
 
 * Make a Christmas (or New Year) themed decoration pack (yeah, we know that we are a bit late to the party, but anyways)
 * Upload it to the mod gallery
-* And let the world (and us) know in the #modding channel on our [Discord](//discord.gg/voxeltycoon)
+* And let the world (and us) know in the `#modding` channel on our [Discord](//discord.gg/voxeltycoon)
 
 In a few days, we'll choose the winner. As a prize, your decorations will be featured right in the game!
 
