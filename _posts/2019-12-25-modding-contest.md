@@ -1,7 +1,7 @@
 ---
 layout: post
 style: post
-title: The 1st Modding Contest
+title: The 1st Modding Contest!
 category: devlog
 thumb: /assets/posts/contest.png
 ---
