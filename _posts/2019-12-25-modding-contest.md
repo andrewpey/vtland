@@ -21,3 +21,5 @@ Though it might sound big, it's actually very simple, since we are just testing 
 We'll choose the winner on **December 31st**. As a prize, your decorations will be featured right in the game!
 
 Cheers! 🎅
+
+<small style="opacity:0.5">Please notice that by participating in this contest you are agreeing with our [EULA](/eula).</small>
