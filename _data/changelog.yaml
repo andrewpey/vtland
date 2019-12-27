@@ -1,3 +1,34 @@
+- version: '0.79'
+  date: 2019-12-27 12:00:00 +0300
+  title: 'Day/night cycle, C# modding, and a bunch of other improvements and fixes in the last update of this year!'
+  groups:
+    gameplay:
+    - Introduced simple day/night cycle (can be disabled in settings)
+    improvements:
+    - 'Fleet window: zero profits now shown in black'
+    - 'Fleet window: cargo tooltip now shows both count and capacity'
+    - 'Fleet window: added sort by consist and cargo'
+    - 'Fleet window: added possibility to reverse sorting'
+    - 'Fleet window: sort by name replaced with sort by buy date'
+    - Items now ordered by complexity in cargo and capacity pickers
+    - 'Added setting allowing to lock cursor to the game (<a href="https://github.com/voxeltycoon/suggestions/issues/91">suggestion #91</a>)'
+    - Updated deciduous forest ambient sound to make it less noisy
+    - 'New save file format: just one file per save instead of three'
+    fixes:
+    - 'Asset editor: fixed regression where toggle with no icon render shifted'
+    - Fixed wrong names for buildings in the arctic biome
+    modding:
+    - Added basic support for C# mods!
+    - Added lights support to most buildings
+    - Added mesh variants to <code>.obj.meta</code> allowing to specify color variations of the same mesh
+    - Added liveries support to most buildings
+    - Added possibility to specify night liveries to be applied to a building at night
+    - 'Asset editor: save pallete editor expanded state between runs'
+    - 'Asset editor: save light mode state between runs'
+    localization:
+    - Added some missing localizations
+    - Updated Turkish names
+
 - version: '0.78'
   date: 2019-12-4 12:00:00 +0300
   title: Mass vehicle management is finally here! Also, there's a new biome, and more!

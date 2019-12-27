@@ -45,6 +45,8 @@ theme: 18182d
                         <div>
                             {% if logitem.issue %}
                                 <a href="https://github.com/voxeltycoon/bug-tracker/issues/{{ logitem.issue }}">{{ logitem.text }}</a>
+                            {% elsif logitem.suggestion %}
+                                <a href="https://github.com/voxeltycoon/suggestions/issues/{{ logitem.suggestion }}">{{ logitem.text }}</a>
                             {% else %}
                                 {{ logitem }}
                             {% endif %}
