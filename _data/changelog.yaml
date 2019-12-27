@@ -1,6 +1,6 @@
 - version: '0.79'
   date: 2019-12-27 12:00:00 +0300
-  title: 'Day/night cycle, C# modding, and a bunch of other improvements and fixes in the last update of this year!'
+  title: 'Day/night cycle, C# modding, and a bunch of other improvements and fixes in the last update this year!'
   groups:
     gameplay:
     - Introduced simple day/night cycle (can be disabled in settings)
