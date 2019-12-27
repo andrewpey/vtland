@@ -19,7 +19,7 @@ You are free to use, modify, and add to Voxel Tycoon content and code to make an
 - Your modification should be an original work (should not contain a substantial part of any copyrightable content or code), or you should have permission to use the code or content your modification is based upon
 - Your modification is supposed to be used in conjunction with a licensed copy of Voxel Tycoon, not with any other product or separately
 
-While you're the owner of your modifications, by submitting any content to appear as a modification  for Voxel Tycoon on any related mediums (like in-game Mod Browser or Steam Workshop) you are granting to us worldwide, non-exclusive, irrevocable, royalty-free license to distribute this content and use it in promotional activities.
+While you're the owner of your modifications, by submitting any content to appear as a modification  for Voxel Tycoon on any related mediums (such as the in-game Mod Browser or Steam Workshop) you are granting to us worldwide, non-exclusive, irrevocable, royalty-free license to distribute this content and use it in promotional activities.
 
 We reserve the right to take down any content if we think it's required.
 
