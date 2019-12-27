@@ -18,6 +18,7 @@ This step-by-step guide is intended for mod creators who want to feature their c
 
 If you want to become a publisher, you should obtain credentials so our servers can identify you as an Author. We do not have a user interface for registration at the moment, so please contact **@devs** on our [Discord server](//discord.gg/64KPWd5).
 
+> **Note**: Please ensure that you have read and agreed with our [EULA](/eula) before publishing mods.
 
 You will receive an `identity.json` file - this is your key to publishing access. Put the file into the root of your `Content/` folder. Next time the game runs, it will know that you are an Author.
 
