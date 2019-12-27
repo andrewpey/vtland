@@ -3,7 +3,7 @@
   title: 'Day/night cycle, C# modding, and a bunch of other improvements and fixes in the last update this year!'
   groups:
     gameplay:
-    - Introduced a simple day/night cycle (can be disabled in settings)
+    - Introduced the day/night cycle (can be disabled in settings)
     improvements:
     - 'Fleet window: zero profits now shown in black'
     - 'Fleet window: cargo tooltip now shows both count and capacity'
