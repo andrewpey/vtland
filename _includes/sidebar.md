@@ -27,6 +27,12 @@
 
 [Roadmap](https://trello.com/b/wHz5JHqH/voxel-tycoon-roadmap){:.sidebar-menu__item}
 
+[Suggestions](https://github.com/voxeltycoon/suggestions/issues){:.sidebar-menu__item}
+
+[Bug Tracker](https://github.com/voxeltycoon/bug-tracker/issues){:.sidebar-menu__item}
+
+***
+
 [Changelog](/changelog){:.changelog .sidebar-menu__item}
 
 [Wiki](https://voxeltycoon.gamepedia.com){:.wiki .sidebar-menu__item}
