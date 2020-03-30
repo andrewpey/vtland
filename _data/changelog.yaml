@@ -1,3 +1,44 @@
+- version: '0.80'
+  date: 2020-03-30 23:30:00 +0300
+  title: <b>Headquarters Update!</b> Also, this is the last update before the Steam Early Access release!
+  text: That's right! A few pretty massive things that are separate us from the Steam EA release - like passenger transportation or Workshop integration - are currently in the works, and we are completely focusing on them from now on. Stay tuned for details.<br><br>Exciting times!
+  groups:
+    gameplay:
+    - Added <b>Headquarters</b>! Build it to take a look at your company performance, upgrade Headquarters level, and gain additional profits from local customers
+    - Added brand new <b>Company/Headquarters Window</b>! Available at the colorful button at the bottom left corner of the screen, or by clicking on the Headquarters building
+    - Game Settings moved to the in-game menu (top right corner)
+    - A company now have a value
+    - You can now toggle customers at the station window to suspend selling to some of them
+    - You can now control how station interacts with each warehouse (limit to load/unload only, disable completely)
+    - Added notifications when a vehicle is making no profit - for example, stuck in a traffic jam or has the wrong schedule
+    - Added experimental <b>Object Information</b> tool that shows generic information about game objects, more specific details per object will be added later
+    - Added some new metrics to win game screen
+    - The official <b>Infinite Resources</b> mod is available in the mod gallery
+    improvements:
+    - You can now see station length in the station window
+    - Hold <kbd>Shift</kbd> to borrow/repay all
+    - Save files now have <code>.sav</code> extension to clearly indicate their purpose
+    - Day/night transition duration changed from 5 to 10 seconds
+    - Made buildings highlight look more distinguishable at night
+    - New game parameters - names, currency, world generation, difficulty, selected mods - are no longer getting reset to defaults every time
+    - Money cheat menu <b>Set</b> action now set exactly provided value instead of adding it to the current amount
+    - Selected rails, roads, and conveyors are no longer getting reset to default ones every time laying tools opened
+    - Electrification state is no longer gettings reset every time rail laying tool opened
+    fixes:
+    - Fixed night may be forced in the main menu
+    - Fixed huge amounts of money could overflow
+    modding:
+    - Added <code>.json</code> asset handler
+    - Added <code>.headquarters</code> asset
+    - Added property <code>ItemsUri</code> to <code>.strings</code> asset, allowing extract items to json dictionary to simplify the localization process
+    - Added properties allowing to set min, default, and max length and width of rail stations
+    - Exposed <code>Toolbar.AddButton()</code> API allowing to add custom tools to the toolbar
+    - Newly added <b>InfoTool</b> tool uses the new Toolbar API, and also might serve as a simple example of how to implement your own tools
+    - Removed legacy asset converter (pre SDK2.0)
+    localization:
+    - Updated Italian names
+    - Updated Spain names
+
 - version: '0.79'
   date: 2019-12-27 12:00:00 +0300
   title: 'Day/night cycle, C# modding, and a bunch of other improvements and fixes in the last update this year!'
