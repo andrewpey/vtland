@@ -4,7 +4,7 @@
     improvements:
     - Device recipe picker received a visual update
     - Made mods gallery window to fill the whole screen
-    - Mods no longer can be installed or updated if the current version of the game is older than the one used to publish mod
+    - Mods no longer can be installed or updated if the current version of the game is older than the one used to publish a mod
     - Improved performance of complex UI in some cases
     fixes:
     - Fixed a city can shamelessly remove Headquarters
@@ -12,7 +12,7 @@
     - Fixed legacy saves can't be removed or shared
     modding:
     - Added <code>BuilderToolManager</code> allowing to register custom builder tools
-    - Tracks and depots now can be locked behind research
+    - Tracks and depots now can be locked behind a research
     localization:
     - Added some missing localizations
 
