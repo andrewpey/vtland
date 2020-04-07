@@ -1,3 +1,21 @@
+- version: '0.80.1'
+  date: 2020-04-07 6:30:00 +0300
+  groups:
+    improvements:
+    - Device recipe picker received a visual update
+    - Made mods gallery window to fill the whole screen
+    - Mods no longer can be installed or updated if the current version of the game is older than the one used to publish mod
+    - Improved performance of complex UI in some cases
+    fixes:
+    - Fixed a city can shamelessly remove Headquarters
+    - Fixed wheels weird rotation when a car is moving uphill or downhill
+    - Fixed legacy saves can't be removed or shared
+    modding:
+    - Added <code>BuilderToolManager</code> allowing to register custom builder tools
+    - Tracks and depots now can be locked behind research
+    localization:
+    - Added some missing localizations
+
 - version: '0.80'
   date: 2020-03-30 23:30:00 +0300
   title: <b>Headquarters Update!</b> Also, this is the last update before the Steam Early Access release!
