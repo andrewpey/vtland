@@ -1,5 +1,5 @@
 - version: '0.80.1'
-  date: 2020-04-07 6:30:00 +0300
+  date: 2020-04-07 18:30:00 +0300
   groups:
     improvements:
     - Device recipe picker received a visual update
