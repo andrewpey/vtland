@@ -37,7 +37,7 @@
 
 [Wiki](https://voxeltycoon.gamepedia.com){:.wiki .sidebar-menu__item}
 
-[Modding](/sdk){:.sdk .sidebar-menu__item}
+[Modding](/modding){:.sdk .sidebar-menu__item}
 
 [Railroad to Hell <span style="color:red">3</span>](/railroad-to-hell){:.sidebar-menu__item}
 

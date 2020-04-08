@@ -4,6 +4,8 @@ style: sdk
 title: Modding // VOXEL TYCOON
 header: Modding
 permalink: sdk
+redirect_from:
+    - /modding
 redirect_to:
     - https://github.com/voxeltycoon/docs/wiki
 ---
