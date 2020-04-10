@@ -1,0 +1,11 @@
+---
+layout: post
+title: Devlog
+permalink: devlog/blogs
+---
+
+<ul id="devlog">
+    {% assign posts = site.posts | where: "category", "devlog" %}
+    {% assign items = posts | sort: "date" | reverse %}
+    {% include devlog_items.html items=items %}
+</ul>

@@ -1,0 +1,43 @@
+{% for item in include.items limit: include.limit %}
+    {% unless item.draft %}
+    {% if item.url %}
+        {% assign url=item.url %}
+    {% else %}
+        {% capture url %}/changelog#{{ item.version }}{% endcapture %}
+    {% endif %}
+    <li>
+        {% if item.thumb %}
+            <div class="thumb">
+                <a href="{{ url }}">
+                    <img src="{{ item.thumb }}" style="margin-bottom: 6px" />
+                </a>
+            </div>
+        {% else %}
+            {% unless item.url %}
+            <div class="thumb-new-release">
+                <a href="{{ url }}">
+                    {{ item.version }}
+                </a>
+            </div>
+            {% endunless %}
+        {% endif %}
+        {% if item.url %}
+        <span class="date">{{ item.date | date: "%b %d, %Y" }}</span>
+        <a href="blogs" class="tag post">blog post</a>
+        <br/>
+        <a href="{{ url }}">{{ item.title }}</a>
+        {% else %}
+        <span class="date">{{ item.date | date: "%b %d, %Y" }}</span>
+        <a href="/changelog" class="tag new-release">new release</a>
+        <br/>
+        <a href="{{ url }}">
+            {% assign title = site.new_version_available_texts | sample %}
+                {% if item.title %} {{ item.title }} {% else %} {{ title | replace: "$1", item.version }} {% endif %}
+        </a>
+        {% endif %}
+    </li>
+    {% endunless %}
+{% endfor %}
+{% if include.limit %}
+<li><a href="/devlog">more...</a></li>
+{% endif %}
