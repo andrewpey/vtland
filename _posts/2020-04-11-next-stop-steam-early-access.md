@@ -6,8 +6,7 @@ category: devlog
 thumb: /assets/posts/dev_update.png
 ---
 
-<iframe src="https://store.steampowered.com/widget/732050/" frameborder="0" width="646" height="190"></iframe>
-
+<iframe class="widget-steam_modal" src="https://store.steampowered.com/widget/732050/" frameborder="0"></iframe>
 
 It’s hard to believe that - after four years of development - we are finally standing at the gate of Steam Early Access. But it’s true!
 
@@ -45,4 +44,4 @@ If you didn't yet, join our [Discord server](//discord.gg/voxeltycoon), and foll
 
 See ya!
 
-<iframe src="https://store.steampowered.com/widget/732050/" frameborder="0" width="646" height="190"></iframe>
+<iframe class="widget-steam_modal" src="https://store.steampowered.com/widget/732050/" frameborder="0"></iframe>
