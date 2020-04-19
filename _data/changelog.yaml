@@ -1,5 +1,6 @@
 - version: '0.80.1'
   date: 2020-04-07 18:30:00 +0300
+  text: 'Please read <a href="https://voxeltycoon.xyz/devlog/next-stop-steam-early-access">Next stop: Steam Early Access</a>'
   groups:
     improvements:
     - Device recipe picker received a visual update
@@ -18,7 +19,7 @@
 
 - version: '0.80'
   date: 2020-03-30 23:30:00 +0300
-  title: <b>Headquarters Update!</b> Also, this is the last update before the Steam Early Access release!
+  title: <b>Headquarters Update!</b> Also, this is the last major update before the Steam Early Access release!
   text: That's right! A few pretty massive things that are separate us from the Steam EA release - like passenger transportation or Workshop integration - are currently in the works, and we are completely focusing on them from now on. Stay tuned for details.<br><br>Exciting times!
   groups:
     gameplay:
