@@ -7,7 +7,7 @@ permalink: sdk
 redirect_from:
     - /modding
 redirect_to:
-    - https://github.com/voxeltycoon/docs/wiki
+    - https://docs.voxeltycoon.xyz/
 ---
 
 ## Where's SDK 2.0?
