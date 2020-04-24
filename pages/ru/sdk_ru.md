@@ -6,7 +6,7 @@ permalink: /sdk/ru
 redirect_from:
     - /sdk_ru
 redirect_to:
-    - https://github.com/voxeltycoon/docs/wiki
+    - https://docs.voxeltycoon.xyz/
 ---
 
 > Это устаревшая версия SDK.

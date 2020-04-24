@@ -143,7 +143,7 @@
     - Fixed error when sending a vehicle to the depot after the game was loaded on pause
     - Fixed demand window opens on the right click
     modding:
-    - Added possibility to modify other mod assets (including base game) with the brand new <code>.patch</code> asset (<a href="https://github.com/voxeltycoon/docs/wiki/.patch-asset">documentation</a>)
+    - Added possibility to modify other mod assets (including base game) with the brand new <code>.patch</code> asset (<a href="https://docs.voxeltycoon.xyz/assets/patch-asset/">documentation</a>)
     - <code>pack.json</code> is now mandatory for a mod to appear in-game
     - Added <code>Goal</code> property to <code>.research</code> asset indicating that Congratulations window should be triggered
     localization:
