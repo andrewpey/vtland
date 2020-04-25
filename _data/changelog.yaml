@@ -1,3 +1,31 @@
+- version: '0.81'
+  date: 2020-04-25 22:00:00 +0300
+  title: Shuttle trains support, plus other minor improvements and fixes
+  text:
+    Trains now can switch direction without turning around in place! Switching takes much less time; however, if a train doesn't have a cab facing in the moving direction, its maximum speed will be greatly reduced.<br><br>
+    This vastly changes how you play with <b>Turn around allowed</b> difficulty option disabled. Please give this renewed mode a try!
+  groups:
+    gameplay:
+    - Added shuttle trains support!
+    - Trains now can switch direction without turning around in place
+    - If a train doesn't have a cab facing in the moving direction, its maximum speed will be greatly reduced
+    - Some cars have cabs on boths sides, while other on one side only, so consider this when building your consists
+    improvements:
+    - Add click sounds to context menus
+    fixes:
+    - text: Fixed stores doesn't consume goods from their internal storage
+      issue: 125
+    - Fixed grass continue to grow on pause
+    - "Vehicle unit picker: Fixed units can't be filtered by <b>Set</b> type"
+    - 'Company window: Fixed company name disappears on some non-100% UI scales'
+    - Fixed regression where global shadows can't be turned off
+    - Fixed regression where Português-Brasil localization was untranslated
+    modding:
+    - Added <code>Cab</code> property to <code>.trainunit</code> asset that can be set to <code>None</code>, <code>Front</code>,<code>Rear</code>, or <code>Both</code>
+    localization:
+    - Added Hungarian language
+    - Added Danish language (work in progress)
+
 - version: '0.80.1'
   date: 2020-04-07 18:30:00 +0300
   text: 'Please read <a href="https://voxeltycoon.xyz/devlog/next-stop-steam-early-access">Next stop: Steam Early Access</a>'
