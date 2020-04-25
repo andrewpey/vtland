@@ -22,6 +22,7 @@
     - Fixed regression where Português-Brasil localization displayed untranslated strings
     modding:
     - Added <code>Cab</code> property to <code>.trainunit</code> asset that can be set to <code>None</code>, <code>Front</code>,<code>Rear</code>, or <code>Both</code>
+    - Modding documentation moved to the new <a href="//docs.voxeltycoon.xyz">docs.voxeltycoon.xyz</a> portal
     localization:
     - Added Hungarian language
     - Added Danish language (work in progress)
