@@ -28,7 +28,7 @@ This also means that new releases may happen more often than it was before. We r
 
 The Alpha will feature **Steam Workshop** integration, so sharing your work with the community never been more streamlined. We encourage you to start making your mods today so they'll be ready for the Alpha release.
 
-For those who don't know where to start, the new guide just has been published (thanks *scailman*!): [Creating your first content mod](https://github.com/voxeltycoon/docs/wiki/Creating-your-first-content-mod).
+For those who don't know where to start, the new guide just has been published (thanks *scailman*!): [Creating your first content mod](https://docs.voxeltycoon.xyz/guides/content-mods/creating-your-first-building-mod/).
 
 Also, check out our new home for modding documentation: [Voxel Tycoon modding documentation](/modding).
 
