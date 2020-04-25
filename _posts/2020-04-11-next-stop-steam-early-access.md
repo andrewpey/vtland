@@ -22,7 +22,7 @@ While we are working on Steam EA release, new builds are still going to be relea
 
 This also means that new releases may happen more often than it was before. We recommend you to install the game via [Itch App](//itch.io/app) to keep it always up-to-date without any hassle.
 
-> If you bought the game without registering, you can always [https://itch.io/docs/buying/already-bought](https://itch.io/support#recover-games) and link the game to your Itch account that you use to login to the Itch App.  
+> If you bought the game without registering, you can always [restore you purchase](https://itch.io/docs/buying/already-bought) and link the game to your Itch account that you use to login to the Itch App.  
 
 ## Modding and Steam Workshop
 
