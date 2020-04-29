@@ -51,7 +51,7 @@ Of course, their main purpose is educational. Source code for our mods is now [a
 
 ## #mods Discord channel
 
-We've also set up a channel on [our Discord Server](//discord.gg/voxeltycoon) that automatically lets members know when news mods get released or updated.
+We've also set up a channel on [our Discord Server](//discord.gg/voxeltycoon) that automatically lets members know when new mods get released or updated.
 
 {% include img.html src="/assets/posts/modding-4.png" %}
 
