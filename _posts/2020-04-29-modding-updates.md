@@ -3,7 +3,7 @@ layout: post
 style: post
 title: 'Modding updates'
 category: devlog
-thumb: /assets/posts/dev_update.png
+thumb: /assets/posts/modding.gif
 ---
 
 Today's post covers some modding-related news that happened in the last weeks.
