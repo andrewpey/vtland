@@ -79,7 +79,7 @@ theme: 18182d
     }
 
     function toggleFromHash() {
-        const item = $('#version-' + location.hash.substr(1).replace('.', '\\.'))
+        const item = $('#version-' + location.hash.substr(1).replace(/\./g, '\\.'))
         setTimeout(function() {
             toggle(item.find('.header'), true)
             scrollTo({ top: item.offset().top, behavior: 'smooth' })

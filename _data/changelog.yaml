@@ -1,3 +1,16 @@
+- version: '0.82'
+  date: 2020-05-12 00:30:00 +0300
+  groups:
+    improvements:
+    - Added building tools UI — you can now visually choose from different types of stations, rails, roads, etc.
+    - Also, it exposes controls for the building process of stations, rails, roads, conveyors, bridges, and tunnels, which previously were available only via hotkeys
+    - Hotkeys moved to the right edge of the screen and have their appearance updated to make them more discoverable
+    modding:
+    - Deposit names can be customized using <code>#DisplayName</code> convention
+    localization:
+    - Added CHF currency
+    - Added Swiss German language (currently it's the same as German, but choosing this will display money and other numbers as expected in Switzerland)
+
 - version: '0.81'
   date: 2020-04-25 22:00:00 +0300
   title: Shuttle trains support, plus other minor improvements and fixes
