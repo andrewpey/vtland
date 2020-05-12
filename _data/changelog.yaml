@@ -1,6 +1,6 @@
 - version: '0.82'
   date: 2020-05-12 00:30:00 +0300
-  title: Building tools UI!
+  title: Building tools UI is finally here!
   groups:
     improvements:
     - Added building tools UI — you can now visually choose from different types of stations, rails, roads, etc.
