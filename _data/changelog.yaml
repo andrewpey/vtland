@@ -7,7 +7,7 @@
     - "Hint: if you didn't know yet, you can toggle UI with <kbd>F1</kbd>"
     improvements:
     - Mod Browser revamped in preparation for Steam Workshop integration
-    - You can now install, remove, or update mods simulataniously
+    - You can now install, remove, or update mods simultaneously
     - "Added an option to stop 'unprofitable' notifications per vehicle, you can find it under three dots menu in vehicle window"
     fixes:
     - Fixed wrong vehicle window title if vehicle is wrecked
