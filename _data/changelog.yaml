@@ -9,12 +9,14 @@
     - Mod Browser revamped in preparation for Steam Workshop integration
     - You can now install, remove, or update mods simultaneously
     - "Added an option to stop 'unprofitable' notifications per vehicle, you can find it under three dots menu in vehicle window"
+    - Added ability to lock mouse cursor in Free camera
     fixes:
     - Fixed wrong vehicle window title if vehicle is wrecked
     modding:
     - <code>pack.json</code> renamed to <code>mod.json</code>
     - Mods now should have square previews of size at least <code>512x512</code>, as they will be presented on Steam Workshop
     - Added publish checklist window that will let you know if some requirements are not met and mod can't be published
+    - 'New guide by <i>scailman</i> is available: <a href="http://docs.voxeltycoon.xyz/guides/content-mods/creating-a-small-production-chain/">Creating a small production chain</a>'
 
 - version: '0.82'
   date: 2020-05-12 00:30:00 +0300
