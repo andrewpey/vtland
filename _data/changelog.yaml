@@ -9,7 +9,7 @@
     - Mod Browser revamped in preparation for Steam Workshop integration
     - You can now install, remove, or update mods simultaneously
     - "Added an option to stop 'unprofitable' notifications per vehicle, you can find it under three dots menu in vehicle window"
-    - Added ability to lock mouse cursor in Free camera
+    - Added ability to lock mouse cursor in Free Camera
     fixes:
     - Fixed wrong vehicle window title if vehicle is wrecked
     modding:
