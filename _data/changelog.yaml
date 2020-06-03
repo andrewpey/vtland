@@ -1,7 +1,7 @@
 - version: '0.84'
   date: 2020-06-03 19:30:00 +0300
   title: Remappable controls, plus a bunch of improvements and fixes!
-  text: <a href="/roadmap">One less cards left on the roadmap before Steam Early Access!</a>
+  text: <a href="/roadmap">One less cards on the roadmap before Steam Early Access!</a>
   groups:
     gameplay:
     - You can't sell to locked regions anymore
