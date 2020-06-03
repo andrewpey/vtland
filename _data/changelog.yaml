@@ -1,7 +1,48 @@
+- version: '0.84'
+  date: 2020-06-03 19:30:00 +0300
+  title: Remappable controls, plus a bunch of improvements and fixes!
+  text: <a href="/roadmap">One more card closer to Steam Early Access!</a>
+  groups:
+    gameplay:
+    - You can't sell to locked regions anymore
+    - Level of demand is not visible anymore for businesses in locked regions
+    improvements:
+    - Added remappable controls to settings
+    - Improved main menu loading times
+    - Game version can be copied from settings
+    - Vehicle now can be copied from station and vehicle windows, besides from depot, fleet window, or picking vehicle in the world
+    - Automatically show contents of storage buildings (warehouses, mines) in range when building stations or other storage buildings, or while picking vehicle destinations
+    - Translators added to credits
+    - Reduced labels brightness at night
+    - "Asset Editor: Make object picker fill the screen, updated its appearance, and fixed some UI issues"
+    - "Asset Editor: Eliminated huge lag when switching from picker to object or back"
+    - Added cheat menu to warehouses (activated by left+right click)
+    - Adjusted Walk Mode camera height
+    fixes:
+    - Fixed regression where tracks can't be locked behind a research
+    - Fixed possible errors if a mod has no description
+    - Fixed possible errors while trying to delete or update script mods
+    - Fixed player can install mod even if a local folder already exists, causing their local files to be overridden
+    - Fixed transformers in cities can't be clicked
+    - Fixed memory leak in vehicle schedule tasks
+    - Fixed credits positioning depends on UI scale
+    modding:
+    - <code>IMod</code> interface replaced with <code>Mod</code> class, so mod creators don't need to implement all callbacks, and new callbacks can be added over time
+    - <code>OnUpdate()</code> callback added
+    - <code>Initialize()</code> callback added allowing to execute custom code before assets are loaded; this, in particular, allows to register custom asset handlers
+    - <a href="https://github.com/voxeltycoon/mods">Official samples</a> updated to reflect these changes
+    - Overload new <code>AllowConnectors()</code> method to allow your custom <code>StorageBuilding</code> to work with conveyor connectors
+    - The game now checks for <code>.pdb</code> files for script mods to display correct line numbers in logs
+    - <code>mod.json</code> now gets reformated after the mod is installed to ensure it's fully compatible with JSON parsers (see <a href="https://github.com/voxeltycoon/bug-tracker/issues/128">bugtracker#128</a>)
+    - <code>Demo/presets.json</code> replaced with <code>AssetEditorPresets.json</code> in the AppData
+    localization:
+    - Added Swedish and Romanian languages
+    - Added SEK and RON currencies
+
 - version: '0.83'
   date: 2020-05-17 23:45:00 +0300
   title: Mod Browser upgrade and Walk Mode! 🚶‍♀️
-  groups:
+  groups: 
     gameplay:
     - Added simple Walk Mode <kbd>G</kbd> to Free Camera <kbd>F9</kbd>. Now you can explore your empire on foot!
     - "Hint: if you didn't know yet, you can toggle UI with <kbd>F1</kbd>"
