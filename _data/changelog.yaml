@@ -1,3 +1,10 @@
+- version: '0.84.1'
+  date: 2020-06-06 20:30:00 +0300
+  groups:
+    fixes:
+    - "Asset Editor: Fixed regression where user can't edit hex color, modifier buttons stopped working"
+    - Fixed devices "destroy" products from the second input without consuming if selected recipe requires only one input product
+
 - version: '0.84'
   date: 2020-06-03 19:30:00 +0300
   title: Remappable controls, plus a bunch of improvements and fixes!
