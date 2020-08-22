@@ -19,9 +19,9 @@ There're some other things up our sleeves as well, such as Steam Workshop integr
 
 ## Radio silence
 
-With all of that said, and as you can probably imagine, a large amount of work is required to make such an important update. A lot of it is already done, but a lot is still in the works, too. And given the amount of things changing all at once, we can't realistically predict how much more time we need. Like any complex mechanism, we can't say it works as intended - i.e. playing the game is fun enough - until all of the parts are done and connected together.
+With all of that said, and as you can probably imagine, a large amount of work is required to make such an important update. A lot of it is already done, but a lot is still in the works, too. And given the amount of things changing all at once, we can't realistically predict how much more time we need (it should at least be this year!). Like any complex mechanism, we can't say it works as intended - i.e. playing the game is fun enough - until all of the parts are done and connected together.
 
-And that's why you don't hear from us very often these days. We're busy! This is probably one of the most important times in Voxel Tycoon's life, and our own lives, too. We don't have an exact time frame for when we'll be finished, but it should at least be this year!
+And that's why you don't hear from us very often these days. We're busy! This is probably one of the most important times in Voxel Tycoon's life, and our own lives, too. We don't have an exact time frame for when we'll be finished, but 
 
 ## Just a beginning
 
@@ -38,3 +38,7 @@ If you haven't yet, join our [Discord Server](//discord.gg/voxeltycoon), and fol
 ## Wishlist on Steam:
 
 <iframe class="widget-steam_modal" src="https://store.steampowered.com/widget/732050/" frameborder="0"></iframe>
+
+## Support the development
+
+[Donate to Voxel Tycoon](https://voxeltycoon.xyz/donate) and get into the game credits!
