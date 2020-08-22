@@ -13,7 +13,7 @@ As you may already know, Voxel Tycoon is just one update away from hitting Steam
 
 This will differ quite a bit from our usual updates, though. A successful Steam launch is crucial for VT's future development, so we can't afford to rush it.
 
-Besides many quality of life improvements in preparation for Steam, VT will now feature a brand new game mechanic - passenger transportation! This involves many changes and lots of new content, like the new vehicles and stations that will be unlocked with research.
+Besides many quality of life improvements in preparation for Steam, VT will now feature a brand new game mechanic - **passenger transportation**! This involves many changes and lots of new content, like the new vehicles and stations that will be unlocked with research.
 
 There're some other things up our sleeves as well, such as Steam Workshop integration, and some other unannounced changes and improvements. All of this is bringing the update far past its original scale.
 
