@@ -6,10 +6,11 @@
         {% capture url %}/changelog#{{ item.version }}{% endcapture %}
     {% endif %}
     <li>
-        {% if item.thumb %}
+        {% if item.thumb or item.thumb_square %}
             <div class="thumb">
                 <a href="{{ url }}">
-                    <img src="{{ item.thumb }}" style="margin-bottom: 6px" />
+                    {% assign thumb = item.thumb_square | default: item.thumb %}
+                    <img src="{{ thumb }}" style="margin-bottom: 6px" />
                 </a>
             </div>
         {% else %}
