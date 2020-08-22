@@ -27,7 +27,7 @@ And that's why you don't hear from us very often these days. We're busy! This is
 
 We really can't thank you enough for taking this journey with us through VT's development. But this is just the start - we are committed to bringing [even more content](https://voxeltycoon.xyz/roadmap) to Voxel Tycoon after the game reaches Early Access!
 
-Also, big thanks to our beloved modders, bringing new content to the game almost every day. They are so cool and talented, and some of their creations so creative and clever that we can't help but be amazed. Keep up the great work!
+Also, big thanks to our beloved modders, bringing new content to the game almost every day. You are so cool and talented, and some of your creations so creative and clever that we can't help but be amazed. Keep up the great work!
 
 If you haven't yet, join our [Discord Server](//discord.gg/voxeltycoon), and follow us on your favorite social media to keep up to date!
 
