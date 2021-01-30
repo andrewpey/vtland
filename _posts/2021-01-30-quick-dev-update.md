@@ -21,8 +21,8 @@ As you can see, it's still unreadable (on purpose, as usual). However, there's o
 
 {% include img.html src="/assets/quick-dev-update/steam_workshop.png" %}
 
-Yep, we've reached a new milestone: Steam Workshop integration is fully completed! We can't wait to get you all on board so you can explore the community-made content in a convenient way, and even share your own creations with ease.
+Yep, we've reached a new milestone: Steam Workshop integration is fully completed! We can't wait to get you all on board so you can explore the community-made content in a convenient way, and even share your own creations with ease to a broader audience.
 
 This also means that we have only one major task left before going to Steam EA - the tutorial. Of course, there's a bunch of fixes, tweaks, and balance tuning still required here and there, but we finally started to see the light at the end of the tunnel. And that's good.
 
-That's it for today. We'll keep you informed about how's progress is going, and see you next time!
+That's it for today. We'll keep you informed about how progress is going, and see you next time!
