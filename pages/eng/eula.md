@@ -10,7 +10,7 @@ By buying, downloading, running, or using a copy of Voxel Tycoon in any other wa
 
 If you for some reason do not agree to these rules, then you must not buy, download, run, or use Voxel Tycoon in any other way.
 
-If it's not stated otherwise by distribution platform where you bought Voxel Tycoon, by buying Voxel Tycoon you receive a license to install and run the Voxel Tycoon on your  personal machine. You are not allowed to distribute, sell, rent, or pass your copy of Voxel Tycoon to anyone else, or make it available for access to other people in any other way.
+If it's not stated otherwise by the distribution platform where you bought Voxel Tycoon, by buying Voxel Tycoon you receive a license to install and run the Voxel Tycoon on your  personal machine. You are not allowed to distribute, sell, rent, or pass your copy of Voxel Tycoon to anyone else, or make it available for access to other people in any other way.
 
 ## Modifications
 
