@@ -33,9 +33,9 @@ A new Logistics tab was added to all buildings that are part of the logistics ne
 
 {% include img.html src="/assets/posts/logistics-network/1.png" alt="No more wondering if a new customer that just opened falls into the range of your station or not!" %}
 
-## Mine, warehouse, and device windows
+## Mine, warehouse, and device UI
 
-All the buildings that historically were missing windows finally got them!
+All the buildings that historically were missing UI finally got it!
 
 Mine window:
 {% include img.html src="/assets/posts/logistics-network/4.png" %}
