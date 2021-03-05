@@ -88,7 +88,6 @@ pre.highlight code {
     font-family: 'HansKendrick';
 }
 
-
 .img-inline-left-container
 {
     float: left;
@@ -105,7 +104,7 @@ pre.highlight code {
     margin-top: 8px;
 }
 
-img, iframe {
+img, iframe, video {
     border-radius: 6px;
 }
 
@@ -173,4 +172,8 @@ img {
     &:not(.emoji) {
         width: 100%;
     }
+}
+
+video {
+    width: 100%;
 }
