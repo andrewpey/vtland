@@ -49,3 +49,5 @@ Warehouse window:
 ## That's it for today!
 
 Stay tuned for the next post to discover what to expect from the next major milestone for Voxel Tycoon and the whole community!
+
+<iframe class="widget-steam_modal" src="https://store.steampowered.com/widget/732050/" frameborder="0"></iframe>
