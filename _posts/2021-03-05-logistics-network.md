@@ -3,7 +3,7 @@ layout: post
 style: post
 title: 'Coming in 0.85: Logistics network'
 category: devlog
-thumb: /assets/quick-dev-update/thumb.png
+thumb: /assets/posts/logistics-network/thumb.png
 excerpt: In this update, we completely revamp how buildings and vehicles interact with each other
 ---
 
