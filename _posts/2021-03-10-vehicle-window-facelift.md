@@ -3,7 +3,8 @@ layout: post
 style: post
 title: 'Coming in 0.85: A new way to set up a schedule'
 category: devlog
-thumb: /assets/posts/vehicle-window-facelift/thumb.png
+thumb: /assets/posts/vehicle-window-facelift/1.png
+thumb_square: /assets/posts/vehicle-window-facelift/thumb.png
 excerpt: With 0.85, the Vehicle Window will receive a huge facelift
 ---
 
