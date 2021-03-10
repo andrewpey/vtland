@@ -32,7 +32,7 @@ Additionally, you can now change the order of stops or orders just by dragging t
 
 There're some other improvements too:
 
-- Hold Shift to add many stops to the schedule at once
+- Hold <kbd>Shift</kbd> to add many stops to the schedule at once
 - Added **Wait for N seconds** order
 - Option to force a vehicle to turn around at the stop
 - When you pick exact cars to apply an order to, you can see what kind of cargo they are moving
