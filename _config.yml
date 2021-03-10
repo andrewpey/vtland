@@ -4,7 +4,7 @@ plugins:
   - jekyll-sass-converter
   - jekyll-feed
 
-permalink: "/:categories/:title"
+permalink: "/:categories/:title/"
 
 newsletter_url: //goo.gl/forms/2uB1EuoBpT8fYsCB2
 
