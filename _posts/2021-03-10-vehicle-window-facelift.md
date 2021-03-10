@@ -20,7 +20,7 @@ From 0.85, you can set multiple orders per one stop. It helps to group related o
 
 {% include img.html src="/assets/posts/vehicle-window-facelift/3.png" %}
 
-After a stop has been added to the schedule, you can add as many orders as you want which vehicle then will execute after arriving at this stop.
+After a stop has been added to the schedule, you can add as many orders as you want. A vehicle will execute all of them after arriving at this stop.
 
 There are also a few useful presets, allowing you quickly add common orders to the schedule.
 
