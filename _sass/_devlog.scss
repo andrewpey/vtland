@@ -51,13 +51,13 @@
             font-size: 1rem;
         }
         .tag {
-            border-radius: 2px;
-            font-size: 1rem;
-            padding: 2px 4px;
-            font-weight: bold;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            padding: 4px 6px;
+            font-weight: normal;
             color: #fffa;
             text-transform: uppercase;
-            border: solid 1px #fffa;
+            border: 0;
         }
         .tag.post {
             color:  $tag-post;

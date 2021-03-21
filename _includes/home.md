@@ -2,7 +2,7 @@ We are developing <span class="title">Voxel Tycoon</span> — a strategy game ab
 
 <!-- <iframe class="widget-youtube" src="https://www.youtube.com/embed/Ngo9-fsT4P4" frameborder="0" allowfullscreen></iframe> -->
 
-<iframe frameborder="0" src="https://itch.io/embed/434404?linkback=true&amp;border_width=0&amp;bg_color=32A094&amp;fg_color=ffffff&amp;link_color=20ff92&amp;border_color=4bb9ad" class="widget-itchio"></iframe>
+<iframe class="widget-steam_modal" src="https://store.steampowered.com/widget/732050/" frameborder="0"></iframe>
 
 <div style="height:2.2rem">&nbsp;</div>
 

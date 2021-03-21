@@ -1,3 +1,8 @@
-<video muted autoplay loop playsinline>
-    <source src="{{include.src}}" type="video/mp4">
-</video>
+<div>
+    <video muted autoplay loop playsinline>
+        <source src="{{include.src}}" type="video/mp4">
+    </video>
+    {% if include.alt %}
+    <span class="img-alt">{{include.alt}}</span>
+    {% endif %}
+</div>

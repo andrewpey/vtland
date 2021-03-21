@@ -1,7 +1,7 @@
     <div class="background-video">
         <div class="video-foreground">
             {% if page.play_video %}
-            <video class="video-content" src="/background.mp4" poster="/background.jpg" autoplay loop muted />
+            <video class="video-content" src="/background.mp4" poster="/background.jpg" autoplay loop muted playsinline />
             {% else %}
             <img class="video-content" src="/background.jpg" style="opacity: 0.5">
             {% endif %}

@@ -24,12 +24,12 @@
         {% endif %}
         {% if item.url %}
         <span class="date">{{ item.date | date: "%b %d, %Y" }}</span>
-        <a href="/devlog/blogs" class="tag post">blog post</a>
+        <a href="/devlog/blogs" class="tag post">blog</a>
         <br/>
         <a href="{{ url }}">{{ item.title }}</a>
         {% else %}
         <span class="date">{{ item.date | date: "%b %d, %Y" }}</span>
-        <a href="/changelog" class="tag new-release">new release</a>
+        <a href="/changelog" class="tag new-release">release</a>
         <br/>
         <a href="{{ url }}">
             {% assign title = site.new_version_available_texts | sample %}

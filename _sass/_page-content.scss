@@ -109,10 +109,10 @@ img, iframe, video {
 }
 
 .img-alt {
-    font-size: 0.9em;
     /* font-style: italic; */
     color: #ffffff88;
-    padding-top: 5px;
+    display: block;
+    margin: 0.2rem 0 1.5rem 0;
 }
 
 .three-img {
@@ -176,4 +176,5 @@ img {
 
 video {
     width: 100%;
+    margin-bottom: 6px;
 }
