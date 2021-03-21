@@ -12,7 +12,7 @@ This is the third installment of the series of posts where we cover the new feat
 * [A new way to set up a schedule](/devlog/vehicle-window-facelift/)
 * Passengers!
 
-## Passengers are here
+## Passengers are arriving to Voxel Tycoon
 
 {% include img.html src="/assets/posts/passengers/3.png" %}
 

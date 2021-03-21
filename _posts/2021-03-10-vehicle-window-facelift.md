@@ -8,7 +8,12 @@ thumb_square: /assets/posts/vehicle-window-facelift/thumb.png
 excerpt: With 0.85, the Vehicle Window will receive a huge facelift
 ---
 
-With 0.85, the Vehicle Window receives a huge facelift.
+This is the second installment of the series of posts where we cover the new features and changes the **0.85** (aka **Steam Early Access**) update delivers to Voxel Tycoon:
+* [Logistics network](/devlog/logistics-network/)
+* A new way to set up a schedule
+* [Passengers!](/devlog/passengers/)
+
+With 0.85, the Vehicle Window receives a huge facelift:
 
 {% include img.html src="/assets/posts/vehicle-window-facelift/1.png" %}
 
