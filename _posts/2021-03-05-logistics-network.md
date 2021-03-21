@@ -7,7 +7,7 @@ thumb: /assets/posts/logistics-network/thumb.png
 excerpt: In this update, we completely revamp how buildings and vehicles interact with each other
 ---
 
-This is the first installment of the series of posts where we cover the new features and changes the **0.85** (aka **Steam Early Access**) update delivers to Voxel Tycoon:
+This is the first installment of the series of posts where we cover the new features and changes the upcoming **0.85** (aka **Steam Early Access**) update delivers to Voxel Tycoon:
 * Logistics network
 * [A new way to set up a schedule](/devlog/vehicle-window-facelift/)
 * [Passengers!](/devlog/passengers/)

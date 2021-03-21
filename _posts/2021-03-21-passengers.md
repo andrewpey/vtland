@@ -7,7 +7,7 @@ thumb: /assets/posts/passengers/3.png
 excerpt: In every house in the city, there are people living! And they don't just sit tight in their flats but have a desire to move to other places and probably get back home.
 ---
 
-This is the third installment of the series of posts where we cover the new features and changes the **0.85** (aka **Steam Early Access**) update delivers to Voxel Tycoon:
+This is the third installment of the series of posts where we cover the new features and changes the upcoming **0.85** (aka **Steam Early Access**) update delivers to Voxel Tycoon:
 * [Logistics network](/devlog/logistics-network/)
 * [A new way to set up a schedule](/devlog/vehicle-window-facelift/)
 * Passengers!
