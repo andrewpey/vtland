@@ -14,11 +14,11 @@ If you have participated in the pre-alpha on Itch, you're eligible to claim a fr
 
 To do so, you can search your inbox for the original email, or go to [https://itch.io/docs/buying/already-bought](https://itch.io/docs/buying/already-bought) and use the form there to request the links again to the email address you've used to buy the game.
 
-## Click Claim key
+## Click Get Steam key
 
 {% include img.html src="/assets/posts/claim-steam-key/2.png" %}
 
-After you find your download page, click the **Claim key** button under the Download buttons.
+After you find your download page, click the **Get Steam key** button under the Download buttons.
 
 ## Link your Steam account
 
