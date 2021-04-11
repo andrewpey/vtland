@@ -48,6 +48,6 @@ The game will be available to download and play on April 15.
 
 We are a small team with limited resources, and we want to focus on the Steam version at the moment. That being said, the Itch version will not be longer updated. Please claim a Steam key and install the game via Steam to get the latest versions and Steam Workshop support.
 
-### What will happen with mods in the Mod Gallery?
+### What will happen with mods in the Mod Gallery in the Itch version?
 
 Mod Gallery in the Itch version will be disabled soon after the Steam Early Access release. If you are a mod author, we encourage you to move your mods to the Steam Workshop, where you'll get great discovery and acknowledgment of your work.
