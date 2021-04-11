@@ -46,7 +46,7 @@ The game will be available to download and play on April 15.
 
 ### What will happen with Itch version, will it be upgraded to 0.85?
 
-We are a small team with limited resources, and we want to focus on the Steam version at the moment. That being said, the Itch version will not be longer updated. Please claim a Steam key and install the game via Steam to get the latest versions and Steam Workshop support.
+We are a small team with limited resources, and we want to focus on the Steam version at the moment. That being said, the Itch version will not be longer updated. Please claim a Steam key and install the game via Steam to get the latest versions, and have Steam Workshop support.
 
 ### What will happen with mods in the Mod Gallery in the Itch version?
 
