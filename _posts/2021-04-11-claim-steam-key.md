@@ -18,7 +18,7 @@ To do so, you can search your inbox for the original email, or go to [https://it
 
 {% include img.html src="/assets/posts/claim-steam-key/2.png" %}
 
-After you find your download page, click **Claim key** button under the Download buttons.
+After you find your download page, click the **Claim key** button under the Download buttons.
 
 ## Link your Steam account
 
