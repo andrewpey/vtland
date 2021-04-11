@@ -28,7 +28,7 @@ Follow the instructions to link your Steam account. Itch may ask you to verify y
 
 {% include img.html src="/assets/posts/claim-steam-key/5.png" %}
 
-Copy the revealed key, then go to Steam, click Add a game at the bottom left corner, and choose **Activate a Product on Steam...**. Follow the instructions until you get to the window with an input field for a key. Insert the key you've copied from Itch download page there.
+Copy the revealed key, then go to Steam, click Add a game at the bottom left corner, and choose **Activate a Product on Steam**. Follow the instructions until you get to the window with an input field for a key. Insert the key you've copied from Itch download page there.
 
 {% include img.html src="/assets/posts/claim-steam-key/7.png" %}
 
