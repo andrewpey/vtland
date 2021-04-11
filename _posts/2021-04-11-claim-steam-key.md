@@ -12,7 +12,7 @@ If you have participated in the pre-alpha on Itch, you're eligible to claim a fr
 
 ## Find your download links
 
-To do so, you can search your inbox for the original email, or go to [https://itch.io/docs/buying/already-bought](https://itch.io/docs/buying/already-bought) and use the form there to request the links again to the email you've used to buy the game.
+To do so, you can search your inbox for the original email, or go to [https://itch.io/docs/buying/already-bought](https://itch.io/docs/buying/already-bought) and use the form there to request the links again to the email address you've used to buy the game.
 
 ## Click Claim key
 
