@@ -1,8 +1,8 @@
 We are developing <span class="title">Voxel Tycoon</span> — a strategy game about *transportation*, *building&nbsp;factories*, and *mining* in infinite voxel landscapes.
 
-<!-- <iframe class="widget-youtube" src="https://www.youtube.com/embed/Ngo9-fsT4P4" frameborder="0" allowfullscreen></iframe> -->
-
 <iframe class="widget-steam_modal" src="https://store.steampowered.com/widget/732050/" frameborder="0"></iframe>
+
+<iframe class="widget-youtube" src="https://www.youtube.com/embed/4nRBNl_jACw" frameborder="0" allowfullscreen></iframe>
 
 <div style="height:2.2rem">&nbsp;</div>
 
