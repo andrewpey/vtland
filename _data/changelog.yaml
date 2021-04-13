@@ -197,10 +197,6 @@
     - "Asset editor: Add and name color presets"
     - Tutorials can be added via script mods - you can make guides for your own mods or just make a mod that adds another in-depth tutorial for the base game
     - Unity version updated to 2020.3.2
-    known issues:
-    - Passenger can't change transport
-    - No level crossings
-    - Building bridges is a cumbersome process
 
 - version: '0.84.1'
   date: 2020-06-06 20:30:00 +0300
