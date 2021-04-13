@@ -1,3 +1,207 @@
+- version: '0.85'
+  date: 2021-04-15 16:00:00 +0300
+  tags: [ steam early access ]
+  title: Steam Early Access release full changelog is here!
+  text: We still can't believe this but the game is really coming to Steam Early Access on April 15th. And here's the full - pretty huge - changelog for this update (compared to the Itch version aka 0.84.1).<br>Enjoy!
+  groups:
+    gameplay:
+    - <a href="https://voxeltycoon.xyz/devlog/passengers/">Passengers!</a>
+    - <a href="https://voxeltycoon.xyz/devlog/logistics-network/">Logstics network</a>
+    - <a href="https://voxeltycoon.xyz/devlog/vehicle-window-facelift/">A new way to set up a schedule</a>
+    - <b>Auto-storages</b> - vehicles and storages now accept cargo without the need to manually choose the exact type of cargo. You can still lock it to the exact type if this is essential for your configurations
+    - Added a simple tutorial to guide the player through the first steps in the game
+    - Your company will go bankrupt in 3 months of negative money balance in a row (can be switched off in difficulty settings when creating a game)
+    - Changed city growth dynamics algorithms
+    - Changed demands pricing algorithms
+    - Base resources with no researched mines are now hidden from item pickers
+    - Items which recipes have not researched yet is now hidden from item pickers
+    - Lab internal logic reworked for more clear flow
+    - Mines and devices can be disabled
+    - "Some mines can't be built next too close to each other anymore"
+    - Added brand new conveyor device - filter!
+    - Headquarters now colored in company color
+    - New models for mines, labs, devices, stations, terminals, and warehouses
+    - Added many new buildings to cities
+    - Added points of interest to cities (parks, churches, etc)
+    - Most of the current buildings graphics are reworked
+    - Added semaphores
+    - Added buses
+    - Added new bigger warehouse
+    - Added old looking warehouses
+    - Added new modern depot - modern vehicles could be bought only there
+    - Added new modern lab
+    - Added old looking stations
+    - Added passenger stations and bus stops
+    - Added city hall which visually upgrades with city growth
+    - Added arctic liveries for HQ
+    - Added Australian cities and names
+    - Added PLN currency
+    - Added AUD currency
+    improvements:
+    - Added Steam Workshop support!
+    - "You can now enable and disable mods in saves - at your own risk :wink:"
+    - Brand new UI for setting up a vehicle's schedule
+    - Subtasks (tasks to do at a specific station)
+    - Reorder tasks with drag-n-drop
+    - Option to mark station in schedule as non-stop (pass through without stop aka waypoint)
+    - Option to force turn around on station
+    - Option to enable back and forth schedule traversing (useful for passengers)
+    - Added "Wait for N seconds" order
+    - Added orders presets for common tasks
+    - Improved UI for trains consist
+    - Hold Shift to pick many destinations at once
+    - Empty routes don't get removed anymore (you can remove them from three dots menu in route picker)
+    - New route picker allowing to remove a route or see a list of vehicles attached to it
+    - Units picker now shows storage information
+    - Added UI for warehouses
+    - Added UI for all devices
+    - Added UI for mines
+    - Overhauled City window overview tab, now it shows the health of city systems at a glance
+    - Reworked demands tab
+    - Overhauled demand window (now it's Store window)
+    - "Store window: Click on the demanded item to reveal research or deposit of origin"
+    - "Store window: Prevent business from closing button now shows the amount of days left before a business goes bankrupt"
+    - "Tech tree: Click on research requirements to reveal item origin"
+    - "Tech tree: Hover over a recipe to see its full details: requirements, time, and related device"
+    - Allow setting custom saves directory in Settings.json (<code>SavesDirectory</code> property)
+    - Added tool to clean items from conveyors
+    - Shorter conveyor caps on all devices
+    - Conveyor connectors now take less space
+    - Right-click to cancel laying out rails, roads, and any other tool (can be disabled in settings)
+    - Ignore signals button now automatically toggles off after the first signal is passed
+    - Added voxel grid overlay while building which helps not only with measuring and alignment but also improves readability of change of terrain heights
+    - Vehicles can be sent into to depot by clicking on the depot window
+    - Repay maximum available part of the loan with Shift
+    - Added blinking warning to demand indicators if the customer is on the verge of bankruptcy
+    - Added blinking warning to demand indicators if the customer is oversupplied
+    - 'You can now change the number of notifications coming from businesses: switch between <i>All</i>, <i>Supplied only</i>, and <i>None</i> by clicking on the cog icon in the notifications list'
+    - Added notification when a customer is oversupplied (can be disabled in the notification settings)
+    - Mute vehicle notifications button added to vehicle window header controls
+    - Game speed will be set to normal when critical events (with red notification) occur
+    - Demand notifications now contain notice if the requested item should be first unlocked by research or it can be obtained from a region that is locked yet
+    - Added "Locate building button" to all suitable windows
+    - Click on the window header to rename a building or a vehicle
+    - City generation now tries to avoid empty space between buildings
+    - City generation is now aware of some buildings should not be placed next to each other
+    - Cities now avoid building parallel roads too close to other roads
+    - Cities now can flatten land to build houses
+    - New items pickers everywhere (filters, storages, etc)
+    - Smokes now appears darker at night (as it should be)
+    - Depots naming is now consistent with other buildings
+    - Ignore signs toggle button now untoggles when a vehicle was disabled or sent to a depot
+    - All houses now a probability to have all windows off at night
+    - The recipe picker is now auto resizable
+    - Show placeholders for locked recipes in recipe pickers
+    - Vehicle unprofitable notification period now counts from the moment the vehicle was released from a depot
+    - Added visibility setting allowing to toggle off vehicle indicators separately from warehouse indicators
+    - Lab window updated with new progress bar based UI for required resources
+    - Clicking the locate button will highlight the building indicator to better indicate what building exactly it is
+    - The game will open similar windows on the same tab as already opened to ability quickly compare information
+    - Opened windows now try to open next to each other instead of just overlaying
+    - When placing signals, a tooltip will be shown, indicating if this signal will be one-way or two-way
+    - Added ability to auto-place signals on rails section with specified spacing
+    - Coal item appearance tuned to be better visible on conveyors
+    - White mode now fades in and out with smooth animation
+    - Improved indicators performance
+    - Added running costs to all stats pages
+    - Items pickers now get closed on Del
+    - Added message to load game window if save file is too old and unsupported
+    - Default rail station length is reduced to 65m
+    - Added test slider control to settings for Render Quality setting
+    - Render Quality setting could be reduced down to 10%
+    - Right-click on warehouse or device to quickly choose cargo type of recipe
+    - "Depot window: Added information about vehicle's cargo"
+    - Main menu optimized to achieve the fastest load times possible
+    - Added welcome window with helpful links to the main menu
+    - Reduced time game takes to quit
+    - Improved pathfinding performance in some cases
+    - You can see mod details from the mods tab by clicking on the question sign
+    - You can now open tech tree from the Research management window without the need to build a lab first
+    - Added rear view to Ride your vehicle camera
+    - "Added 'Continue' button to the main menu allowing you to quickly load the last saved game"
+    - Hover over the question icon when building a lab to see its efficiency
+    - Hover over the question icon when building a warehouse to see its loading and unloading times
+    - Added overlay Please wait... message while the region is unlocking
+    - Added progress bar to loading screens
+    - Added notification on first business supply
+    - Fixed camera jumps after game save or region unlock 
+    - Fixed cities in starting region can demand advanced products in some cases
+    - Added toggle fullscreen hotkey (Alt+Enter by default)
+    - Tuned depot and tracks highlight colors to be in line with other tools
+    - When some asset is missing the game will show its URI instead of just numeric id
+    - Automatically demolish city buildings when building over them
+    - Auto-select buildings to build - no more extra clicks when you just want to build a road!
+    - Roads and rails do not contribute to buildings count in the company window anymore
+    - Conveyors reimplemented to squeeze some extra frames per second in the late game for you!
+    - Hide cursor in free camera when playing recorded timeline and UI is hidden
+    - Big thanks to the community member <i>scailman</i> for the help with most of the new models!
+    fixes:
+    - Fixed trains consist UI in the vehicle window does not properly react on changes in consist
+    - Fixed Bulldoze typo
+    - Fixed item pickers do not close with parent window on ESC
+    - Fixed regression where middle mouse button click to close window stopped working
+    - Fixed indicators can disappear in some rare cases like rapid window resizing
+    - Fixed indicators can appear above windows in some rare cases
+    - Fixed game fails to load if Settings.json is corrupted
+    - Fixed 'double click to follow vehicle' triggered with fast click on two different vehicles
+    - Fixed trying to build free building still shows 'Can't build' tooltip
+    - Fixed Steam filter can't be untoggled in the buy vehicle window
+    - Fixed cursor can stay in the blocked state when hovering over UI
+    - Fixed conveyor flip tool has no sound
+    - Fixed trying to switch to another tool while laying out rails or roads will not result in tool change
+    - Fixed other region can disallow removing your buildings if they are too close to a border
+    - Possible fix for trains could stuck on chain signals
+    - Hidden research no more counted on the victory screen
+    - Fixed moving to depot task status not displayed in some cases
+    - Fixed incorrect positioning of vehicle's wheels in some cases
+    - Fixed error after sending vehicle with an active warning to a depot
+    - Fixed save can't be loaded if there're any wrecked vehicles in the world
+    - Fixed rare error when building stations
+    - Fixed camera jitter when following vehicles
+    modding:
+    - <code>.regularrailsignal</code> -> <code>.railsignal</code>
+    - <code>.depositrecipe</code> -> <code>.deposit</code>
+    - <code>.citydemandrecipe</code> -> <code>.citystorespawninfo</code>
+    - <code>.capacities</code> -> <code>.storages</code>
+    - <code>.heapcapacities</code> -> <code>.heapstorages</code>
+    - <code>.stackcapacities</code> -> <code>.stackstorages</code>
+    - <code>.house</code> asset replaced with new <code>.store</code> asset
+    - Added <code>Deinitialize()</code> callback to <code>Mod</code>
+    - Added support for smokes and animations in labs
+    - Houses and decorations now have automatically calculated prices if <code>Price</code> property set to <code>null</code>
+    - Added various properties to control spawn of buildings based on desired density or city status to <code>.citybuildingspawninfo</code> asset
+    - Exposed <code>VelocityMultiplier</code> to <code>.smoke</code> assets
+    - Vehicles can be locked to specific depots using tags - notice that you need to add proper tags to your vehicles so they are available in the correct depot
+    - Added <code>.cityhall</code> asset
+    - Added biome tags which currently used to determine if building or industry (demand) should spawn in the biome
+    - New <code>NightLiveries</code> property replaced <code>_night_1</code> convention for night liveries
+    - Added <code>RequiresDeposit</code> property <code>.mine</code> allowing to untie mines from deposits and build them anywhere
+    - Added <code>Spacing</code> property to <code>.mine</code> asset which could be used to prevent building mines too close to each other
+    - Station range is exposed to <code>.*station</code> assets via <code>Range</code> property
+    - Stations now can have no platform
+    - Station platforms now can be arbitrary width
+    - "Added support for asymmetric stations: see new LeftPlatform, RightPlatform, and MirrorLeftPlatform properties"
+    - Added a <a href="http://docs.voxeltycoon.xyz/guides/script-mods/debugging/attaching-a-debugger/">guide on how to debug your script mods</a>
+    - Added <code>SaveManager.LoadingMetadata</code> and <code>SaveManager.SavingMetadata</code> properties allowing to get the information of currently loading or saving game from script mods
+    - The game now comes with <code>0Harmony.dll</code> included so you don't need to bundle it with your mods
+    - Added BuildingUIManager which allows opening custom windows when clicking on custom buildings
+    - "Asset editor: Added clickable list of palette colors"
+    - "Asset editor: Default palette now generated with more distinctive colors instead of just cyan and magenta"
+    - "Asset editor: Added support for adding and editing mesh variants!"
+    - "Asset editor: Added company color support!"
+    - "Asset editor: Added 8x8 palette support: you can now use up to 64 colors per model!"
+    - "Asset editor: Copying and pasting color now copies other material properties as well"
+    - "Asset editor: Quickly cycle through assets with Left and Right"
+    - "Asset editor: Quickly cycle through variants with Up and Down"
+    - "Asset editor: Improved overall asset editor performance"
+    - "Asset editor: Add and name color presets"
+    - Tutorials can be added via script mods - you can make guides for your own mods or just make a mod that adds another in-depth tutorial for the base game
+    - Unity version updated to 2020.3.2
+    known issues:
+    - Passenger can't change transport
+    - No level crossings
+    - Building bridges is a cumbersome process
+
 - version: '0.84.1'
   date: 2020-06-06 20:30:00 +0300
   groups:
