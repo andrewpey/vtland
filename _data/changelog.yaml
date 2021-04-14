@@ -181,7 +181,7 @@
     - Station range is exposed to <code>.*station</code> assets via <code>Range</code> property
     - Stations now can have no platform
     - Station platforms now can be arbitrary width
-    - "Added support for asymmetric stations: see new LeftPlatform, RightPlatform, and MirrorLeftPlatform properties"
+    - "Added support for asymmetric stations: see new <code>LeftPlatform</code>, <code>RightPlatform</code>, and <code>MirrorLeftPlatform</code> properties"
     - Added a <a href="http://docs.voxeltycoon.xyz/guides/script-mods/debugging/attaching-a-debugger/">guide on how to debug your script mods</a>
     - Added <code>SaveManager.LoadingMetadata</code> and <code>SaveManager.SavingMetadata</code> properties allowing to get the information of currently loading or saving game from script mods
     - The game now comes with <code>0Harmony.dll</code> included so you don't need to bundle it with your mods
