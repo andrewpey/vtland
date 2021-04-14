@@ -6,7 +6,7 @@
   groups:
     gameplay:
     - <a href="https://voxeltycoon.xyz/devlog/passengers/">Passengers!</a>
-    - <a href="https://voxeltycoon.xyz/devlog/logistics-network/">Logstics network</a>
+    - <a href="https://voxeltycoon.xyz/devlog/logistics-network/">Logistics network</a>
     - <a href="https://voxeltycoon.xyz/devlog/vehicle-window-facelift/">A new way to set up a schedule</a>
     - <b>Auto-storages</b> - vehicles and storages now accept cargo without the need to manually choose the exact type of cargo. You can still lock it to the exact type if this is essential for your configurations
     - Added a simple tutorial to guide the player through the first steps in the game
