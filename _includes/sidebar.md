@@ -29,7 +29,7 @@
 
 [Suggestions](https://github.com/voxeltycoon/suggestions/issues){:.sidebar-menu__item}
 
-[Bug Tracker](https://github.com/voxeltycoon/bug-tracker/issues){:.sidebar-menu__item}
+[Bug Tracker](https://github.com/voxeltycoon/bug-tracker){:.sidebar-menu__item}
 
 ***
 
