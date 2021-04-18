@@ -13,7 +13,7 @@
 {% endif %}
 
 
-[WISHLIST ON STEAM](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
+[BUY NOW!](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
 
 [BECOME A PATRON](https://www.patreon.com/bePatron?u=7655118){:.patreon-navbar}
 
