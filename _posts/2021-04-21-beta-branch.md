@@ -27,8 +27,8 @@ On the `#changelog-beta` channel on [Discord](https://discord.gg/VoxelTycoon).
 
 On `#general-beta` channel on [Discord](https://discord.gg/VoxelTycoon).
 
-### Count me in! How much should I pay to get there?
+### Count me in! How do I get there?
 
-It's totally free! Just hop into the Voxel Tycoon properties on Steam client, and choose to opt-in in the Beta!
+Just hop into the Voxel Tycoon properties on Steam client, and choose to opt-in in the Beta!
 
 GLHF!
