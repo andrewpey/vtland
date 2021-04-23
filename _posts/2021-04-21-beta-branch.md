@@ -31,4 +31,8 @@ On `#general-beta` channel on [Discord](https://discord.gg/VoxelTycoon).
 
 Just hop into the Voxel Tycoon properties on Steam client, and choose to opt-in in the Beta!
 
+### What else I can do?
+
+Please consider to assign yourself the `beta-testers` role if you want to be pinged about beta stuff! To do so, go to `#rules` channel and react with the tube emoji.
+
 GLHF!
