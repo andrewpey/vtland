@@ -6,7 +6,7 @@ header: Donate
 permalink: donate
 ---
 
-Donate at least <span class="money">$1</span> using ways described on this page, and you'll receive:
+Donate at least <span class="money">$5</span> using ways described on this page, and you'll receive:
 
 • <span style="color: #ffe200; font-weight: bold">supporter</span> role on [Discord](//discord.gg/64KPWd5)<br>
 • a chance to **appear in-game** as vehicle driver or even town mayor!<br>
