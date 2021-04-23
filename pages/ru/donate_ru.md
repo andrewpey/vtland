@@ -16,14 +16,6 @@ redirect_from:
 
 > **Важно!** В комментарии к переводу укажите имя, которое вы хотите видеть в титрах и в игре. Или [напишите нам](mailto:dev@voxeltycoon.xyz) на почту.
 
-## VK Donut 
-
-[Самый простой способ поддержать Voxel Tycoon](https://vk.com/voxeltycoon?source=description&w=donut_payment-117411610)
-
-<a class="clear" href="https://vk.com/voxeltycoon?source=description&w=donut_payment-117411610">
-    ![](/assets/donut.png)
-</a>
-
 ## Patreon
 
 <a class="patreon" href="https://www.patreon.com/bePatron?u=7655118">
