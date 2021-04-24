@@ -13,7 +13,7 @@
     - Option to disable reducing of the game speed when critical notifications occur
     - "Buy vehicle window: A vehicle can be renamed even before buy by clicking on the window title"
     - "Buy vehicle window: Added a tooltip about holding Shift to apply cargo type to all units"
-    - "Buy vehicle window: automatically set cargo type if units were filtered by specific cargo"
+    - "Buy vehicle window: Automatically set cargo type if units were filtered by specific cargo"
     - "Fleet window: Added ability to sort by name"
     fixes:
     - Fixed yet to be bought vehicles are counted to company statistics
