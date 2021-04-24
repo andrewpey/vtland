@@ -1,3 +1,34 @@
+- version: '0.85.1'
+  date: 2021-04-24 14:30:00 +0300
+  title: Full refund on pause, addressing auto cargo selection issues, and more!
+  groups:
+    gameplay:
+    - Full refund while paused
+    - "Changed how auto-storages work: now storage locks to the specific type of cargo after the first item is loaded to the storage, and doesn't go back to Auto after unload"
+    - Added ability to manually refit a vehicle unit at any moment from the Details tab of the Vehicle window
+    - Added Canadian, Korean, Portuguese, and Swedish names
+    - Changed Korean date format
+    improvements:
+    - "Cargo type picker: Added a tooltip to Auto mode describing how it works"
+    - Option to disable reducing of the game speed when critical notifications occur
+    - "Buy vehicle window: A vehicle can be renamed even before buy by clicking on the window title"
+    - "Buy vehicle window: Added a tooltip about holding Shift to apply cargo type to all units"
+    - "Buy vehicle window: automatically set cargo type if units were filtered by specific cargo"
+    - "Fleet window: Added ability to sort by name"
+    fixes:
+    - Fixed yet to be bought vehicles are counted to company statistics
+    - Possible fix for error when editing key bindings
+    - Fixed trucks could be sent to rail depots, and vice versa
+    - "Depot window: Fixed list of cargo not updated after vehicle configuration"
+    - Fixed main menu Continue button doesn't react if save was removed
+    - Fixed demand price delta disappears on non-100% UI scale
+    - Fixed incorrect CHF exchange rate
+    - Fixed recipe picker window didn't close on device demolishing
+    - Fixed freight road station had a luminescent door frame
+    - Fixed route filter with many items doesn't fit the screen
+    modding:
+    - Unity version updated to 2020.3.5
+
 - version: '0.85'
   date: 2021-04-15 16:00:00 +0300
   tags: [ steam early access ]
