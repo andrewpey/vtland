@@ -1,9 +1,9 @@
 - version: '0.85.1'
   date: 2021-04-24 14:30:00 +0300
-  title: Full refund on pause, addressing auto cargo selection issues, and more!
+  title: Full refund while the game is paused, addressing auto cargo selection issues, and more!
   groups:
     gameplay:
-    - Full refund while paused
+    - Full refund while the game is paused
     - "Changed how auto-storages work: now storage locks to the specific type of cargo after the first item is loaded to the storage, and doesn't go back to Auto after unload"
     - Added ability to manually refit a vehicle unit at any moment from the Details tab of the Vehicle window
     - Added Canadian, Korean, Portuguese, and Swedish names
