@@ -27,9 +27,9 @@
 
 [Roadmap](https://trello.com/b/wHz5JHqH/voxel-tycoon-roadmap){:.sidebar-menu__item}
 
-[Suggestions](https://github.com/voxeltycoon/suggestions/issues){:.sidebar-menu__item}
+[Bug Tracker](/bugs){:.sidebar-menu__item}
 
-[Bug Tracker](https://github.com/voxeltycoon/bug-tracker){:.sidebar-menu__item}
+[Suggestions](/suggestions){:.sidebar-menu__item}
 
 ***
 
