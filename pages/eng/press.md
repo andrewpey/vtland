@@ -17,7 +17,7 @@ Voxel Tycoon — a management sim set in the infinite voxel world. Mine resource
 
 ## Press copy inquiry
 
-Please fill out [this form](http://forms.gle/ETtK5J8vcGXs1DFE9).
+We use [Keymailer](https://www.keymailer.co/g/games/56029).
 
 ## Logo
 
