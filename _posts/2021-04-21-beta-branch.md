@@ -25,7 +25,7 @@ On the `#changelog-beta` channel on [Discord](https://discord.gg/VoxelTycoon).
 
 ### Where should I share the feedback?
 
-On `#general-beta` channel on [Discord](https://discord.gg/VoxelTycoon).
+On the `#general-beta` channel on [Discord](https://discord.gg/VoxelTycoon).
 
 ### Count me in! How do I get there?
 
