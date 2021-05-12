@@ -1,3 +1,30 @@
+- version: '0.86'
+  date: 2021-05-12 12:30:00 +0300
+  title: Rail signal block visualization, rename cities, and more!
+  groups:
+    gameplay:
+    - You can now rename cities! But it comes with a price
+    - Stores now can demand copper ore
+    - Passenger C-Liner moved to Heavy Diesel Engine II research
+    improvements:
+    - <b>Added rail block visualization!</b> Should help you to more easily understand how rails are separated in blocks by signals, and why is this exact signal is currently red
+    fixes:
+    - If you have a custom road station from a mod and your game can't save, please check with the mod author to make sure they've updated the mod for the latest versions of the game - if so, just rebuild the station to fix the error
+    - Fixed incorrect game speed labels in control settings
+    - Fixed full refund for signals
+    - Fixed yet to be bought vehicles increase company value
+    - Fixed stores can be demolished by landscape flattening below their level 
+    modding:
+    - Stops and indexes of tracks outside road station bounding box are ignored now to prevent errors when such tracks get removed - the size of a road station should incorporate all its tracks
+    - Fixed item prices lower than 0.5 get rounded to zero
+    - Unity version updated to 2020.3.7
+    localization:
+    - Added Traditional Chinese language
+    - Added English (United Kingdom) language
+    - Added English (Australia) language - right now it's the same as English but has another date format, default currency, and names
+    - Added English names
+    - Added CZK currency
+
 - version: '0.85.1'
   date: 2021-04-24 14:30:00 +0300
   title: Full refund while the game is paused, addressing auto cargo selection issues, and more!
@@ -31,7 +58,7 @@
 
 - version: '0.85'
   date: 2021-04-15 16:00:00 +0300
-  tags: [ steam early access ]
+  tags: [ steam early access, wipe ]
   title: Steam Early Access release full changelog is here!
   text: We still can't believe this but the game is really coming to Steam Early Access on April 15th. And here's the full - pretty huge - changelog for this update (compared to the Itch version aka 0.84.1).<br>Enjoy!
   groups:
