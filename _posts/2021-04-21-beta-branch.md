@@ -9,7 +9,7 @@ thumb_square: /assets/posts/beta-branch/thumb.png
 
 {% include img.html src="/assets/posts/beta-branch/1.png" %}
 
-We invite you to join the new Beta Branch! If you want to be on the edge of the Voxel Tycoon development, and be able to provide feedback quickly directly to the devs, then that's for you.
+We invite you to join the new Beta Branch! If you want to be on the edge of the Voxel Tycoon development and be able to provide feedback quickly directly to the devs, then that's for you.
 
 The beta branch will be updated more frequently than the main branch and will contain unfinished content and mechanics which might or might not end up in the main branch. Most likely, it will also contain various errors.
 
@@ -33,6 +33,6 @@ Just hop into the Voxel Tycoon properties on Steam client, and choose to opt-in 
 
 ### What else I can do?
 
-Please consider to assign yourself the `beta-testers` role if you want to be pinged about beta stuff! To do so, go to `#rules` channel and react with the tube emoji.
+Please consider assigning yourself the `beta-testers` role if you want to be pinged about beta stuff! To do so, go to `#welcome-beta` channel and react with the tube emoji.
 
 GLHF!
