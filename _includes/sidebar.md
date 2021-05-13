@@ -59,8 +59,6 @@
 
 [Email](mailto:dev@voxeltycoon.xyz){:.email .sidebar-menu__item}
 
-[Notify Me]({{site.newsletter_url}}){:.sidebar-menu__item}
-
 <script>
 $('.greenlight').click(function(event) {
     event.preventDefault()
