@@ -43,6 +43,8 @@
 
 [For Press](/press){:.sidebar-menu__item}
 
+[Jobs](/jobs/ru){:.sidebar-menu__item}
+
 ***
 
 [Twitter](//twitter.com/VoxelTycoon){:.twitter .sidebar-menu__item} <small>{{site.data.socials.tw}}</small>
