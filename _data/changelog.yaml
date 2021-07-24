@@ -1,3 +1,24 @@
+- version: '0.86.1'
+  date: 2021-07-01 12:30:00 +0300
+  title: Quality-of-life improvements and fixes
+  text: While we keep working on new features - such as mass vehicle replacement - there's a new intermediate update featuring a bunch of quality-of-life improvements and fixes.
+  groups:
+    improvements:
+    - Added ability to remove routes directly from the station window (useful when a station is removed but stays because of empty routes referencing it)
+    - Updated routes appearance and functionality (rename, show all vehicles) in the station window to match other places
+    - Added a warning indicating that a train can't reach a destination because of a one-way signal on its way
+    - >
+      Station window: Added and changed some texts to more clearly indicate stations' purpose (addressing <a href="https://github.com/voxeltycoon/issues/discussions/475">475</a>)
+    - Routes are ordered by name now
+    - Mod descriptions with custom formatting now properly displayed in the in-game browser
+    fixes:
+    - Fixed disappearing conveyor items - finally! (<a href="https://github.com/voxeltycoon/issues/issues/614">614</a>, <a href="https://github.com/voxeltycoon/issues/issues/624">624</a>)
+    - Fixed save dialog become broken after trying to save with an already occupied name
+    - Fixed TNT explosion applies soot to liquids
+    modding:
+    - <code>SchemaVersion</code> now can be used in script mods
+    - Unity updated to 2020.3.12
+
 - version: '0.86'
   date: 2021-05-12 12:30:00 +0300
   title: Rail signal block visualization, rename cities, and more!
