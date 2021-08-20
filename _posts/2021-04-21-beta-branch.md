@@ -17,7 +17,7 @@ On the other hand, you will have an opportunity to make a direct impact on the g
 
 ### Is it safe to switch back and forth between beta and main branches?
 
-Most of the time, yes - but saves made in beta might not work in the main branch.
+Most of the time, yes - but saves made in the beta might not work in the main branch.
 
 ### Where can I see what's changed with the recent beta update?
 
