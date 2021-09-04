@@ -5,6 +5,8 @@ title: 'Introducing the Beta Branch!'
 category: devlog
 thumb: /assets/posts/beta-branch/1.png
 thumb_square: /assets/posts/beta-branch/thumb.png
+redirect_from:
+    - "/beta"
 ---
 
 {% include img.html src="/assets/posts/beta-branch/1.png" %}
