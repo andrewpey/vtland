@@ -8,7 +8,7 @@ thumb_square: /assets/posts/back-to-work/thumb.png
 
 Hello fellow tycoons! If you wonder how things are going on with the development of the game right now, this post is for you.
 
-The next big feature we are working on is the [rework of rail and road systems](https://voxeltycoon.xyz/devlog/ea-faq#i-have-hard-times-building-bridges-connecting-roads-etc). It is a huge task that won't be available to testers for a few more updates. Please be patient on that, we want to make everything right this time so we don't need to remake it for the 5th time 😉
+The next big feature we are working on is the [rework of rail and road systems](https://voxeltycoon.xyz/devlog/ea-faq#i-have-hard-times-building-bridges-connecting-roads-etc). It is a huge task and its results won't be available to testers for a few more updates. Please be patient on that, we want to make everything right this time so we don't need to remake it for the 5th time 😉
 
 Of course, it would be too long time to wait before this update will be released. So, we continue to work on other updates and plan to release them on regular basis. For example, the next update adds - and many of you already guessed it - the highly requested vehicle auto-replacement functionality.
 
