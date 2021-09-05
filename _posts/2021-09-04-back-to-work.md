@@ -20,8 +20,8 @@ Remember [this incident](/devlog/development-update/)? The time has come to remo
 
 Another thing we did is moving to other cities. It was planned some time ago and it finally happened. It's still two different cities, so we continue to work remotely.
 
-Now, as we finished these real life things, we are ready to get back to work. The pace of updates will speed up soon. Also, we are looking for a possibility of expanding our team with more developers to speed up the development even further. Can’t share anything on that at the moment, but hopefully, everything will work out.
+Now, as we finished these real-life things, we are ready to get back to work. The pace of updates will speed up soon. Also, we are looking for a possibility of expanding our team with more developers to speed up the development even further. Can’t share anything on that at the moment, but hopefully, everything will work out.
 
 What we know for sure is that we are not going anywhere, and the future of Voxel Tycoon is bright. At the moment of writing, the game has 85% of positive reviews on [Steam](/buy). We can't stop thank you people for such a warm welcome of Voxel Tycoon. It means a lot to us 💜
 
-And it's worth to mention that by no means do we think Voxel Tycoon is close to being done. There's a [ton of work ahead](/roadmap), and we absolutely inspired to make these plans a reality, together with you!
+And it's worth mentioning that by no means do we think Voxel Tycoon is close to being done. There's a [ton of work ahead](/roadmap), and we absolutely inspired to make these plans a reality, together with you!
