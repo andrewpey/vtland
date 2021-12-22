@@ -116,7 +116,7 @@ Now, as we have a way to automatically send vehicles to depots, and players can 
 
 In parallel, we continue to iterate on the monumental rails and roads rework. We are absolutely aware that the current implementation - while obviously working in most cases - is a source of great frustration for players.
 
-The new system not only it should make building a much more pleasant experience, but introduce many new interesting features, like so:
+The new system not only should make building a much more pleasant experience, but introduce many new interesting features, like so:
 
 * Level crossings
 * Customizable curvature of tracks
