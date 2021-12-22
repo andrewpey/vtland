@@ -6,6 +6,16 @@ plugins:
 
 permalink: "/:categories/:title/"
 
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      style: "post"
+      category: "devlog"
+
 newsletter_url: //goo.gl/forms/2uB1EuoBpT8fYsCB2
 
 greenlight_url: //steamcommunity.com/sharedfiles/filedetails/?id=924842091

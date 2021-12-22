@@ -41,7 +41,11 @@
 {% else %}
 <div>
     <a class="clear" href="{{include.src}}">
-        <img src="{{include.src}}" style="margin-bottom: 6px" />
+        {% assign extraStyle = "margin-bottom: 6px" %}
+        {% if include.no_stretch %}
+            {% assign extraStyle = extraStyle | append: ";width:auto;max-width:100%" %}
+        {% endif %}
+        <img src="{{include.src}}" style="{{extraStyle}}" />
     </a>
     {% if include.alt %}
     <span class="img-alt">{{include.alt}}</span>
