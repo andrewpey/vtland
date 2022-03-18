@@ -10,7 +10,7 @@
     - Added accessibility option to disable camera affects (chromatic aberrations, etc)
     - Added three dots menu with options to force disable a mod, open its Workshop page, or reveal mod's directory
     - Mods now can be globally disabled - helpful if a mod breaks something in the main menu, but you still want to be able to load saved games with it
-    - Added `-safe` command line argument allowing to skip loading mods
+    - Added <code>-safe</code> command line argument allowing to skip loading mods
     - Slightly optimized rails and roads mesh generation
     fixes:
     - >
@@ -22,10 +22,10 @@
     - Added support for Workshop tags (<a href="https://docs.voxeltycoon.xyz/guides/basics/mod.json/">docs</a>)
     - >
       Added support for mod dependencies (<a href="https://docs.voxeltycoon.xyz/guides/basics/dependencies/">docs</a>)
-    - Added support for mods running in the main menu - Check the `MainMenuMod` class
-    - Inherit from the new `SettingsMod` class to implement custom settings (<a href="https://github.com/voxeltycoon/mods/tree/master/SettingsExampleMod">example<a>)
-    - Added `SettingsControl.AddToggle()` overload which adds switch toggle
-    - Added SettingsControl.AddButton() overload with font icon instead of text
+    - Added support for mods running in the main menu - Check the <code>MainMenuMod</code>  class
+    - Inherit from the new <code>SettingsMod</code>  class to implement custom settings (<a href="https://github.com/voxeltycoon/mods/tree/master/SettingsExampleMod">example<a>)
+    - Added <code>SettingsControl.AddToggle()</code>  overload which adds switch toggle
+    - Added <code>SettingsControl.AddButton()</code>  overload with font icon instead of text
     - Unity updated to 2020.3.30
 
 - version: '0.87'
