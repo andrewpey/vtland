@@ -18,6 +18,8 @@
     - Fixed modern vehicles could be towed to older depots
     - Fixed HQ indicator visibility was tied to the lab indicator visibility
     - Fixed wrong rounding in passenger spawn calculation (<a href="https://github.com/voxeltycoon/issues/issues/768">768</a>)
+    - >
+      Replacement window: Fixed add replacement button could be blocked by other UI on low resolutions
     modding:
     - Added support for Workshop tags (<a href="https://docs.voxeltycoon.xyz/guides/basics/mod.json/">docs</a>)
     - >
