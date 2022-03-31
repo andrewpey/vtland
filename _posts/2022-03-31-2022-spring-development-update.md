@@ -32,7 +32,7 @@ To improve this situation, we are working on something we call *Contracts*. With
 
 Another related change is that now you're in control of when to upgrade your contract to the next level of demand, so you can do it only when you're sure you want to increase goods flow.
 
-On another side, violating a contract — eg. not supplying a business for a long time — will result in a penalty. We'll talk about it in one of the next posts.
+On another side, violating a contract — ie. not supplying a business for a long time — will result in a penalty. We'll talk about it in one of the next posts.
 
 Also, with this rework (or shortly after) we want to introduce a window where you'll be able to see all your demands and corresponding information at a glance.
 
