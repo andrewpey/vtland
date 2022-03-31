@@ -24,9 +24,13 @@ Another thing that requires some attention is how demands work. Demands are part
 
 Demands already have several mechanics: their economy is based on the demand/supply balance, they grow if you supply them well, or degrade if you don't. Also, they go bankrupt if you don't supply them at all for some time.
 
-The last bit became a source of frustration for players. Initially, the idea was that saving a business from bankruptcy will serve as a motivation to extend your transport network. However, players quickly get overwhelmed with a lot of businesses here and there, all demanding to be saved. A bankruptcy of a business currently has no direct effect on your company and it's actually often expected: for example, you have no access to required resource yet and plan to gain it later. Still, it gives players feeling of failing to keep up with the game.
+The last bit became a source of frustration for players. Initially, the idea was that saving a business from bankruptcy will serve as a motivation to extend your transport network. However, players quickly get overwhelmed with a lot of businesses here and there, all demanding to be saved.
 
-To improve this situation, we are working on something we call *Contracts*. With contracts, you are not obligated to deliver everything everywhere by default. Instead, you explicitly decide if you want to supply a specific business. By signing a contract with a business you're committing to satisfying its needs long-term. This way, you may no longer care about other businesses until you are actually ready to supply them. Another related change is that now you're in control of when to upgrade your contract to the next level of demand, so you can do it only when you're sure you want to increase goods flow.
+A bankruptcy of a business currently has no direct effect on your company and it's actually often expected: for example, you have no access to required resource yet and plan to gain it later. Still, it gives players feeling of failing to keep up with the game.
+
+To improve this situation, we are working on something we call *Contracts*. With contracts, you are not obligated to deliver everything everywhere by default. Instead, you explicitly decide if you want to supply a specific business. By signing a contract with a business you're committing to satisfying its needs long-term. This way, you may no longer care about other businesses until you are actually ready to supply them.
+
+Another related change is that now you're in control of when to upgrade your contract to the next level of demand, so you can do it only when you're sure you want to increase goods flow.
 
 On another side, violating a contract — eg. not supplying a business for a long time — will result in a penalty. We'll talk about it in one of the next posts.
 
