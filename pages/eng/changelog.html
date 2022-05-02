@@ -8,6 +8,19 @@ theme: 18182d
 
 <iframe class="widget-steam_modal" src="https://store.steampowered.com/widget/732050/" frameborder="0"></iframe>
 
+{% assign gameplay = 0 %}
+{% assign improvements = 0 %}
+{% assign fixes = 0 %}
+{% assign modding = 0 %}
+
+<!-- {% for item in site.data.changelog %}
+
+<h1>{{ item.version }}</h1>
+
+
+
+{% endfor %} -->
+
 <div class="changelog">
 
 {% for item in site.data.changelog %}
@@ -41,6 +54,17 @@ theme: 18182d
             >{{ groupName }}</p>
             <ul class="log-items">
                 {% for logitem in groupItems %}
+
+                    {% if groupName == "gameplay" %}
+                        {% capture gameplay %}{{ gameplay | plus: 1 }}{% endcapture %}
+                    {% elsif groupName == "improvements" %}
+                        {% capture improvements %}{{ improvements | plus: 1 }}{% endcapture %}
+                    {% elsif groupName == "fixes" %}
+                        {% capture fixes %}{{ fixes | plus: 1 }}{% endcapture %}
+                    {% elsif groupName == "modding" %}
+                        {% capture modding %}{{ modding | plus: 1 }}{% endcapture %}
+                    {% endif %}
+
                     <li class="log-item">
                         <div>
                             {% if logitem.issue %}
@@ -56,6 +80,10 @@ theme: 18182d
             </ul>
         {% endfor %}
     </div>
+    <p>Gameplay: {{gameplay}}</p>
+    <p>Improvements: {{improvements}}</p>
+    <p>Fixes: {{fixes}}</p>
+    <p>Modding: {{modding}}</p>
     {% unless forloop.last %}
     <hr/>
     {% endunless %}
