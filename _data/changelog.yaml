@@ -28,7 +28,7 @@
     - Inherit from the new <code>SettingsMod</code>  class to implement custom settings (<a href="https://github.com/voxeltycoon/mods/tree/master/SettingsExampleMod">example<a>)
     - Added <code>SettingsControl.AddToggle()</code>  overload which adds switch toggle
     - Added <code>SettingsControl.AddButton()</code>  overload with font icon instead of text
-    - Unity updated to 2021.3.0
+    - Unity updated to 2020.3.31
 
 - version: '0.87'
   date: 2021-12-22 16:00:00 +0300
