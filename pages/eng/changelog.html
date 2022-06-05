@@ -54,17 +54,6 @@ theme: 18182d
             >{{ groupName }}</p>
             <ul class="log-items">
                 {% for logitem in groupItems %}
-
-                    {% if groupName == "gameplay" %}
-                        {% capture gameplay %}{{ gameplay | plus: 1 }}{% endcapture %}
-                    {% elsif groupName == "improvements" %}
-                        {% capture improvements %}{{ improvements | plus: 1 }}{% endcapture %}
-                    {% elsif groupName == "fixes" %}
-                        {% capture fixes %}{{ fixes | plus: 1 }}{% endcapture %}
-                    {% elsif groupName == "modding" %}
-                        {% capture modding %}{{ modding | plus: 1 }}{% endcapture %}
-                    {% endif %}
-
                     <li class="log-item">
                         <div>
                             {% if logitem.issue %}
