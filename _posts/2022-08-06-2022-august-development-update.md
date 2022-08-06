@@ -1,6 +1,7 @@
 ---
 title: "Update is just around the corner"
-thumb: /assets/posts/2022-august-development-update/2.png
+thumb: /assets/posts/2022-august-development-update/3.png
+thumb_square: /assets/posts/2022-august-development-update/2.png
 ---
 
 Just in case you wonder, the next update is just around the corner. 
