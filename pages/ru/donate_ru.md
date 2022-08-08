@@ -8,21 +8,13 @@ redirect_from:
     - /donate_ru
 ---
 
-При пожертвовании от <span class="money">60 ₽</span> (или $1) одним из способов, указанных на это странице, вы получите:
+При пожертвовании от <span class="money">350 ₽</span> (или $5) одним из способов, указанных на это странице, вы получите:
 
 • роль <span style="color: #ffe200; font-weight: bold">supporter</span> на нашем [Discord-сервере](//discord.gg/64KPWd5)<br>
 • шанс **увидеть себя в игре** в роли водителя, машиниста и даже мэра!<br>
 • ваше имя **появится в титрах**
 
 > **Важно!** В комментарии к переводу укажите имя, которое вы хотите видеть в титрах и в игре. Или [напишите нам](mailto:dev@voxeltycoon.xyz) на почту.
-
-## VK Donut 
-
-[Самый простой способ поддержать Voxel Tycoon](https://vk.com/voxeltycoon?source=description&w=donut_payment-117411610)
-
-<a class="clear" href="https://vk.com/voxeltycoon?source=description&w=donut_payment-117411610">
-    ![](/assets/donut.png)
-</a>
 
 ## Patreon
 

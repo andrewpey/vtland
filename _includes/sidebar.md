@@ -27,9 +27,9 @@
 
 [Roadmap](https://trello.com/b/wHz5JHqH/voxel-tycoon-roadmap){:.sidebar-menu__item}
 
-[Suggestions](https://github.com/voxeltycoon/suggestions/issues){:.sidebar-menu__item}
+[Bug Tracker](/bugs){:.sidebar-menu__item}
 
-[Bug Tracker](https://github.com/voxeltycoon/bug-tracker){:.sidebar-menu__item}
+[Suggestions](/suggestions){:.sidebar-menu__item}
 
 ***
 
@@ -42,6 +42,8 @@
 [Railroad to Hell <span style="color:red">3</span>](/railroad-to-hell){:.sidebar-menu__item}
 
 [For Press](/press){:.sidebar-menu__item}
+
+[Jobs](/jobs/ru){:.sidebar-menu__item}
 
 ***
 
@@ -58,8 +60,6 @@
 [Discord](//discord.gg/voxeltycoon){:.discord .sidebar-menu__item} <small>{{site.data.socials.dd}} </small>
 
 [Email](mailto:dev@voxeltycoon.xyz){:.email .sidebar-menu__item}
-
-[Notify Me]({{site.newsletter_url}}){:.sidebar-menu__item}
 
 <script>
 $('.greenlight').click(function(event) {

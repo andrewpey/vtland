@@ -50,6 +50,11 @@
     & a.clear, a.clear:hover{
         border: none;
     }
+
+    & hr {
+        border: none;
+        margin: 1rem 0 1rem 0;
+    }
 }
 
 .page-nav {

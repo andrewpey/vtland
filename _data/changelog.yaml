@@ -1,6 +1,155 @@
+- version: '0.87.1'
+  date: 2022-03-07 19:00:00 +0300
+  groups:
+    gameplay:
+    improvements:
+    - New game Mods tab facelift
+    - Mods now can have custom settings exposed to the player in the Mods tab of the New game window
+    - Added notification setting allowing to choose frequency of unprofitable warnings or disable them completely
+    - Added separate ambient volume slider
+    - Added accessibility option to disable camera affects (chromatic aberrations, etc)
+    - Added three dots menu with options to force disable a mod, open its Workshop page, or reveal mod's directory
+    - Mods now can be globally disabled - helpful if a mod breaks something in the main menu, but you still want to be able to load saved games with it
+    - Added <code>-safe</code> command line argument allowing to skip loading mods
+    - Slightly optimized rails and roads mesh generation
+    fixes:
+    - >
+      Fleet window: Fixed routes sort by name
+    - Fixed modern vehicles could be towed to older depots
+    - Fixed HQ indicator visibility was tied to the lab indicator visibility
+    - Fixed wrong rounding in passenger spawn calculation (<a href="https://github.com/voxeltycoon/issues/issues/768">768</a>)
+    - >
+      Replacement window: Fixed add replacement button could be blocked by other UI on low resolutions
+    modding:
+    - Added support for Workshop tags (<a href="https://docs.voxeltycoon.xyz/guides/basics/mod.json/">docs</a>)
+    - >
+      Added support for mod dependencies (<a href="https://docs.voxeltycoon.xyz/guides/basics/dependencies/">docs</a>)
+    - Added support for mods running in the main menu - Check the <code>MainMenuMod</code>  class
+    - Inherit from the new <code>SettingsMod</code>  class to implement custom settings (<a href="https://github.com/voxeltycoon/mods/tree/master/SettingsExampleMod">example<a>)
+    - Added <code>SettingsControl.AddToggle()</code>  overload which adds switch toggle
+    - Added <code>SettingsControl.AddButton()</code>  overload with font icon instead of text
+    - Unity updated to 2020.3.31
+
+- version: '0.87'
+  date: 2021-12-22 16:00:00 +0300
+  groups:
+    gameplay:
+    - Added <b>mass vehicle replacement</b>! Choose what kind of vehicles on what routes should be replaced, and let the game do the rest
+    - Vehicles are properly going to depots now instead of just teleporting
+    - Vehicle can be sent to the closest depot or to a depot of your choice
+    - Also, there's an option to tow (teleport) a vehicle to a depot for a fee
+    - City growth slowed down by 25 percent
+    improvements:
+    - Added Steam Cloud saves support
+    - Space button now pauses the game by default (existing players might need to reset their key bindings)
+    - Added a separate horn volume slider to the Settings
+    - >
+      Analytics: Added button to Settings which opens personal data management page to see what data are collected or opt-out from collection
+    - >
+      Fleet window: Added multi-select support with Shift or drag
+    - Added 75, 144, and 240 Target FPS options to settings (<a href="https://github.com/voxeltycoon/issues/discussions/893">893</a>)
+    - Display amount of enabled mods in the mods tab text in the New game window
+    fixes:
+    - Fixed wrong required population for industrial cities (<a href="https://github.com/voxeltycoon/issues/issues/844">844</a>)
+    - Fixed game fails to start if one of the saves is corrupted
+    - Fixed rare case when train pathfinder ignores a one-way signal and then the train blocks the way at the signal
+    - Fixed rare issue where storage buildings keep interacting even if they are disconnected in UI
+    - Fixed Plant Trees Tool plants only one kind of biome trees
+    - Fixed Vehicle station window doesn't properly reflect when a serviced vehicle's route changed
+    - Fixed invalid calculation of velocity on slopes in some cases (<a href="https://github.com/voxeltycoon/issues/issues/890">890</a>)
+    - Fixed refitting a vehicle causes a "cash paid" sound, even though it's free (<a href="https://github.com/voxeltycoon/issues/issues/202">202</a>)
+    - Fixed scroll not working when cursor is in between cards in the City window on the Demands tab
+    - Fixed translations % of completeness is calculated wrong in-game
+    modding:
+    - Added <code>WorldGeneratorManager</code> which allows swapping the vanilla worldgen with custom <code>IWorldGenerator</code> implementation
+    - Fixed <code>.road</code> assets ignore <code>Hidden</code> flag (<a href="https://github.com/voxeltycoon/issues/issues/747">747</a>)
+    - Fixed <code>AssetHandlerImportCompleted</code> callback was not called for the last asset handler
+    - Fixed mods do not always load in the same order (crucial for some script mods which are dependent on other mods)
+    - <code>0Harmony.dll</code> updated to the latest version
+    - Unity updated to 2020.3.25
+
+- version: '0.86.1'
+  date: 2021-07-01 12:30:00 +0300
+  title: Quality-of-life improvements and fixes
+  text: While we keep working on new features - such as mass vehicle replacement - there's a new intermediate update featuring a bunch of quality-of-life improvements and fixes.
+  groups:
+    improvements:
+    - Added ability to remove routes directly from the station window (useful when a station is removed but stays because of empty routes referencing it)
+    - Updated routes appearance and functionality (rename, show all vehicles) in the station window to match other places
+    - Added a warning indicating that a train can't reach a destination because of a one-way signal on its way
+    - >
+      Station window: Added and changed some texts to more clearly indicate stations' purpose (addressing <a href="https://github.com/voxeltycoon/issues/discussions/475">475</a>)
+    - Routes are ordered by name now
+    - Mod descriptions with custom formatting now properly displayed in the in-game browser
+    fixes:
+    - Fixed disappearing conveyor items - finally! (<a href="https://github.com/voxeltycoon/issues/issues/614">614</a>, <a href="https://github.com/voxeltycoon/issues/issues/624">624</a>)
+    - Fixed save dialog become broken after trying to save with an already occupied name
+    - Fixed TNT explosion applies soot to liquids
+    modding:
+    - <code>SchemaVersion</code> now can be used in script mods
+    - Unity updated to 2020.3.12
+
+- version: '0.86'
+  date: 2021-05-12 12:30:00 +0300
+  title: Rail signal block visualization, rename cities, and more!
+  groups:
+    gameplay:
+    - You can now rename cities! But it comes with a price
+    - Stores now can demand copper ore
+    - Passenger C-Liner moved to Heavy Diesel Engine II research
+    improvements:
+    - <b>Added rail block visualization!</b> Should help you to more easily understand how rails are separated in blocks by signals, and why is this exact signal is currently red
+    fixes:
+    - If you have a custom road station from a mod and your game can't save, please check with the mod author to make sure they've updated the mod for the latest versions of the game - if so, just rebuild the station to fix the error
+    - Fixed incorrect game speed labels in control settings
+    - Fixed full refund for signals
+    - Fixed yet to be bought vehicles increase company value
+    - Fixed stores can be demolished by landscape flattening below their level 
+    modding:
+    - Stops and indexes of tracks outside road station bounding box are ignored now to prevent errors when such tracks get removed - the size of a road station should incorporate all its tracks
+    - Fixed item prices lower than 0.5 get rounded to zero
+    - Unity version updated to 2020.3.7
+    localization:
+    - Added Traditional Chinese language
+    - Added English (United Kingdom) language
+    - Added English (Australia) language - right now it's the same as English but has another date format, default currency, and names
+    - Added English names
+    - Added CZK currency
+
+- version: '0.85.1'
+  date: 2021-04-24 14:30:00 +0300
+  title: Full refund while the game is paused, addressing auto cargo selection issues, and more!
+  groups:
+    gameplay:
+    - Full refund while the game is paused
+    - "Changed how auto-storages work: now storage locks to the specific type of cargo after the first item is loaded to the storage, and doesn't go back to Auto after unload"
+    - Added ability to manually refit a vehicle unit at any moment from the Details tab of the Vehicle window
+    - Added Canadian, Korean, Portuguese, and Swedish names
+    - Changed Korean date format
+    improvements:
+    - "Cargo type picker: Added a tooltip to Auto mode describing how it works"
+    - Option to disable reducing of the game speed when critical notifications occur
+    - "Buy vehicle window: A vehicle can be renamed even before buy by clicking on the window title"
+    - "Buy vehicle window: Added a tooltip about holding Shift to apply cargo type to all units"
+    - "Buy vehicle window: Automatically set cargo type if units were filtered by specific cargo"
+    - "Fleet window: Added ability to sort by name"
+    fixes:
+    - Fixed yet to be bought vehicles are counted to company statistics
+    - Possible fix for error when editing key bindings
+    - Fixed trucks could be sent to rail depots, and vice versa
+    - "Depot window: Fixed list of cargo not updated after vehicle configuration"
+    - Fixed main menu Continue button doesn't react if save was removed
+    - Fixed demand price delta disappears on non-100% UI scale
+    - Fixed incorrect CHF exchange rate
+    - Fixed recipe picker window didn't close on device demolishing
+    - Fixed freight road station had a luminescent door frame
+    - Fixed route filter with many items doesn't fit the screen
+    modding:
+    - Unity version updated to 2020.3.5
+
 - version: '0.85'
   date: 2021-04-15 16:00:00 +0300
-  tags: [ steam early access ]
+  tags: [ steam early access, wipe ]
   title: Steam Early Access release full changelog is here!
   text: We still can't believe this but the game is really coming to Steam Early Access on April 15th. And here's the full - pretty huge - changelog for this update (compared to the Itch version aka 0.84.1).<br>Enjoy!
   groups:
