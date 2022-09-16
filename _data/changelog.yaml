@@ -1,7 +1,78 @@
+- version: '0.87.2'
+  date: 2022-09-16 18:00:00 +0300
+  title: The Minor Update patch notes
+  text: Check <a href="/devlog/update-87-2">The Minor Update</a> blog post for details.
+  groups:
+    gameplay:
+    - You can now rotate and scale decorations — it's time to get creative!
+    - Inputs and outputs in devices are now fixed
+    - Made renaming cities significantly more affordable
+    - Trains that have both electric and diesel/steam engines now able to move on non-electrified rails
+    improvements:
+    - "Builder window: Improved with categories, search, filtering, sorting, and view options"
+    - "Builder window: Scroll to last placed building on open"
+    - "Conveyors: Improved conveyor direction prediction logic — now it should require much less manual direction changes"
+    - "Conveyors: Mismatching directions will be highlighted with special indicator, clicking on it will automatically fix direction"
+    - "Conveyors: Devices now can be build closer to each other without need to demolish conveyors"
+    - You can now choose what budget items should contribute to displayed total
+    - "Fleet window: Added ability to mass release vehicles from depot"
+    - "Fleet window: Added ability to mass cancel send to depot"
+    - >
+      Fleet window: Vehicles are sorted by name in the way human would expect (<a href="https://github.com/voxeltycoon/issues/discussions/914">914</a>)
+    - "New game window: Added search by mods"
+    - "New game window: Added ability to toggle all mods"
+    - "Mass replacement: Added ability to pause/resume and remove all current replacements"
+    - "Mass replacement: Added ability to pause a replacement"
+    - "Mass replacement: Replacement will preserve cargo if possible"
+    - "Mass replacement: Reduced notification spam if vehicle can't find a depot for replacement"
+    - When placing a signal, distance to closest neighbors will be shown
+    - Added highlight of non-electrified parts of the track when using electrification tool
+    - Added option to configure world grid step
+    - Added possibility to rename depots and labs
+    - Added hint for supporter (yellow) drivers, mayors, etc.
+    - Hitting <kbd>F1</kbd> now will leave indicators on screen and hide other UI, to hide indicators as well press <kbd>F1</kbd> once again
+    - Clicking on the current research name in the Lab window will reveal the research in the tech tree
+    - Vehicle units which is not compatible with the current consist won't be hidden but instead grayed out with informative message
+    - You can now teleport to the passengers destination by clicking on their icon in the station window
+    - Passengers weight reduced from 1t to 150kg
+    - Routes are sorted by name in the way human would expect
+    - Hotkeys on loading screens are now reflect user changes to bindings
+    - Loading screens now show arbitrary messages instead of listing loaded assets
+    - If game fails to load to main menu because of a mod, the mod will be automatically disabled, and game will be restarted
+    - New asset load error window added providing extended info and actions based on context (like Verify files integrity or Go to Workshop page)
+    - Added debug console (<kbd>Ctrl+`</kbd>)
+    - New red banner will be shown at the top of the screen on critical errors, clicking on it will open the console
+    - Improved windows auto-layout to prevent them from being partially obscured by other UI as much as possible    
+    - Set correct default currency and names for es, pl, sv, and tr locales
+    fixes:
+    - Fixed coupling issues with DB ICE 3 and other MUs
+    - Fixed flipped engine with tender are displaying incorrectly
+    - Fixed task units can't be changed after other units were removed and task became locked to inexistent unit
+    - Fixed Plant trees tool always places only the first possible decoration for this biome
+    - Fixed game freezes when selling huge amount of vehicles at the same time
+    - Fixed modern vehicles can be sent or copied to tier 1 depots
+    - Fixed vehicles can be replaced to modern ones in tier 1 depots via mass replacement
+    - Fixed 0-sized buildings can be placed in closed regions
+    - Fixed world grid rendering on Radeon cards
+    - Fixed world can be scrolled through Vehicle window Details tab background
+    modding:
+    - You can now choose what pack to load in Asset Editor to significantly improve load times
+    - Added <code>.category</code> asset which is used by builder to categorize buildings
+    - Decorations now can be animated
+    - "Building liveries now can have different displayed names: use <code>uri#livery_name:DisplayName</code> format"
+    - Spot lights now can be rotated
+    - Added smokes support for trucks and buses
+    - Conveyor max length now can be set in asset
+    - Direction of devices inputs and outputs are now strictly set in assets
+    - Asset URIs are no longer case sensitive
+    - Fixed rare case where StorageNetworkBuilding siblings not marked dirty on built (thanks Nebruzias!)
+    - 0Harmony.dll updated to 2.2.2
+    - Added Font Awesome 6
+    - Unity updated to 2021.3.9
+
 - version: '0.87.1'
   date: 2022-03-07 19:00:00 +0300
   groups:
-    gameplay:
     improvements:
     - New game Mods tab facelift
     - Mods now can have custom settings exposed to the player in the Mods tab of the New game window
