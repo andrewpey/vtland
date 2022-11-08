@@ -1,3 +1,21 @@
+- version: '0.87.3'
+  date: 2022-11-08 12:00:00 +0300
+  groups:
+    gameplay:
+    - Devices now can output more than one product
+    - Devices UI updated to support complex recipes with more than one output
+    fixes:
+    - Fixed conveyor builder tool can build multiple overlapping segments causing various issues
+    - Fixed items inside devices got vaporised between sessions
+    - Fixed electric locos keep playing engine sound on non-electrified rails
+    - Fixed electrification tool highlight may stay after tool deactivation 
+    - Fixed custom category icons are rendered blue
+    - Fixed error when generating palette for empty.obj 
+    modding:
+    - <code>.recipe</code> asset changed to support more than one output, also output probabilities can be set
+    - Added support for modding locales, names, and currencies
+    - Unity updated to 2021.3.11
+
 - version: '0.87.2'
   date: 2022-09-16 18:00:00 +0300
   title: The Minor Update patch notes
