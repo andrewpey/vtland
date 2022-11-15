@@ -1,12 +1,16 @@
 - version: '0.87.3'
-  date: 2022-11-08 12:00:00 +0300
+  date: 2022-11-15 15:30:00 +0300
+  text: Check <a href="/devlog/update-87-3">the blog post</a> for details.
   groups:
     gameplay:
     - Devices now can output more than one product
     - Devices UI updated to support complex recipes with more than one output
+    improvements:
+    - Added device indicators to clearly show input and output directions and locations, as well as the items coming in and out
+    - Inputs and outputs now can be reassigned by clicking on the indicators
     fixes:
     - Fixed conveyor builder tool can build multiple overlapping segments causing various issues
-    - Fixed items inside devices got vaporised between sessions
+    - Fixed items inside devices got vaporized between sessions
     - Fixed electric locos keep playing engine sound on non-electrified rails
     - Fixed electrification tool highlight may stay after tool deactivation 
     - Fixed custom category icons are rendered blue
@@ -14,6 +18,7 @@
     modding:
     - <code>.recipe</code> asset changed to support more than one output, also output probabilities can be set
     - Added support for modding locales, names, and currencies
+    - Main menu script mods are no longer automatically load all their assets, override <code>MainMenuMod.PopulateAssetExtensionsToLoad()</code> to control which assets to load
     - Unity updated to 2021.3.11
 
 - version: '0.87.2'
