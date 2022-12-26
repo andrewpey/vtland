@@ -1,8 +1,6 @@
 /_site
 /.sass-cache/
 /.sass-cache/*
-Gemfile.*
-Gemfile
 /.vscode
 /.jekyll-cache/
 /.jekyll-cache/*
