@@ -1,3 +1,28 @@
+- version: '0.88'
+  date: 2023-01-23 17:00:00 +0300
+  text: Check the <a href="/devlog/update-88">Passengers 2.0 Update</a> blog post for details.
+  groups:
+    gameplay:
+    - Passengers now can switch transport and even transport modes on their way to the desired destination!
+    - "Along with passengers, there's a new kind of cargo: mail!"
+    improvements:
+    - Passenger coverage is now highlighted when placing passenger stations
+    - "Updated passenger/mail tooltip layout: now it groups items by destination and highlights if a destination could not be reached"
+    - Improved the visual appearance of trucks with trailers in tight turns
+    - You can now add buildings to favorites in the builder palette to keep them always on top
+    - Added an explicit toggle allowing users to enable Cloud sync for a new save
+    - Autosaves now show the name of the world or the original save name
+    - Added support for software cursor (<a href="https://github.com/voxeltycoon/issues/issues/1000">#1000</a>)
+    fixes:
+    - Fixed replacing some vehicles in the vehicle editor window wouldn't allow you to select a vehicle to replace
+    - Fixed creating a new vehicle replacement can cause an error in some cases
+    - Fixed internal recipes shown in the tech tree
+    - Fixed the camera would go wild after following a vehicle very closely
+    modding:
+    - Added <code>Coupling1Offset</code> and <code>Coupling2Offset</code> properties to the <code>.carunit</code> asset, allowing you to fine-tune the trailers' visual behavior
+    - Added the <code>Height</code> property to the <code>.carcoupling</code> asset, allowing you to fine-tune the trailers' visual behavior
+    - Unity updated to 2021.3.16
+
 - version: '0.87.3'
   date: 2022-11-15 15:30:00 +0300
   text: Check <a href="/devlog/update-87-3">the blog post</a> for details.
