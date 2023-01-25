@@ -14,19 +14,18 @@ Donate at least <span class="money">$5</span> using ways described on this page,
 
 > **Important!** Please add the name you want to see in the credits and other places as a note to a payment or [contact us](mailto:dev@voxeltycoon.xyz) after making a donation.
 
-If you are familiar with **Patreon**, here you go:
+## Patreon
 
 <a class="patreon" href="https://www.patreon.com/bePatron?u=7655118">
     <img src="/become_a_patron_button.png">
 </a>
 
-Alternatively, you can make one-time donation via **PayPal**:
+## Crypto
 
-{% include donate_btn.html %}
-
-<small>
-    [Русская версия](/donate_ru)
-</small>
+- USDC (ETH): `0xdb26C5AAdd89d67691D7CC1D8FAD05F71BB7A7d3`
+- USDT (ETH): `0xdb26C5AAdd89d67691D7CC1D8FAD05F71BB7A7d3`
+- BTC: `bc1qnar4hl7uf384tg8md6p09r3c3z9amen4jgq0zf`
+- ETC: `0xdb26C5AAdd89d67691D7CC1D8FAD05F71BB7A7d3`
 
 <h2>Hall of Fame💜</h2>
 
