@@ -13,37 +13,33 @@
 {% endif %}
 
 
-[BUY NOW!](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight}
+<!-- [BUY NOW!](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight} -->
 
-[BECOME A PATRON](https://www.patreon.com/bePatron?u=7655118){:.patreon-navbar}
-
-[$ DONATE $](/donate){:.money}
-
-***
+<!-- [BECOME A PATRON](https://www.patreon.com/bePatron?u=7655118){:.patreon-navbar} -->
 
 <!-- <iframe style="margin-left:-20px" frameborder="0" src="https://itch.io/embed/434404?linkback=true&amp;border_width=0&amp;bg_color=18182d&amp;fg_color=ffffff&amp;link_color=8768ff&amp;border_color=18182d" width="206" height="165"></iframe> -->
+
+[Steam](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight .sidebar-menu__item}
 
 [Devlog](/devlog){:.sidebar-menu__item}
 
 [Roadmap](https://trello.com/b/wHz5JHqH/voxel-tycoon-roadmap){:.sidebar-menu__item}
 
-[Bug Tracker](/bugs){:.sidebar-menu__item}
-
-[Suggestions](/suggestions){:.sidebar-menu__item}
+[Discord](//discord.gg/voxeltycoon){:.sidebar-menu__item} <small>{{site.data.socials.dd}} </small>
 
 ***
 
-[Changelog](/changelog){:.changelog .sidebar-menu__item}
+[Changelog](/changelog){:.sidebar-menu__item}
 
-[Wiki](https://voxeltycoon.gamepedia.com){:.wiki .sidebar-menu__item}
+[Wiki](https://voxeltycoon.gamepedia.com){:.sidebar-menu__item}
 
-[Modding](/modding){:.sdk .sidebar-menu__item}
+[Modding](/modding){:.sidebar-menu__item}
+
+[Donate](/donate){:.sidebar-menu__item}<!-- {:.money} -->
 
 [Railroad to Hell <span style="color:red">3</span>](/railroad-to-hell){:.sidebar-menu__item}
 
 [For Press](/press){:.sidebar-menu__item}
-
-[Jobs](/jobs/ru){:.sidebar-menu__item}
 
 ***
 

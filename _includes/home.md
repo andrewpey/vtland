@@ -1,4 +1,4 @@
-We are developing <span class="title">Voxel Tycoon</span> — a strategy game about *transportation*, *building&nbsp;factories*, and *mining* in infinite voxel landscapes.
+We are developing Voxel Tycoon — a strategy game about *transportation*, *building&nbsp;factories*, and *mining* in infinite voxel landscapes.
 
 <iframe class="widget-steam_modal" src="https://store.steampowered.com/widget/732050/" frameborder="0"></iframe>
 
