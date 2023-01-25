@@ -18,6 +18,7 @@
     - Fixed creating a new vehicle replacement can cause an error in some cases
     - Fixed internal recipes shown in the tech tree
     - Fixed the camera would go wild after following a vehicle very closely
+    - Fixed opening asset editor from a game doesn't let to choose what pack to load
     modding:
     - Added <code>Coupling1Offset</code> and <code>Coupling2Offset</code> properties to the <code>.carunit</code> asset, allowing you to fine-tune the trailers' visual behavior
     - Added the <code>Height</code> property to the <code>.carcoupling</code> asset, allowing you to fine-tune the trailers' visual behavior
