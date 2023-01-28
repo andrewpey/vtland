@@ -19,43 +19,43 @@
 
 <!-- <iframe style="margin-left:-20px" frameborder="0" src="https://itch.io/embed/434404?linkback=true&amp;border_width=0&amp;bg_color=18182d&amp;fg_color=ffffff&amp;link_color=8768ff&amp;border_color=18182d" width="206" height="165"></iframe> -->
 
-[Steam](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight .sidebar-menu__item}
+[Steam](http://store.steampowered.com/app/732050/Voxel_Tycoon/){:.greenlight .sidebar-menu__item}{:target="_blank"}
 
 [Devlog](/devlog){:.sidebar-menu__item}
 
-[Roadmap](https://trello.com/b/wHz5JHqH/voxel-tycoon-roadmap){:.sidebar-menu__item}
+[Roadmap](https://trello.com/b/wHz5JHqH/voxel-tycoon-roadmap){:.sidebar-menu__item}{:target="_blank"}
 
-[Discord](//discord.gg/voxeltycoon){:.sidebar-menu__item} <small>{{site.data.socials.dd}} </small>
+[Discord](//discord.gg/voxeltycoon){:.sidebar-menu__item}{:target="_blank"} <small>{{site.data.socials.dd}} </small>
 
 ***
 
 [Changelog](/changelog){:.sidebar-menu__item}
 
-[Wiki](https://voxeltycoon.gamepedia.com){:.sidebar-menu__item}
+[Wiki](https://voxeltycoon.gamepedia.com){:.sidebar-menu__item}{:target="_blank"}
 
-[Modding](/modding){:.sidebar-menu__item}
+[Modding](/modding){:.sidebar-menu__item}{:target="_blank"}
 
 [Donate](/donate){:.sidebar-menu__item}<!-- {:.money} -->
 
-[Railroad to Hell <span style="color:red">3</span>](/railroad-to-hell){:.sidebar-menu__item}
+[Railroad to Hell <span style="color:red">3</span>](/railroad-to-hell){:.sidebar-menu__item}{:target="_blank"}
 
 [For Press](/press){:.sidebar-menu__item}
 
 ***
 
-[Twitter](//twitter.com/VoxelTycoon){:.twitter .sidebar-menu__item} <small>{{site.data.socials.tw}}</small>
+[Twitter](//twitter.com/VoxelTycoon){:.twitter .sidebar-menu__item}{:target="_blank"} <small>{{site.data.socials.tw}}</small>
 
-[Facebook](//facebook.com/VoxelTycoon){:.facebook .sidebar-menu__item} <small>{{site.data.socials.fb}} </small>
+[Facebook](//facebook.com/VoxelTycoon){:.facebook .sidebar-menu__item}{:target="_blank"} <small>{{site.data.socials.fb}} </small>
 
-[YouTube](//youtube.com/c/voxeltycoongame){:.youtube .sidebar-menu__item} <small>{{site.data.socials.yt}} </small>
+[YouTube](//youtube.com/c/voxeltycoongame){:.youtube .sidebar-menu__item}{:target="_blank"} <small>{{site.data.socials.yt}} </small>
 
-[VK](//vk.com/VoxelTycoon){:.vk .sidebar-menu__item} (in Russian) <small>{{site.data.socials.vk}}</small>
+[VK](//vk.com/VoxelTycoon){:.vk .sidebar-menu__item}{:target="_blank"} <small>{{site.data.socials.vk}}</small>
 
-[Reddit](//reddit.com/r/voxeltycoon){:.reddit .sidebar-menu__item} <small>{{site.data.socials.rd}} </small>
+[Reddit](//reddit.com/r/voxeltycoon){:.reddit .sidebar-menu__item}{:target="_blank"} <small>{{site.data.socials.rd}} </small>
 
-[Discord](//discord.gg/voxeltycoon){:.discord .sidebar-menu__item} <small>{{site.data.socials.dd}} </small>
+[Discord](//discord.gg/voxeltycoon){:.discord .sidebar-menu__item}{:target="_blank"} <small>{{site.data.socials.dd}} </small>
 
-[Email](mailto:dev@voxeltycoon.xyz){:.email .sidebar-menu__item}
+[Email](mailto:dev@voxeltycoon.xyz){:.email .sidebar-menu__item}{:target="_blank"}
 
 <script>
 $('.greenlight').click(function(event) {

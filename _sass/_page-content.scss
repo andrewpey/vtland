@@ -22,12 +22,19 @@
         font-family: 'HansKendrick', 'roboto';
     }
     &__footer {
-        opacity: 0.5;
         margin-top: 3.5714285714285716rem;
         margin-bottom: 3.5714285714285716rem;
-        margin-right: auto;
-        max-width: 400px;
-        line-height: 19px;
+        &__discord-banner {
+            display: block;
+            max-width: 280px;
+            margin-bottom: 0.3rem;
+        }
+        &__text {
+            opacity: 0.5;
+            margin-right: auto;
+            max-width: 400px;
+            line-height: 19px;
+        }
     }
     & p {
         padding: 0.8571428571428571rem 0;

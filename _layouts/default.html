@@ -4,12 +4,7 @@
         <div class="page-content">
             <h1 class="page-content__title">{{ page.header }}</h1>
             {{ content }}
-            <footer class="page-content__footer">
-                This site is hosted on <a href="//github.com/andrewpey/vtland">GitHub</a>,
-                so feel free to open a Pull Request if you think something can be fixed, 
-                like a small typo or the whole sentences.<br><br>
-                <a href="/eula">EULA</a>
-            </footer>
+            {% include inner_footer.html %}
         </div>
         <div class="page-sidebar">
             <div class="sidebar-menu">
