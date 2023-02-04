@@ -1,3 +1,16 @@
+- version: '0.88.1'
+  date: 2023-02-04 17:00:00 +0300
+  title: "Squashed a few bugs plus something in store for our amazing modder community"
+  groups:
+    fixes:
+    - Fixed an issue where passengers do not board vehicle in some cases
+    - Fixed disabled and in-depot vehicles falsely report their running costs at 30%
+    - Fixed passenger and mail labels overlap station label on non-100% UI scales
+    - Fixed mouse buttons can be bound in settings to various actions resulting in unexpected behavior
+    - Updated wording of Passengers and mail budget item
+    modding:
+    - A new <code>.itemgroup</code> asset introduced to improve mods compatibility (<a href="https://docs.voxeltycoon.xyz/guides/migration-guides/item-groups/">docs</a>)
+
 - version: '0.88'
   date: 2023-01-23 17:00:00 +0300
   text: Check the <a href="/devlog/update-88">Passengers 2.0 Update</a> blog post for details.
