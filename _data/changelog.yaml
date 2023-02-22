@@ -1,3 +1,21 @@
+- version: '0.88.2'
+  date: 2023-02-22 21:30:00 +0300
+  groups:
+    gameplay:
+    improvements:
+    - Added setting allowing to reduce build mode contrast
+    - Added "Copy many vehicles at once with SHIFT" hint to the tooltip for the Copy Vehicle button
+    - Increased maximum length for route names
+    - Increased maximum length for save names
+    - Show the detailed error window for script mod errors (the one with Disable and reload and Go to Workshop actions) instead of just generic "Failed to load .dll" message box
+    fixes:
+    - Fixed some mods relying on patches stopped working after Item Groups were introduced
+    - "Improved error message caused by failed patching: now it clearly specifies the problematic patch"
+    modding:
+    - Add Workshop tags for corresponding Item Groups
+    - Allowed patching of null properties
+    - Unity updated to 2022.2.6 
+
 - version: '0.88.1'
   date: 2023-02-04 17:00:00 +0300
   title: "Squashed a few bugs plus something in store for our amazing modder community"
