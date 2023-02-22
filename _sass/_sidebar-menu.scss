@@ -73,6 +73,7 @@
 .burgerMenu {
     display: none;
     z-index: 9999;
+    -webkit-tap-highlight-color: transparent;
     @include tablet {
         position: fixed;
         right: 0; top: 10px;
