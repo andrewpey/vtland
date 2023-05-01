@@ -2,7 +2,6 @@
   date: 2023-03-16 17:30:00 +0300
   text: "MacOS (M1) players: This update contains a possible fix for memory leaks, hangs, and crashes! Please give it a try and let us know if you notice any difference."
   groups:
-    gameplay:
     improvements:
     - "Increased name maximum length for everything that can be renamed: company, cities, vehicles, stations, depots, labs"
     - Updated appearance of New Save button in the Save Game window
@@ -15,7 +14,6 @@
 - version: '0.88.2'
   date: 2023-02-22 21:30:00 +0300
   groups:
-    gameplay:
     improvements:
     - Added setting allowing to reduce build mode contrast
     - Added "Copy many vehicles at once with SHIFT" hint to the tooltip for the Copy Vehicle button
