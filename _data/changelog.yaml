@@ -1,3 +1,36 @@
+- version: '0.88.4'
+  date: 2023-07-26 13:30:00 +0300
+  groups:
+    gameplay:
+    - <b>Vehicles can now have more than one color scheme</b>
+    - Added a picker to allow selecting the vehicle color scheme before purchase
+    - Added company color schemes for passenger buses and wagons
+    - Added brand new Tier 1 and Tier 2 mail rail cars
+    - Box cars are no longer suitable for mail
+    - Passenger rail cars are now lit at night
+    - Introducing <b>Custom Rules</b> for a unique game experience, including <b>Infinite Resources</b>, <b>Unlimited Money</b>, and <b>Everlasting Demands</b>
+    - "'Allow turn around', 'All research completed', and 'Start with semaphores' are now Custom Rules"
+    - "'Custom Rules' badge has been added to the save slot cards, letting you inspect the Custom Rules that are active for that particular game"
+    - Win/Lose screen will display all the enabled Custom Rules (including cheats!)
+    improvements:
+    - Enhanced support for non-QWERTY keyboard layouts
+    - Added the option to select from pre-defined QWERTY and AZERTY layouts in the controls settings
+    - Handling more cases of missing assets where the game will try to report asset Uri over numerical id
+    fixes:
+    - Fixed corrupted <code>DebugSettings.json</code> file was preventing the game from loading
+    - Fixed store window did not display price changes at non-100% UI scales (<a href="https://github.com/voxeltycoon/issues/issues/1044">#1044</a>)
+    modding:
+    - Implemented custom color schemes (liveries) support for vehicles
+    - Fixed <code>Remove</code> command of the <code>.patch</code> asset was not working in some cases
+    - In <code>.*storage</code> assets, <code>ItemGroupUris</code> replaced with <code>ItemGroups</code>, allowing configuration of individual groups in the same manner as <code>Items</code>
+    - Added the ability to hide individual storages (<code>Item</code> or <code>ItemGroup</code>) to maintain backward compatibility for older saves after storage was moved to another unit or building  (particularly useful when merging several vehicles into one with different liveries)
+    - To add your own Custom Rules, inherit from the newly introduced <code>CustomRulesMod</code> class (<a href="https://github.com/voxeltycoon/mods/tree/master/CustomRulesExampleMod">example</a>)
+    - <code>Assembly-CSharp.dll</code> is now <code>VoxelTycoon.dll</code>
+    - Storage assets now respect <code>.uribindings</code>, ensuring seamless binding of retired vehicle units to new ones
+    - "Asset Editor: Preserve selected variant when switching models"
+    - "Asset Editor: Show current slider values in the color picker on hover"
+    - Unity updated to 2022.3.3
+
 - version: '0.88.3'
   date: 2023-03-16 17:30:00 +0300
   text: "MacOS (M1) players: This update contains a possible fix for memory leaks, hangs, and crashes! Please give it a try and let us know if you notice any difference."
