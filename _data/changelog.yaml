@@ -1,3 +1,23 @@
+- version: '0.88.5'
+  date: 2023-10-19 14:30:00 +0300
+  groups:
+    improvements:
+    - The toolbar now reverts back to the previously selected tool after toggling off the bulldozer tool
+    - The bulldozer hotkey has been moved from <kbd>/</kbd> to <kbd>E</kbd> for easier access
+    - Temporarily activate the bulldozer tool by holding down the <kbd>E</kbd> key
+    - Active bulldozer tool is now highlighted with a red frame for clear visual feedback
+    - Zoom default bindings moved to <kbd>Shift+A/D</kbd>
+    - Late game performance improvements for smoother gameplay in big late-game worlds
+    - Reduced performance impact of UI indicators, especially when hidden
+    - Enhanced console error and warning message colors for better screenshot compression and readability
+    fixes:
+    - Fixed zoom key bindings were inverted
+    - Improved consistency when placing mines on the edge of the deposit
+    - Fixed vehicle audio continuing during forced pauses, like opening the Settings window
+    - Save slot cards now support clicking through long world names
+    modding:
+    - Unity updated to 2022.3.11
+
 - version: '0.88.4'
   date: 2023-07-26 13:30:00 +0300
   groups:
