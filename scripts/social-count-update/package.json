@@ -1,0 +1,13 @@
+{
+  "name": "vtbot",
+  "version": "1.0.0",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "fb": "^2.0.0",
+    "lodash": "^4.17.10",
+    "request": "^2.86.0",
+    "request-promise": "^4.2.2",
+    "snoowrap": "^1.23.0",
+    "twitter-api-v2": "^1.14.2"
+  }
+}
