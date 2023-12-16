@@ -3,7 +3,7 @@ name: Social Count Update
 on:
   workflow_dispatch:
   schedule:
-    - cron: '42 0 * * *'
+    - cron: '42 21 * * *'
 
 jobs:
   update-social-counts:
