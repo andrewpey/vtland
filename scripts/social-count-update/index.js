@@ -29,8 +29,7 @@ async function main() {
         const data = await fs.readFile(filePath);
         
         let prevCounts = JSON.parse(data);
-        let newCounts = Object.assign({}, prevCounts, ...Object.keys(providers).map((key, i) => ({[key]: counts[i]})));
-
+        let newCounts = Object.assign({}, prevCounts);
         let changedCounts = {};
         let errorMessages = [];
 
