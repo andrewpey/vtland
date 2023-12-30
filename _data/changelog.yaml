@@ -1,3 +1,13 @@
+- version: '0.88.6'
+  date: 2023-12-30 15:30:00 +0300
+  groups:
+    gameplay:
+    - <a href="/devlog/update-88-6/">Holiday cheer</a> added 🎁
+    improvements:
+    - "Signal placement tool: The <b>Spacing</b> setting now accurately represents the empty space between signals, enabling full train lengths to fit within designated blocks"
+    modding:
+    - Unity updated to 2022.3.16
+
 - version: '0.88.5'
   date: 2023-10-19 14:30:00 +0300
   groups:
