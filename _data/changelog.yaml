@@ -1,3 +1,22 @@
+- version: '0.88.7'
+  date: 2024-2-5 18:45:00 +0300
+  groups:
+    gameplay:
+    - Holiday cheer removed
+    - Vehicle replacement no longer affect new vehicles
+    - Complete replacement will be automatically removed
+    improvements:
+    - "Camera bookmarks: Set bookmark: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>0-9</kbd>, go to bookmark: <kbd>Shift</kbd> + <kbd>0-9</kbd>"
+    - Added explicit close/hide button to notification history popup
+    fixes:
+    - Fixed available money got trimmed in the lab window
+    - Fixed Info tool worked through UI
+    - Fixed infinite loop of vehicle replacement can be created
+    - Fixed error when vehicle was replaced while picking destination
+    - Fixed wrong speed is reported when vehicle window is just opened
+    modding:
+    - Unity updated to 2022.3.19
+
 - version: '0.88.6'
   date: 2023-12-30 15:30:00 +0300
   groups:
