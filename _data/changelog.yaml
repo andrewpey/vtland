@@ -1,3 +1,16 @@
+- version: '0.88.8'
+  date: 2024-2-29 20:00:00 +0300
+  groups:
+    improvements:
+    - "Orthographic (aka isometric) mode received some love: now locks to 45-degree angles and top-down view, remains consistent between sessions, and features its own HUD button (<kbd>F3</kbd> hotkey is still there)"
+    - Lakes now produce sound
+    - "Depot window: Made the configure and sell buttons more visible"
+    - Added CAD currency
+    fixes:
+    - Fixed renaming vehicle in the reconfigure window had no effect
+    modding:
+    - Unity updated to 2022.3.20
+
 - version: '0.88.7'
   date: 2024-2-5 18:45:00 +0300
   groups:
