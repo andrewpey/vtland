@@ -8,6 +8,8 @@ redirect_from:
     - "/anticheat"
 ---
 
+**UPDATE**: This post was our April Fool's Day joke! We hope you enjoyed the fun.
+
 {% include img.html src="/assets/posts/anticheat.png" %}
 
 Due to constantly increasing use of cheats in the game (<kbd>Ctrl+Alt+C</kbd>) we've decided to take action and stop players from gaining an unfair advantage.

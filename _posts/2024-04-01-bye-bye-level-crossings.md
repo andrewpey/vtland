@@ -4,6 +4,10 @@ thumb: /assets/posts/bye-bye-level-crossings/2.png
 thumb_square: /assets/posts/bye-bye-level-crossings/2.png
 ---
 
+**UPDATE**: This post was our April Fool's Day joke! We hope you enjoyed the fun.
+
+---
+
 {% include img.html src="/assets/posts/bye-bye-level-crossings/2.png" %}
 
 Hey there, Voxel Tycoon community!
