@@ -14,7 +14,7 @@ Hey there, Voxel Tycoon community!
 
 We’ve been hard at work here at Voxel Tycoon HQ, analyzing feedback, poring over data, and conducting what might be the most extensive survey in our history. After compiling the results from thousands of responses, a staggering statistic emerged: nearly 99.99% of you delivered a resounding "NO" to level crossings! It turns out bridges and tunnels are the undisputed champions of your transportation empires.
 
-Here are few examples of your responses to proof we are not lying:
+Here are a few examples of your responses to prove we're not lying:
 
 *"In our three-dimensional wonderland, we either go high or dig deep. Level crossings feel like a two-dimensional concept we've transcended."*
 
