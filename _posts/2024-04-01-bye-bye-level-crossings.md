@@ -26,13 +26,13 @@ Here are a few examples of your responses to prove we're not lying:
 
 In light of this overwhelming consensus, we’re excited to announce a bold new direction for Voxel Tycoon: **we’re saying goodbye to level crossings.** That’s right, from this moment on, our focus shifts entirely to creating the most sophisticated, efficient, and frankly, more aesthetically pleasing alternatives - bridges that stretch majestically into the skies and tunnels that burrow through the very heart of Voxel Earth.
 
-## Why the Change?
+## Why the change?
 
 - **Safety First**: Our virtual citizens can now sleep soundly, knowing they’ll never again be late due to a train crossing.
 - **Efficiency**: Why wait when you can go over or under? Our new bridge and tunnel technology ensures your transportation networks are more efficient than ever.
 - **Aesthetics**: Let’s be real, bridges and tunnels add that extra bit of flair to your cities. It’s time to embrace the beauty of unobstructed landscapes and architecturally significant overpasses.
 
-## But Wait, There’s More!
+## But wait, there’s more!
 
 As part of this groundbreaking update, we’re introducing two premium content packs: the **Ultra-Mega-Super Bridge Kit** and the **Tunnel Tycoon Pack**,  each at the modest price of $10. Get ready to elevate your infrastructure game with these exclusive, one-of-a-kind construction options. Skyline's not the limit!
 
