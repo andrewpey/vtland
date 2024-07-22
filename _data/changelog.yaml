@@ -244,7 +244,7 @@
     - Fixed world can be scrolled through Vehicle window Details tab background
     modding:
     - You can now choose what pack to load in Asset Editor to significantly improve load times
-    - Added <code>.category</code> asset which is used by builder to categorize buildings
+    - Added <code>.category</code> asset which is used by builder window to categorize buildings
     - Decorations now can be animated
     - "Building liveries now can have different displayed names: use <code>uri#livery_name:DisplayName</code> format"
     - Spot lights now can be rotated
