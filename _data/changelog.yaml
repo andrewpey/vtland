@@ -290,6 +290,8 @@
 
 - version: '0.87'
   date: 2021-12-22 16:00:00 +0300
+  title: Mass vehicle replacement, no more teleportation to depots, saves cloud sync, and more!
+  text: Check <a href="/devlog/mass-vehicle-replacement/">the blog post</a> for details.
   groups:
     gameplay:
     - Added <b>mass vehicle replacement</b>! Choose what kind of vehicles on what routes should be replaced, and let the game do the rest
