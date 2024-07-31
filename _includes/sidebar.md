@@ -23,7 +23,7 @@
 
 [Devlog](/devlog){:.sidebar-menu__item}
 
-[Roadmap](https://trello.com/b/wHz5JHqH/voxel-tycoon-roadmap){:.sidebar-menu__item}{:target="_blank"}
+[Roadmap](/roadmap){:.sidebar-menu__item}{:target="_blank"}
 
 [Discord](//discord.gg/voxeltycoon){:.sidebar-menu__item}{:target="_blank"} <small>{{site.data.socials.dd}} </small>
 

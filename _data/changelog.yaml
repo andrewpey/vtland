@@ -1,3 +1,25 @@
+- version: '0.88.9'
+  date: 2024-7-31 22:00:00 +0300
+  text: Check the <a href="/devlog/2024-july-development-update">blog post</a> for details.
+  groups:
+    improvements:
+    - Buy vehicle window optimized to support as many vehicles as you want. Previously, it could take up to several minutes (!) to open the first time in mod-heavy game and cause insane frame drops while opened.
+    - Eliminated lag when opening the storage picker for the first time in a mod-heavy game.
+    - Eliminated lag and performance drop when opening the New game window with many mods installed.
+    - Fleet window optimized to support hundreds of vehicles without performance drop.
+    - In mod-heavy games, the game could use up to <b>~500MB</b> less memory.
+    - Sorting by earnings and costs in the Fleet window is now dynamic and properly reorders rows as values change.
+    - "Added hotkeys to toggle windows: <kbd>F2</kbd> for Fleet, <kbd>F3</kbd> for Research; others are not bound by default and can be set to your preferences. Hide UI is now <kbd>F11</kbd>, and toggle orthographic view is <kbd>F9</kbd>."
+    - Settings window now resizes with resolution and UI scale changes.
+    - If Notifications log is open, no other windows will be closed on <kbd>Esc</kbd>.
+    fixes:
+    - Fixed various vehicle icon rendering issues where wagons can appear separated, not render some parts (sub-meshes), overlay one over another, or completely vanish.
+    - Fixed an issue where, when you followed a vehicle and unfollowed it by toggling in the vehicle UI, using WASD keys, or edge scrolling, the camera jumped back to where following started.
+    - Fixed Vehicle replacement window often spawning with the Add replacement button hidden below the toolbar.
+    - Fixed bulldoze hotkey conflicting with Free camera hotkeys.
+    modding:
+    - Unity updated to 2022.3.37.
+
 - version: '0.88.8'
   date: 2024-2-29 20:00:00 +0300
   groups:
