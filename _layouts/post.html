@@ -3,6 +3,7 @@
     <div class="page-grid__main">
         <div class="page-content">
             <h1 class="page-content__title">{{ page.title }}</h1>
+            <p style="margin-bottom: 10px;"><a href="/devlog" class="clear"><date>{{ page.date | date_to_long_string }}</date></a></p>
             {{ content }}
             {% if page.date %}
                 <p style="text-align: center">
