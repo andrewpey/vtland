@@ -102,7 +102,7 @@ Some of our most devoted community members may remember that the game was initia
 
 So, the game isn't *dead*; this is just how we develop it. And it has always been the case; there's nothing new. We prioritize quality over speed of development, and this isn't going to change. Sometimes updates come one after another; sometimes there's complete radio silence because we're just not ready to show anything. We release new updates only when we feel they're up to the bar we've set. And keep in mind that there are just two of us (we tried to hire more people in the past, but it didn't work out for us, both financially and organization-wise).
 
-The good news is, RRR is progressing, and we can see the light at the end of the tunnel. We'll post more on this progress when we're ready. For now, enjoy some of the development artifacts. We occasionally post these in the #dump channel on our `#dump` channel on our [Discord server](//discord.gg/voxeltycoon). If you're interested in early sneak peeks, please join us there!
+The good news is, RRR is progressing, and we can see the light at the end of the tunnel. We'll post more on this progress when we're ready. For now, enjoy some of the development artifacts. We occasionally post these in the `#dump` channel on our [Discord server](//discord.gg/voxeltycoon). If you're interested in early sneak peeks, please join us there!
 
 {% include img.html src="/assets/posts/2024-july-development-update/5.png" %}
 {% include img.html src="/assets/posts/2024-july-development-update/3.jpg" %}
