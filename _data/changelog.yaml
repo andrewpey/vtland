@@ -1,3 +1,28 @@
+- version: '0.88.10'
+  date: 2024-11-23 00:30:00 +0300
+  text: Check the <a href="/devlog/vehicle-interiors">blog post</a> for details.
+  groups:
+    ride your vehicle™:
+    - Added interiors for Tier 1 vehicles.
+    - The Ride Your Vehicle™ mode now has its own UI.
+    - Jump between vehicles by clicking on them without leaving the mode.
+    - Replaced the overhead view with a 3rd-person-like view.
+    - Added side view for all vehicles.
+    - Added a special camera view when the vehicle is inside a depot.
+    - Improved rotation sensitivity at high zoom levels.
+    improvements:
+    - Vehicles now tilt and sway.
+    - Implemented an internal vehicle update queue to ensure first-in, first-out behavior at heavily loaded stations.
+    fixes:
+    - Fixed a rare error that occurred when a vehicle exploded.
+    - Fixed vehicle speed not resetting after towing (teleporting) it to the depot.
+    - Fixed Z-fighting of indicators in orthographic mode.
+    - Fixed issue where pressing Esc to show the hidden UI would also close the active window.
+    modding:
+    - Added support for vehicle interiors (<a href="https://docs.voxeltycoon.xyz/guides/content-mods/creating-vehicle-interior/">guide</a>).
+    - Added <code>With interior</code> Workshop tag.
+    - Unity updated to 6000.0.27.
+
 - version: '0.88.9'
   date: 2024-7-31 22:00:00 +0300
   text: Check the <a href="/devlog/2024-july-development-update">blog post</a> for details.
