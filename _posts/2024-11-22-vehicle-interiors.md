@@ -10,7 +10,7 @@ Hello, fellow tycoons! We've got a [little intermediate update](/changelog#0.88.
 
 {% include video.html src="/assets/posts/vehicle-interiors/2.mp4" %}
 
-Support for interiors has been one of the most requested features from our modding community, and now they're available. Interiors include driver cabins, passenger seating areas, and other parts of the vehicle's interior space, allowing players to experience vehicles from a first-person perspective.
+Support for interiors has been a frequently requested feature since the beginning, and now it's finally available. Interiors include driver cabins, passenger seating areas, and other parts of the vehicle's interior space, allowing players to experience vehicles from a first-person perspective.
 
 Interiors are totally optional and purely cosmetic—they won't affect performance during normal gameplay as they are visible only in the Ride Your Vehicle™ mode. But if you love that extra bit of immersion, interiors are a great way to get up close and personal with your favorite vehicles.
 
