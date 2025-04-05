@@ -1,3 +1,39 @@
+- version: '0.89'
+  date: 2025-04-06 01:30:00 +0300
+  text: Check the <a href="/devlog/wear-and-tear-update">blog post</a> for details.
+  groups:
+    gameplay:
+    - Added a <b>vehicle wear and reliability system</b> – vehicles now require maintenance over time.
+    - Vehicle performance decreases as wear increases.
+    - You can now configure service intervals to control maintenance frequency.
+    - Depot tasks can now be added directly to vehicle schedules.
+    - When setting up vehicle replacement, you can now set the wear level a vehicle should reach before being replaced. When this setting is enabled, you can also enable self-replacement, effectively allowing vehicles to automatically replace themselves when worn out.
+    - New trucks have been added to each generation, and older trucks have been reworked (thanks <b>@scailman</b>!).
+    - All vehicles have been rebalanced to offer variety in their strengths and weaknesses.
+    improvements:
+    - Vehicles and buildings are now clearly split into 'current' and 'obsolete' categories as the player progresses through research.
+    - Higher-tier vehicles are no longer locked behind Depot II. Instead, Tier II depots now offer lower maintenance costs.
+    - Removed confusing schedule options that didn’t make sense when selecting waypoints.
+    - Improved game startup time.
+    - When placing signals, the regular signal is now selected by default instead of the pre-signal.
+    - Added search functionality to the Settings window (just start typing).
+    - Improved Builder Tool window performance when playing with many mods.
+    - Added privacy controls for analytics data collection.
+    fixes:
+    - Fixed an issue where the UI could become completely locked in some scenarios.
+    - Fixed heap item storage renderer.
+    - Fixed a bug where a pink tint could remain after using the vehicle picker tool (a.k.a. Worm Train issue).
+    - Fixed an issue where trains couldn't find their way after exiting a depot in some cases.
+    - Fixed an issue where trains could explode when turning around while partially inside a depot.
+    modding:
+    - You can now repaint assets directly in the game world using the new <b>Paint Assets</b> tool. To enable it, open <b>Settings</b> while holding <kbd>Shift</kbd>, go to the <b>Misc</b> tab, and toggle <b>Asset Paint Tool</b> (you can type “Asset” to find it). Then reload your save file – the tool will appear in the <b>Toolbar</b> under the <b>Other</b> category. When enabled, the setting introduces a performance overhead, so be sure to disable it once you're done using the tool.
+    - Simplified stack and heap storage definitions with a new <code>Bounds</code> property, along with automatic <code>Resolution</code> and <code>Keyframes</code> calculation (see standard car assets for examples).
+    - Added a <code>Generation</code> property for building, car, and train assets.
+    - Added a <code>Reliability</code> property for car and train assets.
+    - Added a new <code>Experimental</code> vehicle engine type.
+    - Auto price calculation now takes max speed and reliability into account.
+    - Unity updated to 6000.0.43.
+
 - version: '0.88.10'
   date: 2024-11-23 00:05:00 +0300
   text: Check the <a href="/devlog/vehicle-interiors">blog post</a> for details.
