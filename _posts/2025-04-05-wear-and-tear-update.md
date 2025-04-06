@@ -10,7 +10,7 @@ This update brings a brand new layer of challenge to how you manage your transpo
 
 ## Under the Hood: Wear and Maintenance
 
-Let's start with the most obvious addition: the new vehicle wear and reliability system. Each vehicle now has a reliability stat. Early-game vehicles tend to be less reliable, while modern ones become increasingly dependable. This stat determines how quickly a vehicle wears down as it’s used.
+Let's start with the most obvious addition: the new vehicle wear and reliability system. Each vehicle now has a reliability stat that determines how quickly it wears down with use. Early-game vehicles tend to be less reliable, while modern ones become increasingly dependable.
 
 {% include img.html src="/assets/posts/wear-and-tear-update/8.png" %}
 
