@@ -10,7 +10,11 @@ This update brings a brand new layer of challenge to how you manage your transpo
 
 ## Under the Hood: Wear and Maintenance
 
-Let's start with the most obvious addition: the new vehicle wear and reliability system. From now on, vehicles will wear down as they're used. Performance reduction kicks in if the vehicle isn't serviced regularly. This makes proper maintenance not just a good idea, but a critical part of your transport strategy. Unserviced vehicles also wear out faster, amplifying the issue.
+Let's start with the most obvious addition: the new vehicle wear and reliability system. Each vehicle now has a reliability stat. Early-game vehicles tend to be less reliable, while modern ones become increasingly dependable. This stat determines how quickly a vehicle wears down as it’s used.
+
+{% include img.html src="/assets/posts/wear-and-tear-update/8.png" %}
+
+If a vehicle isn’t serviced regularly, its performance will begin to drop. This makes proper maintenance not just a good idea, but a critical part of your transport strategy. Unserviced vehicles also wear out faster, amplifying the issue.
 
 Once a vehicle becomes fully worn out, it'll demand more frequent services just to stay operational, leading to increasing maintenance costs and longer periods of reduced performance. If left unchecked, this can trigger traffic jams and cascading delays.
 
@@ -36,7 +40,6 @@ We've also introduced vehicle replacement based on wear levels. You can now set 
 
 Fleet variety has gotten a major boost. We've added brand-new trucks for each generation and reworked older ones to better match today's standards. Shoutout to @scailman for the amazing help with this overhaul!  
 
-<!-- {% include img.html src="/assets/posts/wear-and-tear-update/1.png" %} -->
 {% include video.html src="/assets/posts/wear-and-tear-update/1.mp4" %}
 
 Each vehicle has also been rebalanced to offer unique strengths and weaknesses. This means your transport strategy will matter more than ever — whether you're prioritizing reliability, speed, or capacity.
