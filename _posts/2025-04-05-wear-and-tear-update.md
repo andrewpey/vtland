@@ -28,6 +28,8 @@ That said, there might be situations where choosing a longer — or even no — 
 
 And speaking of depots, you can now add them directly to a vehicle’s schedule — just like regular stations. This gives you full control over when and where maintenance happens, making it a seamless part of your transport flow.
 
+{% include img.html src="/assets/posts/wear-and-tear-update/9.png" %}
+
 On the visual side, wear comes with a cosmetic touch: smoke emitted from the vehicle darkens as wear builds up, giving a clear visual cue that something's not quite right. In addition, worn-out locomotives and trucks become visibly tilted, further emphasizing their deteriorating condition.
 
 {% include img.html src="/assets/posts/wear-and-tear-update/6.png" %}
