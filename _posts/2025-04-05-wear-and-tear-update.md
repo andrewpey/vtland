@@ -1,5 +1,5 @@
 ---
-title: "Wear & Tear Update"
+title: "Wear & Tear Update is out now!"
 thumb: /assets/posts/wear-and-tear-update/thumb.png
 thumb_square: /assets/posts/wear-and-tear-update/thumb_square.png
 ---
