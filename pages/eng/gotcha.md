@@ -5,26 +5,26 @@ permalink: gotcha
 header: Gotcha!
 ---
 
-You are probably using a pirated version of the game.
+You're probably using a pirated version of the game.
 
 <iframe class="widget-steam_modal" src="https://store.steampowered.com/widget/732050/" frameborder="0"></iframe>
 
-Buying a genuine version of Voxel Tycoon - not to mention obvious legal concerns - has the following advantages:
+Buying a genuine copy of Voxel Tycoon — aside from the obvious legal concerns — comes with several benefits:
 
-## It's always up-to-date
+## Always up-to-date
 
-Voxel Tycoon is constantly changing and evolving. With the genuine version of the game, you can be sure you get the latest features just as they become available. Also, this means that they were properly tested by beta testers and won't corrupt your saved games.
+Voxel Tycoon is constantly evolving. With the genuine version, you’ll always get the latest features as soon as they're available. These updates are tested by beta testers, reducing the risk of bugs or corrupted save files.
 
-## Play with mods thanks to Steam Workshop
+## Play with mods via Steam Workshop
 
-Loads of content made by the community are [waiting for you](https://steamcommunity.com/app/732050/workshop/), easily installable in just one button click. Also, you can create something new by yourself and share it with other players!
+Tons of community-made content are just a click away. You can also create your own mods and share them with other players!
 
-## Help the development
+## Support development
 
-Voxel Tycoon is developed and published by us, with no external investements or publishers. Your financial support allows us to stay independent and maintiain [our vision](/roadmap) on the future game development, and also listen directly to you - our players - with no 3rd parties between us.
+Voxel Tycoon is developed and published entirely by us — no outside investors or publishers involved. Your support helps us stay independent, maintain our creative vision, and listen directly to *you*, our players, without any third parties in the way.
 
-And we're really grateful for that 💜 Let's make Voxel Tycoon better together!
+And we’re truly grateful for that 💜 Let’s keep building Voxel Tycoon together!
 
-## Get a genuine Voxel Tycoon copy now!
+## Get your genuine copy of Voxel Tycoon now!
 
 <iframe class="widget-steam_modal" src="https://store.steampowered.com/widget/732050/" frameborder="0"></iframe>
