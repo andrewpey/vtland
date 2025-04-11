@@ -11,15 +11,15 @@ redirect_from:
 
 {% include img.html src="/assets/posts/beta-branch/1.png" %}
 
-We invite you to join the new Beta Branch! If you want to be on the edge of the Voxel Tycoon development and be able to provide feedback quickly directly to the devs, then that's for you.
+We invite you to join the new **Beta Branch**! If you want to be on the edge of Voxel Tycoon development and provide feedback directly to the devs, this is for you.
 
-The beta branch will be updated more frequently than the main branch and will contain unfinished content and mechanics which might or might not end up in the main branch. Most likely, it will also contain various errors.
+The beta branch will be updated more frequently than the main branch and will contain unfinished content and mechanics that might or might not end up in the main branch. Most likely, it will also contain various errors.
 
-On the other hand, you will have an opportunity to make a direct impact on the game development!
+On the other hand, you'll have an opportunity to make a direct impact on the game's development!
 
 ### Is it safe to switch back and forth between beta and main branches?
 
-Most of the time, yes - but saves made in the beta might not work in the main branch.
+Most of the time, yes — but saves made in the beta might not work in the main branch.
 
 ### Where can I see what's changed with the recent beta update?
 
@@ -31,10 +31,10 @@ On the `#general-beta` channel on [Discord](https://discord.gg/VoxelTycoon).
 
 ### Count me in! How do I get there?
 
-Just hop into the Voxel Tycoon properties on Steam client, and choose to opt-in in the Beta!
+Just hop into the Voxel Tycoon properties in the Steam client and choose to opt in to the Beta!
 
-### What else I can do?
+### What else can I do?
 
-Please consider assigning yourself the `beta-testers` role if you want to be pinged about beta stuff! To do so, go to `#welcome-beta` channel and react with the tube emoji.
+Please consider assigning yourself the `beta-testers` role if you want to be pinged about beta stuff! To do so, go to the `#welcome-beta` channel and react with the tube emoji.
 
-GLHF!
+**GLHF!**
