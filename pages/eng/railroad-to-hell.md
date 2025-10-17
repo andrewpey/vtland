@@ -1,11 +1,6 @@
 ---
-layout: halloween
-style: 
-permalink: railroad_to_hell
+title: Railroad to Hell 3
 redirect_from:
-    - /railroad-to-hell
+  - https://store.steampowered.com/app/4114820/Railroad_to_Hell_3/
+permalink: railroad_to_hell
 ---
-
-<script type="text/javascript">
-    window.location.replace("https://voxeltycoon.itch.io/voxel-tycoon-railroad-to-hell-3");
-</script>
