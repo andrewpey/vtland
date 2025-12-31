@@ -37,7 +37,7 @@
 
 [Donate](/donate){:.sidebar-menu__item}<!-- {:.money} -->
 
-[Railroad to Hell <span style="color:red">3</span>](/railroad-to-hell){:.sidebar-menu__item}{:target="_blank"}
+[Railroad to Hell <span style="color:red">3</span>](/rth3){:.sidebar-menu__item}{:target="_blank"}
 
 [For Press](/press){:.sidebar-menu__item}
 
