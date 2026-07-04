@@ -41,7 +41,7 @@ Voxel Tycoon is still an Early Access game, and we want expectations to be clear
 
 At the same time, the current version is already very playable, and many players have spent dozens or even hundreds of hours building networks, optimizing production chains, and experimenting with mods. The modding community has also added a lot of life to the game, and we are very grateful for that.
 
-We know the wait has been long. We also know that communication has not always been frequent enough. We are a very small team, and real life sometimes affects development more than we would like, but we should still do a better job of showing where the work stands and what remains.
+We know the wait has been long. We also know that communication has not always been frequent enough. We understand that some of the frustration comes from people caring deeply about the game and wanting to see it reach its potential. We are a very small team, and real life sometimes affects development more than we would like, but we should still do a better job of showing where the work stands and what remains.
 
 In the meantime, you are very welcome to join our [Discord](//discord.gg/voxeltycoon) to follow player discussions, ask questions, share your own builds, and catch occasional smaller updates from us that do not always become full devlog posts. Below are a few recent work-in-progress examples, including the kind of smaller snippets we share there:
 
